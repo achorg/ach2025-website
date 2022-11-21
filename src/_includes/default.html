@@ -21,12 +21,7 @@
   </head>
   <body>
     {% include "./partials/navbar.html" %}
-    {% if path == "home" %}
-    <div id="search" style="margin-top:100px;"></div>
-    {% else %}
-    <div id="search"></div>
     
-    {% endif %}
     {{ content | safe }}
 
     {% include "./partials/footer.html" %}
