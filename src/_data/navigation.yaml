@@ -1,5 +1,13 @@
 items:
+  - text: Home
+    url: "/"
   - text: About
     url: "#"
-  - text: Schedule
+  - text: Program
     url: "#"
+  - text: Keynotes
+    url: "#"
+  - text: Partners
+    url: "#"
+  - text: FAQ
+    url: "/guidelines"

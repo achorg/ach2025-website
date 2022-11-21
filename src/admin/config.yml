@@ -30,6 +30,15 @@ collections:
         multiple: true
         create: true
         options: ["Tags", "created", "from", "config.yml"]
+  - label: "Policy"
+    name: "guidelines"
+    folder: "src/policies"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - label: "Settings"
     name: "settings"
     editor:
