@@ -28,6 +28,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     // any valid BCP 47-compatible language tag is supported
     defaultLanguage: "en", // Required, this site uses "en"
+    errorMode: "never"
   });
 
   // To Support .yaml Extension in _data

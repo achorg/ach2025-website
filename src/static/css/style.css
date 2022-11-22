@@ -1,3 +1,5 @@
-.classy {
-    background: blue;
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@500&display=swap');
+.ach {
+    font-family: 'Lateef', serif;
+    color:#A1DCEB;
 }

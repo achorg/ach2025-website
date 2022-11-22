@@ -3,8 +3,8 @@
         <!--Logo etc-->
         <div class="flex items-center">
            <h2> <a href="/" class="text-indigo-500 font-bold text-lg">
-                <span style="color:#A1DCEB">ACH</span>2023</a></h2>
-                
+                <span class="ach">ach</span>2023</a></h2>
+                <p>June 29 - July 1, 2023 -- Virtual Conference</p>
         </div>
 
         <!--Toggle button (hidden on large screens)-->
@@ -23,7 +23,7 @@
                 <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center">
                     {% for item in navigation.items %}
                         <li class="nav__item mr-3">
-                            <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
+                            <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url | locale_url }}">{{ item.text }}</a>
                         </li>
                     {% endfor %}
                 </ul>
