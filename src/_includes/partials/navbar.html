@@ -4,7 +4,6 @@
         <div class="flex items-center">
            <h2> <a href="/" class="text-indigo-500 font-bold text-lg">
                 <span class="ach">ach</span>2023</a></h2>
-                <p>June 29 - July 1, 2023 -- Virtual Conference</p>
         </div>
 
         <!--Toggle button (hidden on large screens)-->
@@ -27,7 +26,11 @@
                         </li>
                     {% endfor %}
                 </ul>
-
+                <select name="locales" >
+                {% for link in page.url | locale_links %}
+                <option value="volvo"><a href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a></option>
+                {% endfor %}
+                </select>
             {% endif %}
             
         </div>
