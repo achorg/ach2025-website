@@ -2,9 +2,10 @@ const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
-
+const { EleventyI18nPlugin } = require("@11ty/eleventy");
 
 module.exports = function (eleventyConfig) {
+
   // Disable automatic use of your .gitignore
   eleventyConfig.setUseGitIgnore(false);
   
@@ -22,6 +23,12 @@ module.exports = function (eleventyConfig) {
 
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
+  
+ 
+  eleventyConfig.addPlugin(EleventyI18nPlugin, {
+    // any valid BCP 47-compatible language tag is supported
+    defaultLanguage: "en", // Required, this site uses "en"
+  });
 
   // To Support .yaml Extension in _data
   // You may remove this if you can use JSON
@@ -32,12 +39,13 @@ module.exports = function (eleventyConfig) {
     "./src/admin/config.yml": "./admin/config.yml",
     "./node_modules/alpinejs/dist/cdn.min.js": "./static/js/alpine.js",
     "./node_modules/prismjs/themes/prism-tomorrow.css":
-      "./static/css/prism-tomorrow.css",
+    "./static/css/prism-tomorrow.css", 
+    
   });
 
   // Copy Image Folder to /_site
   eleventyConfig.addPassthroughCopy("./src/static/img");
-
+  eleventyConfig.addPassthroughCopy("./src/static/css");
   // Copy favicon to route of /_site
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
 
