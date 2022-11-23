@@ -1,0 +1,13 @@
+items:
+  - text: Maison
+    url: "/fr"
+  - text: À propos
+    url: "#"
+  - text: Programme
+    url: "#"
+  - text: Keynotes
+    url: "#"
+  - text: Partenaires
+    url: "#"
+  - text: Politiques
+    url: "/politiques"

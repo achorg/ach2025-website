@@ -16,22 +16,38 @@
 
         <!--Menu-->
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center " :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" x-show.transition="true">
-
-            {% if navigation.items %}
+            
 
                 <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center">
-                    {% for item in navigation.items %}
+                    {% if page.lang == 'en' %}
+                    {% for item in en_navigation.items %}
                         <li class="nav__item mr-3">
                             <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url | locale_url }}">{{ item.text }}</a>
                         </li>
                     {% endfor %}
+                    {% endif %}
+                    {% if page.lang == 'es' %}
+                    {% for item in es_navigation.items %}
+                        <li class="nav__item mr-3">
+                            <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url | locale_url }}">{{ item.text }}</a>
+                        </li>
+                    {% endfor %}
+                    {% endif %}
+                    {% if page.lang == 'fr' %}
+                    {% for item in fr_navigation.items %}
+                        <li class="nav__item mr-3">
+                            <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url | locale_url }}">{{ item.text }}</a>
+                        </li>
+                    {% endfor %}
+                    {% endif %}
                 </ul>
                 <select name="locales" >
-                {% for link in page.url | locale_links %}
-                <option value="volvo"><a href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a></option>
-                {% endfor %}
+                
+                    <option value="english"><a href="/" lang="en">EN</a></option>
+                    <option value="spanish"><a href="/es" lang="es">ES</a></option>
+                    <option value="french"><a href="/fr" lang="fr">FR</a></option>
                 </select>
-            {% endif %}
+            
             
         </div>
     </nav>
