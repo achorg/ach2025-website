@@ -3,3 +3,25 @@
     font-family: 'Lateef', serif;
     color:#A1DCEB;
 }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+#main {
+	height: 2000px;
+	background-color: red;
+	background-image: url(https://krea-prod-v1-generations.s3.us-east-1.amazonaws.com/images/059dbeba-ffb3-4ee3-b165-6af099b37d07.png);
+	background-size: 100% auto;
+	background-position: top center;
+	background-attachment: fixed;
+	}
+
+body {
+	height: 100%;
+	background-image: linear-gradient(hsl(10,90,66), transparent 70%);
+	background-size: 100% 100%;
+	mix-blend-mode: difference;
+	}
