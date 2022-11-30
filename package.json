@@ -13,6 +13,9 @@
     "@11ty/eleventy": "^2.0.0-canary.18"
   },
   "dependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "html-minifier": "^4.0.0",
+    "js-yaml": "^4.1.0",
     "pagefind": "^0.10.2"
   }
 }
