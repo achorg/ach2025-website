@@ -72,7 +72,7 @@ youtube: https://www.youtube.com/watch?v=jDDaplaOz7Q
                 <h4>{{ item.data.title }}</h4>
                 <p>{{ item.data.description }}</p>
                 {% if item.data.url %}
-                <a href="{{ item.data.url }}">recording link</a>
+                <a target="_blank" href="{{ item.data.recording }}">recording link</a>
                 {% endif %}
               </div>
             </div>
