@@ -1,0 +1,13 @@
+items:
+  - text: Inicio
+    url: "/"
+  - text: Acerca de
+    url: "#about"
+  - text: Programa
+    url: "#schedule"
+  - text: Conferencias
+    url: "#speakers"
+  - text: Socios
+    url: "#partners"
+  - text: Preguntas frecuentes
+    url: "#faq"

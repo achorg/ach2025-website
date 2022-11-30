@@ -1,0 +1,51 @@
+<!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid container-xxl d-flex align-items-center">
+
+      <div id="logo" class="me-auto">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
+        <a href="{{ '/' | locale_url }}" class="scrollto"><img src="assets/img/logo.png" alt="" title=""></a>
+      </div>
+      
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li>
+            <!-- <a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-search"></i>&nbsp;Search</a> -->
+          </li>
+            {% if page.lang == 'en' %}
+            {% for item in en_navigation.items %}
+                <li>
+                    <a class="nav-link scrollto" href="{{ item.url | locale_url }}">{{ item.text }}</a>
+                </li>
+            {% endfor %}
+            {% endif %}
+            {% if page.lang == 'es' %}
+            {% for item in es_navigation.items %}
+            <li><a class="nav-link scrollto" href="{{ item.url | locale_url }}">{{ item.text }}</a></li>    
+            {% endfor %}
+            {% endif %}
+            {% if page.lang == 'fr' %}
+            {% for item in fr_navigation.items %}
+                <li class="nav__item mr-3">
+                    <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url | locale_url }}">{{ item.text }}</a>
+                </li>
+            {% endfor %}
+            {% endif %}
+            <li>
+              <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                <button onclick="location.href='/en';" type="button" class="btn btn-outline-secondary">EN</button>
+                <button onclick="location.href='/es';" type="button" class="btn btn-outline-secondary">ES</button>
+                <button onclick="location.href='/fr';" type="button" class="btn btn-outline-secondary">FR</button>
+                </div>
+          </li>
+        </ul>
+        
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+     
+
+    </div>
+  </header><!-- End Header -->
+
+      

@@ -1,0 +1,84 @@
+backend:
+  # Use netlify identity as backend
+  name: git-gateway
+  branch: main
+  ### enable below lines for github integration ###
+  # name: github
+  # repo: surjithctly/neat-starter
+media_folder: "/assets/img"
+public_folder: "/assets/img"
+
+# Please run "npx netlify-cms-proxy-server" for local backend
+local_backend: true
+# publish_mode: editorial_workflow
+collections:
+  - label: "Sessions (EN)"
+    name: "sessions-en"
+    folder: "en/sessions"
+    create: true
+    fields:
+      - { label: Day, name: day, widget: number, default: 2, value_type: int, min: 1, max: 3}
+      - { label: Time, name: time, widget: datetime, time_format: HH:mm:ss, date_format: "YYYY-MM-DD" }
+      - { label: Title, name: title, widget: string }
+      - { label: Recording URL, name: recording, widget: string,required: false }
+      - { label: Description, name: description, widget: text }
+  - label: "Sesiones (ES)"
+    name: "sesiones"
+    folder: "es/Sesiones"
+    create: true
+    fields:
+      - { label: Day, name: day, widget: number, default: 2, value_type: int, min: 1, max: 3}
+      - { label: Time, name: time, widget: datetime, time_format: HH:mm:ss, date_format: "YYYY-MM-DD" }
+      - { label: Title, name: title, widget: string }
+      - { label: Recording URL, name: recording, widget: string,required: false }
+      - { label: Description, name: description, widget: text }
+  - label: "Speakers (EN)"
+    name: "speakers-en"
+    folder: "en/speakers"
+    create: true
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Description, name: description, widget: string }
+      - { label: Image, name: image, widget: image, choose_url: true, default: "https://t3.ftcdn.net/jpg/05/17/87/74/360_F_517877468_8dx0lFR66R6LIgCOUYJWxun1b3Muv272.jpg", allow_multiple: false }    
+
+  - label: "Settings"
+    name: "settings"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation (EN)"
+        name: "nav-en"
+        file: "_data/en_navigation.yaml"
+        fields:
+          - label: Nav Items
+            name: items
+            widget: list
+            allow_add: false
+            collapsed: false
+            fields:
+              - { label: Title, name: text, widget: string }
+              - { label: URL, name: url, widget: string }
+      - label: "Navigation (ES)"
+        name: "nav-es"
+        file: "_data/es_navigation.yaml"
+        fields:
+          - label: Nav Items
+            name: items
+            widget: list
+            allow_add: false
+            collapsed: false
+            fields:
+              - { label: Title, name: text, widget: string }
+              - { label: URL, name: url, widget: string }
+      - label: "Navigation (FR)"
+        name: "items"
+        file: "_data/fr_navigation.yaml"
+        fields:
+          - label: Nav Items
+            name: items
+            widget: list
+            allow_add: false
+            collapsed: false
+            fields:
+              - { label: Title, name: text, widget: string }
+              - { label: URL, name: url, widget: string }

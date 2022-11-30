@@ -1,3 +1,21 @@
 [build]
   publish = "_site"
-  command = "npm run build && npx pagefind --source '_site'"
+  command = "npx eleventy"
+
+# Default
+[[redirects]]
+  from = "/*"
+  to = "/placeholder/:splat"
+  status = 302
+
+[[redirects]]
+  from = "/*"
+  to = "/placeholder/:splat"
+  status = 302
+  conditions = {Language = ["es"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/placeholder/:splat"
+  status = 302
+  conditions = {Language = ["fr"]}

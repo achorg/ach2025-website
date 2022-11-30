@@ -1,0 +1,13 @@
+items:
+  - text: Home
+    url: "/"
+  - text: About
+    url: "#about"
+  - text: Program
+    url: "#schedule"
+  - text: Speakers
+    url: "#speakers"
+  - text: Partners
+    url: "#partners"
+  - text: FAQ
+    url: "#faq"
