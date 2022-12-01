@@ -484,7 +484,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Orion_Nebulas_biggest_stars.jpg/1597px-Orion_Nebulas_biggest_stars.jpg");
+  /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Orion_Nebulas_biggest_stars.jpg/1597px-Orion_Nebulas_biggest_stars.jpg"); */
   background-repeat: no-repeat;
   overflow: hidden;
   position: relative;
