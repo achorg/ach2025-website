@@ -1,7 +1,6 @@
 ---
 layout: default
 aboutEvent: Una conferencia virtual que presenta el trabajo de miembros de la comunidad ACH.
-youtube: https://youtu.be/eM5BRSgufIk
 
 ---
 <!-- ======= Hero Section ======= -->
@@ -14,14 +13,13 @@ youtube: https://youtu.be/eM5BRSgufIk
    
     <h1 class="mb-4 pb-0"><span class="ach">ach</span>2023</h1>
     <p class="mb-4 pb-0">29 junio - 1 julio 2023, Conferencia Virtual</p>
-    <a href="{{ youtube }}" class="glightbox play-btn mb-4"></a>
     <a href="#about" class="about-btn scrollto">Sobre</a>
      
   </div>
 </section><!-- End Hero Section -->
 
 <main id="main">
-
+ {% if settings.about %}
   <!-- ======= About Section ======= -->
   <section id="about">
     <div class="container" data-aos="fade-up">
@@ -41,7 +39,8 @@ youtube: https://youtu.be/eM5BRSgufIk
       </div>
     </div>
   </section><!-- End About Section -->
-
+{% endif %}
+{% if settings.program %}
   <!-- ======= Schedule Section ======= -->
     <section id="schedule" class="section-with-bg">
       <div class="container" data-aos="fade-up">
@@ -130,7 +129,8 @@ youtube: https://youtu.be/eM5BRSgufIk
       </div>
 
     </section><!-- End Schedule Section -->
-
+{% endif %}
+{% if settings.speakers %}
 <!-- ======= Speakers Section ======= -->
     <section id="speakers">
       <div class="container" data-aos="fade-up">
@@ -160,7 +160,8 @@ youtube: https://youtu.be/eM5BRSgufIk
       </div>
 
     </section><!-- End Speakers Section -->
-
+{% endif %}
+{% if settings.partners %}
     <!-- ======= Supporters Section ======= -->
     <section id="partners" class="section-with-bg">
 
@@ -190,7 +191,8 @@ youtube: https://youtu.be/eM5BRSgufIk
       </div>
 
     </section><!-- End Sponsors Section -->
-
+{% endif %}
+    {% if settings.faq %}
     <!-- =======  F.A.Q Section ======= -->
     <section id="faq">
 
@@ -223,3 +225,4 @@ youtube: https://youtu.be/eM5BRSgufIk
       </div>
 
     </section><!-- End  F.A.Q Section -->
+{% endif %}
