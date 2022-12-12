@@ -12,13 +12,13 @@ public_folder: "/assets/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "CFP (EN"
+  - label: "CFP (EN)"
     name: 'cfp'
-    file: "en/cfp.md"
+    folder: "en/cfp"
     create: false
     fields:
       - { label: Title, name: title, widget: string }
-      - { label: Description, name: description, widget: text }
+      - { label: Content, name: body, widget: markdown }
   - label: "Sessions (EN)"
     name: "sessions"
     folder: "en/sessions"

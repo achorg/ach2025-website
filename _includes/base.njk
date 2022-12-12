@@ -38,7 +38,7 @@
 <body>
     {% include "./partials/navbar.html" %}
     {# {% include "./partials/search.html" %} #}
-    {{ content | safe }}
+    {% block content %}{% endblock%}
 
     {% include "./partials/footer.html" %}
 
