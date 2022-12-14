@@ -17,17 +17,17 @@ collections:
     files:
       - label: "EN"
         name: "cfp-en"
-        file: "site/en/cfp.md"
+        file: "/en/cfp.md"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Content, name: body, widget: markdown }
       - label: "ES"
         name: "cfp-es"
-        file: "site/es/cfp.md"
+        file: "/es/cfp.md"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Content, name: body, widget: markdown }
-          
+
   - label: "Safety (EN)"
     name: 'sefety'
     folder: "en/safety"
