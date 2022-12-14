@@ -12,13 +12,15 @@ public_folder: "/assets/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "CFP (EN)"
-    name: 'cfp'
-    folder: "en/cfp"
-    create: false
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Content, name: body, widget: markdown }
+  - label: "CFP"
+    name: "cfp"
+    files:
+      - label: "EN"
+        name: "cfp-en"
+        file: "site/en/cfp.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: body, widget: markdown }
   - label: "Safety (EN)"
     name: 'sefety'
     folder: "en/safety"
