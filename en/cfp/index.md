@@ -1,6 +1,6 @@
 ---
 title: Call for Proposals
-layout: cfp
+layout: page
 ---
 
 

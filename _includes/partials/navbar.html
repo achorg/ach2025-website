@@ -15,11 +15,20 @@
           </li>
             {% if page.lang == 'en' %}
             {% for item in en_navigation.items %}
+              {% if item.text == 'About' and not settings.about %}
+              {% elif item.text == 'Program' and not settings.program %}
+              {% elif item.text == 'Speakers' and not settings.speakers %}
+              {% elif item.text == 'Partners' and not settings.partners %}
+              {% elif item.text == 'FAQ' and not settings.faq %}
+              {% else %}
                 <li>
+  
                     <a class="nav-link scrollto" href="{{ item.url | locale_url }}">{{ item.text }}</a>
                 </li>
+              {% endif %}
             {% endfor %}
             {% endif %}
+            
             {% if page.lang == 'es' %}
             {% for item in es_navigation.items %}
             <li><a class="nav-link scrollto" href="{{ item.url | locale_url }}">{{ item.text }}</a></li>    

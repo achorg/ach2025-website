@@ -19,6 +19,20 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Content, name: body, widget: markdown }
+  - label: "Safety (EN)"
+    name: 'sefety'
+    folder: "en/safety"
+    create: false
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Content, name: body, widget: markdown }
+  - label: "Reviewer Guidelines (EN)"
+    name: 'reviewer-guidelines'
+    folder: "en/reviewer-guidelines"
+    create: false
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Content, name: body, widget: markdown }
   - label: "Sessions (EN)"
     name: "sessions"
     folder: "en/sessions"

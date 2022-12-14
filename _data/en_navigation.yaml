@@ -1,13 +1,15 @@
 items:
   - text: Home
     url: "/"
+  - text: CFP
+    url: '/en/cfp'
   - text: About
-    url: "#about"
+    url: "/en/#about"
   - text: Program
-    url: "#schedule"
+    url: "/en/#schedule"
   - text: Speakers
-    url: "#speakers"
+    url: "/en/#speakers"
   - text: Partners
-    url: "#partners"
+    url: "/en/#partners"
   - text: FAQ
-    url: "#faq"
+    url: "/en/#faq"
