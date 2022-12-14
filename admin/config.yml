@@ -21,6 +21,13 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Content, name: body, widget: markdown }
+      - label: "ES"
+        name: "cfp-es"
+        file: "site/es/cfp.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: body, widget: markdown }
+          
   - label: "Safety (EN)"
     name: 'sefety'
     folder: "en/safety"
