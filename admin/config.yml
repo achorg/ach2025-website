@@ -27,7 +27,12 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Content, name: body, widget: markdown }
-
+      - label: "FR"
+        name: "cfp-fr"
+        file: "/fr/cfp.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: body, widget: markdown }
   - label: "Safety (EN)"
     name: 'sefety'
     folder: "en/safety"

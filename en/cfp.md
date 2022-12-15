@@ -2,8 +2,6 @@
 title: Call for Proposals
 layout: page
 ---
-**ACH 2023 CFP**Call for Proposals: ACH 2023 (June 29-July 1, 2023)
-
 Deadline: February 1st, 2023, 11:59:59 PM in GMT -12
 
 Submit a proposal: [conftool link](https://www.conftool.pro/ach2023/)The Association for Computers and the Humanities (ACH) will hold **ACH 2023**, a virtual conference, from **June 29-July 1, 2023.** 
