@@ -33,13 +33,27 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Content, name: body, widget: markdown }
-  - label: "Safety (EN)"
+  - label: "Safety"
     name: 'sefety'
-    folder: "en/safety"
-    create: false
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Content, name: body, widget: markdown }
+    files:
+      - label: "EN"
+        name: "safety-en"
+        file: "en/safety.md"
+        fields:   
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: body, widget: markdown }
+      - label: "ES"
+        name: "safety-es"
+        file: "es/seguridad.md"
+        fields:   
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: body, widget: markdown }
+      - label: "FR"
+        name: "safety-fr"
+        file: "en/securite.md"
+        fields:   
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: body, widget: markdown }
   - label: "Reviewer Guidelines (EN)"
     name: 'reviewer-guidelines'
     folder: "en/reviewer-guidelines"
