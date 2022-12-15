@@ -57,10 +57,25 @@ collections:
   - label: "Reviewer Guidelines (EN)"
     name: 'reviewer-guidelines'
     folder: "en/reviewer-guidelines"
-    create: false
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Content, name: body, widget: markdown }
+    files:
+      - label: "EN"
+        name: "reviewer-guidelines-en"
+        file: "en/reviewer-guidelines.md"      
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: body, widget: markdown }
+      - label: "ES"
+        name: "reviewer-guidelines-es"
+        file: "es/lineamientos-para-revisores.md"      
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: body, widget: markdown }
+      - label: "FR"
+        name: "reviewer-guidelines-fr"
+        file: "fr/lignes-directrices-pour-lexaminateur.md"      
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: body, widget: markdown }
   - label: "Sessions (EN)"
     name: "sessions"
     folder: "en/sessions"
@@ -115,45 +130,3 @@ collections:
       - { label: Name, name: name, widget: string }
       - { label: Description, name: description, widget: string }
       - { label: Image, name: image, widget: image, choose_url: true, default: "https://t3.ftcdn.net/jpg/05/17/87/74/360_F_517877468_8dx0lFR66R6LIgCOUYJWxun1b3Muv272.jpg", allow_multiple: false }    
-
-  - label: "Settings"
-    name: "settings"
-    editor:
-      preview: false
-    files:
-      - label: "Navigation (EN)"
-        name: "nav-en"
-        file: "_data/en_navigation.yaml"
-        fields:
-          - label: Nav Items
-            name: items
-            widget: list
-            allow_add: false
-            collapsed: false
-            fields:
-              - { label: Title, name: text, widget: string }
-              - { label: URL, name: url, widget: string }
-      - label: "Navigation (ES)"
-        name: "nav-es"
-        file: "_data/es_navigation.yaml"
-        fields:
-          - label: Nav Items
-            name: items
-            widget: list
-            allow_add: false
-            collapsed: false
-            fields:
-              - { label: Title, name: text, widget: string }
-              - { label: URL, name: url, widget: string }
-      - label: "Navigation (FR)"
-        name: "items"
-        file: "_data/fr_navigation.yaml"
-        fields:
-          - label: Nav Items
-            name: items
-            widget: list
-            allow_add: false
-            collapsed: false
-            fields:
-              - { label: Title, name: text, widget: string }
-              - { label: URL, name: url, widget: string }
