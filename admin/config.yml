@@ -56,7 +56,6 @@ collections:
           - { label: Content, name: body, widget: markdown }
   - label: "Reviewer Guidelines"
     name: 'reviewer-guidelines'
-    folder: "en/reviewer-guidelines"
     files:
       - label: "EN"
         name: "reviewer-guidelines-en"
