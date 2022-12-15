@@ -31,14 +31,28 @@
             
             {% if page.lang == 'es' %}
             {% for item in es_navigation.items %}
+              {% if item.text == 'Acerca' and not settings.about %}
+              {% elif item.text == 'Programa' and not settings.program %}
+              {% elif item.text == 'Conferencias' and not settings.speakers %}
+              {% elif item.text == 'Socios' and not settings.partners %}
+              {% elif item.text == 'Preguntas frecuentes' and not settings.faq %}
+              {% else %}
             <li><a class="nav-link scrollto" href="{{ item.url | locale_url }}">{{ item.text }}</a></li>    
+              {% endif %}
             {% endfor %}
             {% endif %}
             {% if page.lang == 'fr' %}
             {% for item in fr_navigation.items %}
+            {% if item.text == 'À propos' and not settings.about %}
+              {% elif item.text == 'Programme' and not settings.program %}
+              {% elif item.text == 'Keynotes' and not settings.speakers %}
+              {% elif item.text == 'Partenaires' and not settings.partners %}
+              {% elif item.text == 'Politiques' and not settings.faq %}
+              {% else %}
                 <li class="nav__item mr-3">
                     <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url | locale_url }}">{{ item.text }}</a>
                 </li>
+                {% endif %}
             {% endfor %}
             {% endif %}
             <li>

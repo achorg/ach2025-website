@@ -1,6 +1,6 @@
 ---
 title: Conferencia de seguridad
-layout: página
+layout: page
 ---
 ACH 2023 se dedica a crear un entorno de conferencia seguro, respetuoso y colegiado para el beneficio de todos los asistentes y para el avance de la investigación y la erudición en los campos apoyados por ACH. ACH 2023 ha adaptado el lenguaje del [Código de conducta de la conferencia ACH] (https://ach2021.ach.org/ach-conference-code-of-conduct/) y [DH Unbound 2022 Code of Conduct] (https:// dhunbound2022.ach.org/code-of-conduct/).
 

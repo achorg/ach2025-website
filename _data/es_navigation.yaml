@@ -1,7 +1,7 @@
 items:
   - text: Inicio
     url: "/"
-  - text: Acerca de
+  - text: Acerca
     url: "#about"
   - text: Programa
     url: "#schedule"
