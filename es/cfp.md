@@ -81,7 +81,7 @@ Las propuestas de ACH 2023 se someterán a una revisión por pares abierta. Los 
 * La naturaleza pública de la erudición en humanidades digitales, lo que significa que, de hecho, no se garantiza que las presentaciones anónimas sean anónimas; y
 * La falta de rendición de cuentas en la revisión por pares a ciegas, que puede promover la falta de civismo en el proceso de revisión.
 
-Por lo tanto, nuestro uso de la revisión por pares abierta tiene como objetivo mitigar las desigualdades implícitas en el proceso de revisión a ciegas. Sin embargo, reconocemos que la revisión abierta por pares plantea problemas con la dinámica del poder, como las preocupaciones que los académicos emergentes pueden tener sobre la evaluación de un académico reconocido. Para mitigar estos problemas, el Comité del Programa asignará revisores de manera cuidadosa y concienzuda, y los revisores tendrán derecho a negarse a revisar una presentación por cualquier motivo. También reconocemos que la revisión por pares abierta podría contribuir a aumentar el sesgo. Para mitigar esto, alentamos a los revisores a evaluar sus sesgos y brindaremos una guía clara sobre su papel en el proceso de revisión. Agradecemos a las presidentas del Comité del Programa DH2020, Laura Estill y Jennifer Guiliano, por su trabajo en la revisión abierta por pares, que influyó en nuestro enfoque para DH Unbound 2022 y ahora ACH 2023.
+Por lo tanto, nuestro uso de la revisión por pares abierta tiene como objetivo mitigar las desigualdades implícitas en el proceso de revisión a ciegas. Sin embargo, reconocemos que la revisión abierta por pares plantea problemas con la dinámica del poder, como las preocupaciones que los académicos emergentes pueden tener sobre la evaluación de un académico reconocido. Para mitigar estos problemas, el Comité del Programa asignará revisores de manera cuidadosa y concienzuda, y los revisores tendrán derecho a negarse a revisar una presentación por cualquier motivo. También reconocemos que la revisión por pares abierta podría contribuir a aumentar el sesgo. Para mitigar esto, alentamos a los revisores a evaluar sus sesgos y brindaremos una guía clara sobre su papel en el proceso de revisión. Agradecemos a las presidentas del Comité del Programa DH2020, Laura Estill y Jennifer Guiliano, por su trabajo en [la revisión abierta por pares](https://dh2020.adho.org/guidelines/the-open-peer-review-process/), que influyó en nuestro enfoque para DH Unbound 2022 y ahora ACH 2023.
 
 Nuestros criterios de revisión reflejan el compromiso con una comprensión amplia de las humanidades digitales y la naturaleza sociopolítica de la producción académica **erudición**:
 
@@ -101,110 +101,66 @@ Nuestros criterios de revisión reflejan el compromiso con una comprensión ampl
 
   * La propuesta está organizada de manera efectiva y ofrece una articulación clara del contenido de la presentación. 
 
-El período de revisión comenzará el \[FECHA] y terminar en \[FECHA]. 
+El período de revisión comenzará el  February 6, 2023 y terminar en March 6, 2023. 
 
-Las notificaciones sobre la aceptación o el rechazo se realizarán antes del \[FECHA]. Las revisiones también estarán disponibles previa notificación.
+Las notificaciones sobre la aceptación o el rechazo se realizarán antes del March 20, 2023. Las revisiones también estarán disponibles previa notificación.
 
 ### Derechos de autor y privacidad
 
 Las presentaciones y reseñas no estarán disponibles para el público. El Comité de Programa tendrá acceso a todas las presentaciones y revisiones. Los revisores solo podrán ver las propuestas que se les hayan asignado para su revisión. Los autores podrán ver las revisiones de sus envíos una vez que concluya el proceso de revisión. Los nombres de los revisores se mostrarán en una diapositiva en una lista alfabética durante la sesión de apertura de la conferencia en agradecimiento por su contribución.
 
-
-
 Las propuestas aceptadas serán revisadas por los autores y publicadas en el programa en línea junto con sus nombres y afiliaciones.
-
-
-
- 
-
-
 
 **Código de conducta**
 
-
-
-ACH 2023 se dedica a crear un entorno de conferencia seguro, respetuoso y colegiado para el beneficio de todos los asistentes y para el avance de la investigación y la producción académica en los campos apoyados por ACH, CSDH/SCHN y Humanistica. ACH 2023 ha adaptado el Código de Conducta de la Conferencia ACH:
-
-
+ACH 2023 se dedica a crear un entorno de conferencia seguro, respetuoso y colegiado para el beneficio de todos los asistentes y para el avance de la investigación y la producción académica en los campos apoyados por ACH. ACH 2023 ha adaptado el Código de Conducta de la Conferencia ACH:
 
 ACH se dedica a brindar una experiencia de conferencia libre de acoso para todos, independientemente de su identidad de género, expresión de género, orientación sexual, discapacidad, apariencia física, tamaño corporal, raza, etnia, origen o religión. Al asistir a los eventos de ACH, demuestra su compromiso de contribuir a una experiencia segura e inclusiva para todos. No toleramos el acoso de los participantes del evento de ninguna forma, ya sea que los eventos se celebren de forma virtual o presencial. A los participantes en eventos de ACH que violen estas reglas se les puede prohibir la participación en o expulsar de las actividades de ACH a discreción de los organizadores.
 
-
-
 El acoso incluye pero no se limita a: comentarios verbales despectivos; chistes y lenguaje sexista, racista o discriminatorio; texto o material audiovisual sexual y/o discriminatorio en espacios de conferencias (virtuales o presenciales), a menos que sea criticado en un contexto académico; intimidación deliberada; acecho; persecusión; fotografías o grabaciones de acoso; cuestionar el derecho de alguien a usar el baño de su elección; interrupción sostenida de conversaciones u otros eventos; contacto físico inapropiado; y atención sexual no deseada.
-
-
 
 Se espera que los participantes a los que se les pida que detengan cualquier comportamiento de acoso cumplan de inmediato. Si un participante incurre en conductas de acoso, los organizadores podrán tomar las medidas que consideren oportunas, incluida la advertencia al infractor o la expulsión del evento.
 
-
-
 ACH 2023 busca mantener estos valores a lo largo del proceso de presentación y revisión, así como durante la conferencia misma. Familiarícese con las pautas de informes y nuestro proceso para abordar las infracciones.
-
-
 
 **Accesibilidad**
 
-ACH adopta este código para garantizar que ACH 2023 sea accesible para todos los participantes. Todas las sesiones sincrónicas pondrán a disposición de los participantes la transcripción en vivo, y las sesiones principales y plenarias también incluirán interpretación en lenguaje de señas. Proporcionaremos pautas para la accesibilidad de las sesiones a todos los participantes aceptados. Se distribuirá más información, junto con una solicitud de información sobre las necesidades de los participantes, el \[FECHA].
-
-
+ACH adopta este código para garantizar que ACH 2023 sea accesible para todos los participantes. Todas las sesiones sincrónicas pondrán a disposición de los participantes la transcripción en vivo, y las sesiones principales y plenarias también incluirán interpretación en lenguaje de señas. Proporcionaremos pautas para la accesibilidad de las sesiones a todos los participantes aceptados. Se distribuirá más información, junto con una solicitud de información sobre las necesidades de los participantes, el April 20, 2023.
 
 **Zona horaria de la conferencia**
 
-ACH 2023 se programará en hora del este. El \[FECHA] y el \[FECHA], las sesiones se programarán aproximadamente de 10:00 a. m. a 7:00 p. m., hora del Este. El \[FECHA], las sesiones se programarán de 9:00 a. m. a 4:00 p. m., hora del este, para acomodar a los participantes de todo el mundo francófono.
-
-
+ACH 2023 se programará en hora del este. Del 29 de junio al 1 de julio, las sesiones se programarán aproximadamente de 10:00 a. m. a 7:00 p. m., hora del Este. 
 
 **Registro de conferencias y becas**
 
-El registro para ACH 2023 se abrirá el \[FECHA].
+El registro para ACH 2023 se abrirá el March 20, 2023.
 
-
-
-El costo de llevar a cabo ACH 2023 es…. Como resultado, debemos cobrar tarifas de registro para cubrir el costo. Las tarifas de inscripción cubrirán el costo de llevar a cabo una conferencia virtual, que incluye software de gestión de presentación de conferencias, plataformas de conferencias para videoconferencia y chat espacial, honorarios para conferencias principales y eventos plenarios, y accesibilidad (interpretación de lenguaje de señas y subtítulos remotos para conferencias principales y plenarias, y subtítulos en vivo para sesiones de conferencia). Hemos trabajado para mantener los costos de inscripción lo más bajos posible y al mismo tiempo garantizar que brindamos a los asistentes una experiencia positiva en la conferencia.
-
-
+El costo de llevar a cabo ACH 2023 es de aproximadamente $4,000. Como resultado, debemos cobrar tarifas de registro para cubrir el costo. Las tarifas de inscripción cubrirán el costo de llevar a cabo una conferencia virtual, que incluye software de gestión de presentación de conferencias, plataformas de conferencias para videoconferencia y chat espacial, honorarios para conferencias principales y eventos plenarios, y accesibilidad (interpretación de lenguaje de señas y subtítulos remotos para conferencias principales y plenarias, y subtítulos en vivo para sesiones de conferencia). Hemos trabajado para mantener los costos de inscripción lo más bajos posible y al mismo tiempo garantizar que brindamos a los asistentes una experiencia positiva en la conferencia.
 
 ACH ofrecerá una cantidad limitada de becas para respaldar la asistencia de los miembros que tienen un empleo eventual o son estudiantes de posgrado.
 
-
-
 El cuadro de derechos de inscripción será:
 
-
-
-Miembro conjunto de ACH, CSDH/SCHN, Humanistica o ADHO: $50
-
-Estudiante ACH, CSDH/SCHN, Humanistica o ADHO Miembro Conjunto: $25
-
-No miembro regular (incluye membresía ACH o CSDH/SCHN): $90
-
-Estudiante no miembro (incluye membresía ACH o CSDH/SCHN): $40
-
-Contingente/desempleado/subempleado: $40
-
-
+* Miembro conjunto de ACH o ADHO: $50
+* Estudiante ACH o ADHO Miembro Conjunto: $25
+* No miembro regular: $90
+* Estudiante no miembro: $40
+* Contingente/desempleado/subempleado: $40
 
 **Información del contacto**
 
-Si tiene preguntas e inquietudes sobre el CFP, el programa de la conferencia, las presentaciones, el Código de conducta o la accesibilidad, comuníquese con el presidente de la conferencia ACH 2023 en dhunbound2022\[at]ach.org.
+Si tiene preguntas e inquietudes sobre el CFP, el programa de la conferencia, las presentaciones, el Código de conducta o la accesibilidad, comuníquese con el presidente de la conferencia ACH 2023 en conference \[at] ach \[dot] org.
 
-
-
-Si está interesado en traducir esta convocatoria de propuestas a otro idioma, comuníquese con el comité de la conferencia en…..
-
-
+Si está interesado en traducir esta convocatoria de propuestas a otro idioma, comuníquese con el comité de la conferencia en conference \[at] ach \[dot] org. 
 
 **Comité de programa**
 
-
-
 **Presidente de la conferencia:** Pamella Lach (ella/su/ella), Universidad Estatal de San Diego
 
-**Líder del Comité del Programa:** Liz Grumbach, Universidad Estatal de Arizona
+**Líder del Comité del Programa:** Liz Grumbach (ella/su/ella), Universidad Estatal de Arizona
 
 **Co-Líderes del Comité de Plataforma:** Alex Wermer-Colan, Universidad de Temple y Andy Janco, Universidad de Pensilvania
 
-
+**Miembros del Comité de la Conferencia:** Caitlin Pollock (Universidad de Michigan), Eduard Arriga (Universidad de Clark), Sarah Potvin (Universidad de Texas A&M)
 
 Los miembros adicionales del Comité de Programas serán anunciados en breve.
