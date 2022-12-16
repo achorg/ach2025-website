@@ -1,6 +1,7 @@
 ---
 titre : Consignes pour les examinateurs
 mise en page : page
+title: Consignes pour les examinateurs
 ---
 Le rôle de l'examinateur est d'aider le comité de programme (CP) à évaluer la qualité des propositions soumises. Les examens ne déterminent pas entièrement quelles propositions seront acceptées ou rejetées. Ils fournissent des informations d'expert que le PC utilise pour prendre ses décisions. Les examinateurs fournissent également des commentaires utiles et constructifs aux auteurs, ce qui peut renforcer la qualité et la rigueur intellectuelle de la conférence.
 
