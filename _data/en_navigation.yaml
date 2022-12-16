@@ -3,6 +3,8 @@ items:
     url: "/"
   - text: CFP
     url: '/en/cfp'
+  - text: For Reviewers
+    url: '/en/reviewer-guidelines'
   - text: About
     url: "/en/#about"
   - text: Program

@@ -1,6 +1,10 @@
 items:
   - text: Inicio
     url: "/"
+  - text: CFP
+    url: '/es/cfp'
+  - text: Para los revisores
+    url: '/es/lineamientos-para-revisores'
   - text: Acerca
     url: "#about"
   - text: Programa

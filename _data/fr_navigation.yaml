@@ -1,6 +1,10 @@
 items:
   - text: Maison
     url: "/fr"
+  - text: CFP
+    url: '/fr/cfp'
+  - text: Pour les examinateurs
+    url: '/fr/lignes-directrices-pour-lexaminateur'
   - text: À propos
     url: "#"
   - text: Programme
