@@ -35,9 +35,9 @@ In your report please include:
 
 **Investigation Process**
 
-You will receive immediate acknowledgement of receipt of your complaint within an hour of your formal report during the scheduled hours of the event. All reports received before or after the event will be acknowledged within 24 hours. We promise to acknowledge receipt and initiate a meeting of the appropriate individuals. For ACH 2023, this will include conference co-chair Pam Lach.
+You will receive immediate acknowledgement of receipt of your complaint within an hour of your formal report during the scheduled hours of the event. All reports received before or after the event will be acknowledged within 24 hours. We promise to acknowledge receipt and initiate a meeting of the appropriate individuals. For ACH 2023, this will include the conference committee.
 
-The co-chairs will confer to review the incident and determine:
+The committee will confer to review the incident and determine:
 
 * What happened;
 * Whether this event constitutes a Code of Conduct violation;
@@ -46,7 +46,7 @@ The co-chairs will confer to review the incident and determine:
 
 If the incident is determined to be ongoing or a threat to physical safety, the organizers’ immediate priority will be to protect everyone involved. This may include removing individuals from conference venues (face-to-face or virtual), asking for individual meetings with individuals making the report and individuals involved in the incident, and/or requesting assistance from legal authorities. This means we may delay an “official” response until we believe that the situation has ended and that everyone is physically safe.
 
-Once the co-chairs have a complete account of the events they will make a decision as to how to respond. Responses may include but are not limited to:
+Once the committee has a complete account of the events they will make a decision as to how to respond. Responses may include but are not limited to:
 
 * Nothing (if we determine no violation occurred)
 * A private reprimand from ACH 2023 and/or ACH to the individual(s) involved
