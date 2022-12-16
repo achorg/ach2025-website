@@ -6,12 +6,12 @@ items:
   - text: Pour les examinateurs
     url: '/fr/lignes-directrices-pour-lexaminateur'
   - text: À propos
-    url: "#"
+    url: "/fr/#about"
   - text: Programme
-    url: "#"
+    url: "/fr/#schedule"
   - text: Keynotes
-    url: "#"
+    url: "/fr/#speakers"
   - text: Partenaires
-    url: "#"
+    url: "/fr/#partners"
   - text: Politiques
     url: "/fr/#faq"

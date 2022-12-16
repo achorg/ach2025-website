@@ -1,17 +1,17 @@
 items:
   - text: Inicio
-    url: "/"
+    url: "/es"
   - text: CFP
     url: '/es/cfp'
   - text: Para los revisores
     url: '/es/lineamientos-para-revisores'
   - text: Acerca
-    url: "#about"
+    url: "/es/#about"
   - text: Programa
-    url: "#schedule"
+    url: "/es/#schedule"
   - text: Conferencias
-    url: "#speakers"
+    url: "/es/#speakers"
   - text: Socios
-    url: "#partners"
+    url: "/es/#partners"
   - text: Preguntas frecuentes
-    url: "#faq"
+    url: "/es/#faq"
