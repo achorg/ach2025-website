@@ -4,16 +4,20 @@ layout: page
 ---
 Deadline: February 1st, 2023, 11:59:59 PM in GMT -12
 
-Submit a proposal: [conftool link](https://www.conftool.pro/ach2023/)The Association for Computers and the Humanities (ACH) will hold **ACH 2023**, a virtual conference, from **June 29-July 1, 2023.** 
+Submit a proposal: [conftool link](https://www.conftool.pro/ach2023/)  
+
+The Association for Computers and the Humanities (ACH) will hold **ACH 2023**, a virtual conference, from **June 29-July 1, 2023.** 
 
 ### Conference Focus
+
  ﻿ACH 2023 is guided by our commitments to equity and justice. The conference recognizes that digital humanities scholarship is inextricably sociopolitical. Therefore, we have chosen to forgo a theme to emphasize the inherent sociopolitical nature of the work and encourage all proposal writers to explicitly address the sociopolitical stakes of their work. 
 
 ACH 2023 prioritizes proposals that focus on social justice in multiple contexts: anti-racist work, Indigenous studies, cultural and critical ethnic studies, intersectional feminism, postcolonial and decolonial studies, disability studies, and queer studies. 
 
 We also prioritize proposals that explicitly address multilingualism in digital humanities, which is itself a matter of social justice. Examples of topics include: multilingual metadata, linked open data, preservation and dissemination of endangered languages, OCR for non-Latin scripts, methods for right-to-left languages, tools and interfaces for multilingual digital humanities, multilingual pedagogies, and multilingual corpora.
 
-### Conference Scope 
+### Conference Scope
+
 Areas of digital humanities scholarship that are relevant to the conference include but are not limited to:
 
 * Digital and computational approaches to humanistic research and pedagogy
@@ -32,15 +36,9 @@ Areas of digital humanities scholarship that are relevant to the conference incl
 * Resource creation, curation, and engagement
 * Use of digital technologies to write, publish, and review scholarship
 
-
-
 As a conference committed to cross-disciplinary engagement, ACH 2023 welcomes interdisciplinary proposals. We are also especially interested in receiving proposals from participants with a range of expertise and a variety of roles, including alt-ac positions, employment outside of higher education, and graduate and undergraduate students. We further invite proposals from participants who are newcomers to digital humanities. 
 
-
-
 ### Conference Submission Types and Languages
-
-
 
 We welcome the following submission types: 
 
@@ -66,8 +64,6 @@ Please note that for the purposes of scheduling, we may suggest an alternative s
 
 Proposals will be submitted using ConfTool. Please create a new account to submit your proposal. 
 
-
-
 Proposals must include:
 
 * Abstract
@@ -76,7 +72,6 @@ Proposals must include:
   * Abstracts should directly address the review criteria: relevance to conference focus; engagement with relevant scholarship; framework and purpose; applicability, significance, and value; and organization and clarity. 
 * List of participants and contact information entered directly into ConfTool along with submission
 * 3-5 keywords entered directly into ConfTool
-
 
 ### Proposal Review and Notification 
 
@@ -91,16 +86,12 @@ Therefore, our use of open peer review is intended to mitigate the implicit ineq
 Our review criteria reflect the commitment to an expansive understanding of digital humanities and the sociopolitical nature of scholarship: 
 
 * 20% - Relevance to Conference Focus.The proposal topic is connected to anti-racist work, Indigenous studies, cultural and critical ethnic studies, intersectional feminism, postcolonial and decolonial studies, queer studies and/or multilingualism  
-
 * 20% -  Engagement with Relevant Scholarship.The proposal engages explicitly with relevant scholarship and offers context within the current state of the fields in which it engages. Formal citations (in the proposal writer’s preferred style) are only required when using direct quotation.  
-
 * 20% - Framework and Purpose. The proposal offers clear theoretical, methodological, or pedagogy framework; concrete statement of purpose; and explicit articulation of the sociopolitical implications of the work.  
-
 * 20% - Applicability, Significance, and Value.
   The proposal articulates the applicability, significance, and value of the theoretical, methodological, and/or practical contribution to digital humanities generally.  
-
 * 20% - Overall Recommendation.
-The proposal is organized effectively and offers a clear articulation of presentation content.   
+  The proposal is organized effectively and offers a clear articulation of presentation content.   
 
 The review period will begin on \[DATE] and end on \[DATE]. 
 
@@ -113,6 +104,7 @@ Submissions and reviews will not be made available to the public. The Program Co
 Accepted proposals will be revised by authors and published in the online program along with their names and affiliations. 
 
 ### Code of Conduct
+
 ACH 2023 is dedicated to creating a safe, respectful, and collegial conference environment for the benefit of everyone who attends and for the advancement of research and scholarship in fields supported by ACH, CSDH/SCHN, and Humanistica. ACH 2023 has adapted the ACH Conference Code of Conduct:
 
 ACH is dedicated to providing a harassment-free conference experience for everyone regardless of gender identity, gender expression, sexual orientation, disability, physical appearance, body size, race, ethnicity, origin, or religion. By attending ACH events, you signal your commitment to contributing to a safe and inclusive experience for all. We do not tolerate harassment of event participants in any form, whether events are held virtually or face-to-face. Participants in ACH events violating these rules may be barred or banned from ACH activities at the discretion of the organizers.
@@ -124,12 +116,15 @@ Participants asked to stop any harassing behavior are expected to comply immedia
 ACH 2023 seeks to uphold these values throughout the submission and review process as well as during the conference itself. Please familiarize yourself with the reporting guidelines and our process for addressing violations. 
 
 ### Accessibility 
+
 ACH  to ensure that ACH 2023 is accessible for all participants. All synchronous sessions will make live transcription available to participants, and keynote and plenary sessions will also include sign language interpretation. We will provide guidelines for accessibility of sessions to all accepted participants. More information, along with a request for information about participant needs, will be circulated in \[DATE]. 
 
 ### Conference Time Zone
+
 ACH 2023 will be scheduled in Eastern Time. On \[DATE] and \[DATE], sessions will be scheduled from approximately 10:00am-7:00pm Eastern Time. On \[DATE], sessions will be scheduled from 9:00am-4:00pm Eastern Time to accommodate participants across the Francophone world.
 
 ### Conference Registration and Bursaries 
+
 Registration for ACH 2023 will open \[DATE]. 
 
 The cost of running ACH 2023 is…. As a result, we must charge registration fees to cover the cost. Registration fees will cover the cost of running a virtual conference, which include conference submission management software, conference platforms for videoconferencing and spatial chat, honoraria for keynote and plenary events, and accessibility (sign language interpretation and remote captioning for keynotes and plenaries and live captioning for conference sessions). We have worked to keep the registration costs as low as possible while ensuring we are providing attendees with a positive conference experience.  
@@ -137,8 +132,6 @@ The cost of running ACH 2023 is…. As a result, we must charge registration fee
 ACH will offer a limited number of bursaries to support attendance by members who are contingently employed or are graduate students. 
 
 The registration fee schedule will be:
-
-
 
 ACH, CSDH/SCHN, Humanistica or ADHO Joint Member: $50
 
@@ -150,28 +143,18 @@ Student Non-Member (includes ACH or CSDH/SCHN membership): $40
 
 Contingent/un-/underemployed: $40
 
-
-
 Contact Information
 
 For questions and concerns about the CFP, conference program, submissions, Code of Conduct, or accessibility, please contact the ACH 2023  Conference Chair at dhunbound2022\[at]ach.org.
 
-
-
 If you are interested in translating this call for proposals into another language, please contact the conference committee at
 
-
-
 Program Committee
-
-
 
 Conference Chair: Pamella Lach (she/her/hers), San Diego State University
 
 Program Committee Lead: Liz Grumbach, Arizona State University
 
 Platform Committee Co-Leads: Alex Wermer-Colan, Temple University & Andy Janco, University of Pennsylvania
-
-
 
 Additional Program Committee members will be announced shortly.
