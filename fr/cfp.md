@@ -153,8 +153,10 @@ Si vous souhaitez traduire cet appel à propositions dans une autre langue, veui
 
 Présidente de la conférence : Pamella Lach (elle/sa), Université d'État de San Diego
 
-Responsable du comité de programme : Liz Grumbach, Arizona State University
+Responsable du comité de programme : Liz Grumbach (elle/sa), Arizona State University
 
 Co-responsables du comité de la plate-forme : Alex Wermer-Colan, Temple University et Andy Janco, University of Pennsylvania
+
+Membres du comité de la conférence : Caitlin Pollock (Université du Michigan), Eduard Arriga (Université Clark), Sarah Potvin (Université Texas A&M)
 
 Les membres supplémentaires du comité de programme seront annoncés sous peu.
