@@ -121,35 +121,35 @@ ACH pour s'assurer que l'ACH 2023 est accessible à tous les participants. Tou
 
 ### Fuseau horaire de la conférence
 
-L'ACH 2023 sera programmée à l'heure de l'Est. Du \[DATE] et le \[DATE], les sessions seront programmées de 10h00 à 19h00 environ, heure de l'Est. Le \[DATE], les sessions seront programmées de 9h00 à 16h00, heure de l'Est, pour accueillir les participants à travers le monde francophone.
+L'ACH 2023 sera programmée à l'heure de l'Est. Du 29 June-1 July, les sessions seront programmées de 10h00 à 19h00 environ, heure de l'Est.
 
 ### Inscription à la conférence et bourses
 
-L'inscription pour ACH 2023 ouvrira le \[DATE].
+L'inscription pour ACH 2023 ouvrira le 20 March, 2023.
 
-Le coût de fonctionnement de l'ACH 2023 est de…. Par conséquent, nous devons facturer des frais d'inscription pour couvrir les frais. Les frais d'inscription couvriront le coût de l'organisation d'une conférence virtuelle, qui comprend un logiciel de gestion des soumissions de conférence, des plateformes de conférence pour la visioconférence et le chat spatial, des honoraires pour les événements liminaires et pléniers, et l'accessibilité (interprétation en langue des signes et sous-titrage à distance pour les discours liminaires et les plénières et sous-titrage en direct pour les séances de conférence). Nous nous sommes efforcés de maintenir les frais d'inscription aussi bas que possible tout en veillant à offrir aux participants une expérience positive de la conférence.
+Le coût de fonctionnement de l'ACH 2023 est d'environ 4,000 $. Par conséquent, nous devons facturer des frais d'inscription pour couvrir les frais. Les frais d'inscription couvriront le coût de l'organisation d'une conférence virtuelle, qui comprend un logiciel de gestion des soumissions de conférence, des plateformes de conférence pour la visioconférence et le chat spatial, des honoraires pour les événements liminaires et pléniers, et l'accessibilité (interprétation en langue des signes et sous-titrage à distance pour les discours liminaires et les plénières et sous-titrage en direct pour les séances de conférence). Nous nous sommes efforcés de maintenir les frais d'inscription aussi bas que possible tout en veillant à offrir aux participants une expérience positive de la conférence.
 
 ACH offrira un nombre limité de bourses pour soutenir la participation des membres qui ont un emploi occasionnel ou qui sont des étudiants diplômés.
 
 Le barème des frais d'inscription sera de :
 
-Membre conjoint ACH, CSDH/SCHN, Humanistica ou ADHO : 50 $
+Membre conjoint ACH ou ADHO : 50 $
 
-Membre étudiant ACH, CSDH/SCHN, Humanistica ou ADHO : 25 $
+Membre étudiant ACH  ou ADHO : 25 $
 
-Non-membre régulier (comprend l'adhésion à l'ACH ou au CSDH/SCHN) : 90 $
+Non-membre régulier : 90 $
 
-Étudiant non-membre (comprend l'adhésion à l'ACH ou au CSDH/SCHN) : 40 $
+Étudiant non-membre : 40 $
 
 Contingent/non-/sous-employé : 40 $
 
-Coordonnées
+### Coordonnées
 
-Pour toute question ou préoccupation concernant l'AP, le programme de la conférence, les soumissions, le code de conduite ou l'accessibilité, veuillez contacter le président de la conférence ACH 2023 à l'adresse dhunbound2022\[at]ach.org.
+Pour toute question ou préoccupation concernant l'AP, le programme de la conférence, les soumissions, le code de conduite ou l'accessibilité, veuillez contacter le président de la conférence ACH 2023 à l'adresse **conference \[at] ach \[dot] org.**.
 
-Si vous souhaitez traduire cet appel à propositions dans une autre langue, veuillez contacter le comité de la conférence au
+Si vous souhaitez traduire cet appel à propositions dans une autre langue, veuillez contacter le comité de la conférence au **conference \[at] ach \[dot] org.**
 
-Comité de programme
+### Comité de programme
 
 Présidente de la conférence : Pamella Lach (elle/sa), Université d'État de San Diego
 
