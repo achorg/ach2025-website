@@ -5,8 +5,14 @@ items:
     url: '/fr/cfp'
   - text: Pour les examinateurs
     url: '/fr/lignes-directrices-pour-lexaminateur'
-  - text: À propos
-    url: "/fr/#about"
+  - text: Stratégies
+    dropdown:
+      - text: Code de conduite
+        url: '/fr/strategies/code-de-conduite'
+      - text: Accessibilité
+        url: '/fr/strategies/accessibilite'
+      - text: Intimité
+        url: '/fr/strategies/intimite'
   - text: Programme
     url: "/fr/#schedule"
   - text: Keynotes

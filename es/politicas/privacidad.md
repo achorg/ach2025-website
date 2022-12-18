@@ -1,0 +1,4 @@
+---
+title: Privacidad
+layout: page
+---

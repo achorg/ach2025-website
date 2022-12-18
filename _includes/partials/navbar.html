@@ -21,10 +21,24 @@
               {% elif item.text == 'Partners' and not settings.partners %}
               {% elif item.text == 'FAQ' and not settings.faq %}
               {% else %}
+                {% if item.dropdown %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    {{ item.text }}
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    {%for d in item.dropdown %}
+                    <li><a class="dropdown-item" href="{{ d.url }}">{{ d.text }}</a></li>
+                    {% endfor %}
+                    
+                  </ul>
+                </li>
+                {% else%}
                 <li>
   
                     <a class="nav-link scrollto" href="{{ item.url | locale_url }}">{{ item.text }}</a>
                 </li>
+                {%endif%}
               {% endif %}
             {% endfor %}
             {% endif %}
@@ -37,7 +51,24 @@
               {% elif item.text == 'Socios' and not settings.partners %}
               {% elif item.text == 'Preguntas frecuentes' and not settings.faq %}
               {% else %}
-            <li><a class="nav-link scrollto" href="{{ item.url | locale_url }}">{{ item.text }}</a></li>    
+              {% if item.dropdown %}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{ item.text }}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  {%for d in item.dropdown %}
+                  <li><a class="dropdown-item" href="{{ d.url }}">{{ d.text }}</a></li>
+                  {% endfor %}
+                  
+                </ul>
+              </li>
+              {% else%}
+              <li>
+
+                  <a class="nav-link scrollto" href="{{ item.url | locale_url }}">{{ item.text }}</a>
+              </li>
+              {%endif%}
               {% endif %}
             {% endfor %}
             {% endif %}
@@ -49,9 +80,24 @@
               {% elif item.text == 'Partenaires' and not settings.partners %}
               {% elif item.text == 'Politiques' and not settings.faq %}
               {% else %}
-                <li class="nav__item mr-3">
-                    <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url | locale_url }}">{{ item.text }}</a>
-                </li>
+              {% if item.dropdown %}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{ item.text }}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  {%for d in item.dropdown %}
+                  <li><a class="dropdown-item" href="{{ d.url }}">{{ d.text }}</a></li>
+                  {% endfor %}
+                  
+                </ul>
+              </li>
+              {% else%}
+              <li>
+
+                  <a class="nav-link scrollto" href="{{ item.url | locale_url }}">{{ item.text }}</a>
+              </li>
+              {%endif%}
                 {% endif %}
             {% endfor %}
             {% endif %}

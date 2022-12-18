@@ -5,8 +5,14 @@ items:
     url: '/en/cfp'
   - text: For Reviewers
     url: '/en/reviewer-guidelines'
-  - text: About
-    url: "/en/#about"
+  - text: Policies
+    dropdown:
+      - text: Code of Conduct
+        url: '/en/policies/code-of-conduct'
+      - text: Accessibility
+        url: '/en/policies/accessibility'
+      - text: Privacy
+        url: '/en/policies/privacy'
   - text: Program
     url: "/en/#schedule"
   - text: Speakers
