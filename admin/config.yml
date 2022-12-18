@@ -75,6 +75,27 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Content, name: body, widget: markdown }
+  - label: "Policies (EN)"
+    name: 'polices-en'
+    folder: "en/policies"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Content, name: body, widget: markdown }
+  - label: "Strategies (FR)"
+    name: 'polices-fr'
+    folder: "fr/strategies"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Content, name: body, widget: markdown }
+  - label: "Politicas (ES)"
+    name: 'politicas-es'
+    folder: "es/politicas"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Content, name: body, widget: markdown }
   - label: "Sessions (EN)"
     name: "sessions"
     folder: "en/sessions"
