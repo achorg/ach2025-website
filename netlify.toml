@@ -5,17 +5,17 @@
 # Default
 [[redirects]]
   from = "/*"
-  to = "/placeholder/:splat"
+  to = "/:splat"
   status = 302
 
 [[redirects]]
   from = "/*"
-  to = "/placeholder/:splat"
+  to = "/es/:splat"
   status = 302
   conditions = {Language = ["es"]}
 
 [[redirects]]
   from = "/*"
-  to = "/placeholder/:splat"
+  to = "/fr/:splat"
   status = 302
   conditions = {Language = ["fr"]}
