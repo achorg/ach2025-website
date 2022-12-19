@@ -64,7 +64,7 @@ The ACH 2023 planning committee ACH strives to ensure that the conference is acc
 
 All synchronous sessions will make live transcription available to participants, and keynote sessions will include both sign language interpretation and live transcription. The keynote speech on May 19th will also include simultaneous interpretation from French to English.
 
-Virtual Presentation Accessibility Guidelines
+**Virtual Presentation Accessibility Guidelines**
 
 Preparing Slides
 
