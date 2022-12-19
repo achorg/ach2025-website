@@ -90,32 +90,18 @@ Our review criteria reflect the commitment to an expansive understanding of digi
 * 20% - Relevance to Conference Focus.
 
   * The proposal topic is connected to anti-racist work, Indigenous studies, cultural and critical ethnic studies, intersectional feminism, postcolonial and decolonial studies, queer studies and/or multilingualism  
-
-
-
 * 20% -  Engagement with Relevant Scholarship. 
 
   * The proposal engages explicitly with relevant scholarship and offers context within the current state of the fields in which it engages. Formal citations (in the proposal writer’s preferred style) are only required when using direct quotation. 
-
-
-
 * 20% - Framework and Purpose.
 
   * The proposal offers clear theoretical, methodological, or pedagogy framework; concrete statement of purpose; and explicit articulation of the sociopolitical implications of the work.  
-
-
-
 * 20% - Applicability, Significance, and Value.
 
   * The proposal articulates the applicability, significance, and value of the theoretical, methodological, and/or practical contribution to digital humanities generally.  
-
-
-
 * 20% - Overall Recommendation.
 
   * The proposal is organized effectively and offers a clear articulation of presentation content.   
-
-
 
 The review period will begin on February 6, 2023 and end on March 6, 2023. 
 
@@ -153,9 +139,7 @@ Registration for ACH 2023 will open March 20, 2023.
 
 The cost of running ACH 2023 is approximately $4,000. As a result, we must charge registration fees to cover the cost. Registration fees will cover the cost of running a virtual conference, which include conference submission management software, conference platforms for videoconferencing and spatial chat, honoraria for keynote and plenary events, and accessibility (sign language interpretation and remote captioning for keynotes and plenaries and live captioning for conference sessions). We have worked to keep the registration costs as low as possible while ensuring we are providing attendees with a positive conference experience.  
 
-ACH will offer a limited number of bursaries to support attendance by members who are contingently employed or are graduate students. 
-
-The registration fee schedule will be:
+ACH will offer a limited number of bursaries to support attendance by members who are contingently employed or are graduate students.
 
 The registration fee schedule will be:
 
