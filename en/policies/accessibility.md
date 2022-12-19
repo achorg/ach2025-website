@@ -2,12 +2,9 @@
 title: Accessibility
 layout: page
 ---
-
-
-
 The ACH 2023 planning committee ACH strives to ensure that the conference is accessible for all participants.
 
-All synchronous sessions will make live transcription available to participants, and keynote sessions will include both sign language interpretation and live transcription. The keynote speech on May 19th will also include simultaneous interpretation from French to English.
+All synchronous sessions will make live transcription available to participants, and keynote sessions will include both sign language interpretation and live transcription.
 
 Virtual Presentation Accessibility Guidelines
 
@@ -51,4 +48,4 @@ For ACH 2023, this license will be used as follows:
 1. Accepted proposals will be revised by authors and published in the online program along with their names and affiliations;
 2. In lieu of a Book of Abstracts, revised abstracts will also be deposited in [Humanities CORE](https://hcommons.org/core/), where they will be preserved and given a digital object identifier (DOI). Additionally, conference participants are strongly encouraged to deposit their presentations—whether in the form of a paper, slides, poster, or other format—to CORE, and to share them with the ACH 2023 group on the Commons, in order to facilitate ongoing discussion and citation of your work.
 
-Materials deposited in CORE will be governed by the [Humanities Commons Terms of Service](https://hcommons.org/terms/), about which more information can be found in the [CORE FAQ](https://hcommons.org/core/faq/). 
+Materials deposited in CORE will be governed by the [Humanities Commons Terms of Service](https://hcommons.org/terms/), about which more information can be found in the [CORE FAQ](https://hcommons.org/core/faq/).
