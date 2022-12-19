@@ -2,26 +2,25 @@
 title: Accessibilité
 layout: page
 ---
-
 Le comité de planification ACH 2023 ACH s'efforce de faire en sorte que la conférence soit accessible à tous les participants.
 
-Toutes les sessions synchrones mettront la transcription en direct à la disposition des participants, et les sessions principales comprendront à la fois une interprétation en langue des signes et une transcription en direct. Le discours d'ouverture du 19 mai comprendra également une interprétation simultanée du français vers l'anglais.
+Toutes les sessions synchrones mettront la transcription en direct à la disposition des participants, et les sessions principales comprendront à la fois une interprétation en langue des signes et une transcription en direct. 
 
 Directives d'accessibilité des présentations virtuelles
 
 Préparation des diapositives
 
-1. Nous encourageons les participants à utiliser le [vérificateur d'accessibilité](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f ?ui=en-us&rs=en-us&ad=us#bkmk_use) dans PowerPoint ou [Accessibility Checker for Google Slides](https://workspace.google.com/marketplace/app/accessibility_checker_for_slides/437536886016) lors de la préparation des diapositives.
-2. Nous encourageons les participants à utiliser un [modèle de diapositive accessible pour PowerPoint](https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities- 6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25) ou l'un des thèmes intégrés dans Google Slides.
+1. Nous encourageons les participants à utiliser le \[vérificateur d'accessibilité](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f ?ui=en-us&rs=en-us&ad=us#bkmk_use) dans PowerPoint ou [Accessibility Checker for Google Slides](https://workspace.google.com/marketplace/app/accessibility_checker_for_slides/437536886016) lors de la préparation des diapositives.
+2. Nous encourageons les participants à utiliser un \[modèle de diapositive accessible pour PowerPoint](https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities- 6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25) ou l'un des thèmes intégrés dans Google Slides.
 3. Lorsque vous ajoutez une nouvelle diapositive dans votre thème sélectionné, utilisez l'une des mises en page disponibles, plutôt que de les modifier ou de créer une nouvelle mise en page. Cela aidera les lecteurs d'écran avec votre contenu.
 4. Faites attention au contraste des couleurs : un texte sombre sur un fond clair ou un texte clair sur un fond sombre est le plus facile à lire.
 5. Évitez les animations ou les transitions, qui peuvent faire trébucher les lecteurs d'écran.
 6. Donnez un titre à chaque diapositive.
-7. Définissez [l'ordre de lecture](https://support.microsoft.com/en-us/office/make-slides-easier-to-read-by-using-the-reading-order-pane-863b5c1c-4f19 -45ec-96e6-93a6457f5e1c) pour le contenu des diapositives PowerPoint et exécutez le vérificateur d'accessibilité pour vous assurer que les lecteurs d'écran lisent dans le bon ordre.
-8. Ajoutez du texte alternatif aux images qui ne sont pas purement descriptives ([instructions pour PowerPoint](https://support.microsoft.com/en-us/office/add-alternative-text-to-a-shape-picture -chart-smartart-graphic-or-other-object-44989b2a-903c-4d9a-b742-6a75b451c669 ); Google Slides demandera un texte alternatif lorsque vous téléchargerez un média).
+7. Définissez \[l'ordre de lecture](https://support.microsoft.com/en-us/office/make-slides-easier-to-read-by-using-the-reading-order-pane-863b5c1c-4f19 -45ec-96e6-93a6457f5e1c) pour le contenu des diapositives PowerPoint et exécutez le vérificateur d'accessibilité pour vous assurer que les lecteurs d'écran lisent dans le bon ordre.
+8. Ajoutez du texte alternatif aux images qui ne sont pas purement descriptives (\[instructions pour PowerPoint](https://support.microsoft.com/en-us/office/add-alternative-text-to-a-shape-picture -chart-smartart-graphic-or-other-object-44989b2a-903c-4d9a-b742-6a75b451c669 ); Google Slides demandera un texte alternatif lorsque vous téléchargerez un média).
 9. Utilisez une police sans empattement, un minimum de 12 points (18 c'est mieux). Dans l'ordre suivant, les polices les plus accessibles sont : Arial, Calibri, Century Gothic, Helvetica, Tahoma et Verdana.
 10. Utilisez le texte en gras avec parcimonie pour l'emphase (pas l'italique des majuscules).
-11. Utilisez [meaningful link text](https://myusf.usfca.edu/digital-accessibility/meaningful-link-text) pour les hyperliens et les URL courtes (par exemple, [tinyurl.com](http://tinyurl.com /) vous permet de personnaliser les liens courts).
+11. Utilisez [meaningful link text](https://myusf.usfca.edu/digital-accessibility/meaningful-link-text) pour les hyperliens et les URL courtes (par exemple, \[tinyurl.com](http://tinyurl.com /) vous permet de personnaliser les liens courts).
 
 Donner votre discours
 
@@ -47,6 +46,6 @@ Creative Commons-Attribution 4.0 (CC-BY 4.0) est une licence publique largement 
 Pour ACH 2023, cette licence sera utilisée comme suit :
 
 1. Les propositions acceptées seront révisées par les auteurs et publiées dans le programme en ligne avec leurs noms et affiliations ;
-2. Au lieu d'un livre de résumés, les résumés révisés seront également déposés dans [Humanities CORE] (https://hcommons.org/core/), où ils seront conservés et recevront un identifiant d'objet numérique (DOI). De plus, les participants à la conférence sont fortement encouragés à déposer leurs présentations - que ce soit sous la forme d'un article, de diapositives, d'affiches ou d'un autre format - à CORE et à les partager avec le groupe ACH 2023 sur les communs, afin de faciliter la discussion en cours. et la citation de votre travail.
+2. Au lieu d'un livre de résumés, les résumés révisés seront également déposés dans [Humanities CORE](https://hcommons.org/core/), où ils seront conservés et recevront un identifiant d'objet numérique (DOI). De plus, les participants à la conférence sont fortement encouragés à déposer leurs présentations - que ce soit sous la forme d'un article, de diapositives, d'affiches ou d'un autre format - à CORE et à les partager avec le groupe ACH 2023 sur les communs, afin de faciliter la discussion en cours. et la citation de votre travail.
 
-Les documents déposés dans CORE seront régis par les [Conditions d'utilisation de Humanities Commons](https://hcommons.org/terms/), à propos desquelles de plus amples informations peuvent être trouvées dans la [FAQ CORE](https://hcommons.org /core/faq/).
+Les documents déposés dans CORE seront régis par les [Conditions d'utilisation de Humanities Commons](https://hcommons.org/terms/), à propos desquelles de plus amples informations peuvent être trouvées dans la \[FAQ CORE](https://hcommons.org /core/faq/).
