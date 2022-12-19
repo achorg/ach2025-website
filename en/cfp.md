@@ -90,18 +90,32 @@ Our review criteria reflect the commitment to an expansive understanding of digi
 * 20% - Relevance to Conference Focus.
 
   * The proposal topic is connected to anti-racist work, Indigenous studies, cultural and critical ethnic studies, intersectional feminism, postcolonial and decolonial studies, queer studies and/or multilingualism  
+
+
+
 * 20% -  Engagement with Relevant Scholarship. 
 
   * The proposal engages explicitly with relevant scholarship and offers context within the current state of the fields in which it engages. Formal citations (in the proposal writer’s preferred style) are only required when using direct quotation. 
+
+
+
 * 20% - Framework and Purpose.
 
   * The proposal offers clear theoretical, methodological, or pedagogy framework; concrete statement of purpose; and explicit articulation of the sociopolitical implications of the work.  
+
+
+
 * 20% - Applicability, Significance, and Value.
 
   * The proposal articulates the applicability, significance, and value of the theoretical, methodological, and/or practical contribution to digital humanities generally.  
+
+
+
 * 20% - Overall Recommendation.
 
   * The proposal is organized effectively and offers a clear articulation of presentation content.   
+
+
 
 The review period will begin on February 6, 2023 and end on March 6, 2023. 
 
@@ -151,15 +165,11 @@ The registration fee schedule will be:
 * Student Non-Member: $40
 * Contingent/un-/underemployed: $40
 
-
-
 ### Contact Information
 
 For questions and concerns about the CFP, conference program, submissions, Code of Conduct, or accessibility, please contact the ACH 2023 Conference Chair at conference \[at] ach \[dot] org.
 
 If you are interested in translating this call for proposals into another language, please contact the conference committee at conference \[at] ach \[dot] org. 
-
-
 
 ### Program Committee
 
@@ -170,7 +180,5 @@ Program Committee Lead: Liz Grumbach (she/her/hers), Arizona State University
 Platform Committee Co-Leads: Alex Wermer-Colan, Temple University & Andy Janco, University of Pennsylvania
 
 Conference Committee Members: Caitlin Pollock (University of Michigan), Eduard Arriga (Clark University), Sarah Potvin (Texas A&M University)
-
-
 
 Additional Program Committee members will be announced shortly.
