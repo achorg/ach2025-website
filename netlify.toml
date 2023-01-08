@@ -2,12 +2,6 @@
   publish = "_site"
   command = "npx eleventy"
 
-# Default
-[[redirects]]
-  from = "/*"
-  to = "/en/:splat"
-  status = 302
-
 [[redirects]]
   from = "/*"
   to = "/es/:splat"
@@ -19,3 +13,8 @@
   to = "/fr/:splat"
   status = 302
   conditions = {Language = ["fr"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/en/:splat"
+  status = 302
