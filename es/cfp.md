@@ -2,7 +2,7 @@
 title: "Convocatoria: ACH 2023 (29 de junio al 1 de julio de 2023)"
 layout: page
 ---
-Fecha límite: 1 de febrero de 2023, 23:59:59 en GMT -12
+Fecha límite: 15 de febrero de 2023, 23:59:59 en GMT -12
 
 Envíe una propuesta: [enlace conftool](https://www.conftool.pro/ach2023/) 
 
