@@ -4,7 +4,7 @@ layout: page
 ---
 ### **A﻿CH 2023 CFP**
 
-Deadline: February 1st, 2023, 11:59:59 PM in GMT -12
+Deadline: February ~~1st~~ 15th, 2023, 11:59:59 PM in GMT -12
 
 Submit a proposal: [ACH 2023 Conftool](https://www.conftool.pro/ach2023/) 
 
