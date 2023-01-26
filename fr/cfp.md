@@ -2,7 +2,7 @@
 title: Appel à propositions
 layout: page
 ---
-Date limite : 1er février 2023, 23 h 59 min 59 s GMT -12
+Date limite : 15er février 2023, 23 h 59 min 59 s GMT -12
 
 Soumettre une proposition : [lien conftool](https://www.conftool.pro/ach2023/)
 
