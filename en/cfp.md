@@ -103,9 +103,9 @@ Our review criteria reflect the commitment to an expansive understanding of digi
 
   * The proposal is organized effectively and offers a clear articulation of presentation content.   
 
-The review period will begin on ~~February 6, 2023~~ March 6 and end on ~~March 6, 2023~~ March 27, 2023.
+The review period will begin on ~~February 6, 2023~~ March 6, 2023 and end on ~~March 6, 2023~~ March 27, 2023.
 
-Notifications about acceptance or rejection will be made by ~~March 20, 2023~~ April 10. Reviews will also be made available upon notification.
+Notifications about acceptance or rejection will be made by ~~March 20, 2023~~ April 10, 2023. Reviews will also be made available upon notification.
 
 ### Copyright and Privacy
 
