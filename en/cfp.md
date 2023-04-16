@@ -135,7 +135,7 @@ ACH 2023 will be scheduled in Eastern Time. From June 29-July 1, sessions will b
 
 ### Conference Registration and Bursaries 
 
-Registration for ACH 2023 will open ~~March 20, 2023~~ April 10, 2023.
+Registration for ACH 2023 will open around ~~March 20, 2023~~ April 19, 2023.
 
 The cost of running ACH 2023 is approximately $4,000. As a result, we must charge registration fees to cover the cost. Registration fees will cover the cost of running a virtual conference, which include conference submission management software, conference platforms for videoconferencing and spatial chat, honoraria for keynote and plenary events, and accessibility (sign language interpretation and remote captioning for keynotes and plenaries and live captioning for conference sessions). We have worked to keep the registration costs as low as possible while ensuring we are providing attendees with a positive conference experience.  
 
