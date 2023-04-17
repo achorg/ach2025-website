@@ -18,6 +18,6 @@ The registration fee schedule will be:
 ### Burasaries
 ACH has a limited number of bursaries to cover registration costs for graduate students and contingent/un-/underemployed professionals. 
 
-In order to be eligible, you must be a member of ACH (if you’re not yet a member, you can [join ACH](https://ach.org/membership/) now. 
+In order to be eligible, you must be a member of ACH (if you’re not yet a member, you can [join ACH](https://ach.org/membership/) now). 
 
 Bursary application details will be posted soon.
