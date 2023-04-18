@@ -5,7 +5,7 @@ layout: page
 
 ### ACH 2023 Regisration ###
 
-Registration will open around April 19, 2023. Details will be posted soon.
+Registration will open around April 19, 2023. 
 
 The registration fee schedule will be:
 
@@ -15,9 +15,11 @@ The registration fee schedule will be:
 * Student Non-Member: $40
 * Contingent/un-/underemployed: $40
 
-### Burasaries
+## [Proceed to registration](https://members.ach.org/civicrm/event/info/?id=20&reset=1)
+
+### Bursaries
 ACH has a limited number of bursaries to cover registration costs for graduate students and contingent/un-/underemployed professionals. 
 
 In order to be eligible, you must be a member of ACH (if you’re not yet a member, you can [join ACH](https://ach.org/membership/) now). 
 
-Bursary application details will be posted soon.
+[Bursary applications](https://tinyurl.com/ACH2023Bursaries) are due by May 5, 2023. 
