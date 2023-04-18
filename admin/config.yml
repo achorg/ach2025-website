@@ -54,6 +54,28 @@ collections:
         fields:   
           - { label: Title, name: title, widget: string }
           - { label: Content, name: body, widget: markdown }
+  - label: "Registration"
+    name: "registration"
+    files:
+      - label: "EN"
+        name: "registration-en"
+        file: "/en/registration.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: body, widget: markdown }
+      - label: "ES"
+        name: "registro-es"
+        file: "/es/registro.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: body, widget: markdown }
+      - label: "FR"
+        name: "inscription-fr"
+        file: "/fr/inscription.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Content, name: body, widget: markdown }
+          
   - label: "Reviewer Guidelines"
     name: 'reviewer-guidelines'
     files:
