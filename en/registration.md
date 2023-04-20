@@ -11,9 +11,10 @@ The registration fee schedule will be:
 
 * ACH or ADHO Joint Member: $50
 * Student ACH or ADHO Joint Member: $25
-* Regular Non-Member: $90
-* Student Non-Member: $40
-* Contingent/un-/underemployed: $40
+* Regular Non-Member (includes 1 year of ACH membership): $90 
+* Student Non-Member (includes 1 year of ACH membership): $40  
+* Contingent/un-/underemployed: $25
+* Contingent/un-/underemployed Non-Member (includes 1 year of ACH membership): $40
 
 ## [Proceed to registration](https://members.ach.org/civicrm/event/info/?id=20&reset=1)
 
