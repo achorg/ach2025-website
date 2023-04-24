@@ -1,8 +1,8 @@
 items:
   - text: Home
     url: "/"
-  - text: CFP
-    url: '/en/cfp'
+  - text: Registration
+    url: '/en/registration'
   - text: For Reviewers
     url: '/en/reviewer-guidelines'
   - text: Policies
