@@ -2,7 +2,7 @@
 title: Registration
 layout: page
 ---
-### ACH 2023 Regisration
+### ACH 2023 Registration
 
 Registration will open April 19, 2023. 
 
