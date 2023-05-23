@@ -2,10 +2,11 @@
 title: Registration
 layout: page
 ---
+### ACH 2023 Regisration
 
-### ACH 2023 Regisration ###
+Registration will open April 19, 2023. 
 
-Registration will open around April 19, 2023. 
+*Presenters are required to register by May 2019 to allow sufficient time for production of conference materials.*
 
 The registration fee schedule will be:
 
@@ -19,8 +20,9 @@ The registration fee schedule will be:
 ## [Proceed to registration](https://members.ach.org/civicrm/event/info/?id=20&reset=1)
 
 ### Bursaries
+
 ACH has a limited number of bursaries to cover registration costs for graduate students and contingent/un-/underemployed professionals. 
 
 In order to be eligible, you must be a member of ACH (if you’re not yet a member, you can [join ACH](https://ach.org/membership/) now). 
 
-[Bursary applications](https://tinyurl.com/ACH2023Bursaries) are due by May 5, 2023. 
+[Bursary applications](https://tinyurl.com/ACH2023Bursaries) are due by May 5, 2023.
