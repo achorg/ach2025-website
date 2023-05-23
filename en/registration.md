@@ -4,11 +4,11 @@ layout: page
 ---
 ### ACH 2023 Registration
 
-Registration will open April 19, 2023. 
+Registration will open April 19th, 2023.
 
 Registration will close June 22nd, 2023.
 
-*Presenters are required to register by May 19 to allow sufficient time for production of conference materials.*
+*Presenters are required to register by May 19th, 2023 to allow sufficient time for production of conference materials.*
 
 The registration fee schedule will be:
 
