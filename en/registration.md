@@ -6,7 +6,7 @@ layout: page
 
 Registration will open April 19, 2023. 
 
-*Presenters are required to register by May 2019 to allow sufficient time for production of conference materials.*
+*Presenters are required to register by May 19 to allow sufficient time for production of conference materials.*
 
 The registration fee schedule will be:
 
