@@ -1,6 +1,8 @@
 items:
   - text: Home
     url: "/"
+  - text: Keynote
+    url: "/en/keynote"
   - text: Registration
     url: '/en/registration'
   - text: For Reviewers
