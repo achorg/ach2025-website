@@ -12,5 +12,5 @@ description: "M. Remi Yergeau (they/them/theirs) is an Arthur F. Thurnau
   Rhetoric Society of America Book Award. They are currently at work on a second
   book project, tentatively titled Crip Data. In their spare time, they obsess
   over the Electric Light Orchestra."
-image: /assets/img/remiyergeau.jpeg
+image: /assets/img/remiyergeau02.jpeg
 ---
