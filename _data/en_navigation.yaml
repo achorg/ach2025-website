@@ -17,8 +17,8 @@ items:
         url: '/en/policies/privacy'
   - text: Program
     url: "/en/#schedule"
-  - text: Speakers
-    url: "/en/#speakers"
+  - text: Keynote Speakers
+    url: "/en/#keynote"
   - text: Partners
     url: "/en/#partners"
   - text: FAQ
