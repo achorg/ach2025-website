@@ -45,5 +45,5 @@ The [Digital Accessible Futures Lab](https://accessiblefutures.net/), which M. R
 **Conference Committee Members:** Caitlin Pollock (University of Michigan), Eduard Arriga (Clark University), Sarah Potvin (Texas A&M University)
 
 Notes  
-[1] Clark, Jasmine L., and Zack Lischer-Katz. (2023) 2023. “(In)accessibility and the Technocratic Library: Addressing Institutional Failures in Library Adoption of Emerging Technologies”. *First Monday* 28 (1). https://doi.org/10.5210/fm.v28i1.12928. 
+[1] Clark, Jasmine L., and Zack Lischer-Katz. (2023) 2023. “(In)accessibility and the Technocratic Library: Addressing Institutional Failures in Library Adoption of Emerging Technologies”. *First Monday* 28 (1). [https://doi.org/10.5210/fm.v28i1.12928](https://doi.org/10.5210/fm.v28i1.12928). 
 
