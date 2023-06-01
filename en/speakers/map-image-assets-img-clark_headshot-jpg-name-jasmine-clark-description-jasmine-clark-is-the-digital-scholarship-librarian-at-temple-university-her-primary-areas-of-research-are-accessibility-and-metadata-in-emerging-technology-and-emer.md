@@ -13,5 +13,5 @@ description: Jasmine Clark is the Digital Scholarship Librarian at Temple
   digital scholarship, and communications and development. She is interested in
   the ways information organizations can integrate accessible, inclusive
   practices into their services, hiring, and management practices.
-image: /assets/img/clark_headshot.jpg
+image: /assets/img/clark_headshot02.jpg
 ---
