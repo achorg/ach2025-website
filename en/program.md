@@ -7,6 +7,8 @@ layout: page
 
 Registered participants may access the full conference program in ConfTool. Information about virtual spaces (Zoom and Work Adventure) will be shared in ConfTool and via direct email to attendees. 
 
+---
+
 ## Thursday, June 29
 ### 8:30am - 9:45am Eastern
 * #1A: Multilingual DH
@@ -36,6 +38,8 @@ Registered participants may access the full conference program in ConfTool. Info
 
 ### 6:00pm - 7:15pm Eastern
 * #7A: Virtual Social Event: How to Make a Crossword Puzzle
+
+---
 
 ## Friday, June 30
 ### 8:30am - 9:30am Eastern
@@ -68,6 +72,8 @@ Registered participants may access the full conference program in ConfTool. Info
 * #14A: Emerging Trends in DH Pedagogy (Lightning Talks)
 * #14B: Experimental Humanities and Critical Making
 * #14C: Roundtable on Scholarly Communication for Digital Humanities Librarianship
+
+---
 
 ## Saturday, July 1
 ### 8:30am - 9:30am Eastern
