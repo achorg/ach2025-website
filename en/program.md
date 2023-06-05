@@ -25,7 +25,7 @@ Registered participants may access the full conference program in ConfTool. Info
 * #4A: ACH General Membership Meeting
 
 ### 3:00pm - 4:15pm Eastern
-* #5A: Cultural Analyticsa and Community
+* #5A: Cultural Analytics and Community
 * #5B: Digital Cultural Studies I
 * #5C: Cultural Analytics Pedagogies (Roundtable)
 
