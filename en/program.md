@@ -95,5 +95,5 @@ Registered participants may access the full conference program in ConfTool. Info
 * #20B: Digital (Humanities) Trace Data: Critical Approaches to Platforms, APIs, and Metrics for Studying DH Communities (Panel)
 * #20C: Proof of Existence: Archives, Community and DH
 
-### 6:15pm - 6:$5pm Eastern
+### 6:15pm - 6:45pm Eastern
 * #21A: Closing Remarks
