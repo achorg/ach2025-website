@@ -18,7 +18,6 @@ Registered participants may access the full conference program in ConfTool. Info
 ### 10:00am - 11:15am Eastern
 * #2A: Reflecting on Making DH Work for Us: Labor, Care, and Careers
 * #2B: Critical Approcahes to Extended Reality
-* #2C: Critical Postmodern Studies and DH
 
 ### 11:30am - 1:30pm Eastern
 * #3A: Opening Remarks and Keynote Roundtable: Accessibiliy and Digital Scholarship
@@ -53,7 +52,7 @@ Registered participants may access the full conference program in ConfTool. Info
 ### 11:30am - 12:45pm Eastern
 * #10A: Perspectives on Critical Peadagogy II
 * #10B: History, Machine Learning, and AI
-* #10C: DH For Librarians: Imaginging Possible Futures for Professional Development (Roundtable)
+* #10C: Roundtable on Scholarly Communication for Digital Humanities Librarianship
 
 ### 1:00pm - 2:15pm Eastern
 * #11A: Archives and Sustainability (Installations)
@@ -71,7 +70,7 @@ Registered participants may access the full conference program in ConfTool. Info
 ### 5:30pm - 6:45pm Eastern
 * #14A: Emerging Trends in DH Pedagogy (Lightning Talks)
 * #14B: Experimental Humanities and Critical Making
-* #14C: Roundtable on Scholarly Communication for Digital Humanities Librarianship
+* #14C: DH For Librarians: Imaginging Possible Futures for Professional Development (Roundtable)
 
 ---
 
@@ -97,7 +96,7 @@ Registered participants may access the full conference program in ConfTool. Info
 * #19C: The Public Digital Humanities Institute: An institute to support academic & community collaborations in the digital humanities (Panel)
 
 ### 4:45pm - 6:00pm Eastern
-* #20A: Power, Politics, and Data Analysis
+* #20A: Computational Approaches to Humanities Data
 * #20B: Digital (Humanities) Trace Data: Critical Approaches to Platforms, APIs, and Metrics for Studying DH Communities (Panel)
 * #20C: Proof of Existence: Archives, Community and DH
 
