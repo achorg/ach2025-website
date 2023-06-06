@@ -17,10 +17,10 @@ Registered participants may access the full conference program in ConfTool. Info
 
 ### 10:00am - 11:15am EDT
 * #2A: Reflecting on Making DH Work for Us: Labor, Care, and Careers
-* #2B: Critical Approcahes to Extended Reality
+* #2B: Critical Approaches to Extended Reality
 
 ### 11:30am - 1:30pm EDT
-* #3A: Opening Remarks and Keynote Roundtable: Accessibiliy and Digital Scholarship
+* #3A: Opening Remarks and Keynote Roundtable: Accessibility and Digital Scholarship
 
 ### 1:45pm - 2:45pm EDT
 * #4A: ACH General Membership Meeting
@@ -50,7 +50,7 @@ Registered participants may access the full conference program in ConfTool. Info
 * #9C: DH Perspectives in History and Lit
 
 ### 11:30am - 12:45pm EDT
-* #10A: Perspectives on Critical Peadagogy II
+* #10A: Perspectives on Critical Pedagogy II
 * #10B: History, Machine Learning, and AI
 * #10C: Roundtable on Scholarly Communication for Digital Humanities Librarianship
 
@@ -60,17 +60,17 @@ Registered participants may access the full conference program in ConfTool. Info
 ### 2:30pm - 3:45pm EDT
 * #12A: Computational Literary Analysis
 * #12B: Ethics of digital stewardship in digital projects: a roundtable
-* #12C: From Passive to Active: Teaching Students to Critically Engage Artifical Intelligence
+* #12C: From Passive to Active: Teaching Students to Critically Engage Artificial Intelligence
 
 ### 4:00pm - 5:15pm EDT
 * #13A: Listening and Looking for Gaps in the AudioVisual Digital Record with the AudiAnnotate (Roundtable)
-* #13B: A Visual Anayltics Approach to the Design of Interactive Maps in Exploring City History (Roundtable)
+* #13B: A Visual Analytics Approach to the Design of Interactive Maps in Exploring City History (Roundtable)
 * #13C: Methods for Critical DH (Lightning Talks)
 
 ### 5:30pm - 6:45pm EDT
 * #14A: Emerging Trends in DH Pedagogy (Lightning Talks)
 * #14B: Experimental Humanities and Critical Making
-* #14C: DH For Librarians: Imaginging Possible Futures for Professional Development (Roundtable)
+* #14C: DH For Librarians: Imagining Possible Futures for Professional Development (Roundtable)
 
 ---
 
@@ -81,7 +81,7 @@ Registered participants may access the full conference program in ConfTool. Info
 * #15C: Critical Approaches to Language and DH
 
 ### 10:00am - 11:15am EDT
-* #16A: Installations, Performances, and Altnerate Formats
+* #16A: Installations, Performances, and Alternate Formats
 
 ### 11:30am - 12:45pm EDT
 * #17A: Reckoning with Race and Memory: Digital Humanities at the University of the South
