@@ -3,8 +3,10 @@ items:
     url: "/"
   - text: Registration
     url: '/en/registration'
-  - text: For Reviewers
-    url: '/en/reviewer-guidelines'
+   - text: Program
+    url: '/en/program'
+  - text: Keynote Speakers
+  url: '/en/keynote'
   - text: Policies
     dropdown:
       - text: Code of Conduct
@@ -13,10 +15,10 @@ items:
         url: '/en/policies/accessibility'
       - text: Privacy
         url: '/en/policies/privacy'
-  - text: Program
-    url: "/en/#schedule"
-  - text: Keynote Speakers
-    url: "/en/keynote"
+  - text: CFP
+    url: '/en/cfp'
+  - text: For Reviewers
+    url: '/en/reviewer-guidelines'
   - text: Partners
     url: "/en/#partners"
   - text: FAQ
