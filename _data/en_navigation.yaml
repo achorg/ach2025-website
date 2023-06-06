@@ -3,10 +3,10 @@ items:
     url: "/"
   - text: Registration
     url: '/en/registration'
-   - text: Program
+  - text: Program
     url: '/en/program'
   - text: Keynote Speakers
-  url: '/en/keynote'
+    url: '/en/keynote'
   - text: Policies
     dropdown:
       - text: Code of Conduct
