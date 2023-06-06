@@ -41,7 +41,7 @@ Registered participants may access the full conference program in ConfTool. Info
 ---
 
 ## Friday, June 30
-### 8:30am - 9:30am Eastern
+### 8:30am - 9:45am Eastern
 * #8A: ACH-sponsored Program on DH Publishing Options
 
 ### 10:00am - 11:15am Eastern
@@ -75,7 +75,7 @@ Registered participants may access the full conference program in ConfTool. Info
 ---
 
 ## Saturday, July 1
-### 8:30am - 9:30am Eastern
+### 8:30am - 9:45am Eastern
 * #15A: NEH Funding for the Digital Humanities: Finding Your Fit
 * #15B: Critical Library Studies II
 * #15C: Critical Approaches to Language and DH
