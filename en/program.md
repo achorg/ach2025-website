@@ -5,7 +5,7 @@ layout: page
 
 ## Conference Program
 
-Registered participants may access the full conference program in ConfTool. Information about virtual spaces (Zoom and Work Adventure) will be shared in ConfTool and via direct email to attendees. 
+Registered participants ([register for the conference here](https://members.ach.org/civicrm/event/info/?id=20&reset=1)!) may access the full conference program in [ConfTool](https://www.conftool.pro/ach2023/). Information about virtual spaces (Zoom and Work Adventure) will be shared in ConfTool and via direct email to attendees. 
 
 ---
 
