@@ -19,7 +19,4 @@ items:
     url: '/en/cfp'
   - text: For Reviewers
     url: '/en/reviewer-guidelines'
-  - text: Partners
-    url: "/en/partners"
-  - text: FAQ
-    url: "/en/faq"
+
