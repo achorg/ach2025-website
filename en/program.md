@@ -11,7 +11,7 @@ Registered participants ([register for the conference here](https://members.ach.
 
 ## Thursday, June 29
 ### 8:30am - 9:45am EDT
-* #1A: Multilingual DH
+* #1A: Multilingual DH (Lightning Talks)
 * #1B: Critical Library Studies
 * #1C: Critical Digital Editions
 
