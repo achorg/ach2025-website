@@ -18,6 +18,7 @@ Registered participants ([register for the conference here](https://members.ach.
 ### 10:00am - 11:15am EDT
 * #2A: Reflecting on Making DH Work for Us: Labor, Care, and Careers
 * #2B: Critical Approaches to Extended Reality
+* #2C: Cultural Analytics Pedagogies (Roundtable)
 
 ### 11:30am - 1:30pm EDT
 * #3A: Opening Remarks and Keynote Roundtable: Accessibility and Digital Scholarship
@@ -28,7 +29,6 @@ Registered participants ([register for the conference here](https://members.ach.
 ### 3:00pm - 4:15pm EDT
 * #5A: Cultural Analytics and Community
 * #5B: Digital Cultural Studies I
-* #5C: Cultural Analytics Pedagogies (Roundtable)
 
 ### 4:30pm - 5:45pm EDT
 * #6A: Exploring Methods in Multilingual DH
