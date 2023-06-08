@@ -15,8 +15,8 @@ items:
         url: '/en/policies/accessibility'
       - text: Privacy
         url: '/en/policies/privacy'
-  - text: CFP
-    url: '/en/cfp'
-  - text: For Reviewers
-    url: '/en/reviewer-guidelines'
+      - text: CFP
+        url: '/en/cfp'
+      - text: For Reviewers
+        url: '/en/reviewer-guidelines'
 
