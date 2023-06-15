@@ -29,6 +29,7 @@ Registered participants ([register for the conference here](https://members.ach.
 ### 3:00pm - 4:15pm EDT
 * #5A: Cultural Analytics and Community
 * #5B: Digital Cultural Studies I
+* #5C: Proof of Existence: Archives, Community and DH
 
 ### 4:30pm - 5:45pm EDT
 * #6A: Exploring Methods in Multilingual DH
@@ -98,7 +99,6 @@ Registered participants ([register for the conference here](https://members.ach.
 ### 4:45pm - 6:00pm EDT
 * #20A: Computational Approaches to Humanities Data
 * #20B: Digital (Humanities) Trace Data: Critical Approaches to Platforms, APIs, and Metrics for Studying DH Communities (Panel)
-* #20C: Proof of Existence: Archives, Community and DH
 
 ### 6:15pm - 6:45pm EDT
 * #21A: Closing Remarks
