@@ -57,6 +57,7 @@ Registered participants ([register for the conference here](https://members.ach.
 
 ### 1:00pm - 2:15pm EDT
 * #11A: Archives and Sustainability (Installations)
+* #11B: The Public Digital Humanities Institute: An institute to support academic & community collaborations in the digital humanities (Panel)
 
 ### 2:30pm - 3:45pm EDT
 * #12A: Computational Literary Analysis
@@ -94,7 +95,6 @@ Registered participants ([register for the conference here](https://members.ach.
 ### 3:15pm - 4:30pm EDT
 * #19A: Mapping Humanities: New and Past Representation of Human Mobility and Migration Flows (Roundtable)
 * #19B: Global DH Perspectives II
-* #19C: The Public Digital Humanities Institute: An institute to support academic & community collaborations in the digital humanities (Panel)
 
 ### 4:45pm - 6:00pm EDT
 * #20A: Computational Approaches to Humanities Data
