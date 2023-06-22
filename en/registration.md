@@ -6,7 +6,7 @@ layout: page
 
 Registration will open April 19th, 2023.
 
-Registration will close June 22nd, 2023.
+Registration ~~will close June 22nd, 2023~~ has been extended through Tuesday, June 27 at 11:59pm EDT.
 
 *Presenters are required to register by May 19th, 2023 to allow sufficient time for production of conference materials.*
 
