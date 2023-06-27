@@ -43,7 +43,7 @@ Registered participants ([register for the conference here](https://members.ach.
 
 ## Friday, June 30
 ### 8:30am - 9:45am EDT
-* #8A: ACH-sponsored Program on DH Publishing Options
+* #8A: NEH Funding for the Digital Humanities: Finding Your Fit (new day and time!)
 
 ### 10:00am - 11:15am EDT
 * #9A: Inclusion and Ethics in DH (Lightning Talks)
@@ -78,7 +78,7 @@ Registered participants ([register for the conference here](https://members.ach.
 
 ## Saturday, July 1
 ### 8:30am - 9:45am EDT
-* #15A: NEH Funding for the Digital Humanities: Finding Your Fit
+* #15A: moved to session #8A (Friday, June 30 at 8:30am EDT)
 * #15B: Critical Library Studies II
 * #15C: Critical Approaches to Language and DH
 
