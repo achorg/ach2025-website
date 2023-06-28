@@ -78,7 +78,6 @@ Registered participants ([register for the conference here](https://members.ach.
 
 ## Saturday, July 1
 ### 8:30am - 9:45am EDT
-* #15A: moved to session #8A (Friday, June 30 at 8:30am EDT)
 * #15B: Critical Library Studies II
 * #15C: Critical Approaches to Language and DH
 
