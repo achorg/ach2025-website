@@ -7,6 +7,8 @@ items:
     url: '/en/program'  
   - text: Keynote Speakers
     url: '/en/keynote'
+  - text: Sponsor
+    url: '/en/sponsor'
   - text: Policies
     dropdown:
       - text: Code of Conduct
