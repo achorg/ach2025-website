@@ -15,7 +15,7 @@ Join Amy Kirchhoff, Senior Manager for [Constellate](https://constellate.org/), 
 
 Amy Kirchhoff, Senior Manager for Constellate, will demonstrate the platform from 1:00 PM - 3:00 PM EDT (Session #18A) in Work Adventure. These demos are scheduled in 30 minute-blocks. Feel free to [reserve a spot with Amy](https://calendly.com/d/yt3-scr-2jt/one-off-meeting?month=2023-07&date=2023-07-01) to learn about Constellate and learning and teaching text analysis. 
 
-#### Amy Kirchhoff, Senior Manager for Constellate
+**Amy Kirchhoff, Senior Manager for Constellate**  
 Amy’s long career at non-profit ITHAKA has included roles at JSTOR, Portico, and now Constellate. In her current position, she helps schools introduce computational literacy skills to their students, and is passionate about using the Constellate platform to help develop text analysis and data-mining competencies.
 
 ## About Constellate and the TAP Institute
