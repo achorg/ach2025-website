@@ -83,14 +83,14 @@ Registered participants ([register for the conference here](https://members.ach.
 * #15C: Critical Approaches to Language and DH
 
 ### 10:00am - 11:15am EDT
-* #16A: Installations, Performances, and Alternate Formats
+* #16A: Installations, Performances, and Alternate Formats (Explore the [ACH2023 Work Adventure Virtual World Map](https://drive.google.com/file/d/1rIc3koXzQL-uqN7brWREqoFqiLnpocn8/view?usp=drive_link))
 
 ### 11:30am - 12:45pm EDT
 * #17A: Reckoning with Race and Memory: Digital Humanities at the University of the South
 * #17B: Designing Frameworks for DH Reparative Practices
 
 ### 1:00pm - 3:00pm EDT
-* #18A: Poster Session
+* #18A: Poster Session (Explore the [ACH2023 Work Adventure Virtual World Map](https://drive.google.com/file/d/1rIc3koXzQL-uqN7brWREqoFqiLnpocn8/view?usp=drive_link))
 
 ### 3:15pm - 4:30pm EDT
 * #19A: Mapping Humanities: New and Past Representation of Human Mobility and Migration Flows (Roundtable)
