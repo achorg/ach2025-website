@@ -19,7 +19,7 @@ The registration fee schedule will be:
 * Contingent/un-/underemployed: $25
 * Contingent/un-/underemployed Non-Member (includes 1 year of ACH membership): $40
 
-## [Proceed to registration](https://members.ach.org/civicrm/event/info/?id=20&reset=1)
+## Registration is now closed
 
 ### Bursaries
 
