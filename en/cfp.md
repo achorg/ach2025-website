@@ -2,7 +2,7 @@
 title: Call for Proposals
 layout: page
 ---
-### **A﻿CH 2023 CFP**
+### **A﻿CH 2025 CFP**
 
 Deadline: February ~~1st~~ 15th, 2023, 11:59:59 PM in GMT -12
 
