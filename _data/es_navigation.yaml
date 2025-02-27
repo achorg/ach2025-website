@@ -1,23 +1,23 @@
 items:
   - text: Inicio
     url: "/es"
-  - text: CFP
-    url: '/es/cfp'
-  - text: Para los revisores
-    url: '/es/lineamientos-para-revisores'
-  - text: Políticas
-    dropdown:
-      - text: Código de conducta
-        url: '/es/politicas/codigo-de-conducta'
-      - text: Accesibilidad
-        url: '/es/politicas/accesibilidad'
-      - text: Privacidad
-        url: '/es/politicas/privacidad'
-  - text: Programa
-    url: "/es/#schedule"
-  - text: Conferencias
-    url: "/es/#speakers"
-  - text: Socios
-    url: "/es/#partners"
-  - text: Preguntas frecuentes
-    url: "/es/#faq"
+  # - text: CFP
+  #   url: '/es/cfp'
+  # - text: Para los revisores
+  #   url: '/es/lineamientos-para-revisores'
+  # - text: Políticas
+  #   dropdown:
+  #     - text: Código de conducta
+  #       url: '/es/politicas/codigo-de-conducta'
+  #     - text: Accesibilidad
+  #       url: '/es/politicas/accesibilidad'
+  #     - text: Privacidad
+  #       url: '/es/politicas/privacidad'
+  # - text: Programa
+  #   url: "/es/#schedule"
+  # - text: Conferencias
+  #   url: "/es/#speakers"
+  # - text: Socios
+  #   url: "/es/#partners"
+  # - text: Preguntas frecuentes
+  #   url: "/es/#faq"

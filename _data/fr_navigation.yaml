@@ -1,23 +1,23 @@
 items:
-  - text: Maison
+  - text: page d'accueil
     url: "/fr"
-  - text: CFP
-    url: '/fr/cfp'
-  - text: Pour les examinateurs
-    url: '/fr/lignes-directrices-pour-lexaminateur'
-  - text: Stratégies
-    dropdown:
-      - text: Code de conduite
-        url: '/fr/strategies/code-de-conduite'
-      - text: Accessibilité
-        url: '/fr/strategies/accessibilite'
-      - text: Intimité
-        url: '/fr/strategies/intimite'
-  - text: Programme
-    url: "/fr/#schedule"
-  - text: Keynotes
-    url: "/fr/#speakers"
-  - text: Partenaires
-    url: "/fr/#partners"
-  - text: Politiques
-    url: "/fr/#faq"
+  # - text: CFP
+  #   url: '/fr/cfp'
+  # - text: Pour les examinateurs
+  #   url: '/fr/lignes-directrices-pour-lexaminateur'
+  # - text: Stratégies
+  #   dropdown:
+  #     - text: Code de conduite
+  #       url: '/fr/strategies/code-de-conduite'
+  #     - text: Accessibilité
+  #       url: '/fr/strategies/accessibilite'
+  #     - text: Intimité
+  #       url: '/fr/strategies/intimite'
+  # - text: Programme
+  #   url: "/fr/#schedule"
+  # - text: Keynotes
+  #   url: "/fr/#speakers"
+  # - text: Partenaires
+  #   url: "/fr/#partners"
+  # - text: Politiques
+  #   url: "/fr/#faq"

@@ -1,24 +1,24 @@
 items:
   - text: Home
     url: "/"
-  - text: Registration
-    url: '/en/registration'
-  - text: Program
-    url: '/en/program'  
-  - text: Keynote Speakers
-    url: '/en/keynote'
-  - text: Sponsor
-    url: '/en/sponsor'
-  - text: Policies
-    dropdown:
-      - text: Code of Conduct
-        url: '/en/policies/code-of-conduct'
-      - text: Accessibility
-        url: '/en/policies/accessibility'
-      - text: Privacy
-        url: '/en/policies/privacy'
-      - text: CFP
-        url: '/en/cfp'
-      - text: For Reviewers
-        url: '/en/reviewer-guidelines'
+  # - text: Registration
+  #   url: '/en/registration'
+  # - text: Program
+  #   url: '/en/program'  
+  # - text: Keynote Speakers
+  #   url: '/en/keynote'
+  # - text: Sponsor
+  #   url: '/en/sponsor'
+  # - text: Policies
+  #   dropdown:
+  #     - text: Code of Conduct
+  #       url: '/en/policies/code-of-conduct'
+  #     - text: Accessibility
+  #       url: '/en/policies/accessibility'
+  #     - text: Privacy
+  #       url: '/en/policies/privacy'
+  #     - text: CFP
+  #       url: '/en/cfp'
+  #     - text: For Reviewers
+  #       url: '/en/reviewer-guidelines'
 
