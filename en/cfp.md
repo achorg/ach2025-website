@@ -104,14 +104,14 @@ Our review criteria reflect the commitment to an expansive understanding of digi
 
 The review period will begin on April 1 and end on May 1, 2025.
 
-Notifications about acceptance or rejection will be made by May 15, 2025. Reviews will also be made available upon notification.
+Notifications about acceptance or rejection are anticipated to end by May 15, 2025. Reviews will also be made available upon notification.
 
 
 ### Copyright and Privacy
 
 Submissions and reviews will not be made available to the public. The Program Committee will have access to all submissions and reviews. 
 
-Reviewers will be able to view only the proposals assigned to them for review. Authors will be able to view reviews of their submissions after the review process concludes. Names of reviewers will be displayed on a slide in an alphabetical list during the opening session of the conference in gratitude for their contribution.
+Reviewers will be able to view only the proposals assigned to them for review. Authors will be able to view reviews of their submissions after the review process concludes. Names of reviewers will be displayed on a slide in an alphabetical list during the opening session of the conference in gratitude for their contribution (unless the reviewer requests not to be cited).
 
 Accepted proposals will be revised by authors and published in the online program along with their names and affiliations.
 
@@ -136,7 +136,7 @@ ACH 2025 seeks to uphold these values throughout the submission and review proce
 
 ### Accessibility 
 
-ACH seeks to ensure that ACH 2025 is accessible to all participants. All synchronous sessions will make live transcription available to participants, and keynote and plenary sessions will also include sign language interpretation. We will provide guidelines for the accessibility of sessions to all accepted participants. More information, along with a request for information about participant needs, will be circulated in advance.
+ACH seeks to ensure that ACH 2025 is accessible to all participants. All synchronous sessions will make live transcription available to participants, and keynote sessions will also include sign language interpretation. We will provide guidelines for the accessibility of sessions to all accepted participants. More information, along with a request for information about participant needs, will be circulated in advance.
 
 
 ### Conference Time Zone
@@ -147,7 +147,7 @@ ACH 2025 will be scheduled in Central Time. From June 11-13, sessions will be sc
 
 Registration for ACH 2025 will open on May 15th, 2025.
 
-Conference organizers have worked to keep the registration costs as low as possible while ensuring we are providing attendees with a positive conference experience. While organizing a virtual conference is far less expensive than an in-person or hybrid event, there are nonetheless costs for maintaining the conference submission management software, conference platforms, honoraria for keynote and plenary events, and accessibility (sign language interpretation and remote captioning for keynotes and plenaries and live captioning for conference sessions). We are committed to ensuring that cost is not a barrier to participation in ACH 2025. 
+Conference organizers have worked to keep the registration costs as low as possible while ensuring we are providing attendees with a positive conference experience. While organizing a virtual conference is far less expensive than an in-person or hybrid event, there are nonetheless costs for maintaining the conference submission management software, conference platforms, honoraria for keynote and plenary events, and accessibility (sign language interpretation and remote captioning for keynotes and live captioning for conference sessions). We are committed to ensuring that cost is not a barrier to participation in ACH 2025. 
 
 ACH will offer a limited number of bursaries to support attendance by members without institutional support, including students, contingently employed, and un-/underemployed professionals. Bursary applications will open when proposal notifications are sent.
 
