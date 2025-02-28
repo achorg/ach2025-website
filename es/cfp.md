@@ -2,165 +2,168 @@
 title: "Convocatoria: ACH 2023 (29 de junio al 1 de julio de 2023)"
 layout: page
 ---
-Fecha límite: 15 de febrero de 2023, 23:59:59 en GMT -12
+<div class="text-center" >
+<img height="150" src="/assets/img/noun-care-7582892-4C25E1.png"/>  <br>
+</div><br>
 
-Envíe una propuesta: [enlace conftool](https://www.conftool.pro/ach2023/) 
+Fecha límite: 23 de marzo de 2025, 23:59:59 en GMT-4 (EST)
 
-La Asociación para la Computación y las Humanidades (ACH) llevará a cabo **ACH 2023**, una conferencia virtual, del **29 de junio al 1 de julio de 2023.**
+Envíe una propuesta: [enlace conftool](https://www.conftool.pro/ach2025/) 
+
+La Asociación para la Computación y las Humanidades (ACH) llevará a cabo **ACH 2025**, una conferencia virtual, del **Del 11 al 13 de junio de 2025.**
 
 ### Enfoque de la conferencia
 
- ACH 2023 se guía por nuestros compromisos con la equidad y la justicia. La conferencia reconoce que la erudición en humanidades digitales es inextricablemente sociopolítica. Por lo tanto, hemos optado por renunciar a un tema para enfatizar la naturaleza sociopolítica inherente del trabajo y alentar a todos los escritores de propuestas a abordar explícitamente los intereses sociopolíticos de su trabajo.
+En medio de rápidas transformaciones sociales y tecnológicas y elecciones históricas en todo el mundo, ACH fomenta el diálogo, los espacios y la solidaridad en torno a la equidad y la justicia en contextos locales, transfronterizos y globales. ACH 2025 subraya la importancia de abordar los desafíos sociales en las humanidades digitales y más allá, como la discriminación racial y de género, al tiempo que destaca las ramificaciones de las crisis informáticas y ambientales. Únase a nosotros para navegar por diversos entornos políticos y dar forma a una conferencia virtual que sea justa e inclusiva.
 
-ACH 2023 prioriza propuestas que se enfocan en la justicia social en múltiples contextos: trabajo antirracista, estudios indígenas, estudios étnicos culturales y críticos, feminismo interseccional, estudios poscoloniales y decoloniales, estudios de discapacidad y estudios queer.
-
-También damos prioridad a las propuestas que abordan explícitamente el multilingüismo en las humanidades digitales, que es en sí mismo una cuestión de justicia social. Los ejemplos de temas incluyen: metadatos multilingües, datos abiertos vinculados, preservación y difusión de idiomas en peligro, OCR para escrituras no latinas, métodos para lenguas escritas/leídas de derecha a izquierda, herramientas e interfaces para humanidades digitales multilingües, pedagogías y corpus multilingües.
+ACH 2025 valora los modos de trabajo orientados a los procesos y las relaciones por encima del resultado final, fomentando la creación de esperanza, y buscamos priorizar las propuestas que se centren en el cuidado, la comunidad y la colaboración en diversos contextos. Estamos especialmente interesados ​​en recibir propuestas de participantes con una variedad de experiencia y una variedad de roles, incluidos puestos de alto nivel, empleo fuera de la educación superior y estudiantes de posgrado y pregrado. Además, invitamos a presentar propuestas a los participantes que sean nuevos en las humanidades digitales.
 
 ### Alcance de la conferencia
 
-Las áreas de enfoque e investigación de humanidades digitales relevantes para la conferencia incluyen, entre otras:
+Como conferencia comprometida con el compromiso interdisciplinario, ACH 2025 da la bienvenida a propuestas interdisciplinarias. Las áreas de investigación en humanidades digitales que son relevantes para la conferencia incluyen, entre otras:
 
+* Colaboraciones para la comunidad
+* Creatividad computacional
+* Creación crítica
 * Enfoques digitales y computacionales para la investigación y la pedagogía humanísticas
 * Patrimonio cultural digital
 * Vigilancia digital
-* Humanidades ambientales y justicia climática
 * Herramientas e infraestructuras de humanidades digitales
-* Biblioteconomía digital
+* Bibliotecología digital
 * Medios digitales, arte, literatura, historia, música, cine y juegos
 * Humanidades públicas digitales
-* Enfoques humanísticos y éticos para la ciencia de datos y la visualización de datos.
-* Investigación humanística sobre objetos y culturas digitales.
-* Infraestructuras del conocimiento en humanidades
-* Trabajo y organización en humanidades digitales
-* Computación física
+* Humanidades ambientales y justicia climática
+* Enfoques humanísticos y éticos para la ciencia de datos y la visualización de datos
+* Investigación humanística sobre objetos y culturas digitales
+* Infraestructuras de conocimiento de humanidades
+* Sindicatos, trabajo y organización en humanidades digitales
+* Aprendizaje automático, incluida la IA y los LLM y sus implicaciones
+* Multilingüismo en humanidades digitales
+* Investigación multimodal
 * Creación, curación y participación de recursos
-* Uso de tecnologías digitales para escribir, publicar y revisar investigación.
-
-Como conferencia comprometida con el trabajo interdisciplinario, ACH 2023 da la bienvenida a propuestas interdisciplinarias. También estamos especialmente interesados ​​en recibir propuestas de participantes con una variedad de conocimientos y de roles, incluidos puestos alternativos, empleo fuera de la educación superior y estudiantes tanto de posgrado como de pregrado. Además, invitamos propuestas de participantes que son nuevos en las humanidades digitales.
+* Uso de tecnologías digitales para escribir, publicar y revisar investigaciones
 
 ### Tipos e idiomas de presentación de conferencias
 
-Damos la bienvenida a los siguientes tipos de envío:
+Los trabajos y paneles se presentarán a través de un sistema de videoconferencia; las presentaciones creativas pueden presentarse a través de un sistema de videoconferencia o a través de Work Adventure.
 
-Presentaciones tradicionales (12-15 minutos): Presentaciones dinámicas que comparten experimentos, trabajos en desarrollo o reflexiones sostenidas sobre los resultados de un proyecto más completo mientras involucran una variedad de participantes y fomentan las conexiones y el diálogo.
+Aceptamos los siguientes tipos de presentaciones:
 
-Presentaciones cortas (5 minutos): Presentaciones altamente enfocadas que discuten de manera sucinta un tema, método, herramienta, proyecto o trabajo en desarrollo para catalizar ideas y fomentar la discusión de seguimiento.
+#### Presentaciones creativas:
+Obras de arte, carteles, visualizaciones de datos, instalaciones, performances, demostraciones y otras intervenciones que aborden cuestiones, métodos y temas de conferencias sobre cualquier tema, proyecto o herramienta relevante en cualquier etapa de desarrollo.
 
-Carteles (sesión de pósters): en las propuestas de pósters se presentan trabajos sobre cualquier tema relevante u ofrecen demostraciones de proyectos, herramientas y software en cualquier etapa de desarrollo. Los presentadores de carteles grabarán un video breve (5 minutos, máximo) para acompañar su cartel y se unirán a la plataforma de la conferencia durante la sesión de carteles para conversaciones sincrónicas con los asistentes.
+#### Ponencias (12-15 minutos):
+Presentaciones dinámicas que compartan experimentos, trabajos en progreso o reflexiones sostenidas sobre los resultados de proyectos más completos, al mismo tiempo que involucran a una variedad de participantes y fomentan las conexiones y el diálogo.
 
-Paneles (1 hora y 15 minutos): Sesiones atractivas que facilitan el diálogo entre presentaciones que son en gran medida independientes, destacando las conexiones entre proyectos, métodos o temas y reservando un mínimo de 15 minutos para la discusión con la audiencia.
-
-Mesas redondas (1 hora y 15 minutos): Sesiones en las que los oradores brindan breves intervenciones o marcos sobre un conjunto cohesivo de cuestiones, palabras clave, métodos y/o temas, reservando un mínimo de 30 minutos para la discusión entre los oradores y la audiencia.
-
-Instalaciones y representaciones (sesión de instalación/actuación): Obras de arte, visualizaciones de datos creativos, representaciones, demostraciones y otras intervenciones críticas que involucran temas y métodos de la conferencia. Quienes desarrollen este tipo de intervención grabarán un video de su presentación o instalación y se unirán a la plataforma de la conferencia durante la sesión asignada para mantener una conversación sincrónica con los asistentes.
-
-Formato alternativo (duración variable): dadas las posibilidades experimentales de una conferencia virtual, alentamos a quienes propongan sesiones a considerar formatos alternativos. Al proponer una sesión de este tipo, describa su sesión e indique la duración preferida.
-
-Si bien nuestro CFP se ha publicado en inglés, español y francés, agradecemos las propuestas de contribuciones en todos los idiomas. Las propuestas se revisarán en el idioma de presentación. Independientemente del idioma de su propuesta, asegúrese de que sus cinco palabras clave estén en inglés para facilitar la organización del programa.
-
-Tenga en cuenta que, a los efectos de la programación, podemos sugerir un tipo de envío alternativo o colaboración entre propuestas relacionadas. Si bien no hay límite en el número de presentaciones, el comité del programa normalmente no programará más de dos presentaciones de un autor presentador.
-
-Requisitos de la propuesta de conferencia
-
-Las propuestas se enviarán mediante ConfTool. Cree una nueva cuenta para enviar su propuesta.
-
-Las propuestas deben incluir:
-
-* Resumen
-* * Resúmenes de 250 palabras para artículos, carteles, charlas relámpago, instalaciones y actuaciones
-  * Resúmenes de 500 palabras para paneles y formatos alternativos. Los formatos alternativos deben incluir el tiempo solicitado.
-  * Los resúmenes deben abordar directamente los criterios de revisión: relevancia para el enfoque de la conferencia; compromiso con estudios relevantes; marco y finalidad; aplicabilidad, significado y valor; y organización y claridad.
-* Lista de participantes e información de contacto ingresada directamente en ConfTool junto con el envío
-* 3-5 palabras clave ingresadas directamente en ConfTool
+#### Paneles (1 hora y 15 minutos):
+Sesiones atractivas que faciliten el diálogo entre presentaciones, resaltando las conexiones entre proyectos, métodos o temas y reservando un mínimo de 15 minutos para el debate con la audiencia.
 
 ### Revisión y notificación de propuestas
 
-Las propuestas de ACH 2023 se someterán a una revisión por pares abierta. Los nombres y afiliaciones de los autores serán conocidos por el revisor de una propuesta, mientras que los nombres y afiliaciones del revisor serán conocidos por los autores. Estamos adoptando la revisión por pares abierta por varias razones:
+Las propuestas se enviarán mediante [ConfTool](https://www.conftool.pro/ach2025/). Necesitará una cuenta para enviar su propuesta.
 
-* Falta de consenso sobre cómo anonimizar las presentaciones, lo que conduce a propuestas que son identificables;
-* La naturaleza pública de la erudición en humanidades digitales, lo que significa que, de hecho, no se garantiza que las presentaciones anónimas sean anónimas; y
-* La falta de rendición de cuentas en la revisión por pares a ciegas, que puede promover la falta de civismo en el proceso de revisión.
+Los resúmenes deben tener entre 250 y 500 palabras de extensión. Los resúmenes deben abordar directamente los criterios de revisión: relevancia para el tema de la conferencia; compromiso con la investigación pertinente; marco y propósito; aplicabilidad, importancia y valor; y organización y claridad.
 
-Por lo tanto, nuestro uso de la revisión por pares abierta tiene como objetivo mitigar las desigualdades implícitas en el proceso de revisión a ciegas. Sin embargo, reconocemos que la revisión abierta por pares plantea problemas con la dinámica del poder, como las preocupaciones que los académicos emergentes pueden tener sobre la evaluación de un académico reconocido. Para mitigar estos problemas, el Comité del Programa asignará revisores de manera cuidadosa y concienzuda, y los revisores tendrán derecho a negarse a revisar una presentación por cualquier motivo. También reconocemos que la revisión por pares abierta podría contribuir a aumentar el sesgo. Para mitigar esto, alentamos a los revisores a evaluar sus sesgos y brindaremos una guía clara sobre su papel en el proceso de revisión. Agradecemos a las presidentas del Comité del Programa DH2020, Laura Estill y Jennifer Guiliano, por su trabajo en [la revisión abierta por pares](https://dh2020.adho.org/guidelines/the-open-peer-review-process/), que influyó en nuestro enfoque para DH Unbound 2022 y ahora ACH 2023.
+La lista de participantes y la información de contacto deben ingresarse directamente en ConfTool junto con el resumen de envío.
 
-Nuestros criterios de revisión reflejan el compromiso con una comprensión amplia de las humanidades digitales y la naturaleza sociopolítica de la producción académica **erudición**:
+Se le solicitará que elija palabras clave en ConfTool, que se utilizarán para hacer coincidir su envío con los revisores. Seleccione los términos más relevantes que describan su trabajo.
 
-* **20% - Relevancia para el enfoque de la conferencia**
+### Formato e idiomas de la conferencia
 
-  * El tema de la propuesta está conectado con el trabajo antirracista, los estudios indígenas, los estudios étnicos culturales y críticos, el feminismo interseccional, los estudios poscoloniales y decoloniales, los estudios queer y/o el multilingüismo.
-* **20% - Compromiso con Beca Relevante**
+Si bien nuestra convocatoria de propuestas se publicó en inglés, español, portugués, francés, italiano y coreano, aceptamos propuestas de contribuciones en todos los idiomas. Las propuestas se revisarán en el idioma de presentación. Las presentaciones pueden realizarse en el idioma de la propuesta, aunque es posible que tengamos acceso limitado a traductores. Independientemente del idioma de su propuesta, asegúrese de que sus cinco palabras clave estén en inglés para facilitar la programación del programa.
 
-  * La propuesta se relaciona explícitamente con la investigación relevante y ofrece un contexto dentro del estado actual de los campos en los que se involucra. Las citas formales (en el estilo preferido del redactor de la propuesta) solo se requieren cuando se utilizan citas directas.
-* **20% - Marco y Propósito**
+Tenga en cuenta que, a los efectos de la programación, podemos sugerir un tipo de presentación alternativa o una colaboración entre propuestas relacionadas. Si bien no hay límite en la cantidad de presentaciones, el comité del programa programará como máximo dos presentaciones de un autor que presente.
 
-  * La propuesta ofrece un marco teórico, metodológico o pedagógico claro; declaración concreta de propósitos; y articulación explícita de las implicaciones sociopolíticas de la obra.
-* **20% - Aplicabilidad, Importancia y Valor**
+#### Plataformas alternativas para la conferencia
+La conferencia virtual de ACH se llevará a cabo a través de videoconferencias tradicionales, así como a través de nuestra plataforma de conferencias virtuales, Work Adventure, que ofrece un mundo animado 2D interactivo y la capacidad de compartir videos, audio o imágenes a través del navegador (la plataforma está optimizada para Google Chrome). Las presentaciones incluirán una conversación sincrónica a medida que los asistentes “caminan” hacia la sala de instalación/actuación virtual.
 
-  * La propuesta articula la aplicabilidad, significado y valor de la contribución teórica, metodológica y/o práctica a las humanidades digitales en general.
-* **20% - Recomendación general**
+### Revisión y notificación de propuestas
 
-  * La propuesta está organizada de manera efectiva y ofrece una articulación clara del contenido de la presentación. 
+Las propuestas de ACH 2025 se someterán a una revisión abierta por pares. El revisor de la propuesta conocerá los nombres y las afiliaciones de los autores, mientras que los nombres y las afiliaciones del revisor serán conocidos por los autores. Estamos adoptando la revisión abierta por pares por varias razones: la falta de consenso sobre cómo anonimizar las propuestas, lo que lleva a propuestas que son identificables; la naturaleza pública de la investigación en humanidades digitales, lo que significa que las propuestas anonimizadas no están, de hecho, garantizadas de ser anónimas; y la falta de responsabilidad en la revisión anónima por pares, que puede promover la falta de civismo en el proceso de revisión.
 
-El período de revisión comenzará el  February 6, 2023 y terminar en March 6, 2023. 
+Por lo tanto, nuestro uso de la revisión abierta por pares tiene como objetivo mitigar las desigualdades implícitas en el proceso de revisión anónima. Sin embargo, reconocemos que la revisión abierta por pares plantea problemas con la dinámica de poder, como las preocupaciones que los académicos emergentes pueden tener sobre la evaluación de un académico establecido. Para abordar estos problemas, el Comité del Programa asignará revisores de manera cuidadosa y reflexiva; Los revisores tendrán derecho a negarse a revisar un envío por cualquier motivo. También reconocemos que la revisión abierta por pares podría contribuir a un mayor sesgo. Para mitigar este riesgo, alentamos a los revisores a evaluar sus sesgos y brindaremos una guía clara sobre su papel en el proceso de revisión. Seguimos agradecidos a las presidentas del Comité del Programa DH2020, Laura Estill y Jennifer Guiliano, por su trabajo en la revisión abierta por pares, que influyó en nuestro enfoque para DH Unbound 2022, ACH 2023, 2024 y ahora 2025.
 
-Las notificaciones sobre la aceptación o el rechazo se realizarán antes del March 20, 2023. Las revisiones también estarán disponibles previa notificación.
+### Criterios de revisión
+
+Nuestros criterios de revisión reflejan el compromiso con una comprensión expansiva de las humanidades digitales y la naturaleza sociopolítica de la investigación:
+
+* 20 %: relevancia para el enfoque de la conferencia
+* El tema de la propuesta está relacionado con los temas de atención, comunidad y/o colaboración en el campo de las humanidades digitales.
+* 20 %: compromiso con la investigación relevante
+* La propuesta se relaciona explícitamente con la investigación relevante y ofrece un contexto dentro del estado actual de los campos en los que se involucra. Las citas formales (en el estilo preferido del autor de la propuesta) solo se requieren cuando se utiliza una cita directa.
+* 20 % – Marco y propósito
+* La propuesta ofrece un marco teórico, metodológico o pedagógico claro; una declaración concreta de propósito; y una articulación explícita de las implicaciones sociopolíticas del trabajo.
+* 20 % – Aplicabilidad, importancia y valor
+* La propuesta articula la aplicabilidad, la importancia y el valor de la contribución teórica, metodológica y/o práctica a las humanidades digitales en general.
+* 20 % – Recomendación general
+* La propuesta está organizada de manera efectiva y ofrece una articulación clara del contenido de la presentación.
+
+El período de revisión comenzará el 1 de abril y finalizará el 1 de mayo de 2025.
+
+Las notificaciones sobre la aceptación o el rechazo se realizarán antes del 15 de mayo de 2025. Las revisiones también estarán disponibles tras la notificación.
 
 ### Derechos de autor y privacidad
 
-Las presentaciones y reseñas no estarán disponibles para el público. El Comité de Programa tendrá acceso a todas las presentaciones y revisiones. Los revisores solo podrán ver las propuestas que se les hayan asignado para su revisión. Los autores podrán ver las revisiones de sus envíos una vez que concluya el proceso de revisión. Los nombres de los revisores se mostrarán en una diapositiva en una lista alfabética durante la sesión de apertura de la conferencia en agradecimiento por su contribución.
+Las propuestas y revisiones no estarán disponibles para el público. El Comité del programa tendrá acceso a todas las propuestas y revisiones.
+
+Los revisores podrán ver solo las propuestas que se les asignen para su revisión. Los autores podrán ver las revisiones de sus propuestas una vez que concluya el proceso de revisión. Los nombres de los revisores se mostrarán en una diapositiva en una lista alfabética durante la sesión de apertura de la conferencia en agradecimiento por su contribución.
 
 Las propuestas aceptadas serán revisadas por los autores y publicadas en el programa en línea junto con sus nombres y afiliaciones.
 
-**Código de conducta**
+### Uso de IA generativa en propuestas
 
-ACH 2023 se dedica a crear un entorno de conferencia seguro, respetuoso y colegiado para el beneficio de todos los asistentes y para el avance de la investigación y la producción académica en los campos apoyados por ACH. ACH 2023 ha adaptado el Código de Conducta de la Conferencia ACH:
+Siguiendo el ejemplo de la convocatoria de propuestas 2025 de KeystoneDH, estamos abiertos al uso responsable de la IA generativa: "Dado que la IA generativa es un área de investigación importante y oportuna en las humanidades digitales, nos interesan sus experimentos con ella, pero esperamos que los participantes de nuestra conferencia asuman la responsabilidad de la autoría de las propuestas y presentaciones. Solicitamos a los participantes y presentadores de conferencias que informen sobre el uso que hacen de las herramientas de lenguaje de IA generativa, siguiendo la política de IA de arXiv”.
 
-ACH se dedica a brindar una experiencia de conferencia libre de acoso para todos, independientemente de su identidad de género, expresión de género, orientación sexual, discapacidad, apariencia física, tamaño corporal, raza, etnia, origen o religión. Al asistir a los eventos de ACH, demuestra su compromiso de contribuir a una experiencia segura e inclusiva para todos. No toleramos el acoso de los participantes del evento de ninguna forma, ya sea que los eventos se celebren de forma virtual o presencial. A los participantes en eventos de ACH que violen estas reglas se les puede prohibir la participación en o expulsar de las actividades de ACH a discreción de los organizadores.
+El uso de IA generativa debe citarse de acuerdo con los estándares profesionales, como las pautas de la MLA para citar IA generativa.
 
-El acoso incluye pero no se limita a: comentarios verbales despectivos; chistes y lenguaje sexista, racista o discriminatorio; texto o material audiovisual sexual y/o discriminatorio en espacios de conferencias (virtuales o presenciales), a menos que sea criticado en un contexto académico; intimidación deliberada; acecho; persecusión; fotografías o grabaciones de acoso; cuestionar el derecho de alguien a usar el baño de su elección; interrupción sostenida de conversaciones u otros eventos; contacto físico inapropiado; y atención sexual no deseada.
+### Código de conducta
 
-Se espera que los participantes a los que se les pida que detengan cualquier comportamiento de acoso cumplan de inmediato. Si un participante incurre en conductas de acoso, los organizadores podrán tomar las medidas que consideren oportunas, incluida la advertencia al infractor o la expulsión del evento.
+ACH 2025 se dedica a crear un entorno de conferencia seguro, respetuoso y colegial para el beneficio de todos los asistentes y para el avance de la investigación y los estudios en el campo. ACH 2025 ha adaptado el Código de conducta de la conferencia ACH:
 
-ACH 2023 busca mantener estos valores a lo largo del proceso de presentación y revisión, así como durante la conferencia misma. Familiarícese con las pautas de informes y nuestro proceso para abordar las infracciones.
+ACH se dedica a proporcionar una experiencia de conferencia libre de acoso para todos, independientemente de la identidad de género, expresión de género, orientación sexual, discapacidad, apariencia física, tamaño corporal, raza, etnia, origen, religión o estado y función laboral. Al asistir a los eventos de ACH, usted señala su compromiso de contribuir a una experiencia segura e inclusiva para todos. No toleramos el acoso de los participantes de los eventos en ninguna forma, ya sea que los eventos se realicen de forma virtual, presencial o en plataformas de redes sociales. Los participantes en los eventos de ACH que infrinjan estas reglas pueden ser excluidos o vetados de las actividades de ACH a discreción de los organizadores.
 
-**Accesibilidad**
+El acoso incluye, entre otros: comentarios verbales despectivos; chistes y lenguaje sexistas, racistas o de otro modo discriminatorios; texto o material audiovisual sexual y/o discriminatorio en espacios de conferencias (virtuales o presenciales), a menos que se critique en un contexto académico; intimidación deliberada; acecho; seguimiento; fotografías o grabaciones acosadoras; cuestionamiento del derecho de alguien a usar el baño de su elección; interrupción sostenida de charlas u otros eventos; contacto físico inapropiado; y atención sexual no deseada.
 
-ACH adopta este código para garantizar que ACH 2023 sea accesible para todos los participantes. Todas las sesiones sincrónicas pondrán a disposición de los participantes la transcripción en vivo, y las sesiones principales y plenarias también incluirán interpretación en lenguaje de señas. Proporcionaremos pautas para la accesibilidad de las sesiones a todos los participantes aceptados. Se distribuirá más información, junto con una solicitud de información sobre las necesidades de los participantes, el April 20, 2023.
+Se espera que los participantes a quienes se les solicite que detengan cualquier comportamiento acosador cumplan de inmediato. Si un participante se involucra en un comportamiento acosador, los organizadores pueden tomar cualquier acción que consideren apropiada, incluida la advertencia al infractor o la expulsión del evento.
 
-**Zona horaria de la conferencia**
+ACH 2025 busca defender estos valores durante todo el proceso de envío y revisión, así como durante la conferencia misma. Familiarícese con las pautas de informes y nuestro proceso para abordar las infracciones.
 
-ACH 2023 se programará en hora del este. Del 29 de junio al 1 de julio, las sesiones se programarán aproximadamente de 10:00 a. m. a 7:00 p. m., hora del Este. 
+### Accesibilidad
 
-**Registro de conferencias y becas**
+ACH busca garantizar que ACH 2025 sea accesible para todos los participantes. Todas las sesiones sincrónicas contarán con transcripción en vivo a disposición de los participantes, y las sesiones magistrales y plenarias también incluirán interpretación en lenguaje de señas. Proporcionaremos pautas para la accesibilidad de las sesiones a todos los participantes aceptados. Se enviará con anticipación más información, junto con una solicitud de información sobre las necesidades de los participantes.
 
-El registro para ACH 2023 se abrirá el March 20, 2023.
+### Zona horaria de la conferencia
 
-El costo de llevar a cabo ACH 2023 es de aproximadamente $4,000. Como resultado, debemos cobrar tarifas de registro para cubrir el costo. Las tarifas de inscripción cubrirán el costo de llevar a cabo una conferencia virtual, que incluye software de gestión de presentación de conferencias, plataformas de conferencias para videoconferencia y chat espacial, honorarios para conferencias principales y eventos plenarios, y accesibilidad (interpretación de lenguaje de señas y subtítulos remotos para conferencias principales y plenarias, y subtítulos en vivo para sesiones de conferencia). Hemos trabajado para mantener los costos de inscripción lo más bajos posible y al mismo tiempo garantizar que brindamos a los asistentes una experiencia positiva en la conferencia.
+ACH 2025 se programará en horario central. Del 11 al 13 de junio, las sesiones se programarán aproximadamente de 9:00 a 18:00 horas, hora central.
 
-ACH ofrecerá una cantidad limitada de becas para respaldar la asistencia de los miembros que tienen un empleo eventual o son estudiantes de posgrado.
+### Inscripción y becas para la conferencia
 
-El cuadro de derechos de inscripción será:
+La inscripción para ACH 2025 se abrirá el 15 de mayo de 2025.
 
-* Miembro conjunto de ACH o ADHO: $50
-* Estudiante ACH o ADHO Miembro Conjunto: $25
-* No miembro regular: $90
-* Estudiante no miembro: $40
-* Contingente/desempleado/subempleado: $40
+Los organizadores de la conferencia han trabajado para mantener los costos de inscripción lo más bajos posibles y, al mismo tiempo, garantizar que los asistentes tengan una experiencia positiva en la conferencia. Si bien organizar una conferencia virtual es mucho menos costoso que un evento presencial o híbrido, existen costos para mantener el software de gestión de envíos de conferencias, las plataformas de conferencias, los honorarios para los eventos de conferencias magistrales y plenarias, y la accesibilidad (interpretación en lenguaje de señas y subtítulos remotos para conferencias magistrales y plenarias, y subtítulos en vivo para las sesiones de la conferencia). Nos comprometemos a garantizar que el costo no sea una barrera para la participación en ACH 2025.
 
-**Información del contacto**
+ACH ofrecerá una cantidad limitada de becas para apoyar la asistencia de los miembros sin apoyo institucional, incluidos estudiantes, empleados eventuales y profesionales desempleados o subempleados. Las solicitudes de becas se abrirán cuando se envíen las notificaciones de propuestas.
 
-Si tiene preguntas e inquietudes sobre el CFP, el programa de la conferencia, las presentaciones, el Código de conducta o la accesibilidad, comuníquese con el presidente de la conferencia ACH 2023 en conference \[at] ach \[dot] org.
+El programa de tarifas de inscripción será el siguiente:
 
-Si está interesado en traducir esta convocatoria de propuestas a otro idioma, comuníquese con el comité de la conferencia en conference \[at] ach \[dot] org. 
+* Socio miembro de ACH o ADHO: $50
+* Socio miembro de ACH o ADHO para estudiantes: $25
+* Socio no miembro regular: $90
+* Socio no miembro para estudiantes: $40
+* Trabajadores eventuales/desempleados/subempleados: $40
 
-**Comité de programa**
+### Información de contacto
 
-**Presidente de la conferencia:** Pamella Lach (ella/su/ella), Universidad Estatal de San Diego
+Si tiene preguntas o inquietudes sobre la convocatoria de propuestas, el programa de la conferencia, las presentaciones, el Código de conducta o la accesibilidad, comuníquese con el presidente de la conferencia ACH 2025 a conference \[at] ach \[dot] org.
 
-**Líder del Comité del Programa:** Liz Grumbach (ella/su/ella), Universidad Estatal de Arizona
+Si está interesado en traducir esta convocatoria de propuestas a otro idioma, comuníquese con el comité de la conferencia a conference [at] ach [dot] org.
 
-**Co-Líderes del Comité de Plataforma:** Alex Wermer-Colan, Universidad de Temple y Andy Janco, Universidad de Pensilvania
+### Comité de la Conferencia 2025
 
-**Miembros del Comité de la Conferencia:** Caitlin Pollock (Universidad de Michigan), Eduard Arriga (Universidad de Clark), Sarah Potvin (Universidad de Texas A&M)
+* Copresidentes de la conferencia: Alex Wermer-Colan (Universidad de Temple) y Dot Porter (Universidad de Pensilvania)
+* Copresidentes del programa: Jajwalya Karajgikar (Universidad de Pensilvania) y Sylvia Fernández (Universidad de Texas en San Antonio)
+* Presidente técnico: Andy Janco (Universidad de Princeton)
+* Responsable de comunicaciones: Amanda Reagan (Universidad de Clemson)
+* Responsable de patrocinio y promoción: Katayoun Torabi (Facultad de Artes y Ciencias de Texas A&M)
 
-Los miembros adicionales del Comité de Programas serán anunciados en breve.
+Se anunciarán otros miembros del comité. Para participar en la planificación de la conferencia, envíe un correo electrónico a conference [at] ach [dot] org.

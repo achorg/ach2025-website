@@ -2,161 +2,173 @@
 title: Appel à propositions
 layout: page
 ---
-Date limite : 15er février 2023, 23 h 59 min 59 s GMT -12
+<div class="text-center" >
+<img height="150" src="/assets/img/noun-care-7582892-4C25E1.png"/>  <br>
+</div><br>
 
-Soumettre une proposition : [lien conftool](https://www.conftool.pro/ach2023/)
+Date limite : 23 mars 2025, 23:59:59 à GMT-4 (EST)
 
-L'Association pour l'informatique et les sciences humaines (ACH) organisera **ACH 2023**, une conférence virtuelle, à partir du **29 juin -1er juillet 2023.**
+
+Soumettre une proposition : [lien conftool](https://www.conftool.pro/ach2025/)
+
+L'Association pour l'informatique et les sciences humaines (ACH) organisera **ACH 2025**, une conférence virtuelle, à partir du **29 juin -1er juillet 2023.**
 
 ### Focus sur la conférence
 
-ACH 2023 est guidé par nos engagements en matière d'équité et de justice. La conférence reconnaît que la recherche en humanités numériques est inextricablement sociopolitique. Nous avons donc choisi de renoncer à un thème pour souligner la nature sociopolitique inhérente à l'œuvre et encourager tous les auteurs de propositions à aborder explicitement les enjeux sociopolitiques de leur travail.
+Dans un contexte de transformations sociétales et technologiques rapides et d'élections historiques dans le monde entier, ACH favorise le dialogue, les espaces et la solidarité sur l'équité et la justice dans les contextes locaux, transfrontaliers et mondiaux. ACH 2025 souligne l'importance de relever les défis sociétaux dans les humanités numériques et au-delà, tels que la discrimination raciale et de genre, tout en soulignant les ramifications des crises informatiques et environnementales. Rejoignez-nous pour naviguer dans divers milieux politiques et façonner une conférence virtuelle juste et inclusive.
 
-ACH 2023 donne la priorité aux propositions axées sur la justice sociale dans de multiples contextes : travail antiraciste, études autochtones, études ethniques culturelles et critiques, féminisme intersectionnel, études postcoloniales et décoloniales, études sur le handicap et études queer.
-
-Nous priorisons également les propositions qui abordent explicitement le multilinguisme dans les humanités numériques, qui est lui-même une question de justice sociale. Exemples de sujets : métadonnées multilingues, données ouvertes liées, préservation et diffusion des langues en danger, OCR pour les scripts non latins, méthodes pour les langues de droite à gauche, outils et interfaces pour les humanités numériques multilingues, pédagogies multilingues et corpus multilingues.
+ACH 2025 valorise les modes de travail axés sur les processus et les relations au-dessus du résultat final, favorisant la création d'espoir, et nous cherchons à donner la priorité aux propositions qui se concentrent sur les soins, la communauté et la collaboration dans des contextes divers. Nous sommes particulièrement intéressés à recevoir des propositions de participants ayant une gamme d'expertise et une variété de rôles, y compris des postes alternatifs, des emplois en dehors de l'enseignement supérieur et des étudiants diplômés et de premier cycle. Nous invitons également les propositions de participants qui sont nouveaux dans les humanités numériques.
 
 ### Portée de la conférence
 
-Les domaines de recherche en humanités numériques qui sont pertinents pour la conférence comprennent, mais sans s'y limiter :
+En tant que conférence engagée dans un engagement interdisciplinaire, ACH 2025 accueille des propositions interdisciplinaires. Les domaines de recherche en humanités numériques qui sont pertinents pour la conférence comprennent, sans s'y limiter :
 
-* Approches numériques et computationnelles de la recherche et de la pédagogie humanistes
+* Collaborations pour la communauté
+* Créativité informatique
+* Création critique
+* Approches numériques et informatiques de la recherche et de la pédagogie humanistes
 * Patrimoine culturel numérique
 * Surveillance numérique
-* Humanités environnementales & justice climatique
 * Outils et infrastructures des humanités numériques
 * Bibliothéconomie numérique
 * Médias numériques, art, littérature, histoire, musique, cinéma et jeux
 * Humanités publiques numériques
+* Humanités environnementales et justice climatique
 * Approches humanistes et éthiques de la science des données et de la visualisation des données
 * Recherche humaniste sur les objets et cultures numériques
 * Infrastructures de connaissances en sciences humaines
-* Travail et organisation en humanités numériques
-* Informatique physique
-* Création, conservation et engagement de ressources
-* Utilisation des technologies numériques pour écrire, publier et réviser des bourses d'études
-
-En tant que conférence engagée dans l'engagement interdisciplinaire, ACH 2023 accueille les propositions interdisciplinaires. Nous sommes également particulièrement intéressés à recevoir des propositions de participants ayant une gamme d'expertise et une variété de rôles, y compris des postes alt-ac, des emplois en dehors de l'enseignement supérieur et des étudiants diplômés et de premier cycle. Nous invitons en outre les propositions des participants qui sont nouveaux venus dans les humanités numériques.
+* Syndicat, travail et organisation en humanités numériques
+* Apprentissage automatique, y compris l'IA et les LLM et leurs implications
+* Multilinguisme en humanités numériques
+* Bourse multimodale
+* Création, conservation et engagement des ressources
+* Utilisation des technologies numériques pour rédiger, publier et examiner des travaux universitaires
 
 ### Types et langues de soumission de conférence
 
-Nous accueillons les types de soumission suivants :
+Les communications et les panels seront présentés via un système de vidéoconférence ; les soumissions créatives peuvent être présentées via un système de vidéoconférence ou via Work Adventure.
 
-Articles (12-15 minutes) : présentations dynamiques qui partagent des expériences, des travaux en cours ou des réflexions soutenues sur les résultats d'un projet plus complet tout en engageant un éventail de participants et en favorisant les connexions et le dialogue.
+Nous acceptons les types de soumission suivants :
 
-Lightning Talks (5 minutes) : présentations très ciblées qui présentent succinctement un sujet, une méthode, un outil, un projet ou un travail en cours pour catalyser des idées et favoriser une discussion de suivi.
+#### Soumissions créatives :
+Œuvres d'art, affiches, visualisations de données, installations, performances, démonstrations et autres interventions qui abordent les questions, méthodes et thèmes de la conférence sur tout sujet, projet ou outil pertinent à n'importe quel stade de développement.
 
-Affiches (session d'affiches) : les propositions d'affiches présentent des travaux sur n'importe quel sujet pertinent ou offrent des démonstrations de projets, d'outils et de logiciels à n'importe quel stade de développement. Les présentateurs d'affiches enregistreront une brève vidéo (5 minutes, maximum) pour accompagner leur affiche et rejoindront la plate-forme de conférence pendant la session d'affiches pour des conversations synchrones avec les participants.
+#### Communications (12-15 minutes) :
+Présentations dynamiques qui partagent des expériences, des travaux en cours ou des réflexions soutenues sur les résultats de projets plus complets tout en engageant un éventail de participants et en favorisant les connexions et le dialogue.
 
-Panels (1h15) : Sessions engageantes qui facilitent le dialogue entre des présentations largement indépendantes, mettant en évidence des liens entre projets, méthodes ou thématiques et réservant un minimum de 15 minutes à la discussion avec le public.
-
-Tables rondes (1 heure et 15 minutes) : sessions pour lesquelles les intervenants fournissent de brèves interventions ou un cadrage sur un ensemble cohérent de questions, de mots clés, de méthodes et/ou de thèmes, réservant un minimum de 30 minutes à la discussion entre les intervenants et le public.
-
-Installations et performances (session d'installation/de performance) : œuvres d'art, visualisations de données créatives, performances, démonstrations et autres interventions critiques qui abordent les problèmes, les méthodes et les thèmes de la conférence. Les présentateurs d'installation et de performance enregistreront une vidéo de leur présentation ou installation et rejoindront la plate-forme de conférence pendant la session de performance pour une conversation synchrone avec les participants.
-
-Format alternatif (durée variable) : Compte tenu des possibilités expérimentales d'une conférence virtuelle, nous encourageons ceux qui proposent des sessions à envisager des formats alternatifs. Lorsque vous proposez une session de ce type, veuillez décrire votre session et indiquer une durée préférée.
-
-Bien que notre CFP ait été publié en anglais, espagnol et français, nous accueillons les propositions de contributions dans toutes les langues. Les propositions seront examinées dans la langue de soumission. Quelle que soit la langue de votre proposition, assurez-vous que vos cinq mots clés la langue de votre proposition, veuillez vous assurer que vos cinq mots-clés sont en anglais pour faciliter la programmation du programme.
-
-Veuillez noter qu'à des fins de planification, nous pouvons suggérer un autre type de soumission ou une collaboration entre des propositions connexes. Bien qu'il n'y ait pas de limite au nombre de soumissions, le comité du programme ne programmera normalement pas plus de deux présentations d'un auteur présentateur.
+#### Panels (1 heure et 15 minutes) :
+Sessions engageantes qui facilitent le dialogue entre les présentations, en mettant en évidence les liens entre les projets, les méthodes ou les thèmes et en réservant un minimum de 15 minutes pour la discussion avec le public.
 
 ### Exigences relatives aux propositions de conférence
 
-Les propositions seront soumises à l'aide de ConfTool. Veuillez créer un nouveau compte pour soumettre votre proposition.
+Les propositions seront soumises à l'aide de [ConfTool](https://www.conftool.pro/ach2025/). Vous aurez besoin d'un compte pour soumettre votre proposition.
 
-Les propositions doivent inclure :
+Les résumés doivent comporter entre 250 et 500 mots. Les résumés doivent aborder directement les critères d'évaluation : pertinence par rapport au thème de la conférence ; engagement avec des recherches pertinentes ; cadre et objectif ; applicabilité, importance et valeur ; et organisation et clarté.
 
-* Résumé
-* * Résumés de 250 mots pour les articles, les affiches, les discussions éclair, les installations et les performances
-  * Résumés de 500 mots pour les panels et formats alternatifs. Les formats alternatifs doivent inclure la durée demandée.
-  * Les résumés doivent répondre directement aux critères d'évaluation : pertinence par rapport à l'objectif de la conférence ; engagement avec une bourse d'études pertinente; cadre et objectif; applicabilité, signification et valeur ; et organisation et clarté.
-* Liste des participants et coordonnées saisies directement dans ConfTool lors de la soumission
-* 3 à 5 mots clés entrés directement dans ConfTool
+La liste des participants et les coordonnées doivent être saisies directement dans ConfTool avec le résumé de la soumission.
 
+Il vous sera demandé de choisir des mots-clés dans ConfTool, qui seront utilisés pour faire correspondre votre soumission avec les évaluateurs. Veuillez sélectionner les termes les plus pertinents qui décrivent votre travail.
+
+### Format et langues de la conférence
+
+Bien que notre appel à propositions soit publié en anglais, espagnol, portugais, français, italien et coréen, nous acceptons les propositions de contributions dans toutes les langues. Les propositions seront examinées dans la langue de soumission. Les présentations peuvent être faites dans la langue de la proposition, bien que nous puissions avoir un accès limité aux traducteurs. Quelle que soit la langue de votre proposition, veuillez vous assurer que vos cinq mots-clés sont en anglais pour faciliter la planification du programme.
+
+Veuillez noter qu'aux fins de la planification, nous pouvons suggérer un autre type de soumission ou une collaboration entre des propositions connexes. Bien qu'il n'y ait pas de limite au nombre de soumissions, le comité de programme programmera au plus deux présentations d'un auteur présentateur.
+
+#### Plateformes de conférence alternatives
+La conférence virtuelle ACH se déroulera par vidéoconférence traditionnelle, ainsi que via notre plateforme de conférence virtuelle, Work Adventure, qui offre un monde animé en 2D interactif et la possibilité de partager des vidéos, de l'audio ou des images via le navigateur (la plateforme est optimisée pour Google Chrome). Les présentations comprendront une conversation synchrone pendant que les participants « marcheront » vers la salle d’installation/performance virtuelle.
+---
 ### Examen de la proposition et notification
 
-Les propositions de l'ACH 2023 feront l'objet d'un examen ouvert par les pairs. Les noms et affiliations des auteurs seront connus de l'examinateur d'une proposition, tandis que les noms et affiliations de l'examinateur seront connus des auteurs. Nous adoptons l'examen ouvert par les pairs pour plusieurs raisons :
+### Examen et notification des propositions
 
-* Absence de consensus sur la manière d'anonymiser les soumissions, ce qui conduit à des propositions identifiables ;
-* La nature publique des bourses d'études en humanités numériques, ce qui signifie que les soumissions anonymisées ne sont en fait pas garanties d'être anonymes; et
-* Le manque de responsabilité dans l'examen aveugle par les pairs, qui peut favoriser l'incivilité dans le processus d'examen.
+Les propositions ACH 2025 feront l’objet d’un examen ouvert par les pairs. Les noms et affiliations des auteurs seront connus de l’examinateur d’une proposition, tandis que les noms et affiliations de l’examinateur seront connus des auteurs. Nous adoptons l’examen ouvert par les pairs pour plusieurs raisons : l’absence de consensus sur la manière d’anonymiser les soumissions, ce qui conduit à des propositions identifiables ; la nature publique des études en sciences humaines numériques, ce qui signifie que les soumissions anonymisées ne sont pas, en fait, garanties d’être anonymes ; et le manque de responsabilité dans l’examen anonyme par les pairs, ce qui peut favoriser l’incivilité dans le processus d’examen.
 
-Par conséquent, notre utilisation de l'examen ouvert par les pairs vise à atténuer les inégalités implicites dans le processus d'examen à l'aveugle. Nous reconnaissons, cependant, que l'examen ouvert par les pairs soulève des problèmes de dynamique de pouvoir, tels que les préoccupations que les chercheurs émergents peuvent avoir concernant l'évaluation d'un chercheur établi. Pour atténuer ces problèmes, le comité du programme affectera soigneusement et judicieusement des examinateurs et les examinateurs auront le droit de refuser d'examiner une soumission pour quelque raison que ce soit. Nous reconnaissons également que l'examen ouvert par les pairs pourrait contribuer à accroître les préjugés. Pour atténuer cela, nous encourageons les examinateurs à évaluer leurs préjugés et fournirons des directives claires sur leur rôle dans le processus d'examen. Nous sommes reconnaissants aux présidentes du comité du programme DH2020, Laura Estill et Jennifer Guiliano, pour leur travail sur [l'examen ouvert par les pairs](https://dh2020.adho.org/guidelines/the-open-peer-review-process/), qui a influencé notre approche pour DH Unbound 2022 et maintenant ACH 2023.
+Par conséquent, notre recours à l’examen ouvert par les pairs vise à atténuer les inégalités implicites dans le processus d’examen anonyme. Nous reconnaissons cependant que l’examen ouvert par les pairs soulève des problèmes de dynamique de pouvoir, comme les inquiétudes que les chercheurs émergents peuvent avoir à propos de l’évaluation d’un chercheur établi. Pour résoudre ces problèmes, le comité du programme affectera soigneusement et judicieusement les évaluateurs ; les évaluateurs auront le droit de refuser d’examiner une soumission pour quelque raison que ce soit. Nous reconnaissons également que l’évaluation ouverte par les pairs pourrait contribuer à accroître les biais. Pour atténuer ce risque, nous encourageons les évaluateurs à évaluer leurs biais et fournirons des orientations claires sur leur rôle dans le processus d’évaluation. Nous restons reconnaissants aux présidentes du comité de programme DH2020, Laura Estill et Jennifer Guiliano, pour leur travail sur l’évaluation ouverte par les pairs, qui a influencé notre approche pour DH Unbound 2022, ACH 2023, 2024 et maintenant 2025.
 
-Nos critères d'examen reflètent l'engagement envers une compréhension approfondie des humanités numériques et de la nature sociopolitique de la recherche :
+### Critères d’évaluation
 
-* 20 % - Pertinence par rapport à l'objectif de la conférence. Le sujet de la proposition est lié au travail antiraciste, aux études autochtones, aux études ethniques culturelles et critiques, au féminisme intersectionnel, aux études postcoloniales et décoloniales, aux études queer et/ou au multilinguisme
-* 20 % - Engagement avec une bourse pertinente. La proposition s'engage explicitement avec une bourse pertinente et offre un contexte dans l'état actuel des domaines dans lesquels elle s'engage. Les citations formelles (dans le style préféré de l'auteur de la proposition) ne sont requises que lors de l'utilisation d'une citation directe.
-* 20% - Cadre et Objectif. La proposition propose un cadre théorique, méthodologique ou pédagogique clair ; déclaration d'intention concrète; et l'articulation explicite des implications sociopolitiques du travail.
-* 20 % - Applicabilité, importance et valeur.
-   La proposition articule l'applicabilité, l'importance et la valeur de la contribution théorique, méthodologique et/ou pratique aux humanités numériques en général.
-* 20 % - Recommandation globale.
-  La proposition est organisée de manière efficace et offre une articulation claire du contenu de la présentation.
+Nos critères d’évaluation reflètent l’engagement envers une compréhension élargie des humanités numériques et de la nature sociopolitique de la recherche :
 
-La période d'examen commencera le 6 February, 2023 et se terminera le 6 March, 2023. 
+* 20 % – Pertinence par rapport au thème de la conférence
+* Le sujet de la proposition est lié aux thèmes de l’attention, de la communauté et/ou de la collaboration dans le domaine des humanités numériques.
+* 20 % – Engagement avec la recherche pertinente
+* La proposition s’engage explicitement dans la recherche pertinente et offre un contexte dans l’état actuel des domaines dans lesquels elle s’engage. Les citations formelles (dans le style préféré du rédacteur de la proposition) ne sont requises que lors de l’utilisation d’une citation directe.
+* 20 % – Cadre et objectif
+* La proposition offre un cadre théorique, méthodologique ou pédagogique clair ; une déclaration concrète de l'objectif ; et une articulation explicite des implications sociopolitiques du travail.
+* 20 % – Applicabilité, importance et valeur
+* La proposition articule l'applicabilité, l'importance et la valeur de la contribution théorique, méthodologique et/ou pratique aux humanités numériques en général.
+* 20 % – Recommandation globale
+* La proposition est organisée efficacement et offre une articulation claire du contenu de la présentation.
 
-Les notifications d'acceptation ou de rejet seront faites avant le 20 March, 2023. Les avis seront également disponibles sur notification.
+La période d'examen commencera le 1er avril et se terminera le 1er mai 2025.
 
-### Droit d'auteur et confidentialité
+Les notifications d'acceptation ou de rejet seront faites avant le 15 mai 2025. Les évaluations seront également mises à disposition dès notification.
 
-Les soumissions et les critiques ne seront pas mises à la disposition du public. Le comité du programme aura accès à toutes les soumissions et évaluations. Les examinateurs ne pourront voir que les propositions qui leur sont assignées pour examen. Les auteurs pourront voir les critiques de leurs soumissions une fois le processus de révision terminé. Les noms des réviseurs seront affichés sur une diapositive dans une liste alphabétique lors de la séance d'ouverture de la conférence en remerciement pour leur contribution.
+
+### Droits d'auteur et confidentialité
+
+Les soumissions et les évaluations ne seront pas rendues publiques. Le comité de programme aura accès à toutes les soumissions et évaluations.
+
+Les évaluateurs ne pourront consulter que les propositions qui leur ont été attribuées pour examen. Les auteurs pourront consulter les évaluations de leurs soumissions une fois le processus d'évaluation terminé. Les noms des évaluateurs seront affichés sur une diapositive dans une liste alphabétique lors de la séance d'ouverture de la conférence en remerciement de leur contribution.
 
 Les propositions acceptées seront révisées par les auteurs et publiées dans le programme en ligne avec leurs noms et affiliations.
 
+### Utilisation de l'IA générative dans les propositions
+
+A l'instar de l'appel à propositions 2025 de KeystoneDH, nous sommes ouverts à l'utilisation responsable de l'IA générative : « L'IA générative étant un domaine d'investigation important et actuel dans les sciences humaines numériques, nous sommes intéressés par vos expériences avec elle, mais nous attendons de nos participants à la conférence qu'ils assument la responsabilité de la paternité des propositions et des présentations. Nous demandons aux candidats et aux présentateurs de la conférence de signaler leur utilisation d’outils linguistiques d’IA générative, conformément à la politique d’IA d’arXiv. »
+
+L’utilisation de l’IA générative doit être citée conformément aux normes professionnelles, telles que les directives de la MLA pour citer l’IA générative.
+
+
 ### Code de conduite
 
-ACH 2023 se consacre à la création d'un environnement de conférence sûr, respectueux et collégial pour le bénéfice de tous les participants et pour l'avancement de la research et bourses d'études dans des domaines soutenus par ACH, CSDH / SCHN et Humanistica. ACH 2023 a adapté le code de conduite de la conférence ACH :
+L'ACH 2025 s'engage à créer un environnement de conférence sûr, respectueux et collégial au profit de tous ceux qui y participent et pour l'avancement de la recherche et des études dans le domaine. L'ACH 2025 a adapté le code de conduite de la conférence ACH :
 
-ACH s'engage à offrir une expérience de conférence sans harcèlement pour tous, indépendamment de l'identité de genre, de l'expression de genre, de l'orientation sexuelle, du handicap, de l'apparence physique, de la taille, de la race, de l'origine ethnique, de l'origine ou de la religion. En assistant aux événements ACH, vous signalez votre engagement à contribuer à une expérience sûre et inclusive pour tous. Nous ne tolérons aucune forme de harcèlement des participants à l'événement, que les événements se déroulent virtuellement ou en face à face. Les participants aux événements ACH qui enfreignent ces règles peuvent être exclus ou bannis des activités ACH à la discrétion des organisateurs.
+L'ACH s'engage à offrir une expérience de conférence sans harcèlement à tous, indépendamment de l'identité de genre, de l'expression de genre, de l'orientation sexuelle, du handicap, de l'apparence physique, de la taille du corps, de la race, de l'origine ethnique, de la religion ou du statut et du rôle professionnels. En participant aux événements ACH, vous signalez votre engagement à contribuer à une expérience sûre et inclusive pour tous. Nous ne tolérons pas le harcèlement des participants aux événements sous quelque forme que ce soit, que les événements soient organisés virtuellement, en face à face ou sur les plateformes de médias sociaux. Les participants aux événements ACH qui enfreignent ces règles peuvent être exclus ou bannis des activités ACH à la discrétion des organisateurs.
 
-Le harcèlement comprend, mais sans s'y limiter : les commentaires verbaux désobligeants ; blagues et propos sexistes, racistes ou autrement discriminatoires ; texte ou matériel audiovisuel à caractère sexuel et/ou discriminatoire dans les espaces de conférence (virtuels ou en face à face), à moins qu'ils ne soient critiqués dans un contexte académique ; intimidation délibérée; traque; Suivant; harceler la photographie ou l'enregistrement ; remettre en question le droit d'une personne d'utiliser les toilettes de son choix ; interruption prolongée des pourparlers ou d'autres événements ; contact physique inapproprié; et une attention sexuelle importune.
+Le harcèlement comprend, sans s'y limiter : les commentaires verbaux désobligeants ; les blagues et le langage sexistes, racistes ou autrement discriminatoires ; Texte ou matériel audiovisuel à caractère sexuel et/ou discriminatoire dans les espaces de conférence (virtuels ou en face à face), à ​​moins d'être critiqué dans un contexte académique ; intimidation délibérée ; harcèlement ; filature ; photographie ou enregistrement harcelants ; remise en question du droit d'une personne à utiliser les toilettes de son choix ; perturbation prolongée des conférences ou d'autres événements ; contact physique inapproprié ; et attention sexuelle non désirée.
 
-Les participants invités à cesser tout comportement de harcèlement doivent s'y conformer immédiatement. Si un participant adopte un comportement harcelant, les organisateurs peuvent prendre toutes les mesures qu'ils jugent appropriées, y compris avertir le contrevenant ou l'expulsion de l'événement.
+Les participants à qui il est demandé de cesser tout comportement de harcèlement doivent s'y conformer immédiatement. Si un participant se livre à un comportement de harcèlement, les organisateurs peuvent prendre toute mesure qu'ils jugent appropriée, y compris l'avertissement du contrevenant ou l'expulsion de l'événement.
 
-ACH 2023 cherche à défendre ces valeurs tout au long du processus de soumission et d'examen ainsi que pendant la conférence elle-même. Veuillez vous familiariser avec les consignes de signalement et notre processus de traitement des violations.
+L'ACH 2025 cherche à défendre ces valeurs tout au long du processus de soumission et d'examen ainsi que pendant la conférence elle-même. Veuillez vous familiariser avec les directives de signalement et notre processus de traitement des violations.
 
 ### Accessibilité
 
-ACH pour s'assurer que l'ACH 2023 est accessible à tous les participants. Toutes les sessions synchrones mettront à la disposition des participants une transcription en direct, et les sessions principales et plénières comprendront également une interprétation en langue des signes. Nous fournirons des directives pour l'accessibilité des sessions à tous les participants acceptés. De plus amples informations, ainsi qu'une demande d'informations sur les besoins des participants, seront diffusées en April 20, 2023.
+L'ACH cherche à garantir que l'ACH 2025 soit accessible à tous les participants. Toutes les sessions synchrones permettront aux participants de bénéficier d'une transcription en direct, et les sessions plénières et les discours d'ouverture comprendront également une interprétation en langue des signes. Nous fournirons des directives pour l'accessibilité des sessions à tous les participants acceptés. De plus amples informations, ainsi qu'une demande d'informations sur les besoins des participants, seront diffusées à l'avance.
 
 ### Fuseau horaire de la conférence
 
-L'ACH 2023 sera programmée à l'heure de l'Est. Du 29 June-1 July, les sessions seront programmées de 10h00 à 19h00 environ, heure de l'Est.
+L'ACH 2025 sera programmée en heure du Centre. Du 11 au 13 juin, les sessions seront programmées d'environ 9h00 à 18h00, heure du Centre.
 
-### Inscription à la conférence et bourses
+### Inscription et bourses à la conférence
 
-L'inscription pour ACH 2023 ouvrira le 20 March, 2023.
+Les inscriptions à l'ACH 2025 ouvriront le 15 mai 2025.
 
-Le coût de fonctionnement de l'ACH 2023 est d'environ 4,000 $. Par conséquent, nous devons facturer des frais d'inscription pour couvrir les frais. Les frais d'inscription couvriront le coût de l'organisation d'une conférence virtuelle, qui comprend un logiciel de gestion des soumissions de conférence, des plateformes de conférence pour la visioconférence et le chat spatial, des honoraires pour les événements liminaires et pléniers, et l'accessibilité (interprétation en langue des signes et sous-titrage à distance pour les discours liminaires et les plénières et sous-titrage en direct pour les séances de conférence). Nous nous sommes efforcés de maintenir les frais d'inscription aussi bas que possible tout en veillant à offrir aux participants une expérience positive de la conférence.
+Les organisateurs de la conférence ont travaillé pour maintenir les frais d'inscription aussi bas que possible tout en veillant à offrir aux participants une expérience de conférence positive. Bien qu'organiser une conférence virtuelle soit beaucoup moins coûteux qu'un événement en personne ou hybride, il existe néanmoins des coûts pour la maintenance du logiciel de gestion des soumissions de conférence, des plateformes de conférence, des honoraires pour les discours liminaires et les plénières, et l'accessibilité (interprétation en langue des signes et sous-titrage à distance pour les discours liminaires et les plénières et sous-titrage en direct pour les sessions de conférence). Nous nous engageons à faire en sorte que le coût ne soit pas un obstacle à la participation à l'ACH 2025.
 
-ACH offrira un nombre limité de bourses pour soutenir la participation des membres qui ont un emploi occasionnel ou qui sont des étudiants diplômés.
+L'ACH offrira un nombre limité de bourses pour soutenir la participation des membres sans soutien institutionnel, y compris les étudiants, les employés temporaires et les professionnels sans emploi ou sous-employés. Les demandes de bourses seront ouvertes lorsque les notifications de proposition seront envoyées.
 
-Le barème des frais d'inscription sera de :
+Le barème des frais d'inscription sera le suivant :
 
-Membre conjoint ACH ou ADHO : 50 $
-
-Membre étudiant ACH  ou ADHO : 25 $
-
-Non-membre régulier : 90 $
-
-Étudiant non-membre : 40 $
-
-Contingent/non-/sous-employé : 40 $
+* Membre conjoint ACH ou ADHO : 50 $
+* Membre conjoint étudiant ACH ou ADHO : 25 $
+* Non-membre régulier : 90 $
+* Non-membre étudiant : 40 $
+* Contingent/sans emploi/sous-employé : 40 $
 
 ### Coordonnées
 
-Pour toute question ou préoccupation concernant l'AP, le programme de la conférence, les soumissions, le code de conduite ou l'accessibilité, veuillez contacter le président de la conférence ACH 2023 à l'adresse **conference \[at] ach \[dot] org.**.
+Pour toute question ou préoccupation concernant l'appel à propositions, le programme de la conférence, les soumissions, le code de conduite ou l'accessibilité, veuillez contacter le président de la conférence ACH 2025 à l'adresse conference \[at] ach \[dot] org.
 
-Si vous souhaitez traduire cet appel à propositions dans une autre langue, veuillez contacter le comité de la conférence au **conference \[at] ach \[dot] org.**
+Si vous souhaitez traduire cet appel à propositions dans une autre langue, veuillez contacter le comité de la conférence à l'adresse conference [at] ach [dot] org.
 
-### Comité de programme
+### Comité de la conférence 2025
 
-Présidente de la conférence : Pamella Lach (elle/sa), Université d'État de San Diego
+* Coprésidents de la conférence : Alex Wermer-Colan (Temple University) et Dot Porter (University of Pennsylvania)
+* Coprésidents du programme : Jajwalya Karajgikar (University of Pennsylvania) et Sylvia Fernández (University of Texas at San Antonio)
+* Président technique : Andy Janco (Princeton University)
+* Responsable des communications : Amanda Reagan (Clemson University)
+* Responsable du parrainage et de la promotion : Katayoun Torabi (Texas A&M College of Arts and Sciences)
 
-Responsable du comité de programme : Liz Grumbach (elle/sa), Arizona State University
-
-Co-responsables du comité de la plate-forme : Alex Wermer-Colan, Temple University et Andy Janco, University of Pennsylvania
-
-Membres du comité de la conférence : Caitlin Pollock (Université du Michigan), Eduard Arriga (Université Clark), Sarah Potvin (Université Texas A&M)
-
-Les membres supplémentaires du comité de programme seront annoncés sous peu.
+Les autres membres du comité seront annoncés. Pour participer à la planification de la conférence, envoyez un courriel à conference [at] ach [dot] org.
