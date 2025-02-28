@@ -76,9 +76,8 @@ Bien que notre appel à propositions soit publié en anglais, espagnol, portugai
 Veuillez noter qu'aux fins de la planification, nous pouvons suggérer un autre type de soumission ou une collaboration entre des propositions connexes. Bien qu'il n'y ait pas de limite au nombre de soumissions, le comité de programme programmera au plus deux présentations d'un auteur présentateur.
 
 #### Plateformes de conférence alternatives
+
 La conférence virtuelle ACH se déroulera par vidéoconférence traditionnelle, ainsi que via notre plateforme de conférence virtuelle, Work Adventure, qui offre un monde animé en 2D interactif et la possibilité de partager des vidéos, de l'audio ou des images via le navigateur (la plateforme est optimisée pour Google Chrome). Les présentations comprendront une conversation synchrone pendant que les participants « marcheront » vers la salle d’installation/performance virtuelle.
----
-### Examen de la proposition et notification
 
 ### Examen et notification des propositions
 
