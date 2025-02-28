@@ -11,7 +11,7 @@ Date limite : 23 mars 2025, 23:59:59 à GMT-4 (EST)
 
 Soumettre une proposition : [lien conftool](https://www.conftool.pro/ach2025/)
 
-L'Association pour l'informatique et les sciences humaines (ACH) organisera **ACH 2025**, une conférence virtuelle, à partir du **29 juin -1er juillet 2023.**
+L'Association pour l'informatique et les sciences humaines (ACH) organisera **ACH 2025**, une conférence virtuelle, à partir du **Du 11 au 13 juin 2025.**
 
 ### Focus sur la conférence
 
