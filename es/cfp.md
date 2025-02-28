@@ -146,8 +146,8 @@ ACH ofrecerá una cantidad limitada de becas para apoyar la asistencia de los mi
 
 El programa de tarifas de inscripción será el siguiente:
 
-* Socio miembro de ACH o ADHO: $50
-* Socio miembro de ACH o ADHO para estudiantes: $25
+* Socio miembro de ACH: $50
+* Socio miembro de ACH para estudiantes: $25
 * Socio no miembro regular: $90
 * Socio no miembro para estudiantes: $40
 * Trabajadores eventuales/desempleados/subempleados: $40
@@ -165,5 +165,3 @@ Si está interesado en traducir esta convocatoria de propuestas a otro idioma, c
 * Presidente técnico: Andy Janco (Universidad de Princeton)
 * Responsable de comunicaciones: Amanda Reagan (Universidad de Clemson)
 * Responsable de patrocinio y promoción: Katayoun Torabi (Facultad de Artes y Ciencias de Texas A&M)
-
-Se anunciarán otros miembros del comité. Para participar en la planificación de la conferencia, envíe un correo electrónico a conference [at] ach [dot] org.

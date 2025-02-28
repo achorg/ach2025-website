@@ -153,8 +153,8 @@ ACH will offer a limited number of bursaries to support attendance by members wi
 
 The registration fee schedule will be:
 
-* ACH or ADHO Joint Member: $50
-* Student ACH or ADHO Joint Member: $25
+* ACH Member: $50
+* Student ACH Member: $25
 * Regular Non-Member: $90
 * Student Non-Member: $40
 * Contingent/un-/underemployed: $40
@@ -174,6 +174,4 @@ If you are interested in translating this call for proposals into another langua
 * Technical Chair: Andy Janco (Princeton University)
 * Communications Lead: Amanda Reagan (Clemson University)
 * Sponsorship and Promotion Lead: Katayoun Torabi (Texas A&M College of Arts and Sciences)
-
-Additional committee members to be announced. To get involved in conference planning email conference [at] ach [dot] org.
 

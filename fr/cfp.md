@@ -150,8 +150,8 @@ L'ACH offrira un nombre limité de bourses pour soutenir la participation des me
 
 Le barème des frais d'inscription sera le suivant :
 
-* Membre conjoint ACH ou ADHO : 50 $
-* Membre conjoint étudiant ACH ou ADHO : 25 $
+* Membre conjoint ACH : 50 $
+* Membre conjoint étudiant ACH : 25 $
 * Non-membre régulier : 90 $
 * Non-membre étudiant : 40 $
 * Contingent/sans emploi/sous-employé : 40 $
@@ -169,5 +169,3 @@ Si vous souhaitez traduire cet appel à propositions dans une autre langue, veui
 * Président technique : Andy Janco (Princeton University)
 * Responsable des communications : Amanda Reagan (Clemson University)
 * Responsable du parrainage et de la promotion : Katayoun Torabi (Texas A&M College of Arts and Sciences)
-
-Les autres membres du comité seront annoncés. Pour participer à la planification de la conférence, envoyez un courriel à conference [at] ach [dot] org.
