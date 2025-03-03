@@ -1,15 +1,15 @@
 ---
 title: ACH 2025 CFP
-
 layout: page
 ---
-
 <div class="text-center" >
 <img height="150" src="/assets/img/noun-care-7582892-4C25E1.png"/>  <br>
 </div><br>
 Deadline: March 23, 2025, 11:59:59 PM in GMT-4 (EST)
 
-Submit a proposal: [ACH 2025 Conftool](https://www.conftool.pro/ach2025) 
+Submit a proposal: [ACH 2025 Conftool](https://www.conftool.pro/ach2025)   
+
+
 The Association for Computers and the Humanities (ACH) will hold **ACH 2025**, a virtual conference, from **June 11-13, 2025.**
 
 ### Conference Focus
@@ -17,7 +17,6 @@ The Association for Computers and the Humanities (ACH) will hold **ACH 2025**, a
 Amid rapid societal and technological transformations and historic elections worldwide, ACH fosters dialogue, spaces, and solidarity on equity and justice across local, transborder, and global contexts. ACH 2025 underscores the importance of addressing societal challenges in the digital humanities and beyond, such as racial and gender discrimination, while also highlighting the ramifications of computing and environmental crises. Join us in navigating diverse political milieus and shaping a virtual conference that is just and inclusive.
 
 ACH 2025 values process- and relationship-oriented modes of working over the end result, fostering hope-making, and we seek to prioritize proposals that focus on care, community, and collaboration in diverse contexts. We are especially interested in receiving proposals from participants with a range of expertise and a variety of roles, including alt-ac positions, employment outside of higher education, and graduate and undergraduate students. We further invite proposals from participants who are newcomers to digital humanities.
-
 
 ### Conference Scope
 
@@ -44,7 +43,6 @@ As a conference committed to cross-disciplinary engagement, ACH 2025 welcomes in
 * Resource creation, curation, and engagement
 * Use of digital technologies to write, publish, and review scholarship
 
-
 ### Conference Submission Types and Languages
 
 Papers and Panels will be presented through a video conferencing system; Creative Submissions may be presented through a video conferencing system or through Work Adventure.
@@ -52,14 +50,16 @@ Papers and Panels will be presented through a video conferencing system; Creativ
 We welcome the following submission types:
 
 #### Creative Submissions:
+
 Artwork, posters, data visualizations, installations, performances, demonstrations and other interventions that engage conference issues, methods, and themes on any relevant topic, project, or tool at any stage of development. 
 
-#### Papers (12-15 minutes): 
+#### Papers (12-15 minutes):
+
 Dynamic presentations that share experiments, works-in-progress, or sustained reflections on outcomes of more complete projects while engaging a range of participants and fostering connections and dialogue.
 
-#### Panels (1 hour and 15 minutes): 
-Engaging sessions that facilitate dialogue between presentations, highlighting connections between projects, methods or themes and reserving a minimum of 15 minutes for discussion with the audience.
+#### Panels (1 hour and 15 minutes):
 
+Engaging sessions that facilitate dialogue between presentations, highlighting connections between projects, methods or themes and reserving a minimum of 15 minutes for discussion with the audience.
 
 ### Conference Proposal Requirements
 
@@ -78,8 +78,8 @@ While our CFP has been released in English, Spanish, Portuguese, French, Italian
 Please note that for the purposes of scheduling, we may suggest an alternative submission type or collaboration between related proposals. While there is no limit on the number of submissions, the program committee will schedule at most two presentations from one presenting author.
 
 #### Alternative Conference Platforms
-The ACH virtual conference will take place through traditional video conferencing, as well as through our virtual conferencing platform, Work Adventure, which provides an interactive 2D animated world and the ability to share video, audio, or images via the browser (platform is optimized for Google Chrome). Presentations will include synchronous conversation as attendees “walk up” to the virtual installation/performance room.
 
+The ACH virtual conference will take place through traditional video conferencing, as well as through our virtual conferencing platform, Work Adventure, which provides an interactive 2D animated world and the ability to share video, audio, or images via the browser (platform is optimized for Google Chrome). Presentations will include synchronous conversation as attendees “walk up” to the virtual installation/performance room.
 
 ### Proposal Review and Notification 
 
@@ -92,20 +92,24 @@ Therefore, our use of open peer review is intended to mitigate the implicit ineq
 Our review criteria reflect the commitment to an expansive understanding of digital humanities and the sociopolitical nature of scholarship:
 
 * 20% – Relevance to Conference Focus
+
   * The proposal topic is connected to the themes of care, community, and/or collaboration in the field of digital humanities.
 * 20% – Engagement with Relevant Scholarship
+
   * The proposal engages explicitly with relevant scholarship and offers context within the current state of the fields in which it engages. Formal citations (in the proposal writer’s preferred style) are only required when using direct quotation.
 * 20% – Framework and Purpose
+
   * The proposal offers a clear theoretical, methodological, or pedagogical framework; concrete statement of purpose; and explicit articulation of the sociopolitical implications of the work.
 * 20% – Applicability, Significance, and Value
+
   * The proposal articulates the applicability, significance, and value of the theoretical, methodological, and/or practical contribution to digital humanities generally.
 * 20% – Overall Recommendation
+
   * The proposal is organized effectively and offers a clear articulation of presentation content.
 
 The review period will begin on April 1 and end on May 1, 2025.
 
 Notifications about acceptance or rejection are anticipated to end by May 15, 2025. Reviews will also be made available upon notification.
-
 
 ### Copyright and Privacy
 
@@ -133,11 +137,9 @@ Participants asked to stop any harassing behavior are expected to comply immedia
 
 ACH 2025 seeks to uphold these values throughout the submission and review process as well as during the conference itself. Please familiarize yourself with the reporting guidelines and our process for addressing violations.
 
-
 ### Accessibility 
 
 ACH seeks to ensure that ACH 2025 is accessible to all participants. All synchronous sessions will make live transcription available to participants, and keynote sessions will also include sign language interpretation. We will provide guidelines for the accessibility of sessions to all accepted participants. More information, along with a request for information about participant needs, will be circulated in advance.
-
 
 ### Conference Time Zone
 
@@ -159,13 +161,11 @@ The registration fee schedule will be:
 * Student Non-Member: $40
 * Contingent/un-/underemployed: $40
 
-
 ### Contact Information
 
 For questions and concerns about the CFP, conference program, submissions, Code of Conduct, or accessibility, please contact the ACH 2025 Conference Chair at conference \[at] ach \[dot] org.
 
-If you are interested in translating this call for proposals into another language, please contact the conference committee at conference [at] ach [dot] org.
-
+If you are interested in translating this call for proposals into another language, please contact the conference committee at conference \[at] ach \[dot] org.
 
 ### 2025 Conference Committee
 
@@ -174,4 +174,3 @@ If you are interested in translating this call for proposals into another langua
 * Technical Chair: Andy Janco (Princeton University)
 * Communications Lead: Amanda Reagan (Clemson University)
 * Sponsorship and Promotion Lead: Katayoun Torabi (Texas A&M College of Arts and Sciences)
-
