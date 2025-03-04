@@ -1672,3 +1672,15 @@ h6 {
   font-size: 13px;
   color: #ddd;
 }
+
+
+.bi-bluesky::before {
+  content: "";
+  background-color: currentColor;
+  -webkit-mask: url("/assets/img/bluesky.svg") no-repeat 50% 50%;
+  mask: url("/assets/img/bluesky.svg") no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  height: 13px;
+  width: 13px;
+}
