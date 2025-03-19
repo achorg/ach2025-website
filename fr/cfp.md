@@ -6,8 +6,7 @@ layout: page
 <img height="150" src="/assets/img/noun-care-7582892-4C25E1.png"/>  <br>
 </div><br>
 
-Date limite : 23 mars 2025, 23:59:59 à GMT-4 (EST)
-
+Date limite : 5 avril 2025, 23:59:59 à GMT-4 (EST) 
 
 Soumettre une proposition : [lien conftool](https://www.conftool.pro/ach2025/)
 
@@ -51,12 +50,15 @@ Les communications et les panels seront présentés via un système de vidéocon
 Nous acceptons les types de soumission suivants :
 
 #### Soumissions créatives :
+
 Œuvres d'art, affiches, visualisations de données, installations, performances, démonstrations et autres interventions qui abordent les questions, méthodes et thèmes de la conférence sur tout sujet, projet ou outil pertinent à n'importe quel stade de développement.
 
 #### Communications (12-15 minutes) :
+
 Présentations dynamiques qui partagent des expériences, des travaux en cours ou des réflexions soutenues sur les résultats de projets plus complets tout en engageant un éventail de participants et en favorisant les connexions et le dialogue.
 
 #### Panels (1 heure et 15 minutes) :
+
 Sessions engageantes qui facilitent le dialogue entre les présentations, en mettant en évidence les liens entre les projets, les méthodes ou les thèmes et en réservant un minimum de 15 minutes pour la discussion avec le public.
 
 ### Exigences relatives aux propositions de conférence
@@ -104,7 +106,6 @@ La période d'examen commencera le 1er avril et se terminera le 1er mai 2025.
 
 Les notifications d'acceptation ou de rejet seront faites avant le 15 mai 2025. Les évaluations seront également mises à disposition dès notification.
 
-
 ### Droits d'auteur et confidentialité
 
 Les soumissions et les évaluations ne seront pas rendues publiques. Le comité de programme aura accès à toutes les soumissions et évaluations.
@@ -118,7 +119,6 @@ Les propositions acceptées seront révisées par les auteurs et publiées dans 
 A l'instar de l'appel à propositions 2025 de KeystoneDH, nous sommes ouverts à l'utilisation responsable de l'IA générative : « L'IA générative étant un domaine d'investigation important et actuel dans les sciences humaines numériques, nous sommes intéressés par vos expériences avec elle, mais nous attendons de nos participants à la conférence qu'ils assument la responsabilité de la paternité des propositions et des présentations. Nous demandons aux candidats et aux présentateurs de la conférence de signaler leur utilisation d’outils linguistiques d’IA générative, conformément à la politique d’IA d’arXiv. »
 
 L’utilisation de l’IA générative doit être citée conformément aux normes professionnelles, telles que les directives de la MLA pour citer l’IA générative.
-
 
 ### Code de conduite
 
@@ -160,7 +160,7 @@ Le barème des frais d'inscription sera le suivant :
 
 Pour toute question ou préoccupation concernant l'appel à propositions, le programme de la conférence, les soumissions, le code de conduite ou l'accessibilité, veuillez contacter le président de la conférence ACH 2025 à l'adresse conference \[at] ach \[dot] org.
 
-Si vous souhaitez traduire cet appel à propositions dans une autre langue, veuillez contacter le comité de la conférence à l'adresse conference [at] ach [dot] org.
+Si vous souhaitez traduire cet appel à propositions dans une autre langue, veuillez contacter le comité de la conférence à l'adresse conference \[at] ach \[dot] org.
 
 ### Comité de la conférence 2025
 
