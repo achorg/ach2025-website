@@ -6,7 +6,7 @@ layout: page
 <img height="150" src="/assets/img/noun-care-7582892-4C25E1.png"/>  <br>
 </div><br>
 
-Fecha límite: 23 de marzo de 2025, 23:59:59 en GMT-4 (EST)
+Fecha límite: 5 de abril de 2025, 23:59:59 en GMT-4 (EST)
 
 Envíe una propuesta: [enlace conftool](https://www.conftool.pro/ach2025/) 
 
@@ -50,12 +50,15 @@ Los trabajos y paneles se presentarán a través de un sistema de videoconferenc
 Aceptamos los siguientes tipos de presentaciones:
 
 #### Presentaciones creativas:
+
 Obras de arte, carteles, visualizaciones de datos, instalaciones, performances, demostraciones y otras intervenciones que aborden cuestiones, métodos y temas de la conferencia sobre cualquier tema, proyecto o herramienta relevante en cualquier etapa de desarrollo.
 
 #### Ponencias (12-15 minutos):
+
 Presentaciones dinámicas que compartan experimentos, trabajos en progreso o reflexiones sostenidas sobre los resultados de proyectos más completos, al mismo tiempo que involucran a una variedad de participantes y fomentan las conexiones y el diálogo.
 
 #### Paneles (1 hora y 15 minutos):
+
 Sesiones atractivas que faciliten el diálogo entre presentaciones, resaltando las conexiones entre proyectos, métodos o temas y reservando un mínimo de 15 minutos para el debate con la audiencia.
 
 ### Revisión y notificación de propuestas
@@ -75,6 +78,7 @@ Si bien nuestra convocatoria de propuestas se publicó en inglés, español, por
 Tenga en cuenta que, a los efectos de la programación, podemos sugerir un tipo de presentación alternativa o una colaboración entre propuestas relacionadas. Si bien no hay límite en la cantidad de presentaciones que puede enviar, el comité del programa programará como máximo dos presentaciones de autoría común.
 
 #### Plataformas alternativas para la conferencia
+
 La conferencia virtual de ACH se llevará a cabo a través de videoconferencias tradicionales, así como a través de nuestra plataforma de conferencias virtuales, Work Adventure, que ofrece un mundo animado 2D interactivo y la capacidad de compartir videos, audio o imágenes a través del navegador (la plataforma está optimizada para Google Chrome). Las presentaciones incluirán una conversación sincrónica a medida que los asistentes “caminan” hacia la sala de instalación/actuación virtual.
 
 ### Revisión y notificación de propuestas
@@ -88,14 +92,19 @@ Por lo tanto, nuestro uso de la revisión abierta por pares tiene como objetivo 
 Nuestros criterios de revisión reflejan el compromiso con una comprensión expansiva de las humanidades digitales y la naturaleza sociopolítica de la investigación:
 
 * 20 %: relevancia para el enfoque de la conferencia
+
   * El tema de la propuesta está relacionado con los temas de cuidado, comunidad y/o colaboración en el campo de las humanidades digitales.
 * 20 %: Interacción con la investigación relevante del campo
+
   * La propuesta se relaciona explícitamente con la investigación relevante y ofrece un contexto dentro del estado actual de los campos en los que se involucra. Las citas formales (en el estilo preferido del autor de la propuesta) solo se requieren cuando se utiliza una cita directa.
 * 20 % – Marco y propósito
+
   * La propuesta ofrece un marco teórico, metodológico o pedagógico claro; una declaración concreta de propósito; y una articulación explícita de las implicaciones sociopolíticas del trabajo.
 * 20 % – Aplicabilidad, importancia y valor
+
   * La propuesta articula la aplicabilidad, la importancia y el valor de la contribución teórica, metodológica y/o práctica a las humanidades digitales en general.
 * 20 % – Recomendación general
+
   * La propuesta está organizada de manera efectiva y ofrece una articulación clara del contenido de la presentación.
 
 El período de revisión comenzará el 1 de abril y finalizará el 1 de mayo de 2025.
@@ -156,7 +165,7 @@ El programa de tarifas de inscripción será el siguiente:
 
 Si tiene preguntas o inquietudes sobre la convocatoria de propuestas, el programa de la conferencia, las presentaciones, el Código de conducta o la accesibilidad, comuníquese con el presidente de la conferencia ACH 2025 a conference \[at] ach \[dot] org.
 
-Si está interesado en traducir esta convocatoria de propuestas a otro idioma, comuníquese con el comité de la conferencia a conference [at] ach [dot] org.
+Si está interesado en traducir esta convocatoria de propuestas a otro idioma, comuníquese con el comité de la conferencia a conference \[at] ach \[dot] org.
 
 ### Comité de la Conferencia 2025
 
