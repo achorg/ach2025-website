@@ -50,7 +50,7 @@ We welcome the following submission types:
 
 #### Creative Submissions:
 
-Artwork, posters, data visualizations, installations, performances, demonstrations and other interventions that engage conference issues, methods, and themes on any relevant topic, project, or tool at any stage of development. 
+Artwork, posters, data visualizations, installations, performances, demonstrations, workshops, tutorials, and other interventions that engage conference issues, methods, and themes on any relevant topic, project, or tool at any stage of development. 
 
 #### Papers (12-15 minutes):
 
