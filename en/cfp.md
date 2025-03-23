@@ -90,23 +90,25 @@ Therefore, our use of open peer review is intended to mitigate the implicit ineq
 
 Our review criteria reflect the commitment to an expansive understanding of digital humanities and the sociopolitical nature of scholarship:
 
-* 20% – Relevance to Conference Focus
+* 20% – Relevance to Conference Focus: The proposal topic is connected to the themes of care, community, and/or collaboration in the field of digital humanities. 
 
-  * The proposal topic is connected to the themes of care, community, and/or collaboration in the field of digital humanities.
-* 20% – Engagement with Relevant Scholarship
 
-  * The proposal engages explicitly with relevant scholarship and offers context within the current state of the fields in which it engages. Formal citations (in the proposal writer’s preferred style) are only required when using direct quotation.
-* 20% – Framework and Purpose
 
-  * The proposal offers a clear theoretical, methodological, or pedagogical framework; concrete statement of purpose; and explicit articulation of the sociopolitical implications of the work.
-* 20% – Applicability, Significance, and Value
+* 20% – Engagement with Relevant Scholarship: The proposal engages explicitly with relevant scholarship and offers context within the current state of the fields in which it engages. Formal citations (in the proposal writer’s preferred style) are only required when using direct quotation.
 
-  * The proposal articulates the applicability, significance, and value of the theoretical, methodological, and/or practical contribution to digital humanities generally.
-* 20% – Overall Recommendation
 
-  * The proposal is organized effectively and offers a clear articulation of presentation content.
 
-The review period will begin on April 1 and end on May 1, 2025.
+* 20% – Framework and Purpose: The proposal offers a clear theoretical, methodological, or pedagogical framework; concrete statement of purpose; and explicit articulation of the sociopolitical implications of the work.
+
+
+* 20% – Applicability, Significance, and Value: The proposal articulates the applicability, significance, and value of the theoretical, methodological, and/or practical contribution to digital humanities generally.
+
+
+* 20% – Overall Recommendation: The proposal is organized effectively and offers a clear articulation of presentation content.
+
+
+
+The review period will begin on approximately April 1 and end on May 1, 2025.
 
 Notifications about acceptance or rejection are anticipated to end by May 15, 2025. Reviews will also be made available upon notification.
 
