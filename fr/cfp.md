@@ -6,7 +6,7 @@ layout: page
 <img height="150" src="/assets/img/noun-care-7582892-4C25E1.png"/>  <br>
 </div><br>
 
-Date limite : 5 avril 2025, 23:59:59 à GMT-4 (EST) 
+Date limite : 14 avril 2025, 23:59:59 à GMT-4 (EST) 
 
 Soumettre une proposition : [lien conftool](https://www.conftool.pro/ach2025/)
 
