@@ -5,7 +5,7 @@ layout: page
 <div class="text-center" >
 <img height="150" src="/assets/img/noun-care-7582892-4C25E1.png"/>  <br>
 </div><br>
-Deadline: April 5th, 2025, 11:59:59 PM in GMT-4 (EST)
+Deadline: April 14th, 2025, 11:59:59 PM in GMT-4 (EST)
 
 Submit a proposal: [ACH 2025 Conftool](https://www.conftool.pro/ach2025)   
 
