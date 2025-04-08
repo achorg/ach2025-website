@@ -11,7 +11,7 @@ Submit a proposal: [ACH 2025 Conftool](https://www.conftool.pro/ach2025)
 
 The Association for Computers and the Humanities (ACH) will hold **ACH 2025**, a virtual conference, from **June 11-13, 2025.**
 
-Interested in serving as a reviewer? Please sign up through our [Reviewer Signup Form](https://docs.google.com/forms/d/1lhbIvbUp2PzGIr6ETwaZuEDSZ2soa_r6qdqryYLm1wI)!
+Interested in serving as a reviewer? Please sign up through our [Reviewer Signup Form](https://docs.google.com/forms/d/1lhbIvbUp2PzGIr6ETwaZuEDSZ2soa_r6qdqryYLm1wI/preview)!
 
 ### Conference Focus
 
