@@ -48,7 +48,7 @@ As a conference committed to cross-disciplinary engagement, ACH 2025 welcomes in
 
 The field of Digital Humanities has always contended with questions of DHFailure, Project Sustainability, and challenges when Sunsetting a digital project. These issues have become institutional challenges at a larger scale in this current moment. 
 
-ACH25 recognizes the urgency of the moment and as an evolving part of the CFP, we are inviting scholars from all fields to submit, under the Creative Submission category, wide-ranging presentations that reflect on research and teaching projects that have been affected by contemporary geopolitics. 
+ACH25 recognizes the urgency of the moment and as an evolving part of the CFP, we are inviting scholars to submit, under the Creative Submission category, wide-ranging presentations that reflect on research and teaching projects that have been affected by contemporary geopolitics. 
 
 Please add in Conftool a Remark to Conference Organizers that highlights your proposal is intended for this Special Session.
 
