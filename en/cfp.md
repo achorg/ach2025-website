@@ -11,6 +11,8 @@ Submit a proposal: [ACH 2025 Conftool](https://www.conftool.pro/ach2025)
 
 The Association for Computers and the Humanities (ACH) will hold **ACH 2025**, a virtual conference, from **June 11-13, 2025.**
 
+Interested in serving as a reviewer? Please sign up through our [Reviewer Signup Form](https://docs.google.com/forms/d/1lhbIvbUp2PzGIr6ETwaZuEDSZ2soa_r6qdqryYLm1wI)!
+
 ### Conference Focus
 
 Amid rapid societal and technological transformations and historic elections worldwide, ACH fosters dialogue, spaces, and solidarity on equity and justice across local, transborder, and global contexts. ACH 2025 underscores the importance of addressing societal challenges in the digital humanities and beyond, such as racial and gender discrimination, while also highlighting the ramifications of computing and environmental crises. Join us in navigating diverse political milieus and shaping a virtual conference that is just and inclusive.
@@ -42,6 +44,14 @@ As a conference committed to cross-disciplinary engagement, ACH 2025 welcomes in
 * Resource creation, curation, and engagement
 * Use of digital technologies to write, publish, and review scholarship
 
+#### Call for Proposals for ACH 2025 Special Session
+
+The field of Digital Humanities has always contended with questions of DHFailure, Project Sustainability, and challenges when Sunsetting a digital project. These issues have become institutional challenges at a larger scale in this current moment. 
+
+ACH25 recognizes the urgency of the moment and as an evolving part of the CFP, we are inviting scholars from all fields to submit, under the Creative Submission category, wide-ranging presentations that reflect on research and teaching projects that have been affected by contemporary geopolitics. 
+
+Please add in Conftool a Remark to Conference Organizers that highlights your proposal is intended for this Special Session.
+
 ### Conference Submission Types and Languages
 
 Papers and Panels will be presented through a video conferencing system; Creative Submissions may be presented through a video conferencing system or through Work Adventure.
@@ -50,7 +60,7 @@ We welcome the following submission types:
 
 #### Creative Submissions:
 
-Artwork, posters, data visualizations, installations, performances, demonstrations, workshops, tutorials, and other interventions that engage conference issues, methods, and themes on any relevant topic, project, or tool at any stage of development. 
+Artwork, posters, data visualizations, installations, performances, demonstrations, workshops, tutorials, and other interventions that engage conference issues, methods, and themes on any relevant topic, project, or tool at any stage of development. Please clarify what makes your submission creative (and different from a traditional academic paper presentation): describe the intended duration and format of your creative presentation.
 
 #### Papers (12-15 minutes):
 
