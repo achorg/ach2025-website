@@ -8,11 +8,11 @@ A good review will suggest concrete ways in which the proposal may be strengthen
 
 Whatever you may think privately of the proposal or project, and whatever you may know (or think you know) about the author, it is essential that you be uncompromisingly professional and courteous in reviewing all submissions. Rudeness of any sort is destructive to the morale of the community and is absolutely unacceptable in a review.
 
-ACH 2023 will use an open peer review process. We ask that reviewers keep the contents of assigned proposals confidential.
+ACH 2025 will use an open peer review process. We ask that reviewers keep the contents of assigned proposals confidential.
 
 Reviewers will be able to read comments by other reviewers who have been assigned to assess the same submission. These peer reviews will only be visible after you have submitted your own review.  Reviewers are expected to assess each contribution independently, on its own merits, and are asked not to address other reviewers’ comments directly.
 
-Please note that we encourage all reviewers to be aware of both explicit and implicit bias in the review process. Biases are developed through our background, cultural environment and personal experiences. Importantly, the PC for ACH 2023 reminds all reviewers that explicit or implicit bias can negatively shape the reviewing process, the conference program, and the conference as a whole. We reserve the right to reassign a review should we feel that it has been shaped by explicit or implicit bias.
+Please note that we encourage all reviewers to be aware of both explicit and implicit bias in the review process. Biases are developed through our background, cultural environment and personal experiences. Importantly, the PC for ACH 2025 reminds all reviewers that explicit or implicit bias can negatively shape the reviewing process, the conference program, and the conference as a whole. We reserve the right to reassign a review should we feel that it has been shaped by explicit or implicit bias.
 
 ## Conflict of Interest
 
