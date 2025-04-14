@@ -20,46 +20,25 @@ By agreeing to review a proposal, reviewers confirm that there is no conflict of
 
 ## Submissions will be evaluated based on:
 
-| Relevance to Conference Focus The proposal topic is connected to anti-racist work, Indigenous studies, culture and critical ethnic studies, intersectional feminism, postcolonial and decolonial studies, queer studies, and/or multilingualism.                                | 20% |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Engagement with Relevant Scholarship The proposal explicitly engages with relevant scholarship and offers context within the current state of the fields in which it engages. Formal citations (in the author’s preferred style) are only required when using direct quotation. | 20% |
-| Framework and Purpose The proposal offers clear theoretical, methodological, or pedagogical framework; concrete statement of purpose; and explicit articulation of the sociopolitical implications of the work.                                                                 | 20% |
-| Applicability, Significance, and Value The proposal articulates the applicability, significance, and value of the theoretical, methodological, and/or practical contribution to digital humanities generally.                                                                   | 20% |
-| Overall Recommendation The proposal is organized effectively and offers a clear articulation of presentation content.                                                                                                                                                           | 20% |
-
+|Relevance to Conference Focus: The proposal topic is connected to the themes of care, community, and/or collaboration in the field of digital humanities.                             | 20% |
+| Engagement with Relevant Scholarship: The proposal explicitly engages with relevant scholarship and offers context within the current state of the fields in which it engages. Formal citations (in the author’s preferred style) are only required when using direct quotation. | 20% |
+| Framework and Purpose: The proposal offers clear theoretical, methodological, or pedagogical framework; concrete statement of purpose; and explicit articulation of the sociopolitical implications of the work.                                                                 | 20% |
+| Applicability, Significance, and Value: The proposal articulates the applicability, significance, and value of the theoretical, methodological, and/or practical contribution to digital humanities generally.                                                                   | 20% |
+| Overall Recommendation: The proposal is organized effectively and offers a clear articulation of presentation content.                                                                                                                                                           | 20% |
 
 
 ## Reviewing Submissions by Type
 
-Please review the submission types before completing your reviews. Reviewers are welcome to suggest alternative presentation formats (for instance, considering long paper proposals for short paper presentations, etc).
+Please review the submission types before completing your reviews. Reviewers are welcome to suggest alternative presentation formats (for instance, considering Paper submissions for a poster session in the Creative Submission category).
 
-Posters
+Creative Submissions:
+Artwork, posters, data visualizations, installations, performances, demonstrations, workshops, tutorials, and other interventions that engage conference issues, methods, and themes on any relevant topic, project, or tool at any stage of development. Please clarify what makes your submission creative (and different from a traditional academic paper presentation): describe the intended duration and format of your creative presentation.
 
-Posters present work on any relevant topic or offer project, tool, and software demonstrations in any stage of development. Poster proposals should be evaluated based on the clarity of the information being conveyed.
+Papers:
+Dynamic presentations that share experiments, works-in-progress, or sustained reflections on outcomes of more complete projects while engaging a range of participants and fostering connections and dialogue.
 
-Lightning talks
-
-Lightning talks are highly focused presentations that succinctly introduce a topic, method, tool, project, or work-in-progress to catalyze ideas and foster follow-up discussion. Lightning talk proposals should clearly focus on a single project, pedagogical method, idea, technology, or problem. They are intended to either solicit feedback from peers or to advertise the release of a new project, dataset, or tool. Reviewers should assess whether the submission can be accomplished in the time allotted (5 minutes).
-
-Individual papers
-
-Individual papers are dynamic presentations that share experiments, works-in-progress, or sustained reflections on outcomes of more complete projects while engaging a range of participants and fostering connections and dialogue. Reviewers should assess whether the submission can be accomplished in the time allotted (10-15 minutes).
-
-Panels
-
-Panels are engaging sessions that facilitate dialogue between presentations that are largely independent, highlighting connections between projects, methods or themes and reserving a minimum of 15 minutes for discussion with the audience. Reviewers are advised to consider whether the constitution of the panel reflects the constitution of the field and/or research topic that is being addressed and ACH’s expressed commitments to diversity or to explicitly address problems in those areas. 
-
-Roundtables
-
-Roundtables are sessions for which speakers provide brief interventions or framing on a cohesive set of issues, keywords, methods, and/or themes, reserving a minimum of 30 minutes for discussion among speakers and the audience. Reviewers are advised to consider whether the constitution of the roundtable reflects the constitution of the field and/or research topic that is being addressed and ACH’s expressed commitments to diversity or to explicitly address problems in those areas. 
-
-Installations and Performances
-
-Installations and performances include art work, creative data visualizations, performances, demonstrations and other critical interventions that engage conference issues, methods, and themes. Reviewers should consider the relevance of the installation or performance to the conference.
-
-Alternate Formats
-
-Alternate formats are submissions that do not fit into the above categories. Reviewers should consider the suitability of the format to a virtual conference and the appropriateness of the proposed time frame.
+Panels:
+Engaging sessions that facilitate dialogue between presentations, highlighting connections between projects, methods or themes and reserving a minimum of 15 minutes for discussion with the audience.
 
 ## Ten Tips for Conference Reviewing
 
