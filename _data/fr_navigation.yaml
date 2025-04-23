@@ -3,10 +3,10 @@ items:
     url: "/fr"
   # - text: CFP
   #   url: '/fr/cfp'
-  # - text: Pour les examinateurs
-  #   url: '/fr/lignes-directrices-pour-lexaminateur'
-  # - text: Stratégies
-  #   dropdown:
+  - text: Stratégies
+    dropdown:
+    - text: Pour les examinateurs
+      url: '/fr/lignes-directrices-pour-lexaminateur'
   #     - text: Code de conduite
   #       url: '/fr/strategies/code-de-conduite'
   #     - text: Accessibilité

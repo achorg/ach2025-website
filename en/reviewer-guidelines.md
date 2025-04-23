@@ -19,18 +19,15 @@ Please note that we encourage all reviewers to be aware of both explicit and imp
 By agreeing to review a proposal, reviewers confirm that there is no conflict of interest. Conflicts of interest include collaborators, projects on which you have worked, colleagues at your institution, or a situation in which your evaluation (positive or negative) would be professionally advantageous to you. If you are assigned a proposal that presents a conflict of interest, please decline to review it in ConfTool, so we can reassign it. If you have questions or concerns about a potential conflict of interest, please contact the PC chair at conference@ach.org.
 
 ## Submissions will be evaluated based on:
+| **Criteria**                              | **Weight** |
+|-------------------------------------------|------------|
+| **Relevance to Conference Focus**: The proposal topic is connected to the themes of care, community, and/or collaboration in the field of digital humanities. | 20% |
+| **Engagement with Relevant Scholarship**: The proposal explicitly engages with relevant scholarship and offers context within the current state of the fields in which it engages. Formal citations (in the author’s preferred style) are only required when using direct quotation. | 20% |
+| **Framework and Purpose**: The proposal offers clear theoretical, methodological, or pedagogical framework; concrete statement of purpose; and explicit articulation of the sociopolitical implications of the work. | 20% |
+| **Applicability, Significance, and Value**: The proposal articulates the applicability, significance, and value of the theoretical, methodological, and/or practical contribution to digital humanities generally. | 20% |
+| **Overall Recommendation**: The proposal is organized effectively and offers a clear articulation of presentation content. | 20% |  
 
-|Relevance to Conference Focus: The proposal topic is connected to the themes of care, community, and/or collaboration in the field of digital humanities.                             | 20% |
-
-| Engagement with Relevant Scholarship: The proposal explicitly engages with relevant scholarship and offers context within the current state of the fields in which it engages. Formal citations (in the author’s preferred style) are only required when using direct quotation. | 20% |
-
-| Framework and Purpose: The proposal offers clear theoretical, methodological, or pedagogical framework; concrete statement of purpose; and explicit articulation of the sociopolitical implications of the work.                                                                 | 20% |
-
-| Applicability, Significance, and Value: The proposal articulates the applicability, significance, and value of the theoretical, methodological, and/or practical contribution to digital humanities generally.                                                                   | 20% |
-
-| Overall Recommendation: The proposal is organized effectively and offers a clear articulation of presentation content.                                                                                                                                                           | 20% |
-
-
+  
 
 ## Reviewing Submissions by Type
 
