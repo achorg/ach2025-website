@@ -1,6 +1,8 @@
 items:
   - text: Home
     url: "/"
+  - text: CFP
+    url: '/en/cfp'  
   # - text: Registration
   #   url: '/en/registration'
   # - text: Program
@@ -17,8 +19,6 @@ items:
   #       url: '/en/policies/accessibility'
   #     - text: Privacy
   #       url: '/en/policies/privacy'
-  #     - text: CFP
-  #       url: '/en/cfp'
         - text: For Reviewers
           url: '/en/reviewer-guidelines'
 

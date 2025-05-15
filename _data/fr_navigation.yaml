@@ -1,8 +1,8 @@
 items:
   - text: page d'accueil
     url: "/fr"
-  # - text: CFP
-  #   url: '/fr/cfp'
+  - text: CFP
+    url: '/fr/cfp'
   - text: Stratégies
     dropdown:
     - text: Pour les examinateurs
