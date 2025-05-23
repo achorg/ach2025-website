@@ -3,7 +3,7 @@ title: Altavoces
 layout: page
 ---
 
-# ACH 2023 Keynote: Accesibilidad y Beca Digital
+# ACH 2025 Keynote: Accesibilidad y Beca Digital
 jueves, 29 de junio de 2023
 
 ## Altavoces
@@ -31,10 +31,10 @@ Jasmine tiene experiencia en una variedad de áreas funcionales y departamentos,
 **Marisol Fila** (ella) es candidata a doctorado en lenguas y literaturas romances española y portuguesa en la Universidad de Michigan. Su disertación explora cómo los escritores, artistas e intelectuales negros, hombres y mujeres, en las prensas negras del siglo XXI de Buenos Aires, Argentina, São Paulo, Brasil y Lisboa, Portugal, utilizan los medios digitales e impresos para navegar las distintas articulaciones entre la diáspora y los negros nacionales. identidades Marisol también está interesada en Pedagogía Crítica y Humanidades Digitales Públicas y en las formas en que la tecnología y los medios digitales pueden servir como herramienta para compartir su investigación y trabajo con una audiencia más amplia, pero también para desarrollar proyectos digitales en asociación con organizaciones afrodescendientes. en países de habla portuguesa y española. Marisol recibió una subvención de investigación antirracismo de la Universidad de Michigan 2022 y es codirectora actual de Imagining America PAGE.
 
 ## Selección de los oradores principales
-Al elegir el tema principal de este año de "Accesibilidad y becas digitales", decidimos subrayar los valores que dan forma a esta conferencia virtual, articulados en nuestra [convocatoria de propuestas] original (https://ach2023.ach.org/en/cfp/ ):
+Al elegir el tema principal de este año de "Accesibilidad y becas digitales", decidimos subrayar los valores que dan forma a esta conferencia virtual, articulados en nuestra [convocatoria de propuestas] original (https://ach2025.ach.org/en/cfp/ ):
 
-> *“ACH 2023 se guía por nuestros compromisos con la equidad y la justicia. La conferencia reconoce que la erudición en humanidades digitales es inextricablemente sociopolítica. Por lo tanto, hemos optado por renunciar a un tema para enfatizar la naturaleza sociopolítica inherente del trabajo y alentar a todos los escritores de propuestas a abordar explícitamente los intereses sociopolíticos de su trabajo.*
+> *“ACH 2025 se guía por nuestros compromisos con la equidad y la justicia. La conferencia reconoce que la erudición en humanidades digitales es inextricablemente sociopolítica. Por lo tanto, hemos optado por renunciar a un tema para enfatizar la naturaleza sociopolítica inherente del trabajo y alentar a todos los escritores de propuestas a abordar explícitamente los intereses sociopolíticos de su trabajo.*
 
-> *ACH 2023 prioriza propuestas que se enfocan en la justicia social en múltiples contextos: trabajo antirracista, estudios indígenas, estudios étnicos culturales y críticos, feminismo interseccional, estudios poscoloniales y decoloniales, estudios de discapacidad y estudios queer.”*
+> *ACH 2025 prioriza propuestas que se enfocan en la justicia social en múltiples contextos: trabajo antirracista, estudios indígenas, estudios étnicos culturales y críticos, feminismo interseccional, estudios poscoloniales y decoloniales, estudios de discapacidad y estudios queer.”*
 
 Exploramos muchos temas posibles antes de decidir que las cuestiones de accesibilidad eran las más apremiantes durante este tercer año de la pandemia de COVID-19. W

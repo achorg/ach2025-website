@@ -9,8 +9,8 @@ items:
       url: '/fr/lignes-directrices-pour-lexaminateur'
   #     - text: Code de conduite
   #       url: '/fr/strategies/code-de-conduite'
-  #     - text: Accessibilité
-  #       url: '/fr/strategies/accessibilite'
+    - text: Accessibilité
+      url: '/fr/strategies/accessibilite'
   #     - text: Intimité
   #       url: '/fr/strategies/intimite'
   # - text: Programme

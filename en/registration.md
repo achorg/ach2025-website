@@ -2,7 +2,7 @@
 title: Registration
 layout: page
 ---
-### ACH 2023 Registration
+### ACH 2025 Registration
 
 Registration will open April 19th, 2023.
 
@@ -27,4 +27,4 @@ ACH has a limited number of bursaries to cover registration costs for graduate s
 
 In order to be eligible, you must be a member of ACH (if you’re not yet a member, you can [join ACH](https://ach.org/membership/) now). 
 
-[Bursary applications](https://tinyurl.com/ACH2023Bursaries) are due by May 5, 2023.
+[Bursary applications](https://tinyurl.com/ACH2025Bursaries) are due by May 5, 2023.

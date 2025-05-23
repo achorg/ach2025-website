@@ -15,8 +15,8 @@ items:
     dropdown:
   #     - text: Code of Conduct
   #       url: '/en/policies/code-of-conduct'
-  #     - text: Accessibility
-  #       url: '/en/policies/accessibility'
+        - text: Accessibility
+          url: '/en/policies/accessibility'
   #     - text: Privacy
   #       url: '/en/policies/privacy'
         - text: For Reviewers

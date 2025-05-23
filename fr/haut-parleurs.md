@@ -3,7 +3,7 @@ title: Haut-parleurs
 layout: page
 ---
 
-# ACH 2023 Keynote: Bourse d'études sur l'accessibilité et le numérique
+# ACH 2025 Keynote: Bourse d'études sur l'accessibilité et le numérique
 jeudi 29 juin 2023
 
 ## Haut-parleurs
@@ -31,10 +31,10 @@ Jasmine a de l'expérience dans une variété de domaines fonctionnels et de dé
 **Marisol Fila** (elle) est candidate au doctorat en langues et littératures romanes espagnole et portugaise à l'Université du Michigan. Sa thèse explore comment les écrivains, artistes et intellectuels noirs, femmes et hommes, dans les presses noires du XXIe siècle de Buenos Aires, en Argentine, de São Paulo, au Brésil et de Lisbonne, au Portugal, utilisent les médias numériques et imprimés pour naviguer dans des articulations distinctes entre les Noirs diasporiques et nationaux. identités. Marisol s'intéresse également à la pédagogie critique et aux humanités numériques publiques et à la manière dont la technologie et les médias numériques peuvent servir d'outil pour partager ses recherches et son travail avec un public plus large, mais aussi pour développer des projets numériques en partenariat avec des organisations d'ascendance africaine. dans les pays lusophones et hispanophones. Marisol est récipiendaire d'une bourse de recherche sur la lutte contre le racisme de l'Université du Michigan en 2022 et codirectrice actuelle d'Imagining America PAGE.
 
 ## Sélection des conférenciers principaux
-En choisissant le thème principal de cette année "Accessibilité et bourses d'études numériques", nous avons choisi de souligner les valeurs qui façonnent cette conférence virtuelle, articulées dans notre [appel à propositions] original (https://ach2023.ach.org/en/cfp/ ):
+En choisissant le thème principal de cette année "Accessibilité et bourses d'études numériques", nous avons choisi de souligner les valeurs qui façonnent cette conférence virtuelle, articulées dans notre [appel à propositions] original (https://ach2025.ach.org/en/cfp/ ):
 
-> *"ACH 2023 est guidé par nos engagements en matière d'équité et de justice. La conférence reconnaît que la recherche en humanités numériques est inextricablement sociopolitique. Nous avons donc choisi de renoncer à un thème pour souligner la nature sociopolitique inhérente au travail et encourager tous les rédacteurs de propositions à aborder explicitement les enjeux sociopolitiques de leur travail.*
+> *"ACH 2025 est guidé par nos engagements en matière d'équité et de justice. La conférence reconnaît que la recherche en humanités numériques est inextricablement sociopolitique. Nous avons donc choisi de renoncer à un thème pour souligner la nature sociopolitique inhérente au travail et encourager tous les rédacteurs de propositions à aborder explicitement les enjeux sociopolitiques de leur travail.*
 
-> *ACH 2023 donne la priorité aux propositions axées sur la justice sociale dans de multiples contextes : travail antiraciste, études autochtones, études ethniques culturelles et critiques, féminisme intersectionnel, études postcoloniales et décoloniales, études sur le handicap et études queer. »*
+> *ACH 2025 donne la priorité aux propositions axées sur la justice sociale dans de multiples contextes : travail antiraciste, études autochtones, études ethniques culturelles et critiques, féminisme intersectionnel, études postcoloniales et décoloniales, études sur le handicap et études queer. »*
 
 Nous avons exploré de nombreux thèmes possibles avant de décider que les questions d'accessibilité étaient les plus pressantes durant cette troisième année de la pandémie de COVID-19. O

@@ -9,7 +9,7 @@ layout: page
 
 ITHAKA is our conference sponsor for Work Adventure, the virtual exhibit world we’ll be using to connect with each other on Saturday. The ITHAKA team will be offering demos of their new text analysis tool, [Constellate](https://labs.jstor.org/projects/text-mining/), on Saturday. 
 
-#### ACH2023 Events with the Constellate Team
+#### ACH2025 Events with the Constellate Team
 
 Join Amy Kirchhoff, Senior Manager for [Constellate](https://constellate.org/), for her tech talk, **“Teach text & data analysis with Constellate” from 10:00-11:15 AM EDT (Session #16A)** in Work Adventure. Text and data analysis is a core competency within data literacy as a whole, and is connected to digital humanities, data mining, data analytics, and big data. Constellate enables you to easily and confidently incorporate text analysis into your curriculum. You won’t want to miss this opportunity to learn more about how to stay ahead in our data-driven future. 
 

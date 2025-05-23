@@ -2,21 +2,21 @@
 title: Conference Safety
 layout: page
 ---
-ACH 2023 is dedicated to creating a safe, respectful, and collegial conference environment for the benefit of everyone who attends and for the advancement of research and scholarship in fields supported by ACH. ACH 2023 has adapted language from the [ACH Conference Code of Conduct](https://ach2021.ach.org/ach-conference-code-of-conduct/) and [DH Unbound 2022 Code of Conduct](https://dhunbound2022.ach.org/code-of-conduct/).
+ACH 2025 is dedicated to creating a safe, respectful, and collegial conference environment for the benefit of everyone who attends and for the advancement of research and scholarship in fields supported by ACH. ACH 2025 has adapted language from the [ACH Conference Code of Conduct](https://ach2021.ach.org/ach-conference-code-of-conduct/) and [DH Unbound 2022 Code of Conduct](https://dhunbound2022.ach.org/code-of-conduct/).
 
 ## Code of Conduct
 
-ACH 2023 is dedicated to providing a harassment-free conference experience for everyone regardless of gender identity, gender expression, sexual orientation, disability, physical appearance, body size, race, ethnicity, origin, or religion. By attending ACH 2023 events, you signal your commitment to contributing to a safe and inclusive experience for all. We do not tolerate harassment of event participants in any form, whether events are held virtually or face-to-face. Participants in ACH 2023 events violating these rules may be barred or banned from ACH 2023 activities at the discretion of the organizers.
+ACH 2025 is dedicated to providing a harassment-free conference experience for everyone regardless of gender identity, gender expression, sexual orientation, disability, physical appearance, body size, race, ethnicity, origin, or religion. By attending ACH 2025 events, you signal your commitment to contributing to a safe and inclusive experience for all. We do not tolerate harassment of event participants in any form, whether events are held virtually or face-to-face. Participants in ACH 2025 events violating these rules may be barred or banned from ACH 2025 activities at the discretion of the organizers.
 
 Harassment includes but is not limited to: derogatory verbal comments; sexist, racist, or otherwise discriminatory jokes and language; sexual and/or discriminatory text or audio-visual material in conference spaces (virtual or face-to-face), unless being critiqued in an academic context; deliberate intimidation; stalking; following; harassing photography or recording; questioning someone’s right to use the restroom of their choice; sustained disruption of talks or other events; inappropriate physical contact; and unwelcome sexual attention.
 
 Participants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behavior, the organizers may take any action they deem appropriate, including warning the offender or expulsion from the event.
 
-ACH 2023 seeks to uphold these values throughout the submission and review process as well as during the conference itself. Please familiarize yourself with the reporting guidelines and our process for addressing violations.
+ACH 2025 seeks to uphold these values throughout the submission and review process as well as during the conference itself. Please familiarize yourself with the reporting guidelines and our process for addressing violations.
 
 **Reporting Procedures**
 
-Please know that we believe you. All code of conduct violations will be treated seriously. If you are being harassed, notice that someone else is being harassed, or have any other concerns, we ask that you contact us immediately to file a report. As social media moves rapidly, we ask that a formal report be provided in addition to any issues discussed on social media to ensure that we receive all the pertinent information. To report a violation at any time, please contact Pam Lach, ACH 2023 conference chair at plach \[at] sdsu \[dot] edu or email the ACH 2023 conference committee at conference \[at] ach \[dot] org.
+Please know that we believe you. All code of conduct violations will be treated seriously. If you are being harassed, notice that someone else is being harassed, or have any other concerns, we ask that you contact us immediately to file a report. As social media moves rapidly, we ask that a formal report be provided in addition to any issues discussed on social media to ensure that we receive all the pertinent information. To report a violation at any time, please contact Pam Lach, ACH 2025 conference chair at plach \[at] sdsu \[dot] edu or email the ACH 2025 conference committee at conference \[at] ach \[dot] org.
 
 All reports will be kept confidential to the extent possible governed by applicable federal or state laws. In some cases we may determine that a public statement will need to be made. If that proves to be the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
 
@@ -35,7 +35,7 @@ In your report please include:
 
 **Investigation Process**
 
-You will receive immediate acknowledgement of receipt of your complaint within an hour of your formal report during the scheduled hours of the event. All reports received before or after the event will be acknowledged within 24 hours. We promise to acknowledge receipt and initiate a meeting of the appropriate individuals. For ACH 2023, this will include the conference committee.
+You will receive immediate acknowledgement of receipt of your complaint within an hour of your formal report during the scheduled hours of the event. All reports received before or after the event will be acknowledged within 24 hours. We promise to acknowledge receipt and initiate a meeting of the appropriate individuals. For ACH 2025, this will include the conference committee.
 
 The committee will confer to review the incident and determine:
 
@@ -49,18 +49,18 @@ If the incident is determined to be ongoing or a threat to physical safety, the 
 Once the committee has a complete account of the events they will make a decision as to how to respond. Responses may include but are not limited to:
 
 * Nothing (if we determine no violation occurred)
-* A private reprimand from ACH 2023 and/or ACH to the individual(s) involved
+* A private reprimand from ACH 2025 and/or ACH to the individual(s) involved
 * A public reprimand
-* A permanent or temporary ban from ACH 2023 and/or ACH events and reporting of the incident to ADHO, which may result in additional restrictions
+* A permanent or temporary ban from ACH 2025 and/or ACH events and reporting of the incident to ADHO, which may result in additional restrictions
 * A request for a public or private apology
 
 We will attempt to respond as quickly as possible with the goal of resolving all complaints. Within 24 hours, we will seek to document either a resolution or an explanation of why the situation is not yet resolved to the individual reporting. Once we’ve determined our final action, we will contact the original individuals involved in reporting the incident to let them know what action (if any) we will be taking. We will take into account any feedback we receive from the reporter of the incident on the appropriateness of our response, but we do not guarantee we will act on it.
 
-We value your participation in ACH 2023 and thank you for working with us to ensure that our events are safe and productive spaces for all.
+We value your participation in ACH 2025 and thank you for working with us to ensure that our events are safe and productive spaces for all.
 
 ## Accessibility 
 
-The ACH 2023 planning committee ACH strives to ensure that the conference is accessible for all participants.
+The ACH 2025 planning committee ACH strives to ensure that the conference is accessible for all participants.
 
 All synchronous sessions will make live transcription available to participants, and keynote sessions will include both sign language interpretation and live transcription. The keynote speech on May 19th will also include simultaneous interpretation from French to English.
 
@@ -101,10 +101,10 @@ So that my submission can be shared with reviewers and researchers, and my peer-
 
 Creative Commons-Attribution 4.0 (CC-BY 4.0) is a widely used public license that meets the definition of Open Access. Licensing your abstract under this License makes it easy to re-use for the whole community. Please be informed that the License allows commercial use of your abstract as well as making derivative works. However, it guarantees that you are mentioned as the author of the abstract every time someone uses it.
 
-For ACH 2023, this license will be used as follows:
+For ACH 2025, this license will be used as follows:
 
 1. Accepted proposals will be revised by authors and published in the online program along with their names and affiliations;
-2. In lieu of a Book of Abstracts, revised abstracts will also be deposited in [Humanities CORE](https://hcommons.org/core/), where they will be preserved and given a digital object identifier (DOI). Additionally, conference participants are strongly encouraged to deposit their presentations—whether in the form of a paper, slides, poster, or other format—to CORE, and to share them with the ACH 2023 group on the Commons, in order to facilitate ongoing discussion and citation of your work.
+2. In lieu of a Book of Abstracts, revised abstracts will also be deposited in [Humanities CORE](https://hcommons.org/core/), where they will be preserved and given a digital object identifier (DOI). Additionally, conference participants are strongly encouraged to deposit their presentations—whether in the form of a paper, slides, poster, or other format—to CORE, and to share them with the ACH 2025 group on the Commons, in order to facilitate ongoing discussion and citation of your work.
 
 Materials deposited in CORE will be governed by the [Humanities Commons Terms of Service](https://hcommons.org/terms/), about which more information can be found in the [CORE FAQ](https://hcommons.org/core/faq/). 
 
