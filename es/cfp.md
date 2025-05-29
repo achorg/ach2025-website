@@ -171,6 +171,8 @@ Si está interesado en traducir esta convocatoria de propuestas a otro idioma, c
 
 * Copresidentes de la conferencia: Alex Wermer-Colan (Universidad de Temple) y Dot Porter (Universidad de Pensilvania)
 * Copresidentes del programa: Jajwalya Karajgikar (Universidad de Pensilvania) y Sylvia Fernández (Universidad de Texas en San Antonio)
-* Presidente técnico: Andy Janco (Universidad de Princeton)
+* Copresidente Técnico: Andy Janco (Universidad de Princeton)
+* Copresidente Técnico: Winnie Pérez Martínez (Universidad de Virginia)
+* Coordinadora de Voluntarios: Rebecca Foote (UCLA)
 * Responsable de comunicaciones: Amanda Reagan (Universidad de Clemson)
 * Responsable de patrocinio y promoción: Katayoun Torabi (Facultad de Artes y Ciencias de Texas A&M)
