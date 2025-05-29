@@ -11,6 +11,11 @@ items:
   #   url: '/en/keynote'
   # - text: Sponsor
   #   url: '/en/sponsor'
+  - text: Information
+    dropdown:
+      - text: Work Adventure Guide
+        url: '/en/work-adventure'
+     
   - text: Policies
     dropdown:
   #     - text: Code of Conduct

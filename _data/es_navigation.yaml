@@ -3,6 +3,11 @@ items:
     url: "/es"
   - text: CFP
     url: '/es/cfp'
+  - text: Información
+    dropdown:
+      - text: Guía de Work Adventure
+        url: '/es/work-adventure'
+        
   - text: Políticas
     dropdown:
       - text: Para los revisores
