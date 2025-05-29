@@ -2,7 +2,7 @@
 title: Accessibility
 layout: page
 ---
-The ACH 2023 planning committee ACH strives to ensure that the conference is accessible for all participants.
+The ACH 2025 planning committee ACH strives to ensure that the conference is accessible for all participants.
 
 All synchronous sessions will make live transcription available to participants, and keynote sessions will include both sign language interpretation and live transcription.
 
@@ -11,7 +11,7 @@ Virtual Presentation Accessibility Guidelines
 Preparing Slides
 
 1. We encourage participants to use the [Accessibility Checker](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-us&rs=en-us&ad=us#bkmk_use) in PowerPoint or [Accessibility Checker for Google Slides](https://workspace.google.com/marketplace/app/accessibility_checker_for_slides/437536886016) when preparing slides.
-2. We encourage participants to use an [accessible slide template for PowerPoint](https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25) or one of the built-in themes in Google Slides.
+2. We encourage participants to use an [accessible slide template for PowerPoint](https://support.microsoft.com/es-es/office/cree-presentaciones-de-powerpoint-accesibles-para-personas-con-discapacidad-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25) or one of the built-in themes in Google Slides.
 3. When adding a new slide in your selected theme, use one of the available layouts, rather than editing them or creating a new layout. This will assist screen readers with your content.
 4. Pay attention to color contrast: dark text on a light background or light text on a dark background is easiest to read.
 5. Avoid animations or transitions, which can trip up screen readers.
@@ -43,9 +43,9 @@ So that my submission can be shared with reviewers and researchers, and my peer-
 
 Creative Commons-Attribution 4.0 (CC-BY 4.0) is a widely used public license that meets the definition of Open Access. Licensing your abstract under this License makes it easy to re-use for the whole community. Please be informed that the License allows commercial use of your abstract as well as making derivative works. However, it guarantees that you are mentioned as the author of the abstract every time someone uses it.
 
-For ACH 2023, this license will be used as follows:
+For ACH 2025, this license will be used as follows:
 
 1. Accepted proposals will be revised by authors and published in the online program along with their names and affiliations;
-2. In lieu of a Book of Abstracts, revised abstracts will also be deposited in [Humanities CORE](https://hcommons.org/core/), where they will be preserved and given a digital object identifier (DOI). Additionally, conference participants are strongly encouraged to deposit their presentations—whether in the form of a paper, slides, poster, or other format—to CORE, and to share them with the ACH 2023 group on the Commons, in order to facilitate ongoing discussion and citation of your work.
+2. In lieu of a Book of Abstracts, revised abstracts will also be deposited in [Humanities CORE](https://hcommons.org/core/), where they will be preserved and given a digital object identifier (DOI). Additionally, conference participants are strongly encouraged to deposit their presentations—whether in the form of a paper, slides, poster, or other format—to CORE, and to share them with the ACH 2025 group on the Commons, in order to facilitate ongoing discussion and citation of your work.
 
 Materials deposited in CORE will be governed by the [Humanities Commons Terms of Service](https://hcommons.org/terms/), about which more information can be found in the [CORE FAQ](https://hcommons.org/core/faq/).

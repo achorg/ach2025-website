@@ -9,8 +9,8 @@ items:
         url: '/es/lineamientos-para-revisores'
   #     - text: Código de conducta
   #       url: '/es/politicas/codigo-de-conducta'
-  #     - text: Accesibilidad
-  #       url: '/es/politicas/accesibilidad'
+      - text: Accesibilidad
+        url: '/es/politicas/accesibilidad'
   #     - text: Privacidad
   #       url: '/es/politicas/privacidad'
   # - text: Programa

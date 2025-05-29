@@ -3,7 +3,7 @@ title: Keynote
 layout: page
 ---
 
-# ACH 2023 Keynote: Accessibility and Digital Scholarship
+# ACH 2025 Keynote: Accessibility and Digital Scholarship
 Thursday, June 29, 2023
 
 ## Speakers
@@ -31,11 +31,11 @@ Jasmine has experience in a variety of functional areas and departments, includi
 **Marisol Fila** (she/her) is a PhD Candidate in Romance Languages and Literatures Spanish and Portuguese at the University of Michigan. Her dissertation explores how Black female and male writers, artists and intellectuals in the twenty-first century Black presses of Buenos Aires, Argentina, São Paulo, Brazil, and Lisbon, Portugal use digital and print media to navigate distinct articulations between diasporic and national Black identities. Marisol is also interested in Critical Pedagogy and Public Digital Humanities and in the ways in which technology and digital media can serve as a tool to share her research and work to a wider audience, but also to develop digital projects in partnership with Afro-descendant organizations across Portuguese and Spanish speaking countries. Marisol is the recipient of a University of Michigan 2022 Anti-Racism Research Grant and a current Imagining America PAGE Co-Director.
 
 ## Selecting the Keynote Speakers
-In choosing this year’s keynote theme of “Accessibility and Digital Scholarship,” we chose to underscore the values that shape this virtual conference, articulated in our original [call for proposals](https://ach2023.ach.org/en/cfp/):
+In choosing this year’s keynote theme of “Accessibility and Digital Scholarship,” we chose to underscore the values that shape this virtual conference, articulated in our original [call for proposals](https://ach2025.ach.org/en/cfp/):
 
-> *“ACH 2023 is guided by our commitments to equity and justice. The conference recognizes that digital humanities scholarship is inextricably sociopolitical. Therefore, we have chosen to forgo a theme to emphasize the inherent sociopolitical nature of the work and encourage all proposal writers to explicitly address the sociopolitical stakes of their work.*
+> *“ACH 2025 is guided by our commitments to equity and justice. The conference recognizes that digital humanities scholarship is inextricably sociopolitical. Therefore, we have chosen to forgo a theme to emphasize the inherent sociopolitical nature of the work and encourage all proposal writers to explicitly address the sociopolitical stakes of their work.*
 
-> *ACH 2023 prioritizes proposals that focus on social justice in multiple contexts: anti-racist work, Indigenous studies, cultural and critical ethnic studies, intersectional feminism, postcolonial and decolonial studies, disability studies, and queer studies.”*
+> *ACH 2025 prioritizes proposals that focus on social justice in multiple contexts: anti-racist work, Indigenous studies, cultural and critical ethnic studies, intersectional feminism, postcolonial and decolonial studies, disability studies, and queer studies.”*
 
 We explored many possible themes before deciding that questions of accessibility were the most pressing during this third year of the COVID-19 pandemic. With the push to “return to normal,” we thought of those who cannot or will not resume a pre-pandemic life, and of the urgency of ensuring accessibility in digital scholarship and virtual spaces moving forward. We were particularly drawn to the work of Jasmine Clark and M. Remi Yergeau, who have dedicated their academic careers to exploring questions of accessibility in digital spheres. 
 
@@ -43,7 +43,7 @@ Jasmine Clark’s work emphasizes the importance of accessibility standards in v
 
 The [Digital Accessible Futures Lab](https://accessiblefutures.net/), which M. Remi Yergeau directs, “examines pressing issues at the intersections of disability justice, techno-ableism, anti-racist praxis, and crip joy. We seek to dismantle ableist infrastructures in our everyday work. We root our practice in collective care and the deep learning that attends lived experience of disability. We join those who’ve come before us in imagining just crip futures.” We were particularly drawn to Dr. Yergeau’s work on crip-centered experiences, including *[Crip Time Travel](https://accessiblefutures.net/projects/)*. 
 
--The ACH 2023 Conference Committee  
+-The ACH 2025 Conference Committee  
 **Conference Chair:** Pamella Lach (she/her/hers), San Diego State University  
 **Program Committee Lead:** Liz Grumbach (she/her/hers), Arizona State University  
 **Platform Committee Co-Leads:** Alex Wermer-Colan, Temple University & Andy Janco, University of Pennsylvania  
