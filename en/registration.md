@@ -4,7 +4,7 @@ layout: page
 ---
 ### ACH 2025 Registration
 
-Registration opens May 15th, 2025.
+Registration opens May 15th, 2025: https://members.ach.org/civicrm/event/info/?id=35&reset=1
 
 *Presenters are required to register by June 10th, 2025 to allow sufficient time for production of conference materials.*
 
