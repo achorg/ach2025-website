@@ -5,7 +5,7 @@ layout: page
 
 ## Conference Program
 
-The full program, including links to all sessions, is available in ConfTool. Session links will be added closer to November 6. 
+The full program, including links to all sessions, is available in ConfTool. 
 
 You must be registered for the conference to access the full details and build your conference agenda. To register, please visit the [Registration page](https://members.ach.org/civicrm/event/info/?id=35&reset=1).
 
