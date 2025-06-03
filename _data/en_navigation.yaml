@@ -1,8 +1,8 @@
 items:
   - text: Home
     url: "/"
-  - text: CFP
-    url: '/en/cfp'  
+  - text: Program
+    url: '/en/program'  
   # - text: Registration
   #   url: '/en/registration'
   # - text: Program
@@ -15,15 +15,16 @@ items:
     dropdown:
       - text: Work Adventure Guide
         url: '/en/work-adventure'
-     
+      - text: CFP
+        url: '/en/cfp'
   - text: Policies
     dropdown:
-  #     - text: Code of Conduct
-  #       url: '/en/policies/code-of-conduct'
-        - text: Accessibility
-          url: '/en/policies/accessibility'
-  #     - text: Privacy
-  #       url: '/en/policies/privacy'
-        - text: For Reviewers
-          url: '/en/reviewer-guidelines'
+      - text: Code of Conduct
+        url: '/en/policies/code-of-conduct'
+      - text: Accessibility
+        url: '/en/policies/accessibility'
+      - text: Privacy
+        url: '/en/policies/privacy'
+      - text: For Reviewers
+        url: '/en/reviewer-guidelines'
 

@@ -5,99 +5,278 @@ layout: page
 
 ## Conference Program
 
-Registered participants ([register for the conference here](https://members.ach.org/civicrm/event/info/?id=20&reset=1)!) may access the full conference program in [ConfTool](https://www.conftool.pro/ach2025/). Information about virtual spaces (Zoom and Work Adventure) will be shared in ConfTool and via direct email to attendees. 
+The full program, including links to all sessions, is available in ConfTool. Session links will be added closer to November 6. You must be registered for the conference to access the full details and build your conference agenda. 
+Once you register, you will be given attendee status in ConfTool to access the program. There may be lag time of a few days before you gain full access in ConfTool.
 
 ---
 
-## Thursday, June 29
-### 8:30am - 9:45am EDT
-* #1A: Multilingual DH (Lightning Talks)
-* #1B: Critical Library Studies
-* #1C: Critical Digital Editions
+## Conference Overview
 
-### 10:00am - 11:15am EDT
-* #2A: Reflecting on Making DH Work for Us: Labor, Care, and Careers
-* #2B: Critical Approaches to Extended Reality
-* #2C: Cultural Analytics Pedagogies (Roundtable)
+<b>Day 1
+Wednesday June 11</b>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg table table-hover"><thead>
+  <tr>
+    <th scope="col" class="tg-0pky">CST</th>
+    <th scope="col" class="tg-0pky">Zoom</th>
+    <th scope="col" class="tg-0pky">WorkAdventure</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">"Session 01 <br>9:00 a.m.-10:15 a.m. CT"</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">"Session 02 <br>10:30am-11:45am"</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 03 <br>12:00pm-1:00pm</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 04 <br>1:15pm-2:30pm CT</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 05<br>2:45pm-4:45pm CT</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 06 <br>5:00pm-6:15pm CT<br></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 07<br>6:30pm-7:45pm CT<br></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody></table>
 
-### 11:30am - 1:30pm EDT
-* #3A: Opening Remarks and Keynote Roundtable: Accessibility and Digital Scholarship
+<hr> 
+<b>Day 2
+Thursday June 12</b>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg table table-hover"><thead>
+  <tr>
+    <th scope="col" class="tg-0pky">CST</th>
+    <th scope="col" class="tg-0pky">Zoom</th>
+    <th scope="col" class="tg-0pky">WorkAdventure</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">"Session 01 <br>9:00 a.m.-10:15 a.m. CT"</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">"Session 02 <br>10:30am-11:45am"</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 03 <br>12:00pm-1:15pm</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 04 <br>1:30pm-2:45pm CT</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 05<br>3:00pm-4:15pm CT</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 06 <br>4:30pm-5:45pm CT<br></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 07<br>6:00pm-7:15pm CT<br></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody></table>
 
-### 1:45pm - 2:45pm EDT
-* #4A: ACH General Membership Meeting
-
-### 3:00pm - 4:15pm EDT
-* #5A: Cultural Analytics and Community
-* #5B: Digital Cultural Studies I
-* #5C: Proof of Existence: Archives, Community and DH
-
-### 4:30pm - 5:45pm EDT
-* #6A: Exploring Methods in Multilingual DH
-* #6B: Perspectives on Critical Pedagogy I
-* #6C: Regional and International Collaboration on Supporting Latin American and Caribbean Digital Humanities (Roundtable)
-
-### 6:00pm - 7:15pm EDT
-* #7A: Virtual Social Event: How to Make a Crossword Puzzle
-
----
-
-## Friday, June 30
-### 8:30am - 9:45am EDT
-* #8A: NEH Funding for the Digital Humanities: Finding Your Fit (new day and time!)
-
-### 10:00am - 11:15am EDT
-* #9A: Inclusion and Ethics in DH (Lightning Talks)
-* #9B: Global DH Perspectives I
-* #9C: DH Perspectives in History and Lit
-
-### 11:30am - 12:45pm EDT
-* #10A: Perspectives on Critical Pedagogy II
-* #10B: History, Machine Learning, and AI
-* #10C: Roundtable on Scholarly Communication for Digital Humanities Librarianship
-
-### 1:00pm - 2:15pm EDT
-* #11A: Archives and Sustainability (Installations)
-* #11B: The Public Digital Humanities Institute: An institute to support academic & community collaborations in the digital humanities (Panel)
-
-### 2:30pm - 3:45pm EDT
-* #12A: Computational Literary Analysis
-* #12B: Ethics of digital stewardship in digital projects: a roundtable
-* #12C: From Passive to Active: Teaching Students to Critically Engage Artificial Intelligence
-
-### 4:00pm - 5:15pm EDT
-* #13A: Listening and Looking for Gaps in the AudioVisual Digital Record with the AudiAnnotate (Roundtable)
-* #13B: A Visual Analytics Approach to the Design of Interactive Maps in Exploring City History (Roundtable)
-* #13C: Methods for Critical DH (Lightning Talks)
-
-### 5:30pm - 6:45pm EDT
-* #14A: Emerging Trends in DH Pedagogy (Lightning Talks)
-* #14B: Experimental Humanities and Critical Making
-* #14C: DH For Librarians: Imagining Possible Futures for Professional Development (Roundtable)
-
----
-
-## Saturday, July 1
-### 8:30am - 9:45am EDT
-* #15B: Critical Library Studies II
-* #15C: Critical Approaches to Language and DH
-
-### 10:00am - 11:15am EDT
-* #16A: Installations, Performances, and Alternate Formats (Explore the [ACH2025 Work Adventure Virtual World Map](https://drive.google.com/file/d/1rIc3koXzQL-uqN7brWREqoFqiLnpocn8/view?usp=drive_link))
-
-### 11:30am - 12:45pm EDT
-* #17A: Reckoning with Race and Memory: Digital Humanities at the University of the South
-* #17B: Designing Frameworks for DH Reparative Practices
-
-### 1:00pm - 3:00pm EDT
-* #18A: Poster Session (Explore the [ACH2025 Work Adventure Virtual World Map](https://drive.google.com/file/d/1rIc3koXzQL-uqN7brWREqoFqiLnpocn8/view?usp=drive_link))
-
-### 3:15pm - 4:30pm EDT
-* #19A: Mapping Humanities: New and Past Representation of Human Mobility and Migration Flows (Roundtable)
-* #19B: Global DH Perspectives II
-
-### 4:45pm - 6:00pm EDT
-* #20A: Computational Approaches to Humanities Data
-* #20B: Digital (Humanities) Trace Data: Critical Approaches to Platforms, APIs, and Metrics for Studying DH Communities (Panel)
-
-### 6:15pm - 6:45pm EDT
-* #21A: Closing Remarks
+<hr> 
+<b>Day 3
+Friday June 13</b>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg table table-hover"><thead>
+  <tr>
+    <th scope="col" class="tg-0pky">CST</th>
+    <th scope="col" class="tg-0pky">Zoom</th>
+    <th scope="col" class="tg-0pky">WorkAdventure</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">"Session 01 <br>9:00 a.m.-10:15 a.m. CT"</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">"Session 02 <br>10:30am-11:45am"</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 03 <br>12:00pm-1:15pm</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 04 <br>1:30pm-2:45pm CT</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 05<br>3:00pm-4:15pm CT</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 06 <br>4:30pm-5:45pm CT<br></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Session 07<br>6:00pm-7:15pm CT<br></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">break</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody></table>
