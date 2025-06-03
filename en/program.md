@@ -9,7 +9,7 @@ The full program, including links to all sessions, is available in ConfTool.
 
 You must be registered for the conference to access the full details and build your conference agenda. To register, please visit the [Registration page](https://members.ach.org/civicrm/event/info/?id=35&reset=1).
 
-Once you register, you will be given attendee status in ConfTool to access the program. There may be lag time of a few days before you gain full access in ConfTool.
+Once you register, you will be given attendee status in [ConfTool](https://www.conftool.pro/ach2025/) to access the program. There may be lag time of a few days before you gain full access in ConfTool.
 
 ---
 
