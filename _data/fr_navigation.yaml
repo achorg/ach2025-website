@@ -7,6 +7,8 @@ items:
     dropdown:
     - text: Guide de Work Adventure
       url: '/fr/work-adventure'
+    - text: Conférenciers principaux
+      url: '/fr/conferenciers_principaux'
   - text: Stratégies
     dropdown:
     - text: Pour les examinateurs

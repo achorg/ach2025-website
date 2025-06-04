@@ -1,11 +1,11 @@
 ---
-title: Haut-parleurs
+title: Conférenciers principaux
 layout: page
 ---
 
-# Discours ACH 2025 :
+# ACH 2025:
 
-## Intervenants
+## Conférenciers principaux
 
 ### Rahul Bhargava
 <img src="/assets/img/headshot_Bhargava_12-23.jpg" class="img-fluid img-thumbnail" alt="Photo de Rahul Bhargava">

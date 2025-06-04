@@ -7,8 +7,7 @@ items:
   #   url: '/en/registration'
   # - text: Program
   #   url: '/en/program'  
-  #- text: Keynote Speakers
-  #   url: '/en/keynote'
+  
   # - text: Sponsor
   #   url: '/en/sponsor'
   - text: Information
@@ -17,6 +16,8 @@ items:
         url: '/en/work-adventure'
       - text: CFP
         url: '/en/cfp'
+      - text: Keynote Speakers
+        url: '/en/keynote'
   - text: Policies
     dropdown:
       - text: Code of Conduct
