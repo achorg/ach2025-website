@@ -213,7 +213,7 @@ Friday June 13</b>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">"Session 01 <br>9:00 a.m.-10:15 a.m. CT"</td>
+    <td class="tg-0pky">"Session 01 <br>10:00 a.m.-11:15 a.m. ET"</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">Special Session - When we are in a position to rebuild	
 	</td>
@@ -224,7 +224,7 @@ Friday June 13</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">"Session 02 <br>10:30am-11:45am"</td>
+    <td class="tg-0pky">"Session 02 <br>11:30am-12:45am ET</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">Special Session - What NEH ODH Inspires	</td>
   </tr>
@@ -234,8 +234,8 @@ Friday June 13</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Session 03 <br>12:00pm-1:15pm</td>
-    <td class="tg-0pky">NEH Hannah Keynote	</td>
+    <td class="tg-0pky">Session 03 <br>1:00pm-2:15pm ET</td>
+    <td class="tg-0pky">Special Session - Funding DH: Past, Present, and Future, a conversation led by Hannah Alpert-Abrams </td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
@@ -244,9 +244,10 @@ Friday June 13</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Session 04 <br>1:30pm-2:45pm CT</td>
-    <td class="tg-0pky">DHMakes Special Session</td>
+    <td class="tg-0pky">Session 04 <br>2:30pm-3:45pm ET</td>
     <td class="tg-0pky"></td>
+    <td class="tg-0pky">ACH Town Hall / ACH Care Fair Session
+</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
@@ -254,9 +255,9 @@ Friday June 13</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Session 05<br>3:00pm-4:15pm CT</td>
+    <td class="tg-0pky">Session 05<br>4:00pm-5:15pm ET</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">Town Hall / ACH Care Fair	</td>
+    <td class="tg-0pky">Town Hall / ACH Care Fair Session</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
@@ -264,9 +265,9 @@ Friday June 13</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Session 06 <br>4:30pm-5:45pm CT<br></td>
+    <td class="tg-0pky">Session 06 <br>5:30pm-6:45pm ET<br></td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">Town Hall / ACH Care Fair	</td>
+    <td class="tg-0pky">Town Hall / ACH Care Fair Session</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
