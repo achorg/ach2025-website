@@ -42,7 +42,7 @@ Wednesday June 11</b>
   <tr>
     <td class="tg-0pky">break</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky">Social Hour in Work Adventure</td>
+    <td class="tg-0pky">Work Adventure Social</td>
   </tr>
   <tr>
     <td class="tg-0pky">Session 02 <br>11:30am-12:45am ET</td>
