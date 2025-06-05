@@ -123,9 +123,9 @@ Thursday June 12</b>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">"Session 01 <br>9:00 a.m.-10:15 a.m. CT"</td>
-    <td class="tg-0pky">Lynda K Keynote</td>
-    <td class="tg-0pky">Lynda K Keynote</td>
+    <td class="tg-0pky">"Session 01 <br>10:00 a.m.-11:15 a.m. ET"</td>
+    <td class="tg-0pky">"Keynote: "Keep Calm; Float On: Data Rescue and You" with Lynda Kellam"</td>
+    <td class="tg-0pky"></td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
@@ -133,9 +133,9 @@ Thursday June 12</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">"Session 02 <br>10:30am-11:45am"</td>
-    <td class="tg-0pky">Panel</td>
-    <td class="tg-0pky">SIG</td>
+    <td class="tg-0pky">"Session 02 <br>11:30am-12:45am ET"</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">ACH SIG meetings</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
@@ -143,9 +143,9 @@ Thursday June 12</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Session 03 <br>12:00pm-1:15pm</td>
-    <td class="tg-0pky">Paper Session</td>
-    <td class="tg-0pky">Creative Submission</td>
+    <td class="tg-0pky">Session 03 <br>1:00pm-2:15pm ET</td>
+    <td class="tg-0pky">Paper Session - Making Collaboration Visible</td>
+    <td class="tg-0pky">Creative Submissions - Interactive Panels III</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
@@ -153,9 +153,9 @@ Thursday June 12</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Session 04 <br>1:30pm-2:45pm CT</td>
-    <td class="tg-0pky">Paper Session</td>
-    <td class="tg-0pky">Creative Submission</td>
+    <td class="tg-0pky">Session 04 <br>2:30pm-3:15pm ET</td>
+    <td class="tg-0pky">Paper Session - The Long History of AI</td>
+    <td class="tg-0pky">Poster Session II</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
@@ -163,9 +163,9 @@ Thursday June 12</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Session 05<br>3:00pm-4:15pm CT</td>
-    <td class="tg-0pky">Paper Session</td>
-    <td class="tg-0pky">Creative Submission</td>
+    <td class="tg-0pky">Session 05<br>4:00pm-5:15pm ET</td>
+    <td class="tg-0pky">Paper Session - DH and Libraries</td>
+    <td class="tg-0pky">Creative Submissions - Critical Making in DH & Game Studies and/in Social Media</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
@@ -173,9 +173,9 @@ Thursday June 12</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Session 06 <br>4:30pm-5:45pm CT<br></td>
-    <td class="tg-0pky">Paper Session</td>
-    <td class="tg-0pky">Posters</td>
+    <td class="tg-0pky">Session 06 <br>5:30pm-6:45pm ET<br></td>
+    <td class="tg-0pky">Paper Session - Advocacy and/in the Classroom</td>
+    <td class="tg-0pky">Creative Submissions - Computational Creativity Installations & Experimental DH</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
@@ -183,9 +183,9 @@ Thursday June 12</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Session 07<br>6:00pm-7:15pm CT<br></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Session 07<br>7:00pm-8:15pm ET<br></td>
+    <td class="tg-0pky">Paper Session - Global and Diasporic DH</td>
+    <td class="tg-0pky">Creative Submissions - Computational Communities I & Computational Communities II </td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
