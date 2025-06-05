@@ -5,7 +5,9 @@ layout: page
 
 ## Conference Program
 
-The full program, including links to all sessions, is available in ConfTool. 
+The full program, including links to all sessions, is available in ConfTool
+
+<button class="btn btn-info"><a target="_blank" href="https://www.conftool.pro/ach2025/index.php?page=browseSessions&print=export&ismobile=false&mode=table&presentations=show" style="color: white;">View Program in ConfTool</a></button>
 
 You must be registered for the conference to access the full details and build your conference agenda. To register, please visit the [Registration page](https://members.ach.org/civicrm/event/info/?id=35&reset=1).
 
