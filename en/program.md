@@ -56,7 +56,7 @@ Wednesday June 11</b>
   </tr>
   <tr>
     <td class="tg-0pky">Session 03 <br>1:00pm-2:15pm ET</td>
-    <td class="tg-0pky">Panel</td>
+    <td class="tg-0pky">Panel I</td>
     <td class="tg-0pky">Creative Submissions - Interactive Panels I</td>
   </tr>
   <tr>
@@ -96,7 +96,7 @@ Wednesday June 11</b>
   </tr>
   <tr>
     <td class="tg-0pky">Session 07<br>7:00pm-8:15pm ET<br></td>
-    <td class="tg-0pky">Panel</td>
+    <td class="tg-0pky">Panel II</td>
     <td class="tg-0pky">Creative Submissions - Perspectives in Critical DH & Storytelling and Archives</td>
   </tr>
 </tbody></table>
