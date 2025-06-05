@@ -97,11 +97,6 @@ Wednesday June 11</b>
     <td class="tg-0pky">Panel</td>
     <td class="tg-0pky">Creative Submissions - Perspectives in Critical DH & Storytelling and Archives</td>
   </tr>
-  <tr>
-    <td class="tg-0pky">break</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
 </tbody></table>
 
 <hr> 
@@ -187,11 +182,6 @@ Thursday June 12</b>
     <td class="tg-0pky">Paper Session - Global and Diasporic DH</td>
     <td class="tg-0pky">Creative Submissions - Computational Communities I & Computational Communities II </td>
   </tr>
-  <tr>
-    <td class="tg-0pky">break</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
 </tbody></table>
 
 <hr> 
@@ -268,10 +258,5 @@ Friday June 13</b>
     <td class="tg-0pky">Session 06 <br>5:30pm-6:45pm ET<br></td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">Town Hall / ACH Care Fair Session</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">break</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
   </tr>
 </tbody></table>
