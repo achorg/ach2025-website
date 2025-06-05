@@ -3,19 +3,19 @@ title: Program
 layout: page
 ---
 
-## Conference Program
+## ACH 2025 Conference Program
 
-The full program, including links to all sessions, is available in ConfTool
+The full program for ACH 2025, including links to all sessions, is available in ConfTool. The conference takes place virtually June 11-13th, 2025, from roughly 10am-7pm EST.
 
 <button class="btn btn-info"><a target="_blank" href="https://www.conftool.pro/ach2025/index.php?page=browseSessions&print=export&ismobile=false&mode=table&presentations=show" style="color: white;">View Program in ConfTool</a></button>
 
 You must be registered for the conference to access the full details and build your conference agenda. To register, please visit the [Registration page](https://members.ach.org/civicrm/event/info/?id=35&reset=1).
 
-Once you register, you will be given attendee status in [ConfTool](https://www.conftool.pro/ach2025/) to access the program. There may be lag time of a few days before you gain full access in ConfTool.
+Once you register, you will be given attendee status in [ConfTool](https://www.conftool.pro/ach2025/) to access the program. There may be lag time of a couple days before you gain full access in ConfTool.
 
 ---
 
-## Conference Overview
+## ACH 2025 Program
 
 <b>Day 1
 Wednesday June 11</b>
