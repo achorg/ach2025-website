@@ -256,7 +256,7 @@ Friday June 13</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Session 06 <br>5:30pm-6:45pm ET<br></td>
+    <td class="tg-0pky">Session 06 <br>5:30pm-6:00pm ET<br></td>
     <td class="tg-0pky">No Zoom Programming</td>
     <td class="tg-0pky">Town Hall / ACH Care Fair Session</td>
   </tr>
