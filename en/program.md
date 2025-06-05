@@ -34,7 +34,7 @@ Wednesday June 11</b>
 <tbody>
   <tr>
     <td class="tg-0pky">Session 01<br>10:00am-11:15am ET</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Keynote Livestreamed on Work Adventure</td>
     <td class="tg-0pky">Keynote: "Community Data: Creative Approaches to Empowering People with Information" with Rahul Bhargava</td>
   </tr>
   <tr>
@@ -44,8 +44,8 @@ Wednesday June 11</b>
   </tr>
   <tr>
     <td class="tg-0pky">Session 02 <br>11:30am-12:45am ET</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">ACH AGM</td>
+    <td class="tg-0pky">AGM Livestreamed on Work Adventure</td>
+    <td class="tg-0pky">ACH Annual General Meeting (AGM)</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
@@ -120,7 +120,7 @@ Thursday June 12</b>
   <tr>
     <td class="tg-0pky">Session 01 <br>10:00am-11:15am ET</td>
     <td class="tg-0pky">Keynote: "Keep Calm; Float On: Data Rescue and You" with Lynda Kellam</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Keynote Livestreamed on Zoom</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
@@ -129,8 +129,8 @@ Thursday June 12</b>
   </tr>
   <tr>
     <td class="tg-0pky">Session 02 <br>11:30am-12:45am ET</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">ACH SIG meetings</td>
+    <td class="tg-0pky">N/A</td>
+    <td class="tg-0pky">ACH Special Interest Group Meetings</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
@@ -204,7 +204,7 @@ Friday June 13</b>
 <tbody>
   <tr>
     <td class="tg-0pky">Session 01 <br>10:00am-11:15am ET</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">No Zoom Programming</td>
     <td class="tg-0pky">Special Session - When we are in a position to rebuild	
 	</td>
   </tr>
@@ -215,7 +215,7 @@ Friday June 13</b>
   </tr>
   <tr>
     <td class="tg-0pky">Session 02 <br>11:30am-12:45am ET</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">No Zoom Programming</td>
     <td class="tg-0pky">Special Session - What NEH ODH Inspires	</td>
   </tr>
   <tr>
@@ -226,7 +226,7 @@ Friday June 13</b>
   <tr>
     <td class="tg-0pky">Session 03 <br>1:00pm-2:15pm ET</td>
     <td class="tg-0pky">Special Session - Funding DH: Past, Present, and Future, a conversation led by Hannah Alpert-Abrams </td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">No Work Adventure Programming</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
@@ -235,7 +235,7 @@ Friday June 13</b>
   </tr>
   <tr>
     <td class="tg-0pky">Session 04 <br>2:30pm-3:45pm ET</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">No Zoom Programming</td>
     <td class="tg-0pky">ACH Town Hall / ACH Care Fair Session
 </td>
   </tr>
@@ -246,7 +246,7 @@ Friday June 13</b>
   </tr>
   <tr>
     <td class="tg-0pky">Session 05<br>4:00pm-5:15pm ET</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">No Zoom Programming</td>
     <td class="tg-0pky">Town Hall / ACH Care Fair Session</td>
   </tr>
   <tr>
@@ -256,7 +256,7 @@ Friday June 13</b>
   </tr>
   <tr>
     <td class="tg-0pky">Session 06 <br>5:30pm-6:45pm ET<br></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">No Zoom Programming</td>
     <td class="tg-0pky">Town Hall / ACH Care Fair Session</td>
   </tr>
 </tbody></table>
