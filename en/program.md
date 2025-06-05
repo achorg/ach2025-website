@@ -34,8 +34,8 @@ Wednesday June 11</b>
 <tbody>
   <tr>
     <td class="tg-0pky">Session 01<br>10:00am-11:15am ET</td>
-    <td class="tg-0pky">Keynote: "Community Data: Creative Approaches to Empowering People with Information" with Rahul Bhargava</td>
     <td class="tg-0pky"></td>
+    <td class="tg-0pky">Keynote: "Community Data: Creative Approaches to Empowering People with Information" with Rahul Bhargava</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
