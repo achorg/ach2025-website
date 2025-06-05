@@ -206,9 +206,8 @@ Friday June 13</b>
 <tbody>
   <tr>
     <td class="tg-0pky">Session 01 <br>10:00am-11:15am ET</td>
-    <td class="tg-0pky">No Zoom Programming</td>
-    <td class="tg-0pky">Special Session - When we are in a position to rebuild	
-	</td>
+    <td class="tg-0pky">Special Session - When we are in a position to rebuild</td>
+    <td class="tg-0pky">No Work Adventure Programming</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
@@ -217,8 +216,8 @@ Friday June 13</b>
   </tr>
   <tr>
     <td class="tg-0pky">Session 02 <br>11:30am-12:45am ET</td>
-    <td class="tg-0pky">No Zoom Programming</td>
-    <td class="tg-0pky">Special Session - What NEH ODH Inspires	</td>
+    <td class="tg-0pky">Special Session - What NEH ODH Inspires</td>
+    <td class="tg-0pky">No Work Adventure Programming</td>
   </tr>
   <tr>
     <td class="tg-0pky">break</td>
