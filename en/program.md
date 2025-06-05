@@ -33,7 +33,7 @@ Wednesday June 11</b>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Session 01<br>10:00 a.m.-11:15 a.m. ET</td>
+    <td class="tg-0pky">Session 01<br>10:00am-11:15am ET</td>
     <td class="tg-0pky">Keynote: "Community Data: Creative Approaches to Empowering People with Information" with Rahul Bhargava</td>
     <td class="tg-0pky"></td>
   </tr>
@@ -43,7 +43,7 @@ Wednesday June 11</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Session 02 <br>11:30am-12:45am ER</td>
+    <td class="tg-0pky">Session 02 <br>11:30am-12:45am ET</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">ACH AGM</td>
   </tr>
@@ -118,7 +118,7 @@ Thursday June 12</b>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Session 01 <br>10:00 a.m.-11:15 a.m. ET</td>
+    <td class="tg-0pky">Session 01 <br>10:00am-11:15am ET</td>
     <td class="tg-0pky">Keynote: "Keep Calm; Float On: Data Rescue and You" with Lynda Kellam</td>
     <td class="tg-0pky"></td>
   </tr>
@@ -148,7 +148,7 @@ Thursday June 12</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Session 04 <br>2:30pm-3:15pm ET</td>
+    <td class="tg-0pky">Session 04 <br>2:30pm-3:45pm ET</td>
     <td class="tg-0pky">Paper Session - The Long History of AI</td>
     <td class="tg-0pky">Poster Session II</td>
   </tr>
@@ -203,7 +203,7 @@ Friday June 13</b>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Session 01 <br>10:00 a.m.-11:15 a.m. ET</td>
+    <td class="tg-0pky">Session 01 <br>10:00am-11:15am ET</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">Special Session - When we are in a position to rebuild	
 	</td>
