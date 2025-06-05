@@ -17,6 +17,6 @@ layout: page
 
 **Dr. Lynda Kellam** is one of the founding organizers of the Data Rescue Project and the Snyder-Granader Director of Research Data & Digital Scholarship at the University of Pennsylvania Libraries. She is the co-author of Numeric Data Services and Sources for the General Reference Librarian (2011), co-editor of Databrarianship: The Academic Data Librarian in Theory and Practice (2016), and has presented extensively on data services, data management, and FAIR Guidelines. She is the current Secretary of IASSIST, an international data professional organization, and has served in multiple leadership positions in ALA, ACRL, and GODORT. She holds an MLIS, an MA in Political Science, and a PhD in American History.
 
-Abstract
-Keep Calm; Float On: Data Rescue and You
+**Keynote Abstract**
+*Keep Calm; Float On: Data Rescue and You*
 Concern for the continued access to and preservation of public federal data drove the development of the Data Rescue Project (DRP), a grassroots, community-led effort, in February 2025. This presentation will focus on efforts in the library community and beyond to rescue federal public data at risk of loss or deletion. It will review the development of the DRP and its current initiatives and consider future challenges for public data infrastructure in the United States.
