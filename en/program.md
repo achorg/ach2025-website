@@ -27,14 +27,14 @@ Wednesday June 11</b>
 </style>
 <table class="tg table table-hover"><thead>
   <tr>
-    <th scope="col" class="tg-0pky">CST</th>
+    <th scope="col" class="tg-0pky">Time</th>
     <th scope="col" class="tg-0pky">Zoom</th>
     <th scope="col" class="tg-0pky">WorkAdventure</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">"Session 01 <br>10:00 a.m.-11:15 a.m. ET"</td>
-    <td class="tg-0pky">"Keynote "Community Data: Creative Approaches to Empowering People with Information" with Rahul Bhargava"</td>
+    <td class="tg-0pky">Session 01<br>10:00 a.m.-11:15 a.m. ET</td>
+    <td class="tg-0pky">Keynote: "Community Data: Creative Approaches to Empowering People with Information" with Rahul Bhargava</td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
@@ -43,7 +43,7 @@ Wednesday June 11</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">"Session 02 <br>11:30am-12:45am ER"</td>
+    <td class="tg-0pky">Session 02 <br>11:30am-12:45am ER</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">ACH AGM</td>
   </tr>
@@ -112,14 +112,14 @@ Thursday June 12</b>
 </style>
 <table class="tg table table-hover"><thead>
   <tr>
-    <th scope="col" class="tg-0pky">CST</th>
+    <th scope="col" class="tg-0pky">Time</th>
     <th scope="col" class="tg-0pky">Zoom</th>
     <th scope="col" class="tg-0pky">WorkAdventure</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">"Session 01 <br>10:00 a.m.-11:15 a.m. ET"</td>
-    <td class="tg-0pky">"Keynote: "Keep Calm; Float On: Data Rescue and You" with Lynda Kellam"</td>
+    <td class="tg-0pky">Session 01 <br>10:00 a.m.-11:15 a.m. ET</td>
+    <td class="tg-0pky">Keynote: "Keep Calm; Float On: Data Rescue and You" with Lynda Kellam</td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
@@ -128,7 +128,7 @@ Thursday June 12</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">"Session 02 <br>11:30am-12:45am ET"</td>
+    <td class="tg-0pky">Session 02 <br>11:30am-12:45am ET</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">ACH SIG meetings</td>
   </tr>
@@ -197,13 +197,13 @@ Friday June 13</b>
 </style>
 <table class="tg table table-hover"><thead>
   <tr>
-    <th scope="col" class="tg-0pky">CST</th>
+    <th scope="col" class="tg-0pky">Time</th>
     <th scope="col" class="tg-0pky">Zoom</th>
     <th scope="col" class="tg-0pky">WorkAdventure</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">"Session 01 <br>10:00 a.m.-11:15 a.m. ET"</td>
+    <td class="tg-0pky">Session 01 <br>10:00 a.m.-11:15 a.m. ET</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">Special Session - When we are in a position to rebuild	
 	</td>
@@ -214,7 +214,7 @@ Friday June 13</b>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">"Session 02 <br>11:30am-12:45am ET</td>
+    <td class="tg-0pky">Session 02 <br>11:30am-12:45am ET</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">Special Session - What NEH ODH Inspires	</td>
   </tr>
