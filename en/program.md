@@ -36,7 +36,7 @@ Wednesday June 11</b>
 <tbody>
   <tr>
     <td class="tg-0pky">Session 01<br>10:00am-11:15am ET</td>
-    <td class="tg-0pky">Keynote Livestreamed on Work Adventure</td>
+    <td class="tg-0pky">No Zoom Programming</td>
     <td class="tg-0pky">Keynote: "Community Data: Creative Approaches to Empowering People with Information" with Rahul Bhargava</td>
   </tr>
   <tr>
@@ -46,7 +46,7 @@ Wednesday June 11</b>
   </tr>
   <tr>
     <td class="tg-0pky">Session 02 <br>11:30am-12:45am ET</td>
-    <td class="tg-0pky">AGM Livestreamed on Work Adventure</td>
+    <td class="tg-0pky">No Zoom Programming</td>
     <td class="tg-0pky">ACH Annual General Meeting (AGM)</td>
   </tr>
   <tr>
@@ -131,7 +131,7 @@ Thursday June 12</b>
   </tr>
   <tr>
     <td class="tg-0pky">Session 02 <br>11:30am-12:45am ET</td>
-    <td class="tg-0pky">N/A</td>
+    <td class="tg-0pky">No Zoom Programming</td>
     <td class="tg-0pky">ACH Special Interest Group Meetings</td>
   </tr>
   <tr>
