@@ -12,8 +12,8 @@ items:
   #   url: '/en/sponsor'
   - text: Information
     dropdown:
-      - text: Work Adventure Guide
-        url: '/en/work-adventure'
+      - text: Presenter Guide
+        url: '/en/presenter-guide'
       - text: CFP
         url: '/en/cfp'
       - text: Keynote Speakers
