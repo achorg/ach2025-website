@@ -1,9 +1,7 @@
 ---
-title: Work Adventure
+title: Presenter Guide
 layout: page
 ---
-
-## Presenter Guide
 
 ACH 2025 will be held on two platforms: **Zoom** and [**Work Adventure**](https://workadventu.re/). Papers and Panels will take place in Zoom. Creative Submissions and Posters will be hosted in Work Adventure (see the details below). Session links & maps will be posted in the Conference Agenda in ConfTool prior to the start of the conference.
 
