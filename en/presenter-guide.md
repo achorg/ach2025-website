@@ -31,9 +31,11 @@ Panels will have their own dedicated Zoom space for their session. Presenters wi
 <img src="/assets/img/map.png" alt="Screenshot of Work Adventure showing a poster session with avatars and posters displayed on the walls" width="100%">
 
 
-Posters and creative submissions will be presented in Work Adventure via individual screen sharing (similar to Zoom functionality). Each poster and creative submission will have a dedicated space/room for presenting along the perimeter of the virtual world. Work Adventure works best in the Chrome browser, and your poster can be any format that displays in that browser. You can create your poster as slides, a video, a static PDF, or some other format that displays in the browser. **Please upload your file through this [Google Form](https://docs.google.com/forms/d/15jIw-WSoOyccMYSBMDuyXe3wQqsYyreFTEbEYFKTBiw/preview).**
+Posters and creative submissions will be presented in Work Adventure via individual screen sharing (similar to Zoom functionality). Each poster and creative submission will have a dedicated space/room for presenting along the perimeter of the virtual world. Work Adventure works best in the Chrome browser, and your poster or creative presentatio can be any format that displays in that browser. 
 
-The virtual poster session will be interactive, similar to an in-person session. As people walk up to your dedicated space, they'll be able to talk to you with audio/video and use the chat feature. As such, you'll need to be present for the entire session in order to share your poster, since it's running off of your screen share rather than being pre-loaded for passive display.
+As part of your presentation, you can share slides, a video, a static PDF, or some other format that displays in the browser. If you would like to share a file or document to be placed at your presentation location in Work Adventure, **please upload your file through this [Google Form](https://docs.google.com/forms/d/15jIw-WSoOyccMYSBMDuyXe3wQqsYyreFTEbEYFKTBiw/preview).**
+
+The virtual poster session will be interactive, similar to an in-person session. As people walk up to your dedicated space, they'll be able to talk to you with audio/video and use the chat feature. Your presentation slides or poster can be pre-loaded for passive display.
 
 Creative Submissions designate events featuring more than one presenter and framed as an interactive session, including potential media and discussion with the audience. Presenters are encouraged to think of creative, non-traditional ways of presenting and engaging with the audience.
 
