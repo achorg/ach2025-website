@@ -9,11 +9,11 @@ Presenters are encouraged to show up 15 minutes before their session start time 
 
 Regardless of the medium, presenters are encouraged to be as inclusive as possible. Please review our [**accessibility guidelines**](https://ach2025.ach.org/en/policies/accessibility/) when preparing your presentation.
 
-#### Papers (on Zoom)
+### Papers (on Zoom)
 
 These sessions feature individual presentations and time for discussion at the end:
 
-##### Papers sessions feature 4 papers (10-12 minutes each)
+#### Papers sessions feature 4 papers (10-12 minutes each)
 
 Presenters will be given screen sharing capabilities.
 
@@ -22,11 +22,11 @@ Each session will have two volunteers on hand:
 * A **Moderator** will introduce speakers, keep time, and facilitate the Q\&A.  
 * A **Tech chair** will start the Zoom 15-minutes before the session begins (during the break), admit attendees from the waiting room, remove attendees who violate the Code of Conduct, and move the session to a backup Zoom (provided by us) in case of a disruption.
 
-#### Panels (on Zoom)
+### Panels (on Zoom)
 
 Panels will have their own dedicated Zoom space for their session. Presenters will be given screen sharing capabilities. The panel organizer will serve as session moderator. Each session will have a volunteer tech chair who will start the Zoom 15-minutes before the session begins (during the break), admit attendees from the waiting room, remove attendees who violate the Code of Conduct, and move the session to a backup Zoom (provided by us) in case of Zoombombing.
 
-#### Creative and Poster Sessions (in Work Adventure)
+### Creative and Poster Sessions (in Work Adventure)
 
 <img src="/assets/img/map.png" alt="Screenshot of Work Adventure showing a poster session with avatars and posters displayed on the walls" width="100%">
 
@@ -38,7 +38,7 @@ The virtual poster session will be interactive, similar to an in-person session.
 
 Creative Sessions designate events featuring more than one presenter, and/or presentations framed as an interactive session, including potential media and discussion with the audience. Presenters are encouraged to think of creative, non-traditional ways of presenting and engaging with the audience.
 
-#### Presenting in Work Adventure
+### Presenting in Work Adventure
 
 * For Work Adventure presentations, you may choose to share an image, a video/audio clip, slides, a static PDF, or some combination. There are no format requirements other than ensuring that your poster is accessible in the Google Chrome browser. Please send any media as a single file (slides, pdf, image file) to include in the session using this [Google Form](https://docs.google.com/forms/d/15jIw-WSoOyccMYSBMDuyXe3wQqsYyreFTEbEYFKTBiw/preview).   
 * Whenever possible, enable captioning when sharing media in your presentation. Review our general [**conference accessibility guidelines**](https://ach2025.ach.org/en/policies/accessibility/).
@@ -48,8 +48,6 @@ Creative Sessions designate events featuring more than one presenter, and/or pre
 * If you're sharing a video, upload to a hosting site such as YouTube. Videos (if being utilized) should run no longer than 5-10 minutes, and there is no minimum length.   
 * If you're sharing audio, upload to a hosting site that is accessible in the browser, such as Soundcloud or Google Drive.     * You should pre-load your presentation (whatever media format) in another tab in the same browser window you’re using for Work Adventure.
 * Similarly, PDFs or other poster images will need to be online (e.g. in Google Drive, Box, Dropbox, OneDrive, etc.) so that they can be shared in the browser.  
-
-See this quick tutorial about [**presenting in Work Adventure**](https://SDSU.zoom.us/rec/share/fcq_NmKF_3m7fCIOkj2AViRoY_yfypej18uSZ494ZDoC1JmE8Dfwbure9f4i4eVD.9HU_rgugMwF1L3cZ?startTime=1687903881000), created for the ACH2023 virtual conference (this year's map will look similar).
 
 #### Arriving for Session Setup in Work Adventure
 
@@ -70,4 +68,6 @@ Our Work Adventure virtual world features dedicated spaces for formal presentati
 
 This year's virtual world will be similar to the one from ACH2023. **The official ACH2025 world will be available [here](https://play.workadventu.re/@/association-for-computers-and-the-humanities-1747415862/ach2025/space-station-amongus).**
 
-If you want to get familiar with the Work Adventure experience before the conference, check out this brief **[video about navigating the ACH2023 Work Adventure virtual world](https://SDSU.zoom.us/rec/share/fcq_NmKF_3m7fCIOkj2AViRoY_yfypej18uSZ494ZDoC1JmE8Dfwbure9f4i4eVD.9HU_rgugMwF1L3cZ?startTime=1687902788000)** to get a sense of what to expect. You can also **[practice navigating a demo Work Adventure map](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village)**.
+If you want to get familiar with the Work Adventure experience before the conference, check out this brief **[video about navigating the ACH2023 Work Adventure virtual world](https://SDSU.zoom.us/rec/share/fcq_NmKF_3m7fCIOkj2AViRoY_yfypej18uSZ494ZDoC1JmE8Dfwbure9f4i4eVD.9HU_rgugMwF1L3cZ?startTime=1687902788000)** to get a sense of what to expect. 
+
+You can also **[practice navigating a demo Work Adventure map](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village)**.
