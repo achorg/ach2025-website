@@ -34,7 +34,7 @@ Each session will have a volunteer tech chair who will start the Zoom 15-minutes
 
 <img src="/assets/img/map.png" alt="Screenshot of Work Adventure showing a poster session with avatars and posters displayed on the walls" width="100%">
 
-Posters and creative sessions will be presented in Work Adventure via individual screen sharing (similar to Zoom functionality). Each poster and creative session will have a dedicated space for presenting. 
+Posters and creative sessions will be presented in Work Adventure via individual screen sharing (similar to Zoom functionality). Each poster and creative session will have a dedicated space for presenting. Multiple poster and creative sessions will be occurring simultaneously, and attendees may move from one room to another during any given session.
 
 As part of your presentation, you can share slides, a video, a static PDF, a url, or some other format that displays in the browser. There are no format requirements other than ensuring that your poster is accessible in the Google Chrome browser. If you would like to share a file to be placed at your presentation location in Work Adventure, **please upload your file through this [Google Form](https://docs.google.com/forms/d/15jIw-WSoOyccMYSBMDuyXe3wQqsYyreFTEbEYFKTBiw/preview).** 
 
