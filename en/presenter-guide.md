@@ -24,7 +24,11 @@ Each session will have two volunteers on hand:
 
 ### Panels (on Zoom)
 
-Panels will have their own dedicated Zoom space for their session. Presenters will be given screen sharing capabilities. The panel organizer will serve as session moderator. Each session will have a volunteer tech chair who will start the Zoom 15-minutes before the session begins (during the break), admit attendees from the waiting room, remove attendees who violate the Code of Conduct, and move the session to a backup Zoom (provided by us) in case of Zoombombing.
+Panels will have their own dedicated Zoom space for their session. Presenters will be given screen sharing capabilities. 
+
+The panel organizer will serve as session moderator. 
+
+Each session will have a volunteer tech chair who will start the Zoom 15-minutes before the session begins (during the break), admit attendees from the waiting room, remove attendees who violate the Code of Conduct, and move the session to a backup Zoom (provided by us) in case of Zoombombing.
 
 ### Creative and Poster Sessions (in Work Adventure)
 
