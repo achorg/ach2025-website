@@ -7,7 +7,7 @@ ACH 2025 will be held on two platforms: **Zoom** and [**Work Adventure**](https:
 
 Presenters are encouraged to show up 15 minutes before their session start time to test screen and document sharing. Work Adventure presenters especially are encouraged to show up 30 minutes early to find their presentation space and test screen sharing capabilities. Work Adventure will be open/running throughout the entire conference, so you can pop in ahead of time to get a feel for the space and meet up with other conference attendees.
 
-Regardless of the medium, presenters are encouraged to be as inclusive as possible. Please review our [**accessibility guidelines**](https://ach2024.ach.org/accessibility/) when preparing your presentation.
+Regardless of the medium, presenters are encouraged to be as inclusive as possible. Please review our [**accessibility guidelines**]([https://ach2024.ach.org/accessibility/](https://ach2025.ach.org/en/policies/accessibility/) when preparing your presentation.
 
 #### Papers (on Zoom)
 
