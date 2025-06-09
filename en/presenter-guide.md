@@ -3,7 +3,7 @@ title: Presenter Guide
 layout: page
 ---
 
-ACH 2025 will be held on two platforms: **Zoom** and [**Work Adventure**](https://workadventu.re/). Papers and Panels will take place in Zoom. Creative Submissions and Posters will be hosted in Work Adventure (see the details below). Session links & maps will be posted in the Conference Agenda in ConfTool prior to the start of the conference.
+ACH 2025 will be held on two platforms: **Zoom** and [**Work Adventure**](https://workadventu.re/). Papers and Panels will take place in Zoom. Creative Sessions and Posters will be hosted in Work Adventure (see the details below). Session links & maps will be posted in the Conference Agenda in ConfTool prior to the start of the conference.
 
 Presenters are encouraged to show up 15 minutes before their session start time to test screen and document sharing. Work Adventure presenters especially are encouraged to show up 30 minutes early to find their presentation space and test screen sharing capabilities. Work Adventure will be open/running throughout the entire conference, so you can pop in ahead of time to get a feel for the space and meet up with other conference attendees.
 
@@ -26,34 +26,30 @@ Each session will have two volunteers on hand:
 
 Panels will have their own dedicated Zoom space for their session. Presenters will be given screen sharing capabilities. The panel organizer will serve as session moderator. Each session will have a volunteer tech chair who will start the Zoom 15-minutes before the session begins (during the break), admit attendees from the waiting room, remove attendees who violate the Code of Conduct, and move the session to a backup Zoom (provided by us) in case of Zoombombing.
 
-#### Creative Submissions and Poster Sessions (in Work Adventure)
+#### Creative and Poster Sessions (in Work Adventure)
 
 <img src="/assets/img/map.png" alt="Screenshot of Work Adventure showing a poster session with avatars and posters displayed on the walls" width="100%">
 
-Posters and creative submissions will be presented in Work Adventure via individual screen sharing (similar to Zoom functionality). Work Adventure works best in the Chrome browser, and your poster or creative presentation can be any format that displays in that browser. Each poster and creative submission will have a dedicated space for presenting. 
+Posters and creative sessions will be presented in Work Adventure via individual screen sharing (similar to Zoom functionality). Work Adventure works best in the Chrome browser, and your poster or creative presentation can be any format that displays in that browser. Each poster and creative session will have a dedicated space for presenting. 
 
 As part of your presentation, you can share slides, a video, a static PDF, or some other format that displays in the browser. If you would like to share a file or document to be placed at your presentation location in Work Adventure, **please upload your file through this [Google Form](https://docs.google.com/forms/d/15jIw-WSoOyccMYSBMDuyXe3wQqsYyreFTEbEYFKTBiw/preview).** 
 
 The virtual poster session will be interactive, similar to an in-person session. As people walk up to your dedicated space, they'll be able to talk to you with audio/video and use the chat feature. Your presentation slides or poster can be pre-loaded for passive display.
 
-Creative Submissions designate events featuring more than one presenter and framed as an interactive session, including potential media and discussion with the audience. Presenters are encouraged to think of creative, non-traditional ways of presenting and engaging with the audience.
+Creative Sessions designate events featuring more than one presenter, and/or presentations framed as an interactive session, including potential media and discussion with the audience. Presenters are encouraged to think of creative, non-traditional ways of presenting and engaging with the audience.
 
 #### Presenting in Work Adventure
 
-##### Posters
-
-* Installation/poster presentation videos (if being utilized) should run no longer than 5-10 minutes, and there is no minimum length.  
-* For poster presentations, you may choose to share an image, a video/audio clip, slides, a static PDF, or some combination. There are no format requirements other than ensuring that your poster is accessible in the Google Chrome browser. You will need to send us your media using this [Google Form](https://docs.google.com/forms/d/15jIw-WSoOyccMYSBMDuyXe3wQqsYyreFTEbEYFKTBiw/preview).   
-  **Creative Sessions**  
+* For Work Adventure presentations, you may choose to share an image, a video/audio clip, slides, a static PDF, or some combination. There are no format requirements other than ensuring that your poster is accessible in the Google Chrome browser. Please send any media as a single file (slides, pdf, image file) to include in the session using this [Google Form](https://docs.google.com/forms/d/15jIw-WSoOyccMYSBMDuyXe3wQqsYyreFTEbEYFKTBiw/preview).   
+* Whenever possible, enable captioning when sharing media in your presentation. Review our general [**conference accessibility guidelines**](https://ach2025.ach.org/en/policies/accessibility/).
 * If your creative session takes place in a Jitsi room, presentation videos/audio/slides will be shared via screen sharing in your designated room/stage.  
 * *In Jitsi, sound sharing will only be audible to people in your room.*  
-* Whenever possible, enable captioning when sharing media in your presentation. Review our general [**conference accessibility guidelines**](https://ach2025.ach.org/en/policies/accessibility/).  
 * While you are not required to upload or share your presentation with the conference committee in advance, it will need to be open in your active browser if you want to share it during your session:  
-  * You should pre-load your presentation (whatever media format) in another tab in the same browser window you’re using for Work Adventure.  
-  * If you're sharing a video, upload to a hosting site such as YouTube.  
-  * If you're sharing audio, upload to a hosting site that is accessible in the browser, such as Soundcloud or Google Drive.    
-  * Similarly, PDFs or other poster images will need to be online (e.g. in Google Drive, Box, Dropbox, OneDrive, etc.) so that they can be shared in the browser.  
-  * See this quick tutorial about [**presenting in Work Adventure**](https://SDSU.zoom.us/rec/share/fcq_NmKF_3m7fCIOkj2AViRoY_yfypej18uSZ494ZDoC1JmE8Dfwbure9f4i4eVD.9HU_rgugMwF1L3cZ?startTime=1687903881000), created for the ACH2023 virtual conference (this year's map will look similar).
+* If you're sharing a video, upload to a hosting site such as YouTube. Videos (if being utilized) should run no longer than 5-10 minutes, and there is no minimum length.   
+* If you're sharing audio, upload to a hosting site that is accessible in the browser, such as Soundcloud or Google Drive.     * You should pre-load your presentation (whatever media format) in another tab in the same browser window you’re using for Work Adventure.
+* Similarly, PDFs or other poster images will need to be online (e.g. in Google Drive, Box, Dropbox, OneDrive, etc.) so that they can be shared in the browser.  
+
+See this quick tutorial about [**presenting in Work Adventure**](https://SDSU.zoom.us/rec/share/fcq_NmKF_3m7fCIOkj2AViRoY_yfypej18uSZ494ZDoC1JmE8Dfwbure9f4i4eVD.9HU_rgugMwF1L3cZ?startTime=1687903881000), created for the ACH2023 virtual conference (this year's map will look similar).
 
 #### Arriving for Session Setup in Work Adventure
 
