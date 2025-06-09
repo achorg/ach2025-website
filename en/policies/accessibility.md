@@ -8,7 +8,7 @@ All synchronous sessions will make live transcription available to participants,
 
 Virtual Presentation Accessibility Guidelines
 
-Preparing Slides
+## Preparing Slides
 
 1. We encourage participants to use the [Accessibility Checker](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f?ui=en-us&rs=en-us&ad=us#bkmk_use) in PowerPoint or [Accessibility Checker for Google Slides](https://workspace.google.com/marketplace/app/accessibility_checker_for_slides/437536886016) when preparing slides.
 2. We encourage participants to use an [accessible slide template for PowerPoint](https://support.microsoft.com/es-es/office/cree-presentaciones-de-powerpoint-accesibles-para-personas-con-discapacidad-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25) or one of the built-in themes in Google Slides.
@@ -22,7 +22,7 @@ Preparing Slides
 10. Use bolded text sparingly for emphasis (not italics of uppercase).
 11. Use [meaningful link text](https://myusf.usfca.edu/digital-accessibility/meaningful-link-text) for hyperlinks and short URLs (e.g., [tinyurl.com](http://tinyurl.com/) allows you to customize short links).
 
-Giving Your Talk
+## Giving Your Talk
 
 1. Practice your presentation to ensure you are pacing yourself. Speak more slowly than you think you need. Ensure that your presentation fits within the stated limits (12-15 minutes for papers, 5 minutes for lightning talks).
 2. Speak clearly and minimize background noise.
