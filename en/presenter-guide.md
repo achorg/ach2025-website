@@ -28,6 +28,9 @@ Panels will have their own dedicated Zoom space for their session. Presenters wi
 
 #### Creative Submissions and Poster Sessions (in Work Adventure)
 
+<img src="/assets/img/map.png" alt="Screenshot of Work Adventure showing a poster session with avatars and posters displayed on the walls" width="100%">
+
+
 Posters and creative submissions will be presented in Work Adventure via individual screen sharing (similar to Zoom functionality). Each poster and creative submission will have a dedicated space/room for presenting along the perimeter of the virtual world. Work Adventure works best in the Chrome browser, and your poster can be any format that displays in that browser. You can create your poster as slides, a video, a static PDF, or some other format that displays in the browser. **Please upload your file through this [Google Form](https://docs.google.com/forms/d/15jIw-WSoOyccMYSBMDuyXe3wQqsYyreFTEbEYFKTBiw/preview).**
 
 The virtual poster session will be interactive, similar to an in-person session. As people walk up to your dedicated space, they'll be able to talk to you with audio/video and use the chat feature. As such, you'll need to be present for the entire session in order to share your poster, since it's running off of your screen share rather than being pre-loaded for passive display.
