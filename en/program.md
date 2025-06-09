@@ -17,10 +17,9 @@ Once you register, you will be given attendee status in [ConfTool](https://www.c
 
 ## ACH 2025 Program
 
-</table>
 
 <div style="font-size:8pt; clear:both;">&nbsp;</div>
-<table width="100%" align="center" id="session_table_2025-06-11" cellspacing="1" border="0" cellpadding="2" class="mediumbg"><tr><td colspan=4 valign=top class="listheader left">
+<table width="100%" align="center" id="session_table_2025-06-11" cellspacing="1" border="0" cellpadding="2" class="mediumbg table table-hover"><tr><td colspan=4 valign=top class="listheader left">
 <a class="font12" href="https://www.conftool.pro/ach2025/index.php?page=browseSessions&amp;form_date=2025-06-11&amp;presentations=show"><b>Date: Wednesday, 11/June/2025</b></a>
 </td></tr>
 <tbody id='session_time2' >
