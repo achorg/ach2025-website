@@ -65,6 +65,14 @@ Our Work Adventure virtual world features dedicated spaces for formal presentati
 
 This year's virtual world will be similar to the one from ACH2023. **The official ACH2025 world will be available [here](https://play.workadventu.re/@/association-for-computers-and-the-humanities-1747415862/ach2025/space-station-amongus).**
 
+For guidance on navigating to different sections of Work Adventure, see the following Key: 
+*Top Left Green Quadrant*: #4B Posters Session I
+*Bottom Left Yellow Quadrant*: #11B Posters Session II
+*Bottom Right Blue Quadrant*: Creative Submissions / Talks
+*Top Right Red Quadrant*: #18A & #19A ACH Care Fair
+
+*Jitsi Rooms for Sub group conversations*: In Space! (For example, DH in Libraries SIG is at the "There's Nothing More Ephemeral than a Website" print
+
 If you want to get familiar with the Work Adventure experience before the conference, check out this brief **[video about navigating the ACH2023 Work Adventure virtual world](https://SDSU.zoom.us/rec/share/fcq_NmKF_3m7fCIOkj2AViRoY_yfypej18uSZ494ZDoC1JmE8Dfwbure9f4i4eVD.9HU_rgugMwF1L3cZ?startTime=1687902788000)** to get a sense of what to expect. 
 
 You can also **[practice navigating a demo Work Adventure map](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village)**.
