@@ -24,7 +24,7 @@ Once you register, you will be given attendee status in [ConfTool](https://www.c
 <tbody id='session_time2' >
 <tr class='whitebg'>
 <td rowspan="1" class="brightbg topline_printonly" align=center valign="top" width="10%"><a name="2" id="2"></a><span class="fontbold font9">10:00am-11:15am ET</span></td>
-<td width="90%" colspan=3 class="whitebg topline_printonly leftline_printonly left" valign=top><a class='font9' href='https://www.conftool.pro/ach2025/index.php?page=browseSessions&amp;print=export&amp;ismobile=false&amp;form_session=57&amp;mode=table&amp;presentations=show'><b>#1A: Keynote: &quot;Community Data: Creative Approaches to Empowering People with Information&quot; with Rahul Bhargava</b></a><br /><span class='font8'>Virtual location: </span><a class="fontbold font8"  target="_blank" href="">Zoom Webinar: Rahul Bhargava<i class='icon ct-external-link ct-icon-margin ct-icon-bullet ' ></i></a><br /><span class='font8'>Chair: </span><span class='font8 '><b>Jaj Karajgikar</b></span><br /></td>
+<td width="90%" colspan=3 class="whitebg topline_printonly leftline_printonly left" valign=top><a class='font9' href='https://www.conftool.pro/ach2025/index.php?page=browseSessions&amp;print=export&amp;ismobile=false&amp;form_session=57&amp;mode=table&amp;presentations=show'><b>#1A: Keynote: "Civic Jugaad: Reclaiming Digital Innovation for Social Good" with Rahul Bhargava</b></a><br /><span class='font8'>Virtual location: </span><a class="fontbold font8"  target="_blank" href="">Zoom Webinar: Rahul Bhargava<i class='icon ct-external-link ct-icon-margin ct-icon-bullet ' ></i></a><br /><span class='font8'>Chair: </span><span class='font8 '><b>Jaj Karajgikar</b></span><br /></td>
 </tr>
 
 <tbody id='session_time3' >

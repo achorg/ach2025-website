@@ -181,9 +181,10 @@ If you are interested in translating this call for proposals into another langua
 ### 2025 Conference Committee
 
 * Conference Co-Chairs: Alex Wermer-Colan (Temple University) and Dot Porter (University of Pennsylvania)
-* Program Co-Chairs: Jajwalya Karajgikar (University of Pennsylvania) and Sylvia Fernández (University of Texas at San Antonio)
-* Co-Technical Chair: Andy Janco (Princeton University)
-* Co-Technical Chair: Winnie Pérez Martínez (University of Virginia)
+* Program Chair: Jajwalya Karajgikar (University of Pennsylvania) * Technical Co-Chairs: Andy Janco (Princeton University) and Winnie Pérez Martínez (University of Virginia)
 * Volunteers Lead: Rebecca Foote (UCLA)
 * Communications Lead: Amanda Reagan (Clemson University)
 * Sponsorship and Promotion Lead: Katayoun Torabi (Texas A&M College of Arts and Sciences)
+* Registration Lead: Liz Grumbach (Arizona State University)
+* Program Committee Member: Pamella Lach (San Diego State University)
+Additional Committee Member: Sylvia Fernández (University of Texas at San Antonio)
