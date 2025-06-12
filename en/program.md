@@ -4,7 +4,6 @@ layout: page
 ---
 
 ## ACH 2025 Conference Program
-
 The full program for ACH 2025, including links to all sessions, is available in ConfTool. The conference takes place virtually June 11-13th, 2025, from roughly 10am-7pm EST.
 
 <button class="btn btn-info"><a target="_blank" href="https://www.conftool.pro/ach2025/index.php?page=browseSessions&print=export&ismobile=false&mode=table&presentations=show" style="color: white;">View Program in ConfTool</a></button>
@@ -16,7 +15,6 @@ Once you register, you will be given attendee status in [ConfTool](https://www.c
 ---
 
 ## ACH 2025 Program
-
 
 </table>
 </form>
