@@ -10,6 +10,7 @@ module.exports = function(eleventyConfig) {
     });
     eleventyConfig.addPlugin(inclusiveLangPlugin);
     eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.addPassthroughCopy("admin");
     eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
     // Copy Static Files to /_Site
     eleventyConfig.addPassthroughCopy({
