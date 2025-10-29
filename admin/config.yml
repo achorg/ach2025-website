@@ -27,12 +27,7 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Content, name: body, widget: markdown }
-      - label: "FR"
-        name: "cfp-fr"
-        file: "/fr/cfp.md"
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Content, name: body, widget: markdown }
+      
   - label: "Safety"
     name: 'safety'
     files:
@@ -48,12 +43,7 @@ collections:
         fields:   
           - { label: Title, name: title, widget: string }
           - { label: Content, name: body, widget: markdown }
-      - label: "FR"
-        name: "safety-fr"
-        file: "en/securite.md"
-        fields:   
-          - { label: Title, name: title, widget: string }
-          - { label: Content, name: body, widget: markdown }
+      
   - label: "Registration"
     name: "registration"
     files:
@@ -66,12 +56,6 @@ collections:
       - label: "ES"
         name: "registro-es"
         file: "/es/registro.md"
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Content, name: body, widget: markdown }
-      - label: "FR"
-        name: "inscription-fr"
-        file: "/fr/inscription.md"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Content, name: body, widget: markdown }
@@ -91,22 +75,10 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Content, name: body, widget: markdown }
-      - label: "FR"
-        name: "reviewer-guidelines-fr"
-        file: "fr/lignes-directrices-pour-lexaminateur.md"      
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Content, name: body, widget: markdown }
+      
   - label: "Policies (EN)"
     name: 'polices-en'
     folder: "en/policies"
-    create: true
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Content, name: body, widget: markdown }
-  - label: "Strategies (FR)"
-    name: 'polices-fr'
-    folder: "fr/strategies"
     create: true
     fields:
       - { label: Title, name: title, widget: string }
@@ -138,16 +110,6 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Recording URL, name: recording, widget: string,required: false }
       - { label: Description, name: description, widget: text }
-  - label: "Séances (FR)"
-    name: "séances"
-    folder: "fr/séances"
-    create: true
-    fields:
-      - { label: Day, name: day, widget: number, default: 2, value_type: int, min: 1, max: 3}
-      - { label: Time, name: time, widget: datetime, time_format: HH:mm:ss, date_format: "YYYY-MM-DD" }
-      - { label: Title, name: title, widget: string }
-      - { label: Recording URL, name: recording, widget: string,required: false }
-      - { label: Description, name: description, widget: text }
   - label: "Speakers (EN)"
     name: "speakers"
     folder: "en/speakers"
@@ -159,14 +121,6 @@ collections:
   - label: "Oradores (ES)"
     name: "oradores"
     folder: "es/oradores"
-    create: true
-    fields:
-      - { label: Name, name: name, widget: string }
-      - { label: Description, name: description, widget: string }
-      - { label: Image, name: image, widget: image, choose_url: true, default: "https://t3.ftcdn.net/jpg/05/17/87/74/360_F_517877468_8dx0lFR66R6LIgCOUYJWxun1b3Muv272.jpg", allow_multiple: false }    
-  - label: "Haut-Parleurs (FR)"
-    name: "haut-parleurs"
-    folder: "fr/haut-parleurs"
     create: true
     fields:
       - { label: Name, name: name, widget: string }
