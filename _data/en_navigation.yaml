@@ -1,8 +1,8 @@
 items:
   - text: Home
     url: "/"
-  - text: Program
-    url: '/en/program'  
+  # - text: Program
+  #   url: '/en/program'  
   # - text: Registration
   #   url: '/en/registration'
   # - text: Program
@@ -12,12 +12,12 @@ items:
   #   url: '/en/sponsor'
   - text: Information
     dropdown:
-      - text: Presenter Guide
-        url: '/en/presenter-guide'
+      # - text: Presenter Guide
+        # url: '/en/presenter-guide'
       - text: CFP
         url: '/en/cfp'
-      - text: Keynote Speakers
-        url: '/en/keynote'
+      # - text: Keynote Speakers
+        # url: '/en/keynote'
   - text: Policies
     dropdown:
       - text: Code of Conduct

@@ -7,7 +7,13 @@ layout: page
 </div><br>
 Deadline: January 15th, 2026, 11:59:59 PM in Central Time
 
-Submit a proposal: [ACH 2026 ConfTool](https://www.conftool.pro/ach2026)
+<br><br>
+ Submit a proposal:
+<button class="btn btn-info">
+    <a target="_blank" href="https://www.conftool.pro/ach2026" style="color: white;">
+    ACH 2026 ConfTool</a>
+</button><br><br>
+
 
 The Association for Computers and the Humanities (ACH) will hold **ACH 2026**, a virtual conference, from **June 24-26, 2026**.
 
