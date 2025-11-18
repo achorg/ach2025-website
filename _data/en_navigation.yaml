@@ -1,6 +1,6 @@
 items:
-  - text: Home
-    url: "/"
+  # - text: Home
+  #   url: "/"
   # - text: Program
   #   url: '/en/program'  
   # - text: Registration
@@ -10,12 +10,13 @@ items:
   
   # - text: Sponsor
   #   url: '/en/sponsor'
-  - text: Information
-    dropdown:
+  - text: CFP
+    url: '/en/cfp'
+    # dropdown:
       # - text: Presenter Guide
-        # url: '/en/presenter-guide'
-      - text: CFP
-        url: '/en/cfp'
+      #   # url: '/en/presenter-guide'
+      # - text: CFP
+      #   url: '/en/cfp'
       # - text: Keynote Speakers
         # url: '/en/keynote'
   - text: Policies
@@ -26,6 +27,6 @@ items:
         url: '/en/policies/accessibility'
       - text: Privacy
         url: '/en/policies/privacy'
-      - text: For Reviewers
-        url: '/en/reviewer-guidelines'
+      # - text: For Reviewers
+      #   url: '/en/reviewer-guidelines'
 
