@@ -150,7 +150,7 @@ For questions and concerns about the CFP, conference program, submissions, Code 
 
 If you are interested in translating this call for proposals into another language, please contact the conference committee at conference [at] ach [dot] org.
 
-### 2026 Conference Committee (in progress)
+### 2026 Conference Committee
 * Conference Co-Chairs: Alex Wermer-Colan (Temple University) and Maira E. Alvarez (University of Toronto)
 * Program Co-Chairs: Kate Ozment (Case Western Reserve University) and Jajwalya Karajgikar (University of Pennsylvania) 
 * Technical Co-Chairs: Winnie Pérez Martínez (University of Virginia) and Andy Janco (Princeton University)
