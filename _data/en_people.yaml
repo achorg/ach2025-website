@@ -1,0 +1,28 @@
+conf_committee2026:
+  - role: Chair
+    people:
+      - name: Alex Wermer-Colan
+        affiliation: Temple University
+      - name: Maira E. Alvarez
+        affiliation: University of Toronto
+
+  # - name: Alex Wermer-Colan
+  #   affiliation: Temple University
+  #   role: Co-Chair
+  # - name: Maira E. Alvarez
+  #   affiliation: University of Toronto
+  #   role: Co-Chair
+  # - name: Kate Ozment
+  #   affiliation: Case Western Reserve University
+  #   role: Program Co-Chair
+  # - name: Jajwalya Karajgikar
+  #   affiliation: ###
+  #   role: Program Co-Chair
+
+
+#  Technical Co-Chairs: Winnie Pérez Martínez (University of Virginia) and Andy Janco (Princeton University)
+# * Volunteers Lead: Emily Esten (ORCID)
+# * Sponsorship and Promotion Lead: Stefano Morello (City University of New York’s Graduate Center)
+# * Regional Hub Lead: Jennifer Ross (University of Toronto) 
+# * Communications Lead: Amanda Reagan (Clemson University)
+# * Treasurer: Katayoun Torabi (Texas A&M University)
