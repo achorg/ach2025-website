@@ -6,13 +6,12 @@ aboutEvent: A virtual conference featuring work by members of the ACH community.
 <!-- ======= Hero Section ======= -->
 <section id="hero">
   <div style="overflow:hidden;">
-          <iframe style="width:100%; height: 100vh; position:absolute; z-index: 2; opacity: 0.1;" src="https://glittery-clafoutis-927ba9.netlify.app/" frameborder="0"></iframe>
-          <!-- Visualization by Amanda Ghassaei, https://amandaghassaei.com/   -->
-    <div class="hero-container" >
-    <img height="150" src="/assets/img/noun-care-7582892-4C25E1.png" / >
-    <h1 class="mb-4 pb-0"><span class="ach">ach</span>2025</h1>
-    <p class="mb-4 pb-0">11 June - 13 June 2025, Virtual Conference</p>    
-    <a target="_blank" href="https://ach2025.ach.org/en/program/" class="about-btn scrollto">Program</a>
+    <iframe style="width:100%; height: 100vh; position:absolute; z-index: 2; opacity: 0.9;" src="/background" frameborder="0"></iframe>
+  <div class="hero-container" >
+    <img height="150" style="z-index:2;" src="/assets/img/idea.svg" / >
+    <h1 class="mb-4 pb-0" style="z-index:2;"><span class="ach">ach</span>2026</h1>
+    <p class="mb-4 pb-0" style="z-index:2;">24–26 June 2026, Virtual Conference</p>    
+    <a target="_blank" href="cfp/index.html" class="about-btn scrollto">Call for Papers</a>
     </div>
   </div>
   
@@ -27,16 +26,17 @@ aboutEvent: A virtual conference featuring work by members of the ACH community.
     <div class="container" data-aos="fade-up">
       <div class="row">
         <div class="col-lg-6">
-          <h2>About</h2>
+          <h3>About</h3>
           <p>{{ aboutEvent }}</p>
         </div>
         <div class="col-lg-3">
           <h3>Where</h3>
-          <p>Virtual</p>
+          <span>Zoom</span> <br>
+          <span>WorkAdventure</span>
         </div>
         <div class="col-lg-3">
           <h3>When</h3>
-          <p>Wednesday to Friday<br>11 June -- 13 June 2025</p>
+          <p>Wednesday to Friday<br>June 24–26 June 2026</p>
         </div>
       </div>
     </div>
@@ -118,7 +118,9 @@ aboutEvent: A virtual conference featuring work by members of the ACH community.
                 <h4>{{ item.data.title }}</h4>
                 <p>{{ item.data.description }}</p>
                 {% if item.data.recording %}
-                <a href="{{ item.data.url }}">link</a>
+                <a href="{{ item.data.url }}">link</a><div class="hero-container" >
+    <img height="150" src="/assets/img/noun-care-7582892-4C25E1.png" / >
+    
                 {% endif %}
               </div>
             </div>

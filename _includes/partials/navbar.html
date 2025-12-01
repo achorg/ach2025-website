@@ -66,40 +66,11 @@
               {% endif %}
             {% endfor %}
             {% endif %}
-            {% if page.lang == 'fr' %}
-            {% for item in fr_navigation.items %}
-            {% if item.text == 'À propos' and not settings.about %}
-              {% elif item.text == 'Programme' and not settings.program %}
-              {% elif item.text == 'Keynotes' and not settings.speakers %}
-              {% elif item.text == 'Partenaires' and not settings.partners %}
-              {% elif item.text == 'Politiques' and not settings.faq %}
-              {% else %}
-              {% if item.dropdown %}
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  {{ item.text }}
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  {%for d in item.dropdown %}
-                  <li><a class="dropdown-item" href="{{ d.url }}">{{ d.text }}</a></li>
-                  {% endfor %}
-                  
-                </ul>
-              </li>
-              {% else%}
-              <li>
-
-                  <a class="nav-link scrollto" href="{{ item.url | locale_url }}">{{ item.text }}</a>
-              </li>
-              {%endif%}
-                {% endif %}
-            {% endfor %}
-            {% endif %}
+            
             <li>
               <div class="btn-group btn-group-sm" role="group" aria-label="...">
                 <button style="color:rgba(202, 206, 221, 0.8);" onclick="location.href='/en';" type="button" class="btn btn-outline-secondary">EN</button>
                 <button style="color:rgba(202, 206, 221, 0.8);" onclick="location.href='/es';" type="button" class="btn btn-outline-secondary">ES</button>
-                <button style="color:rgba(202, 206, 221, 0.8);" onclick="location.href='/fr';" type="button" class="btn btn-outline-secondary">FR</button>
                 </div>
           </li>
         </ul>
