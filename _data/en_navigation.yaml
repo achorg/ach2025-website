@@ -1,8 +1,6 @@
 items:
   # - text: Home
   #   url: "/"
-    - text: People
-      url: '/en/people'
   # - text: Program
   #   url: '/en/program'  
   # - text: Registration
@@ -20,6 +18,8 @@ items:
         #   url: '/en/cfp'
         # - text: Keynote Speakers
           # url: '/en/keynote'
+    - text: People
+      url: '/en/people'
     - text: Policies
       dropdown:
         - text: Code of Conduct
