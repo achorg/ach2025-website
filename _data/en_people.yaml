@@ -5,24 +5,37 @@ conf_committee2026:
         affiliation: Temple University
       - name: Maira E. Alvarez
         affiliation: University of Toronto
-
-  # - name: Alex Wermer-Colan
-  #   affiliation: Temple University
-  #   role: Co-Chair
-  # - name: Maira E. Alvarez
-  #   affiliation: University of Toronto
-  #   role: Co-Chair
-  # - name: Kate Ozment
-  #   affiliation: Case Western Reserve University
-  #   role: Program Co-Chair
-  # - name: Jajwalya Karajgikar
-  #   affiliation: ###
-  #   role: Program Co-Chair
-
-
-#  Technical Co-Chairs: Winnie Pérez Martínez (University of Virginia) and Andy Janco (Princeton University)
-# * Volunteers Lead: Emily Esten (ORCID)
-# * Sponsorship and Promotion Lead: Stefano Morello (City University of New York’s Graduate Center)
-# * Regional Hub Lead: Jennifer Ross (University of Toronto) 
-# * Communications Lead: Amanda Reagan (Clemson University)
-# * Treasurer: Katayoun Torabi (Texas A&M University)
+  - role: Co-Chair
+    people:
+      - name: Kate Ozment
+        affiliation: Case Western Reserve University
+  - role: Program Co-Chair
+    people:
+      - name: Jajwalya Karajgikar
+        affiliation: University of Pennsylvania
+  - role: Technical Chair
+    people:
+      - name: Winnie Pérez Martínez
+        affiliation: University of Virginia
+      - name: Andy Janco
+        affiliation: Princeton University
+  - role: Volunteers Lead
+    people:
+      - name: Emily Esten
+        affiliation: freelancer
+  - role: Sponsorship and Promotion Lead
+    people:
+      - name: Stefano Morello
+        affiliation: City University of New York’s Graduate Center
+  - role: Regional Hub Lead
+    people:
+      - name: Jennifer Ross
+        affiliation: University of Toronto
+  - role: Communications Lead
+    people:
+      - name: Amanda Reagan
+        affiliation: Clemson University
+  - role: Treasurer
+    people:
+      - name: Katayoun Torabi
+        affiliation: Texas A&M University
