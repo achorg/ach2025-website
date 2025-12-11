@@ -41,7 +41,7 @@ conf_committee2026:
         affiliation: City University of New York’s Graduate Center
         affiliation_es: Centro de Posgrado de CUNY
   - role: Regional Hub Lead
-    role_es: Líder de centros regionales
+    role_es: Líder de grupos regionales
     people:
       - name: Jennifer Ross
         affiliation: University of Toronto
