@@ -181,3 +181,4 @@ Sponsorship and Promotion Lead: Stefano Morello (City University of New York’s
 Regional Hub Lead: Jennifer Ross (University of Toronto)\
 Communications Lead: Amanda Reagan (Clemson University)\
 Treasurer: Katayoun Torabi (Texas A&M University)
+Translators EN-ES/ES-EN: Maira E. Álvarez (Universidad de Toronto) y Winnie E. Pérez Martínez (Universidad de Virginia)

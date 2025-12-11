@@ -18,13 +18,13 @@ ACH 2026 explora cómo en momentos de urgencia creamos y colaboramos en una conf
 
 ACH fomenta el diálogo y la solidaridad en torno a la equidad y la justicia en contextos locales, transfronterizos y globales en un espacio inclusivo. Como conferencia bilingüe, ACH 2026 recibe propuestas y presentaciones en español e inglés. Animamos a los presentadores a descentralizar, complicar y reposicionar a Estados Unidos en su aproximación hacia las Américas. Nos interesa recibir propuestas de participantes con una variedad de conocimientos y de roles, incluyendo trabajadores y estudiantes internacionales, puestos alternativos, empleos fuera de las universidades y estudiantes tanto de posgrado como pregrado. Asimismo, invitamos propuestas de participantes que son nuevos en las humanidades digitales.
 
-Grupos regionales y talleres previos a la conferencia
+## Grupos regionales y talleres previos a la conferencia
 
 ACH 2026 será una conferencia principalmente virtual, pero también se organizarán Grupos Regionales donde instituciones de todo el país podrán organizar reuniones presenciales para participar en la conferencia virtual. Si te interesa organizar un Grupo Regional, envía un correo electrónico a conference@ach.org para obtener más información.
 
 Días previos a la conferencia ACH 2026, el 22 y 23 de junio, se realizarán talleres virtuales de bajo costo, diseñados por y para la comunidad de ACH. Los temas e instructores se anunciarán próximamente.
 
-Alcance de la conferencia
+## Alcance de la conferencia
 
 Como una conferencia comprometida con el trabajo interdisciplinario, ACH 2026 da la bienvenida a propuestas interdisciplinarias. Las áreas de enfoque e investigación de humanidades digitales relevantes para la conferencia incluyen, entre otras:
 
@@ -48,7 +48,7 @@ Como una conferencia comprometida con el trabajo interdisciplinario, ACH 2026 da
 * Uso de tecnologías digitales para escribir, publicar y revisar investigación  
 * Vigilancia digital
 
-Tipos e idiomas de presentación de conferencia
+## Tipos e idiomas de presentación de conferencia
 
 Los trabajos y paneles se presentarán a través de un sistema de videoconferencia; las presentaciones creativas podrán presentarse a través de un sistema de videoconferencia o a través de Work Adventure.
 
@@ -58,15 +58,15 @@ Presentaciones creativas (3-5 minutos presentación corta y sesión de póster):
 
 Obras de arte, póster, visualizaciones de datos, instalaciones, performances, demostraciones y otras intervenciones que aborden temas de la conferencia, métodos y trabajos relevantes, proyectos o herramientas en cualquier etapa de desarrollo. Se invita a incluir en las propuestas un enlace para una muestra de la visualización, póster o presentación. Los ponentes deberán proporcionar un enlace o archivo final de muestra antes de la conferencia para incluirlo con su afiche.
 
-Presentaciones tradicionales (12-15 minutos):
+### Presentaciones tradicionales (12-15 minutos):
 
 Presentaciones dinámicas para compartir experimentos, trabajos en desarrollo o reflexiones sostenidas sobre los resultados de un proyecto más completo que involucran una variedad de participantes y fomentan conexiones nuevas y diálogo.
 
-Paneles (1 hora y 15 minutos): 
+### Paneles (1 hora y 15 minutos): 
 
 Sesiones interactivas que facilitan el diálogo entre 3-4 ponentes. Aceptamos presentaciones que destaquen conexiones entre proyectos, métodos o temas. Habrá un mínimo de 15 minutos para discusión con la audiencia. Favor incluir la información de los 3-4 panelistas y el moderador de la sesión. Proporcione el resumen del panel y de cada ponencia en ConfTool.
 
-Requisitos de la propuesta de conferencia
+### Requisitos de las propuestas para la conferencia
 
 Las propuestas se enviarán mediante [ConfTool](https://www.conftool.pro/ach2024). Por favor, cree una nueva cuenta para enviar su propuesta.
 
@@ -76,17 +76,17 @@ Favor incluir la lista de participantes e información de contacto directamente 
 
 Se le pedirá seleccionar cinco palabras clave directamente en ConfTool que se utilizarán para asignar revisores. Seleccione los términos más relevantes para describirsu trabajo.
 
-Formato de la conferencia e idiomas
+## Formato de la conferencia e idiomas
 
 Aceptamos propuestas en español e inglés. Las propuestas se evaluarán en el idioma de envío. Las presentaciones pueden realizarse en el idioma que fue enviada la propuesta, aunque es posible que tengamos acceso limitado a traductores.
 
 Por favor, tenga en cuenta que, para facilitar la planificación, podemos sugerir algún tipo de formato alternativo o colaboración entre propuestas relacionadas. El comité del programa normalmente no incluirá más de dos presentaciones de un mismo presentador.
 
-Plataformas alternativas para la conferencia
+### Plataformas alternativas para la conferencia
 
 La conferencia virtual de ACH se llevará a cabo mediante videoconferencia tradicional, así como a través de nuestra plataforma Work Adventure, la cual ofrece un mundo interactivo animado en 2D y la posibilidad de compartir video, audio o imágenes simultáneamente a través de un navegador. Utilizamos Work Adventure como espacio para grupos de trabajo, sesiones de pósters y otras actividades sociales.
 
-Revisión y notificación de propuestas
+### Revisión y notificación de propuestas
 
 Las propuestas de ACH 2026 se someterán a una revisión por pares abierta. Los nombres y afiliaciones de los autores serán conocidos por el revisor de la propuesta mientras los nombres y afiliaciones del revisor serán conocidos por los autores. Hemos adoptado la revisión por pares abierta por varias razones:
 
@@ -96,7 +96,7 @@ Las propuestas de ACH 2026 se someterán a una revisión por pares abierta. Los 
 
 Por estas razones, nuestro uso de la revisión por pares abierta tiene como objetivo mitigar las desigualdades implícitas en el proceso de revisión a ciegas. Sin embargo, reconocemos que la revisión abierta por pares plantea problemas con dinámicas de poder, como las posibles preocupaciones de académicos emergentes sobre la evaluación de un académico reconocido. Para atender estos problemas, el los Líderes del programa asignarán evaluadores de manera cuidadosa y concientizada. Los evaluadores tendrán derecho a negarse a revisar una presentación por cualquier motivo. También, reconocemos que la revisión por pares abierta podría contribuir a aumentar el riesgo de prejuicios personales. Para mitigar esto, alentamos a los evaluadores a revisar sus perspectivas personales y brindaremos una guía clara sobre su rol en el proceso de revisión. Agradecemos a las presidentas del Comité del Programa de DH 2020, Laura Estill y Jennifer Guiliano, por su trabajo en la [revisión abierta por pares](https://dh2020.adho.org/guidelines/the-open-peer-review-process/), que influyó en nuestro enfoque para DH Unbound 2022, ACH 2023, 2024, 2025, y ahora 2026\.
 
-Criterios de revisión
+### Criterios de revisión
 
 Nuestros criterios de revisión reflejan el compromiso con la comprensión amplia de las humanidades digitales y la naturaleza sociopolítica de la producción académica:
 
@@ -132,15 +132,15 @@ Los evaluadores sólo podrán ver las propuestas que les hayan sido asignadas pa
 
 Las propuestas aceptadas serán revisadas por los autores y publicadas en el programa oficial en línea junto con sus nombres y afiliaciones.
 
-Uso de IA en propuestas y revisiones
+### Uso de IA en propuestas y revisiones
 
 ACH 2026 sigue el ejemplo del CFP  KeystoneDH 2024 y estamos abiertos al uso responsable de la IA generativa: “Dado que la IA generativa es un área de investigación importante y oportuna en las humanidades digitales, estamos interesados ​​en sus experimentos con ella, pero esperamos que en esta conferencia los participantes asuman la responsabilidad de la autoría de las propuestas y presentaciones. Solicitamos que los solicitantes y presentadores de la conferencia informen sobre su uso de herramientas de lenguaje generativo de IA, siguiendo la política de IA de arXiv”.
 
 El uso de IA generativa debe citarse de acuerdo con estándares profesionales, como las [pautas de la MLA para citar la IA generativa](https://style.mla.org/citing-generative-ai/).
 
-Registro de conferencias y becas
+## Costos de registración y becas
 
-El registro para ACH 2026 se abrirá el 15 de abril de 2026\.
+La registración para ACH 2026 se abrirá el 15 de abril de 2026\.
 
 Los organizadores de la conferencia han trabajado para mantener los costos de inscripción lo más bajos posible y al mismo tiempo garantizar que brindemos a los participantes una experiencia positiva en la conferencia. Si bien organizar una conferencia virtual es mucho menos costosa que un evento presencial o híbrido, existen costos de mantenimiento del software, las plataformas, los honorarios por los eventos principales y plenarios, y la accesibilidad. Estamos comprometidos a garantizar que el costo no sea una barrera para la participación en ACH 2026\. 
 
@@ -154,11 +154,11 @@ Contingente/desempleado/subempleado: $40
 
 ACH ofrecerá una cantidad limitada de becas para respaldar la asistencia de miembros sin apoyo institucional, incluidos estudiantes, empleados eventuales y profesionales desempleados o subempleados. Las solicitudes de becas se abrirán cuando se envíen las notificaciones de propuestas.
 
-Zona horaria de la conferencia
+## Zona horaria de la conferencia
 
 ACH 2026 se programará en hora Centro (GMT-4), las sesiones se serán pautadas aproximadamente entre 9:00 a.m. a 6:00 p.m., hora Centro (GMT-4).
 
-Código de conducta
+## Código de conducta
 
 ACH 2026 se dedica a crear un entorno de conferencia seguro, respetuoso y profesional para el beneficio de todos los asistentes y para el avance de la investigación y la producción académica en el campo. ACH 2026 ha adaptado el Código de Conducta de la Conferencia ACH:
 
@@ -170,17 +170,17 @@ Se espera que los participantes a los que se les pida que detengan cualquier com
 
 ACH 2026 busca mantener estos valores a lo largo del proceso de presentación y revisión, así como durante la conferencia misma. Familiarícese con las pautas para someter informes y nuestro proceso para abordar las infracciones.
 
-Accesibilidad
+## Accesibilidad
 
 El comité organizador de ACH 2026 ACH se esfuerza por facilitar que la conferencia sea accesible para todos los participantes. Próximamente, se distribuirá más información al respecto junto con una solicitud de acomodos razonables para los participantes.
 
-Información contacto
+## Información de contacto
 
 Si tiene preguntas e inquietudes sobre el CFP, el programa de la conferencia, las presentaciones, el Código de conducta o accesibilidad, comuníquese con los presidentes de la conferencia ACH 2026 en conference \[at\] ach \[dot\] org.
 
 Si está interesado en traducir esta convocatoria de propuestas a otro idioma, comuníquese con el comité de la conferencia en conference \[at\] ach \[dot\] org.
 
-Comité organizador ACH 2026 
+## Comité organizador ACH 2026 
 
 Líderes principales de la conferencia: Alex Wermer-Colan (Temple University) y Maira E. Álvarez (University of Toronto)
 
@@ -198,4 +198,4 @@ Líder de comunicaciones: Amanda Reagan (Universidad de Clemson)
 
 Tesorera: Katayoun Torabi (Universidad de Texas A\&M)
 
-Traductoras EN-ES: Maira E. Álvarez (Universidad de Toronto) y Winnie E. Pérez Martínez (Universidad de Virginia)
+Traductoras EN-ES/ES-EN: Maira E. Álvarez (Universidad de Toronto) y Winnie E. Pérez Martínez (Universidad de Virginia)
