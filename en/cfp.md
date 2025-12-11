@@ -5,7 +5,7 @@ layout: page
 <div class="text-center" >
 <img height="150" src="/assets/img/idea.svg"/>  <br>
 </div><br>
-Deadline: February 2, 2026, 11:59:59 PM in Central Time (GMT-4)
+Deadline: February 14, 2026, 11:59:59 PM in Central Time (GMT-4)
 
 <br><br>
  Submit a proposal:
@@ -14,7 +14,7 @@ Deadline: February 2, 2026, 11:59:59 PM in Central Time (GMT-4)
     ACH 2026 ConfTool</a>
 </button><br><br>
 
-The Association for Computers and the Humanities (ACH) will hold ACH 2026, a virtual conference, from **June 24-26, 2026\.**
+The Association for Computers and the Humanities (ACH) will hold ACH 2026, a virtual conference, from **June 24-26, 2026.**
 
 ## Conference Focus: Emergence/ia
 
@@ -22,7 +22,7 @@ ACH 2026 explores how we create and collaborate through moments of exigency in a
 
 ACH fosters dialogue and solidarity on equity and justice across local, transborder, and global contexts in an inclusive space. As a bilingual conference, ACH 2026 welcomes proposals and presentations in Spanish and English; we encourage presenters to decenter, complicate, and resituate the United States in their approach to the Americas. We are interested in receiving proposals from participants with a range of expertise and roles, including international workers and students, alt-ac positions, employment outside of higher education, and graduate and undergraduate students. We further invite proposals from participants who are newcomers to digital humanities. 
 
-## Regional Hubs & Pre-Conference Workshops 
+## Regional Hubs & Pre-Conference Workshops
 
 ACH 2026 will be a primarily virtual conference, but we will also be hosting “Regional Hubs” where organizations around the country can host in-person get-togethers to engage with the virtual conference. If you’re interested in hosting a Regional Hub, please email conference@ach .org for more information.
 
@@ -32,24 +32,24 @@ On the days preceding the ACH 2026 conference, on June 22nd and 23rd, low-cost, 
 
 As a conference committed to cross-disciplinary engagement, ACH 2026 welcomes interdisciplinary proposals. Areas of digital humanities scholarship that are relevant to the conference include but are not limited to:
 
-Collaborations for community  
-Computational creativity  
-Critical making  
-Digital cultural heritage  
-Digital surveillance	  
-Digital humanities tools and infrastructures  
-Digital librarianship  
-Digital media, art, literature, history, music, film, and games  
-Digital public humanities  
-Environmental humanities and climate justice  
-Humanistic and ethical approaches to data science and data visualization  
-Humanistic research on digital objects and cultures  
-Humanities knowledge infrastructures  
-Union, labor and organization in digital humanities  
-Machine learning, including AI and LLMs and their implications  
-Multilingualism in digital humanities  
-Multimodal scholarship  
-Resource creation, curation, and engagement  
+Collaborations for community\
+Computational creativity\
+Critical making\
+Digital cultural heritage\
+Digital surveillance	\
+Digital humanities tools and infrastructures\
+Digital librarianship\
+Digital media, art, literature, history, music, film, and games\
+Digital public humanities\
+Environmental humanities and climate justice\
+Humanistic and ethical approaches to data science and data visualization\
+Humanistic research on digital objects and cultures\
+Humanities knowledge infrastructures\
+Union, labor and organization in digital humanities\
+Machine learning, including AI and LLMs and their implications\
+Multilingualism in digital humanities\
+Multimodal scholarship\
+Resource creation, curation, and engagement\
 Use of digital technologies to write, publish, and review scholarship
 
 ## Conference Submission Types and Languages
@@ -62,11 +62,11 @@ We welcome the following submission types:
 
 Artwork, posters, data visualizations, installations, performances, demonstrations and other interventions that engage conference issues, methods, and themes on any relevant topic, project, or tool at any stage of development. Proposals are encouraged to include a link to a sample visualization/poster/slidedeck; presenters will be expected to provide a link or file as a final upload before the conference to include with their poster session.
 
-### Papers (12-15 minutes): 
+### Papers (12-15 minutes):
 
 Dynamic presentations that share experiments, works-in-progress, or sustained reflections on outcomes of more complete projects while engaging a range of participants and fostering connections and dialogue.
 
-### Panels (1 hour and 15 minutes): 
+### Panels (1 hour and 15 minutes):
 
 Engaging sessions that facilitate dialogue among 3-4 presenters, highlighting connections between projects, methods, or themes and reserving a minimum of 15 minutes for discussion with the audience. List all 3-4 Panelists and Chair for the session. Provide the panel abstract and individual presenter abstracts in ConfTool.
 
@@ -94,26 +94,26 @@ The ACH virtual conference will take place through traditional video conferencin
 
 ACH 2026 proposals will undergo open peer review. Names and affiliations of authors will be known to a proposal’s reviewer, while names and affiliations of the reviewer will be known to the authors. We are adopting open peer review for several reasons: Lack of consensus about how to anonymize submissions, which leads to proposals that are identifiable; the public nature of digital humanities scholarship, which means that anonymized submissions are not, in fact, guaranteed to be anonymous; and the lack of accountability in anonymous peer review, which can promote incivility in the review process.
 
-Therefore, our use of open peer review is intended to mitigate the implicit inequities in the anonymous review process. We recognize, however, that open peer review raises issues with power dynamics, such as concerns that emerging scholars may have about evaluating an established scholar. To address these issues, the Program Committee will carefully and thoughtfully assign reviewers; reviewers will have the right to refuse to review a submission for any reason. We also recognize that open peer review could contribute to increased bias. To mitigate this risk, we encourage reviewers to evaluate their biases and will provide clear guidance for their role in the review process. We remain grateful to DH2020 Program Committee Chairs Laura Estill and Jennifer Guiliano for their work on [open peer review](https://dh2020.adho.org/guidelines/the-open-peer-review-process/), which influenced our approach for DH Unbound 2022, ACH 2023, 2024, 2025, and now 2026\.
+Therefore, our use of open peer review is intended to mitigate the implicit inequities in the anonymous review process. We recognize, however, that open peer review raises issues with power dynamics, such as concerns that emerging scholars may have about evaluating an established scholar. To address these issues, the Program Committee will carefully and thoughtfully assign reviewers; reviewers will have the right to refuse to review a submission for any reason. We also recognize that open peer review could contribute to increased bias. To mitigate this risk, we encourage reviewers to evaluate their biases and will provide clear guidance for their role in the review process. We remain grateful to DH2020 Program Committee Chairs Laura Estill and Jennifer Guiliano for their work on [open peer review](https://dh2020.adho.org/guidelines/the-open-peer-review-process/), which influenced our approach for DH Unbound 2022, ACH 2023, 2024, 2025, and now 2026.
 
 ### Review Criteria
 
 Our review criteria reflect the commitment to an expansive understanding of digital humanities and the sociopolitical nature of scholarship:
 
-20% – Relevance to Conference Focus  
-The proposal topic is connected to the themes of care, response, and transformation in the field of digital humanities.  
-20% – Engagement with Relevant Scholarship  
-The proposal engages explicitly with relevant scholarship and offers context within the current state of the fields in which it engages. Formal citations (in the proposal writer’s preferred style) are only required when using direct quotation.  
-20% – Framework and Purpose  
-The proposal offers a clear theoretical, methodological, or pedagogical framework; concrete statement of purpose; and explicit articulation of the sociopolitical implications of the work.  
-20% – Applicability, Significance, and Value  
-The proposal articulates the applicability, significance, and value of the theoretical, methodological, and/or practical contribution to digital humanities generally.  
-20% – Overall Recommendation  
+20% – Relevance to Conference Focus\
+The proposal topic is connected to the themes of care, response, and transformation in the field of digital humanities.\
+20% – Engagement with Relevant Scholarship\
+The proposal engages explicitly with relevant scholarship and offers context within the current state of the fields in which it engages. Formal citations (in the proposal writer’s preferred style) are only required when using direct quotation.\
+20% – Framework and Purpose\
+The proposal offers a clear theoretical, methodological, or pedagogical framework; concrete statement of purpose; and explicit articulation of the sociopolitical implications of the work.\
+20% – Applicability, Significance, and Value\
+The proposal articulates the applicability, significance, and value of the theoretical, methodological, and/or practical contribution to digital humanities generally.\
+20% – Overall Recommendation\
 The proposal is organized effectively and offers a clear articulation of presentation content.
 
-The review period will begin on February 2 and end by March 15th, 2026\.
+The review period will begin on February 2 and end by March 15th, 2026.
 
-Notifications about acceptance or rejection are anticipated to go out by April 1, 2026\. Reviews will also be made available upon notification.
+Notifications about acceptance or rejection are anticipated to go out by April 1, 2026. Reviews will also be made available upon notification.
 
 ### Copyright and Privacy
 
@@ -131,16 +131,16 @@ Use of generative AI should be cited according to professional standards, such a
 
 ## Conference Registration and Bursaries
 
-Registration for ACH 2026 will open on April 15th, 2026\.
+Registration for ACH 2026 will open on April 15th, 2026.
 
-Conference organizers have worked to keep the registration costs as low as possible while ensuring we are providing attendees with a positive conference experience. While organizing a virtual conference is far less expensive than an in-person or hybrid event, there are nonetheless costs for maintaining the conference submission management software, conference platforms, honoraria for keynote and plenary events, and accessibility. We are committed to ensuring that cost is not a barrier to participation in ACH 2026\. 
+Conference organizers have worked to keep the registration costs as low as possible while ensuring we are providing attendees with a positive conference experience. While organizing a virtual conference is far less expensive than an in-person or hybrid event, there are nonetheless costs for maintaining the conference submission management software, conference platforms, honoraria for keynote and plenary events, and accessibility. We are committed to ensuring that cost is not a barrier to participation in ACH 2026. 
 
 The registration fee schedule is as follows:
 
-ACH Member: $55  
-Student ACH Member: $25    
-Regular Non-Member: $95  
-Student Non-Member: $40    
+ACH Member: $55\
+Student ACH Member: $25\
+Regular Non-Member: $95\
+Student Non-Member: $40\
 Contingent/un-/underemployed: $40
 
 ACH offers a limited number of bursaries to support attendance by members without institutional support, including students, employed contingently, and un-/underemployed professionals. Bursary applications will open when proposal notifications are sent.
@@ -167,17 +167,17 @@ ACH seeks to ensure that ACH 2026 is accessible to all participants. We will pro
 
 ## Contact Information
 
-For questions and concerns about the CFP, conference program, submissions, Code of Conduct, or accessibility, please contact the ACH 2026 Conference Chair at conference \[at\] ach \[dot\] org.
+For questions and concerns about the CFP, conference program, submissions, Code of Conduct, or accessibility, please contact the ACH 2026 Conference Chair at conference \[at] ach \[dot] org.
 
-If you are interested in translating this call for proposals into another language, please contact the conference committee at conference \[at\] ach \[dot\] org.
+If you are interested in translating this call for proposals into another language, please contact the conference committee at conference \[at] ach \[dot] org.
 
 ### 2026 Conference Committee (in progress)
 
-Conference Co-Chairs: Alex Wermer-Colan (Temple University) and Maira E. Alvarez (University of Toronto)  
-Program Co-Chairs: Kate Ozment (Case Western Reserve University) and Jajwalya Karajgikar (University of Pennsylvania)   
-Technical Co-Chairs: Winnie Pérez Martínez (University of Virginia) and Andy Janco (Princeton University)  
-Volunteers Lead: Emily Esten (ORCID)  
-Sponsorship and Promotion Lead: Stefano Morello (City University of New York’s Graduate Center)  
-Regional Hub Lead: Jennifer Ross (University of Toronto)   
-Communications Lead: Amanda Reagan (Clemson University)  
-Treasurer: Katayoun Torabi (Texas A\&M University)
+Conference Co-Chairs: Alex Wermer-Colan (Temple University) and Maira E. Alvarez (University of Toronto)\
+Program Co-Chairs: Kate Ozment (Case Western Reserve University) and Jajwalya Karajgikar (University of Pennsylvania)\
+Technical Co-Chairs: Winnie Pérez Martínez (University of Virginia) and Andy Janco (Princeton University)\
+Volunteers Lead: Emily Esten (ORCID)\
+Sponsorship and Promotion Lead: Stefano Morello (City University of New York’s Graduate Center)\
+Regional Hub Lead: Jennifer Ross (University of Toronto)\
+Communications Lead: Amanda Reagan (Clemson University)\
+Treasurer: Katayoun Torabi (Texas A&M University)
