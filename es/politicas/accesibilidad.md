@@ -2,49 +2,53 @@
 title: Accesibilidad
 layout: page
 ---
-El comité de planificación de ACH 2025 ACH se esfuerza por garantizar que la conferencia sea accesible para todos los participantes.
+El comité organizador de ACH 2026 ACH se esfuerza por facilitar que la conferencia sea accesible para todos los participantes.
 
-Todas las sesiones sincrónicas pondrán a disposición de los participantes la transcripción en vivo, y las sesiones principales incluirán interpretación en lenguaje de señas y transcripción en vivo.
+<!-- TBD Todas las sesiones sincrónicas pondrán a disposición de los participantes la transcripción en vivo, y las sesiones principales incluirán interpretación en lenguaje de señas y transcripción en vivo. -->
 
-Directrices de accesibilidad de la presentación virtual
+# Guía de accesibilidad para presentaciones virtuales
 
-Preparación de diapositivas
+## Preparación de diapositivas
 
-1. Alentamos a los participantes a utilizar el [Comprobador de accesibilidad](https://support.microsoft.com/es-es/office/mejorar-la-accesibilidad-con-el-comprobador-de-accesibilidad-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f) en PowerPoint o [Comprobador de accesibilidad para Presentaciones de Google](https://workspace.google.com/marketplace/app/accessibility_checker_for_slides/437536886016) al preparar las diapositivas.
-2. Alentamos a los participantes a usar una [plantilla de diapositiva accesible para PowerPoint](https://support.microsoft.com/es-es/office/cree-presentaciones-de-powerpoint-accesibles-para-personas-con-discapacidad-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25) o uno de los temas integrados en Presentaciones de Google.
-3. Al agregar una nueva diapositiva en su tema seleccionado, use uno de los diseños disponibles, en lugar de editarlos o crear un nuevo diseño. Esto ayudará a los lectores de pantalla con su contenido.
-4. Preste atención al contraste de colores: el texto oscuro sobre un fondo claro o el texto claro sobre un fondo oscuro es más fácil de leer.
-5. Evite animaciones o transiciones, que pueden hacer tropezar a los lectores de pantalla.
-6. Título de cada diapositiva.
+1. Alentamos a los participantes a utilizar el [Comprobador de accesibilidad](https://support.microsoft.com/es-es/office/mejorar-la-accesibilidad-con-el-comprobador-de-accesibilidad-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f) en PowerPoint o [Comprobador de accesibilidad para Google Slides](https://workspace.google.com/marketplace/app/accessibility_checker_for_slides/437536886016) al preparar las diapositivas.
+2. Alentamos a los participantes a usar una [plantilla de diapositiva accesible para PowerPoint](https://support.microsoft.com/es-es/office/cree-presentaciones-de-powerpoint-accesibles-para-personas-con-discapacidad-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25) o uno de los temas integrados en Google Slides.
+3. Al agregar una nueva diapositiva en su tema seleccionado, use uno de los diseños disponibles, en lugar de editarlos o crear un nuevo diseño. Esto le facilitará a los lectores de pantalla entender el contenido.
+4. Preste atención al contraste de colores: texto oscuro sobre un fondo claro, o el texto claro sobre un fondo oscuro son combinaciones más fácil de leer.
+5. Evite el uso de animaciones o transiciones que puedan interrumpir a los lectores de pantalla.
+6. Asigne un título a cada diapositiva.
 7. Configure el [orden de lectura](https://support.microsoft.com/es-es/office/facilitar-la-lectura-de-las-diapositivas-mediante-el-panel-orden-de-lectura-863b5c1c-4f19-45ec-96e6-93a6457f5e1c) para el contenido de las diapositivas de PowerPoint y ejecute el Comprobador de accesibilidad para asegurarse de que los lectores de pantalla lean en el orden correcto.
 8. Use una fuente sans-serif, un mínimo de 12 puntos (18 es mejor). En el siguiente orden, las fuentes más accesibles son: Arial, Calibri, Century Gothic, Helvetica, Tahoma y Verdana.
-9. Use el texto en negrita con moderación para enfatizar (no las cursivas en mayúsculas).
-10. Utilice [texto de enlace significativo](https://myusf.usfca.edu/digital-accessibility/meaningful-link-text) para hipervínculos y URL breves (por ejemplo, [tinyurl.com](http://tinyurl.com) le permite personalizar enlaces cortos).
+9. Use el texto en negrita con moderación y solo para hacer énfasis (no cursivas en mayúscula).
+10. Utilice [etiquetas de texto significativas](https://myusf.usfca.edu/digital-accessibility/meaningful-link-text) para los enlaces y URL breves (por ejemplo, [tinyurl.com](http://tinyurl.com) permite personalizar enlaces cortos).
 
-dando su charla
+## Para la presentación
 
-1. Practique su presentación para asegurarse de que está siguiendo su propio ritmo. Habla más despacio de lo que crees que necesitas. Asegúrese de que su presentación se ajuste a los límites establecidos (12-15 minutos para artículos, 5 minutos para charlas relámpago).
+1. Practique su presentación para adquirir control sobre la duración y el ritmo. Hable más despacio lo que estima necesario. Asegúrese de que la presentación se ajuste a los límites establecidos de la conferencia (12-15 minutos para presentaciones tradicionales, 3-5 minutos para presentaciones creativas).
 2. Hable claramente y minimice el ruido de fondo.
 3. Resuma el texto de sus diapositivas.
-4. Si está compartiendo una imagen importante, como un cuadro o un gráfico, describa verbalmente la información importante que muestran las imágenes (p. ej., qué muestran los datos, títulos de los ejes).
-5. Si muestra un video, asegúrese de que el video tenga subtítulos y que los subtítulos estén activados cuando lo reproduzca.
-6. Si está compartiendo cómodamente sus diapositivas, agregue el archivo al chat o suelte un enlace a sus Presentaciones de Google.
+4. Al compartir una imagen importante, como un cuadro o un gráfico, describa verbalmente la información importante que muestran las imágenes (p. ej., qué muestran los datos, títulos de los ejes).
+5. Al compartir un video, asegúrese de incluir subtítulos y que los subtítulos estén activados cuando lo reproduzca.
+6. Para compartir los materiales o diapositivas de la presentación, agregue el archivo al chat o comparta un enlace a sus Google Slides.
 
-Adaptado de Syone [“Mejores prácticas para la accesibilidad en eventos virtuales”](https://blog.syone.com/best-practices-for-accessibility-for-virtual-events) y Electronic Resources and Libraries' [“Virtual Presentation Accessibility Pautas.”](https://www.electroniclibrarian.org/virtual-presentation-accessibility-guidelines/)
+Adaptado de [“Mejores prácticas para la accesibilidad en eventos virtuales”](https://blog.syone.com/best-practices-for-accessibility-for-virtual-events) por Syone, y [“Virtual Presentation Accessibility Pautas.”](https://www.electroniclibrarian.org/virtual-presentation-accessibility-guidelines/) por Electronic Resources and Libraries.
 
-No dude en ponerse en contacto con la líder de la conferencia, Pam Lach, en la conferencia \[at] ach \[dot] org concualquier pregunta o inquietud.
+No dude en ponerse en contacto los organizadores de la conferencia usando conference \[at] ach \[dot] org concualquier pregunta o inquietud.
 
 ## Licencia
 
-Al enviar una propuesta, se solicitará a los autores que revisen nuestra Declaración de licencias y términos de transferencia de Creative Commons:
+Al momento de enviar una propuesta, se solicitará que los autores revisen y firmen nuestro Acuerdo de Atribución/Reconocimiento 4.0 Internacional de Creative Commons en línea aquí: <https://creativecommons.org/licenses/by/4.0/deed.es> .
 
-Para que mi presentación pueda compartirse con revisores e investigadores, y mi resumen revisado por pares pueda incluirse en los materiales de la conferencia, yo (Autor) acepto la siguiente licencia: <https://creativecommons.org/licenses/by/4.0/> .
 
-Creative Commons-Attribution 4.0 (CC-BY 4.0) es una licencia pública ampliamente utilizada que cumple con la definición de acceso abierto. La licencia de su resumen bajo esta Licencia hace que sea fácil de reutilizar para toda la comunidad. Tenga en cuenta que la Licencia permite el uso comercial de su resumen, así como la realización de trabajos derivados. Sin embargo, garantiza que se le mencione como autor del resumen cada vez que alguien lo utilice.
+Declaración de licencias y términos de transferencia de Creative Commons:
 
-Para ACH 2025, esta licencia se utilizará de la siguiente manera:
+Para que mi presentación pueda compartirse con revisores e investigadores, y mi resumen revisado por pares pueda incluirse en los materiales de la conferencia, yo (Autor) acepto la siguiente licencia: <https://creativecommons.org/licenses/by/4.0/>.
 
-1. Las propuestas aceptadas serán revisadas por los autores y publicadas en el programa en línea junto con sus nombres y afiliaciones;
-2. En lugar de un libro de resúmenes, los resúmenes revisados también se depositarán en [Humanities CORE](https://hcommons.org/core/), donde se conservarán y se les asignará un identificador de objeto digital (DOI). Además, se recomienda encarecidamente a los participantes de la conferencia que depositen sus presentaciones, ya sea en forma de documento, diapositivas, póster u otro formato, en CORE y que las compartan con el grupo ACH 2025 sobre los Comunes, a fin de facilitar el debate continuo. y cita de su trabajo.
+Creative Commons-Attribution 4.0 (CC-BY 4.0) es una licencia pública ampliamente utilizada que cumple con la definición de acceso abierto (OA en inglés). Proteger el resumen de tu trabajo bajo esta licencia permite que sea fácil de reutilizar por toda la comunidad académica. Bajo esta licencia, es legal el uso comercial del resumen, así como la creación de trabajos derivados. Sin embargo, garantiza la mención de su autor/a/e cada vez que alguien lo utilice.
 
-Los materiales depositados en CORE se regirán por los [Términos de servicio de Humanities Commons](https://hcommons.org/terms/), sobre los cuales se puede encontrar más información en las [Preguntas frecuentes de CORE](https://hcommons.org/core/faq/).
+
+Para ACH 2026, la licencia se utilizará de la siguiente manera:
+
+1. Las propuestas aceptadas serán revisadas por los autores y publicadas en el programa en línea junto con sus nombres y afiliaciones.
+2. En lugar de un libro de resúmenes, los resúmenes editados también se depositarán en [Humanities CORE](https://hcommons.org/core/), donde se conservarán y se les asignará un identificador de objeto digital (DOI). Además, se les recomienda encarecidamente a los participantes de la conferencia que también depositen sus presentaciones, ya sea en forma de documento, diapositivas, póster u otro formato, en CORE. Finalmente, por facor compartan esta contribución con el grupo de ACH 2026 en los Commons, a fin de facilitar la discusión activa y circulación de su trabajo.
+
+Los materiales depositados en CORE se regirán por los [Términos de servicio de Humanities Commons](https://hcommons.org/terms/), sobre los cuales hay más información en las [Preguntas frecuentes de CORE](https://hcommons.org/core/faq/).
