@@ -53,7 +53,7 @@ conf_committee2026:
         affiliation: Clemson University
         affiliation_es: Universidad de Clemson
   - role: Treasurer
-    role_es: Tesorera***
+    role_es: Tesorera
     people:
       - name: Katayoun Torabi
         affiliation: Texas A&M University
