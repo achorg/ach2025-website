@@ -1,0 +1,60 @@
+# EN, ES
+
+conf_committee2026:
+  - role: Chairs
+    role_es: Organizadores principales
+    people: 
+      - name: Alex Wermer-Colan
+        affiliation: Temple University
+        affiliation_es: Universidad de Temple
+      - name: Maira E. Alvarez
+        affiliation: University of Toronto
+        affiliation_es: Universidad de Toronto
+  - role: Program Chairs
+    role_es: Organizadores del programa
+    people:
+      - name: Kate Ozment
+        affiliation: Case Western Reserve University
+        affiliation_es: Universidad Case Western Reserve
+      - name: Jajwalya Karajgikar
+        affiliation: University of Pennsylvania
+        affiliation_es: Universidad de Pennsylvania
+  - role: Technical Chair
+    role_es: Organizadores técnicos
+    people:
+      - name: Winnie E. Pérez Martínez
+        affiliation: University of Virginia
+        affiliation_es: Universidad de Virginia
+      - name: Andy Janco
+        affiliation: Princeton University
+        affiliation_es: Universidad de Princeton
+  - role: Volunteers Lead
+    role_es: Líder de voluntarios
+    people:
+      - name: Emily Esten
+        affiliation: ORCID
+        affiliation_es: ORCID
+  - role: Sponsorship and Promotion Lead
+    role_es: Líder de promoción y patrocinadores
+    people:
+      - name: Stefano Morello
+        affiliation: City University of New York’s Graduate Center
+        affiliation_es: Centro de Posgrado de CUNY
+  - role: Regional Hub Lead
+    role_es: Líder de centros regionales
+    people:
+      - name: Jennifer Ross
+        affiliation: University of Toronto
+        affiliation_es: Universidad de Toronto
+  - role: Communications Lead
+    role_es: Líder de comunicaciones
+    people:
+      - name: Amanda Reagan
+        affiliation: Clemson University
+        affiliation_es: Universidad de Clemson
+  - role: Treasurer
+    role_es: Tesorera***
+    people:
+      - name: Katayoun Torabi
+        affiliation: Texas A&M University
+        affiliation_es: Universidad de Texas A&M
