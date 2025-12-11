@@ -3,7 +3,7 @@ title: ACH 2026 CFP
 layout: page
 ---
 <div class="text-center" >
-<img height="150" src="/assets/img/frog.png"/>  <br>
+<img height="150" src="/assets/img/idea.svg"/>  <br>
 </div><br>
 Deadline: February 2, 2026, 11:59:59 PM in Central Time (GMT-4)
 

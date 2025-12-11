@@ -10,7 +10,7 @@ El acoso incluye pero no se limita a: comentarios verbales despectivos; chistes 
 Cualquier participante interpelado para detener un comportamiento de acoso debe cumplir de inmediato. Si alguien incurre en conductas de acoso, los organizadores podrán tomar las medidas 
 que les parezcan necesarias, desde una advertencia al infractor o la expulsión del evento.
 
-ACH 2026 busca mantener estos valores a lo largo del proceso de presentación y revisión, así como durante la conferencia misma. Familiarícese con las pautas de informes y nuestro proceso para abordar las infracciones.
+ACH 2026 busca mantener estos valores a lo largo del proceso de presentación y revisión, así como durante la conferencia misma. Familiarícese con las pautas de para someter informes y nuestro proceso para abordar las infracciones.
 
 ## Procedimientos para informes
 

@@ -3,7 +3,7 @@ title: "Convocatoria: ACH 2025"
 layout: page
 ---
 <div class="text-center" >
-<img height="150" src="/assets/img/noun-care-7582892-4C25E1.png"/>  <br>
+<img height="150" src="/assets/img/idea.svg"/>  <br>
 </div><br>
 
 Fecha límite: 14 de abril de 2025, 23:59:59 en GMT-4 (EST)
