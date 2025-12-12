@@ -56,5 +56,3 @@ Engaging sessions that facilitate dialogue among 3-4 presenters, highlighting co
 10. Follow the golden rule of reviewing: review others as you would want to be reviewed, fairly and constructively.
 
 Adapted from the DH 2020 Reviewer Guidelines created by Laura Estill and Jennifer Guiliano.
-
-# we need an AI policy here
