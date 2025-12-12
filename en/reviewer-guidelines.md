@@ -21,7 +21,7 @@ By agreeing to review a proposal, reviewers confirm that there is no conflict of
 ## Submissions will be evaluated based on:
 | **Criteria**                              | **Weight** |
 |-------------------------------------------|------------|
-| **Relevance to Conference Focus**: The proposal topic is connected to the themes of emergence(ia),  in the field of digital humanities. | 20% |
+| **Relevance to Conference Focus**: The proposal topic is connected to the themes of emergence(ia), transnationalism, and solidarity in the field of digital humanities. | 20% |
 | **Engagement with Relevant Scholarship**: The proposal explicitly engages with relevant scholarship and offers context within the current state of the fields in which it engages. Formal citations (in the author’s preferred style) are only required when using direct quotation. | 20% |
 | **Framework and Purpose**: The proposal offers clear theoretical, methodological, or pedagogical framework; concrete statement of purpose; and explicit articulation of the sociopolitical implications of the work. | 20% |
 | **Applicability, Significance, and Value**: The proposal articulates the applicability, significance, and value of the theoretical, methodological, and/or practical contribution to digital humanities generally. | 20% |
