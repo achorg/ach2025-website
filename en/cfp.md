@@ -115,6 +115,11 @@ The review period will begin on February 2 and end by March 15th, 2026.
 
 Notifications about acceptance or rejection are anticipated to go out by April 1, 2026. Reviews will also be made available upon notification.
 
+## Code of Conduct
+
+ACH 2026 is dedicated to creating a safe, respectful, and collegial conference environment for the benefit of everyone who attends and for the advancement of research and scholarship in the field. ACH 2026 has adapted the ACH Conference Code of Conduct. For more details, see the [Code of Conduct](https://ach2026.ach.org/en/policies/code-of-conduct/) page.
+
+
 ### Copyright and Privacy
 
 Submissions and reviews will not be made available to the public. The Program Committee will have access to all submissions and reviews. 
@@ -148,18 +153,6 @@ ACH offers a limited number of bursaries to support attendance by members withou
 ### Conference Time Zone
 
 ACH 2026 will be scheduled in Central Time, with sessions taking place from approximately 9:00 am – 6:00 pm Central Time.
-
-## Code of Conduct
-
-ACH 2026 is dedicated to creating a safe, respectful, and collegial conference environment for the benefit of everyone who attends and for the advancement of research and scholarship in the field. ACH 2026 has adapted the ACH Conference Code of Conduct:
-
-ACH is dedicated to providing a harassment-free conference experience for everyone regardless of gender identity, gender expression, sexual orientation, disability, physical appearance, body size, race, ethnicity, origin, religion, or employment status and role. By attending ACH events, you signal your commitment to contributing to a safe and inclusive experience for all. We do not tolerate harassment of event participants in any form, whether events are held virtually, face-to-face, or on social media platforms. Participants in ACH events violating these rules may be barred or banned from ACH activities at the discretion of the organizers.
-
-Harassment includes but is not limited to: derogatory verbal comments; sexist, racist, or otherwise discriminatory jokes and language; sexual and/or discriminatory text or audio-visual material in conference spaces (virtual or face-to-face), unless being critiqued in an academic context; deliberate intimidation; stalking; following; harassing photography or recording; questioning someone’s right to use the restroom of their choice; sustained disruption of talks or other events; inappropriate physical contact; and unwelcome sexual attention.
-
-Participants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behavior, the organizers may take any action they deem appropriate, including warning the offender or expulsion from the event.
-
-ACH 2026 seeks to uphold these values throughout the submission and review process as well as during the conference itself. Please familiarize yourself with the reporting guidelines and our process for addressing violations.
 
 ### Accessibility
 

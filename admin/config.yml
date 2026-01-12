@@ -14,6 +14,8 @@ editor:
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
 # publish_mode: editorial_workflow
+
+
 collections:
   - label: "CFP"
     name: "cfp"
@@ -30,7 +32,27 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Content, name: body, widget: markdown }
-      
+  - label: "People"
+    name: "people"
+    files:
+      - label: "EN-ES"
+        name: "people-en"
+        file: "/_data/people.yaml"
+        fields:
+          - label: ACH 2026 Committee
+            name: conf_committee2026
+            widget: "list"
+            fields:
+              - { label: Role, name: role, widget: string }
+              - { label: Role (ES), name: role_es, widget: string }
+              - label: Names
+                name: names
+                widget: "list"
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Affiliation, name: affiliation, widget: string }
+                  - { label: Affiliation (ES), name: affiliation_es, widget: string }
+  
   - label: "Safety"
     name: 'safety'
     files:
@@ -121,11 +143,11 @@ collections:
       - { label: Name, name: name, widget: string }
       - { label: Description, name: description, widget: string }
       - { label: Image, name: image, widget: image, choose_url: true, default: "https://t3.ftcdn.net/jpg/05/17/87/74/360_F_517877468_8dx0lFR66R6LIgCOUYJWxun1b3Muv272.jpg", allow_multiple: false }    
-  - label: "Oradores (ES)"
-    name: "oradores"
-    folder: "es/oradores"
+  - label: "Presentadores (ES)"
+    name: "Presentadores"
+    folder: "es/presentadores"
     create: true
     fields:
       - { label: Name, name: name, widget: string }
       - { label: Description, name: description, widget: string }
-      - { label: Image, name: image, widget: image, choose_url: true, default: "https://t3.ftcdn.net/jpg/05/17/87/74/360_F_517877468_8dx0lFR66R6LIgCOUYJWxun1b3Muv272.jpg", allow_multiple: false }    
+      - { label: Image, name: image, widget: image, choose_url: true, default: "https://t3.ftcdn.net/jpg/05/17/87/74/360_F_517877468_8dx0lFR66R6LIgCOUYJWxun1b3Muv272.jpg", allow_multiple: false } 

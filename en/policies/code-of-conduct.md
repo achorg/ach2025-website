@@ -1,6 +1,7 @@
 ---
 title: Code of Conduct
 layout: page
+url: /policies/code-of-conduct
 ---
 
 ACH 2026 is dedicated to providing a harassment-free conference experience for everyone regardless of gender identity, gender expression, sexual orientation, disability, physical appearance, body size, race, ethnicity, origin, or religion. By attending ACH 2026 events, you signal your commitment to contributing to a safe and inclusive experience for all. We do not tolerate harassment of event participants in any form, whether events are held virtually or face-to-face. Participants in ACH 2026 events violating these rules may be barred or banned from ACH 2026 activities at the discretion of the organizers.

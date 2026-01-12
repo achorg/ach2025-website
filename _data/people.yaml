@@ -1,13 +1,11 @@
-# EN, ES
-
 conf_committee2026:
   - role: Chairs
     role_es: Organizadores principales
-    people: 
+    people:
       - name: Alex Wermer-Colan
         affiliation: Temple University
         affiliation_es: Universidad de Temple
-      - name: Maira E. Alvarez
+      - name: Maira E. Álvarez
         affiliation: University of Toronto
         affiliation_es: Universidad de Toronto
   - role: Program Chairs
