@@ -132,6 +132,17 @@ Los evaluadores sólo podrán ver las propuestas que les hayan sido asignadas pa
 
 Las propuestas aceptadas serán revisadas por los autores y publicadas en el programa oficial en línea junto con sus nombres y afiliaciones.
 
+## Código de conducta
+
+ACH 2026 se dedica a crear un entorno de conferencia seguro, respetuoso y profesional para el beneficio de todos los asistentes y para el avance de la investigación y la producción académica en el campo. ACH 2026 ha adaptado el Código de Conducta de la Conferencia ACH. Para más detalles, visite la página [Código de Conducta](https://ach2026.ach.org/es/politicas/codigo-de-conducta/).
+
+## Derechos de autor y privacidad
+
+La propuestas y revisiones no serán de acceso público. El Comité de Programa tendrá acceso a todas las propuestas y sus revisiones. Los evaluadores solo tendrán acceso a propuestas asignadas para su revisión. Los autores podrán ver las revisiones de sus propuestas una vez concluya el proceso de revisión. Los nombres de los evaluadores se mostrarán en una diapositiva en orden alfabético durante la sesión de apertura de la conferencia en agradecimiento por su contribución, a menos que el evaluador solicite no ser citado.
+
+Las propuestas exitosas serán revisadas por los autores y publicadas en el programa oficial en línea junto con sus nombres y afiliaciones.
+
+
 ### Uso de IA en propuestas y revisiones
 
 ACH 2026 sigue el ejemplo del CFP  KeystoneDH 2024 y estamos abiertos al uso responsable de la IA generativa: “Dado que la IA generativa es un área de investigación importante y oportuna en las humanidades digitales, estamos interesados ​​en sus experimentos con ella, pero esperamos que en esta conferencia los participantes asuman la responsabilidad de la autoría de las propuestas y presentaciones. Solicitamos que los solicitantes y presentadores de la conferencia informen sobre su uso de herramientas de lenguaje generativo de IA, siguiendo la política de IA de arXiv”.
@@ -157,18 +168,6 @@ ACH ofrecerá una cantidad limitada de becas para respaldar la asistencia de mie
 ## Zona horaria de la conferencia
 
 ACH 2026 se programará en hora Centro (GMT-4), las sesiones se serán pautadas aproximadamente entre 9:00 a.m. a 6:00 p.m., hora Centro (GMT-4).
-
-## Código de conducta
-
-ACH 2026 se dedica a crear un entorno de conferencia seguro, respetuoso y profesional para el beneficio de todos los asistentes y para el avance de la investigación y la producción académica en el campo. ACH 2026 ha adaptado el Código de Conducta de la Conferencia ACH:
-
-ACH se dedica a brindar una experiencia de conferencia libre de acoso para todos, independientemente de su identidad de género, expresión de género, orientación sexual, discapacidad, apariencia física, tamaño corporal, raza, etnia, origen o religión. Al asistir a los eventos de ACH, cada participante demuestra su compromiso a mantener una experiencia segura e inclusiva para todos. No toleramos el acoso de los participantes del evento de ninguna forma, ya sea que los eventos se celebren de forma virtual o presencial. A los participantes en eventos de ACH que violen estas reglas se les puede prohibir la participación en o expulsar de las actividades de ACH a discreción de los organizadores.
-
-El acoso incluye pero no se limita a: comentarios verbales despectivos; chistes y lenguaje sexista, racista o discriminatorio; texto o material audiovisual sexual y/o discriminatorio en espacios de conferencias (virtuales o presenciales), a menos que sea criticado en un contexto académico; intimidación deliberada; acecho; persecusión; fotografías o grabaciones de acoso; cuestionar el derecho de alguien a usar el baño de su elección; interrupción sostenida de conversaciones u otros eventos; contacto físico inapropiado; y atención sexual no deseada.
-
-Se espera que los participantes a los que se les pida que detengan cualquier comportamiento de acoso cumplan de inmediato. Si un participante incurre en conductas de acoso, los organizadores podrán tomar las medidas que consideren oportunas, incluida una advertencia al infractor o la expulsión del evento.
-
-ACH 2026 busca mantener estos valores a lo largo del proceso de presentación y revisión, así como durante la conferencia misma. Familiarícese con las pautas para someter informes y nuestro proceso para abordar las infracciones.
 
 ## Accesibilidad
 
