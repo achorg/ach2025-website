@@ -20,9 +20,6 @@ conf_committee2026:
   - role: Technical Chair
     role_es: Organizadores técnicos
     people:
-      - name: Winnie E. Pérez Martínez
-        affiliation: University of Virginia
-        affiliation_es: Universidad de Virginia
       - name: Andy Janco
         affiliation: Princeton University
         affiliation_es: Universidad de Princeton
