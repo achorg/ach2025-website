@@ -18,6 +18,8 @@ items:
         #   url: '/en/cfp'
         # - text: Keynote Speakers
           # url: '/en/keynote'
+  - text: Regional Hubs
+    url: '/en/hubs'
   - text: People
     url: '/en/people'
   - text: Policies
