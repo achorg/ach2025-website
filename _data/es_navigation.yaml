@@ -11,7 +11,7 @@ items:
   #      url: '/es/work-adventure'
   #    - text: Altavoces
   #      url: '/es/altavoces'  
-  - text: Centros Regionales
+  - text: Grupos Regionales
     url: '/es/groupos'
   - text: Políticas
     dropdown:
