@@ -6,7 +6,7 @@ layout: page
 <img height="150" src="/assets/img/idea.svg"/>  <br>
 </div><br>
 
-Fecha límite: 2 de febrero de 2026, 11:59:59 PM hora Centro (GMT-4)
+Fecha límite: 23 de febrero de 2026, 11:59:59 PM hora Centro (GMT-4)
 
 Envíe una propuesta: [https://www.conftool.pro/ach2026](https://www.conftool.pro/ach2026)
 
