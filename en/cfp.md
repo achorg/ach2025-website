@@ -5,7 +5,7 @@ layout: page
 <div class="text-center" >
 <img height="150" src="/assets/img/idea.svg"/>  <br>
 </div><br>
-Deadline: February 2, 2026, 11:59:59 PM in Central Time (GMT-4)
+Deadline: February 23, 2026, 11:59:59 PM in Central Time (GMT-4)
 
 <br><br>
  Submit a proposal:
