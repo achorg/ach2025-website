@@ -15,11 +15,11 @@ Each regional hub will be hosted by local institutions independently but in conv
 Interested parties can apply for limited funding to defray some costs associated with hosting. Successful applicants will receive up to $500 toward hosting a regional hub. Proposed expenses are subject to approval. To apply for these funds, regional hub hosts must submit a letter of approval from their institution.
 
 Hosts should submit an abstract outlining the following:
-How will the regional hub interact with the main conference (i.e. watch parties, supplemental panels, outside events?) Will it be offered online or in-person?  
-What is the particular regional character of the hub? How will you recruit participants?  
-Who are the potential partners or collaborators in organizing the regional hub?  
-What is the time zone of your proposed regional hub, and have you anticipated how to leverage time differences for your audience?  
-How do you plan to use funds from ACH to support your regional hub? (Note: Proposed expenses are subject to ACH approval.)  
+- How will the regional hub interact with the main conference (i.e. watch parties, supplemental panels, outside events?) Will it be offered online or in-person?  
+- What is the particular regional character of the hub? How will you recruit participants?  
+- Who are the potential partners or collaborators in organizing the regional hub?  
+- What is the time zone of your proposed regional hub, and have you anticipated how to leverage time differences for your audience?  
+- How do you plan to use funds from ACH to support your regional hub? (Note: Proposed expenses are subject to ACH approval.)  
 
 Please complete the [Host Interest Form](https://docs.google.com/forms/d/e/1FAIpQLScOuEUS6sHO757LuWoZFLf5Y7BM7bZx9HDa6zrGrj1h7CUSOg/viewform) with your contact information and a 500-word abstract addressing the above via our Google Form. 
 
