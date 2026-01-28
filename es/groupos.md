@@ -11,7 +11,7 @@ ACH 2026 (Convocatoria disponible aquí) explora cómo creamos y colaboramos en 
 
 Cada Grupo Regional será organizado por instituciones locales de forma independiente y en conversación con los temas generales de la conferencia. Invitamos a los coordinadores de cada Grupo a ser creativos al establecer estas conexiones con la Conferencia ACH 2026. También, les alentamos a planificar eventos (ya sea en persona o en línea) que no conflijan con la conferencia principal sino que complementen su programación. Los Grupos Regionales son un esfuerzo por expandir la red de trabajo en las HD más allá de la conferencia general. Le invitamos a los coordinadores a imaginar nuevas posibilidades colaborativas con instituciones académicas, ampliamente entendidas (por ejemplo, organizaciones culturales, museos, sociedades históricas y bibliotecas). Además, nos interesan nuevas posibilidades para involucrar al público a través de una programación multilingüe. En el pasado, algunos coordinadores han organizado talleres locales, mini simposios, "watch parties", excursiones y reuniones sociales.
 
-## Aplicacións
+## Aplicaciónes
 Aquellos interesados pueden solicitar fondos limitados para sufragar costos asociados con la coordinación del Grupo. Las propuestas seleccionadas recibirán hasta $500 USD para coordinar un Grupo Regional. Los gastos propuestos están sujetos a aprobación. Para solicitar estos fondos, los coordinadores de cada Grupo deberán entregar una carta de aprobación de su institución.
 
 Los coordinadores deben entregar un resumen que describa lo siguiente:
