@@ -164,7 +164,7 @@ For questions and concerns about the CFP, conference program, submissions, Code 
 
 If you are interested in translating this call for proposals into another language, please contact the conference committee at conference \[at] ach \[dot] org.
 
-### 2026 Conference Committee (in progress)
+### 2026 Conference Committee
 
 Conference Co-Chairs: Alex Wermer-Colan (Temple University) and Maira E. Alvarez (University of Toronto)\
 Program Co-Chairs: Kate Ozment (Case Western Reserve University) and Jajwalya Karajgikar (University of Pennsylvania)\
@@ -173,5 +173,5 @@ Volunteers Lead: Emily Esten (ORCID)\
 Sponsorship and Promotion Lead: Stefano Morello (City University of New York’s Graduate Center)\
 Regional Hub Lead: Jennifer Ross (University of Toronto)\
 Communications Lead: Amanda Reagan (Clemson University)\
-Treasurer: Katayoun Torabi (Texas A&M University)
+Treasurer: Katayoun Torabi (Texas A&M University)\
 Translators Co-Chairs EN-ES/ES-EN: Winnie E. Pérez Martínez (Universidad de Virginia) y Maira E. Álvarez (Universidad de Toronto)
