@@ -8,6 +8,7 @@ module.exports = function(eleventyConfig) {
       defaultLanguage: "en", // Required, this site uses "en"
       errorMode: "never"
     });
+    markdownTemplateEngine: "njk";
     eleventyConfig.addPlugin(inclusiveLangPlugin);
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("admin");
@@ -16,5 +17,4 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({
     "./admin/config.yml": "./admin/config.yml",
     });
-    
   };

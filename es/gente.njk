@@ -1,0 +1,20 @@
+---
+title: Gente
+layout: page
+---
+<h1>Comité organizador de ACH 2026</h1>
+
+{% for entry in people.conf_committee2026 %}
+<p><strong>{{ entry.role_es }}:</strong> {% for person in entry.people %} {{ person.name }} ({{ person.affiliation_es }}) {% if not loop.last  %} & {% endif %} {% endfor %}
+</p> 
+{% endfor %}
+
+<!-- {% for entry in en_people.conf_committee2026 %}
+  <ul>
+  <h2>{{ entry.role_es }}</h2>
+    {% for person in role.people %}
+      <li>{{ person.name }}, {{ person.affiliation }}</li>
+    {% endfor %}
+  </ul>
+{% endfor %} -->
+

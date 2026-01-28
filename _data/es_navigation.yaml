@@ -1,24 +1,28 @@
 items:
   - text: Inicio
-    url: "/es"
+    url: '/es'
   - text: CFP
     url: '/es/cfp'
-  - text: Información
-    dropdown:
-      - text: Guía de Work Adventure
-        url: '/es/work-adventure'
-      - text: Altavoces
-        url: '/es/altavoces'  
+  - text: Gente
+    url: '/es/gente'
+#  - text: Información
+#    dropdown:
+  #    - text: Guía de Work Adventure
+  #      url: '/es/work-adventure'
+  #    - text: Altavoces
+  #      url: '/es/altavoces'  
+  - text: Grupos Regionales
+    url: '/es/groupos'
   - text: Políticas
     dropdown:
-      - text: Para los revisores
-        url: '/es/lineamientos-para-revisores'
-  #     - text: Código de conducta
-  #       url: '/es/politicas/codigo-de-conducta'
+  #   - text: Para los revisores
+  #      url: '/es/lineamientos-para-revisores'
+      - text: Código de conducta
+        url: '/es/politicas/codigo-de-conducta'
       - text: Accesibilidad
         url: '/es/politicas/accesibilidad'
-  #     - text: Privacidad
-  #       url: '/es/politicas/privacidad'
+      - text: Privacidad
+        url: '/es/politicas/privacidad'
   # - text: Programa
   #   url: "/es/#schedule"
   # - text: Conferencias
