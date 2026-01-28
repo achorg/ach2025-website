@@ -168,10 +168,10 @@ If you are interested in translating this call for proposals into another langua
 
 Conference Co-Chairs: Alex Wermer-Colan (Temple University) and Maira E. Alvarez (University of Toronto)\
 Program Co-Chairs: Kate Ozment (Case Western Reserve University) and Jajwalya Karajgikar (University of Pennsylvania)\
-Technical Co-Chairs: Winnie Pérez Martínez (University of Virginia) and Andy Janco (Princeton University)\
+Technical Chairs: Andy Janco (Princeton University)\
 Volunteers Lead: Emily Esten (ORCID)\
 Sponsorship and Promotion Lead: Stefano Morello (City University of New York’s Graduate Center)\
 Regional Hub Lead: Jennifer Ross (University of Toronto)\
 Communications Lead: Amanda Reagan (Clemson University)\
 Treasurer: Katayoun Torabi (Texas A&M University)
-Translators EN-ES/ES-EN: Maira E. Álvarez (Universidad de Toronto) y Winnie E. Pérez Martínez (Universidad de Virginia)
+Translators Co-Chairs EN-ES/ES-EN: Winnie E. Pérez Martínez (Universidad de Virginia) y Maira E. Álvarez (Universidad de Toronto)
