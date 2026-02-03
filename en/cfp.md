@@ -173,5 +173,5 @@ Volunteers Lead: Emily Esten (ORCID)\
 Sponsorship and Promotion Lead: Stefano Morello (City University of New York’s Graduate Center)\
 Regional Hub Lead: Jennifer Ross (University of Toronto)\
 Communications Lead: Amanda Reagan (Clemson University)\
-Treasurer: Katayoun Torabi (Texas A&M University)
-Translators Co-Chairs EN-ES/ES-EN: Winnie E. Pérez Martínez (Universidad de Virginia) y Maira E. Álvarez (Universidad de Toronto)
+Treasurer: Katayoun Torabi (Texas A&M University)\
+Translators Co-Chairs EN-ES/ES-EN: Winnie E. Pérez Martínez (University of Virginia) y Maira E. Álvarez (University of Toronto)
