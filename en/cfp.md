@@ -5,6 +5,9 @@ layout: page
 <div class="text-center" >
 <img height="150" src="/assets/img/idea.svg"/>  <br>
 </div><br>
+
+The Association for Computers and the Humanities (ACH) will hold ACH 2026, a virtual conference, from **June 24-26, 2026.**
+
 Deadline: February 23, 2026, 11:59:59 PM in Central Time (GMT-4)
 
 <br><br>
@@ -14,7 +17,7 @@ Deadline: February 23, 2026, 11:59:59 PM in Central Time (GMT-4)
     ACH 2026 ConfTool</a>
 </button><br><br>
 
-The Association for Computers and the Humanities (ACH) will hold ACH 2026, a virtual conference, from **June 24-26, 2026.**
+Sign up to [serve as a reviewer](https://docs.google.com/forms/d/e/1FAIpQLSeRpduVZ4VKoJEPKUa1e0oKAQPG1Ah-Nw67M8H3fMU8gx4o7w/viewform)
 
 ## Conference Focus: Emergence/ia
 
