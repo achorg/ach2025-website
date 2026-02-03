@@ -1,0 +1,10 @@
+---
+title: People
+layout: page
+---
+
+<h1>2026 Conference Committee</h1>
+
+{% for entry in people.conf_committee2026 %}
+<p><strong>{{ entry.role }}:</strong> {% for person in entry.people %} {{ person.name }} ({{ person.affiliation }}){% if not loop.last %} & {% endif %} {% endfor %}</p>
+{% endfor %}

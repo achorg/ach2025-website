@@ -8,12 +8,13 @@ module.exports = function(eleventyConfig) {
       defaultLanguage: "en", // Required, this site uses "en"
       errorMode: "never"
     });
+    markdownTemplateEngine: "njk";
     eleventyConfig.addPlugin(inclusiveLangPlugin);
     eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.addPassthroughCopy("admin");
     eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
     // Copy Static Files to /_Site
     eleventyConfig.addPassthroughCopy({
     "./admin/config.yml": "./admin/config.yml",
     });
-    
   };

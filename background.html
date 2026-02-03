@@ -1,0 +1,63 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mass-Spring-Damper Shader</title>
+	<link rel="stylesheet" type="text/css" href="https://apps.amandaghassaei.com/MassSpringShader/dist/main.css">
+	<link rel="stylesheet" type="text/css" href="https://apps.amandaghassaei.com/MassSpringShader/dist/micromodal.css">
+  </head>
+  <body data-new-gr-c-s-check-loaded="8.934.0" data-gr-ext-installed="">
+	<canvas id="glcanvas" width="2560" height="647"></canvas>
+	<img id="coverImg">
+	<div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+		<div class="modal__overlay" tabindex="-1" data-micromodal-close="">
+			<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+			<header class="modal__header">
+				<h2 class="modal__title">
+					Mass-Spring-Damper Shader
+				</h2>
+				<button class="modal__close" aria-label="Close modal" data-micromodal-close=""></button>
+			</header>
+			<main class="modal__content">
+				<img src="https://apps.amandaghassaei.com/MassSpringShader/img.jpg">
+				<p>
+					This is a physics simulation of a mesh of masses attached to their four nearest neighbors with springs and dampers, all running in a GPU fragment shader with WebGL.
+					In the simulation, each pixel on the screen is a mass in a 2D mesh.
+					At each frame, the masses exert forces on each other and the resulting acceleration, velocity, and position of each mass is solved via
+					<a href="https://en.wikipedia.org/wiki/Euler_method" target="_blank">Euler integration</a>.  The vertical displacement of the masses is indicated by the color
+					of the pixel, blue pixels have positive vertical displacement, white have negative displacement, and pink is zero displacement.
+					Scrolling over with your mouse applies an upward force to the nearby pixels.
+					The physics is equivalent to a <a href="https://en.wikipedia.org/wiki/Wave_equation" target="_blank">discrete, damped 2D wave equation</a>
+					or <a href="https://en.wikipedia.org/wiki/Cloth_modeling" target="_blank">cloth simulation</a>.  Masses at the edges of the screen are fixed with zero displacement,
+					making the simulation behave like a giant trampoline.
+				</p>
+				<p>
+					By <a href="http://www.amandaghassaei.com/" target="_blank">Amanda Ghassaei</a>, code on <a href="https://github.com/amandaghassaei/MassSpringShader" target="_blank">Github</a>.
+				</p>
+			</main>
+			</div>
+		</div>
+	</div>
+	<div class="modal micromodal-slide" id="modal-2" aria-hidden="true">
+		<div class="modal__overlay" tabindex="-1" data-micromodal-close="">
+			<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+			<header class="modal__header">
+				<h2 class="modal__title">
+					Unsupported Device
+				</h2>
+				<button class="modal__close" aria-label="Close modal" data-micromodal-close=""></button>
+			</header>
+			<main class="modal__content">
+				<p>
+					This device/browser does not support some GPU functions required by this app.
+					Please try again on desktop running Chrome/Firefox.
+				</p>
+				<p id="glErrorMsg"></p>
+			</main>
+			</div>
+		</div>
+	</div>
+	<a href="#" data-micromodal-trigger="modal-1" id="about">?</a>
+	<script src="https://apps.amandaghassaei.com/MassSpringShader/dist/main.js"></script>
+  
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
