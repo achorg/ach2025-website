@@ -102,7 +102,7 @@ Nuestros criterios de revisión reflejan el compromiso con la comprensión ampli
 
 * 20% – Relevancia para el enfoque de la conferencia
 
-  El tema de la propuesta está conectado con el trabajo antirracista, los estudios indígenas, los estudios étnicos culturales y críticos, el feminismo interseccional, los estudios poscoloniales y decoloniales, los estudios queer y/o el multilingüismo.
+  El tema de la propuesta está conectado con los temas de cuidado, reacción y transformación en el campo de las humanidades digitales.
 
 * 20% – Compromiso con Investigaciones Recientes
 
