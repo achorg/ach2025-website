@@ -23,6 +23,8 @@ items:
         url: '/es/politicas/accesibilidad'
       - text: Privacidad
         url: '/es/politicas/privacidad'
+  # - text: Guía para revisores
+  #   url: '/es/guía-para-revisores'
   # - text: Programa
   #   url: "/es/#schedule"
   # - text: Conferencias

@@ -42,6 +42,15 @@ Dynamic presentations that share experiments, works-in-progress, or sustained re
 Panels (1 hour and 15 minutes):
 Engaging sessions that facilitate dialogue among 3-4 presenters, highlighting connections between projects, methods, or themes and reserving a minimum of 15 minutes for discussion with the audience. List all 3-4 Panelists and Chair for the session. Provide the panel abstract and individual presenter abstracts in ConfTool.
 
+## Use of Generative AI in Reviews
+
+ACH is an organization centered first on humans and their community. Reviewing is one way in which we build that community, through the ethos of careful engagement and developing constructive comments and critique. 
+
+Consequently, ACH does not condone or allow the use of Generative AI tools for the review of conference proposals. For the ACH conference’s purposes, Generative AI refers to commercial platforms for cloud-based processing using transformer models; it is not imagined to include translation tools and grammar-checkers. 
+
+Reviewers should be prepared to encounter proposals that are about research involving Generative AI, including proposals that the authors declare were partially written with assistance from AI tools. ACH generally recommends that scholars wherever possible use local LLMs and offline AI.
+
+
 ## Ten Tips for Conference Reviewing
 
 1. Be aware of the review criteria

@@ -1,5 +1,5 @@
 ---
-title: Pautas para revisores
+title: Guía para revisores
 layout: page
 ---
 
@@ -43,6 +43,15 @@ Experimentos, trabajos en curso o reflexiones sostenidas sobre los resultados de
 
 Paneles:
 Sesiones atractivas que facilitan el diálogo entre presentaciones, resaltando las conexiones entre proyectos, métodos o temas y reservando un mínimo de 15 minutos para el debate con el público.
+
+## Uso de IA generativa en las revisiones
+
+Como organización, ACH se enfoca en los seres humanos y su comunidad. La revisión de propuestas es una manera de cultivar dicha comunidad con afecto y cuidado por medio de las sugerencias y críticas constructivas. 
+
+Por consecuencia, ACH no tolerará o permitirá el uso de herramientas de IA generativa en la evaluación de propuestas para la conferencia. A efectos del evento, IA generativa se refiere a plataformas comerciales de procesamiento basado en la nube que funcionan con modelos de transformador. Esta definición no se extiende a correctores de gramática o traductores automáticos.
+
+Los revisores deben estar listos para recibir propuestas sobre proyectos que hacen uso de distintas IA generativas, esto incluye propuestas parcialmente escritas con IA siempre y cuando sus autores sean explícitos respecto a su uso. ACH, generalmente, les recomienda a los investigadores utilizar modelos locales de LLM así como IA generativas fuera de línea.
+
 
 ## Diez consejos para la revisión en conferencias
 
