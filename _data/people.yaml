@@ -53,7 +53,7 @@ conf_committee2026:
       - name: Katayoun Torabi
         affiliation: Texas A&M University
         affiliation_es: Universidad de Texas A&M
- - role: Translation Lead
+  - role: Translation Lead
     role_es: Líder de traducion 
     people:
       - name: Winnie E. Pérez Martínez
