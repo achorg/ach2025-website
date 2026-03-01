@@ -15,16 +15,14 @@ items:
     url: '/es/groupos'
   - text: Políticas
     dropdown:
-  #   - text: Para los revisores
-  #      url: '/es/lineamientos-para-revisores'
       - text: Código de conducta
         url: '/es/politicas/codigo-de-conducta'
       - text: Accesibilidad
         url: '/es/politicas/accesibilidad'
       - text: Privacidad
         url: '/es/politicas/privacidad'
-  # - text: Guía para revisores
-  #   url: '/es/guía-para-revisores'
+      - text: Guía para revisores
+        url: '/es/politicas/guia-para-revisores'
   # - text: Programa
   #   url: "/es/#schedule"
   # - text: Conferencias
