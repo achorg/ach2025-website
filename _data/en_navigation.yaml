@@ -30,6 +30,6 @@ items:
         url: '/en/policies/accessibility'
       - text: Privacy
         url: '/en/policies/privacy'
-      # - text: Reviewer Guidelines
-      #   url: '/en/reviewer-guidelines'
+      - text: Reviewer Guidelines
+        url: '/en/reviewer-guidelines'
 
