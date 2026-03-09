@@ -111,7 +111,7 @@ The proposal articulates the applicability, significance, and value of the theor
 20% – Overall Recommendation\
 The proposal is organized effectively and offers a clear articulation of presentation content.
 
-The review period will begin on March 2 and end by March 18th, 2026.
+The review period will begin on March 9th and end by March 23rd, 2026.
 
 Notifications about acceptance or rejection are anticipated to go out by April 7, 2026. Reviews will also be made available upon notification.
 
