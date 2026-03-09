@@ -120,7 +120,7 @@ Nuestros criterios de revisión reflejan el compromiso con la comprensión ampli
 
   La propuesta está organizada de manera efectiva y ofrece una articulación clara del contenido de la presentación. 
 
-El período de revisión comenzará el 4 de marzo y terminará el 18 de marzo de 2026\. 
+El período de revisión comenzará el 9 de marzo y terminará el 23 de marzo de 2026\. 
 
 Las notificaciones sobre la aceptación o el rechazo se realizarán el 7 de abril de 2026\. Las revisiones también estarán disponibles al momento de recibir la notificación.
 
