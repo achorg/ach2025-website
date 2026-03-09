@@ -9,8 +9,8 @@ items:
 #    dropdown:
   #    - text: Guía de Work Adventure
   #      url: '/es/work-adventure'
-  #    - text: Altavoces
-  #      url: '/es/altavoces'  
+  - text: Altavoces
+    url: '/es/altavoces'  
   - text: Grupos Regionales
     url: '/es/groupos'
   - text: Políticas

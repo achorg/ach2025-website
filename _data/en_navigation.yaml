@@ -16,8 +16,8 @@ items:
         #   # url: '/en/presenter-guide'
         # - text: CFP
         #   url: '/en/cfp'
-        # - text: Keynote Speakers
-          # url: '/en/keynote'
+  - text: Keynote Speakers
+    url: '/en/keynote'
   - text: Regional Hubs
     url: '/en/hubs'
   - text: People
