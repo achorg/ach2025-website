@@ -3,14 +3,14 @@ items:
     url: '/es'
   - text: CFP
     url: '/es/cfp'
+  - text: Ponentes Magistrales
+    url: '/es/ponentes-magistrales'
   - text: Gente
     url: '/es/gente'
 #  - text: Información
 #    dropdown:
   #    - text: Guía de Work Adventure
   #      url: '/es/work-adventure'
-  - text: Altavoces
-    url: '/es/altavoces'  
   - text: Grupos Regionales
     url: '/es/groupos'
   - text: Políticas

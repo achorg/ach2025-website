@@ -1,5 +1,5 @@
 ---
-title: Altavoces
+title: Ponentes Magistrales
 layout: page
 ---
 
