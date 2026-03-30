@@ -4,80 +4,93 @@ layout: page
 templateEngineOverride: njk,md
 ---
 
-{# This page displays the conference schedule fetched from ConfTool API #}
+## ACH 2026 Conference Program
+The full program is available in ConfTool. You must be registered to access private session links.
 
-<div class="schedule-container">
-  {% if conftool.error %}
-    <div class="alert alert-warning" role="alert">
-      <strong>⚠️ Unable to load schedule:</strong> {{ conftool.error }}
-      <p>Please visit <a href="https://www.conftool.pro/ach2026/">ConfTool</a> to view the full schedule.</p>
-    </div>
-  {% elif conftool.sessions and conftool.sessions.length > 0 %}
-    <p class="text-muted">Last updated: {{ conftool.fetchedAt | dateFilter }}</p>
-    
-    <div class="sessions-grid">
-      {% for session in conftool.sessions %}
-        <div class="session-card card mb-3">
-          <div class="card-header">
-            <h5>{{ session.title or session.name }}</h5>
-          </div>
-          <div class="card-body">
-            {% if session.date %}
-              <p><strong>Date:</strong> {{ session.date }}</p>
-            {% endif %}
-            {% if session.time %}
-              <p><strong>Time:</strong> {{ session.time }}</p>
-            {% endif %}
-            {% if session.speakers %}
-              <p><strong>Speaker(s):</strong> 
-                {% if session.speakers is iterable %}
-                  {{ session.speakers | join(", ") }}
-                {% else %}
-                  {{ session.speakers }}
-                {% endif %}
-              </p>
-            {% endif %}
-            {% if session.description %}
-              <p>{{ session.description }}</p>
-            {% endif %}
-            {% if session.room or session.location %}
-              <p><strong>Location:</strong> {{ session.room or session.location }}</p>
-            {% endif %}
-            {% if session.zoom_link %}
-              <p><a href="{{ session.zoom_link }}" class="btn btn-sm btn-primary" target="_blank">Join on Zoom</a></p>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  {% else %}
-    <div class="alert alert-info" role="alert">
-      <p>Schedule data is being loaded from ConfTool. Please check back soon.</p>
-      <p>In the meantime, visit <a href="https://www.conftool.pro/ach2026/">ConfTool</a> to view the full schedule and register for sessions.</p>
-    </div>
-  {% endif %}
+<button class="btn btn-info"><a target="_blank" href="https://www.conftool.pro/ach2026/" style="color: white;">Open Program in ConfTool</a></button>
+
+{% if conftool.error %}
+<div class="alert alert-warning mt-4" role="alert">
+  <strong>Unable to load schedule:</strong> {{ conftool.error }}
 </div>
+{% elif conftool.normalizedSessions and conftool.normalizedSessions.length > 0 %}
+<p class="text-muted mt-3">Last updated: {{ conftool.fetchedAt | dateFilter }}</p>
+
+{% for day in conftool.normalizedSessions | groupby('dateDisplay') %}
+<table width="100%" align="center" cellspacing="1" border="0" cellpadding="2" class="mediumbg table table-hover schedule-table">
+  <tr>
+    <td colspan="2" valign="top" class="listheader left">
+      <span class="font12"><b>Date: {{ day.grouper }}</b></span>
+    </td>
+  </tr>
+  {% for session in day.list %}
+  <tr class="whitebg">
+    <td class="brightbg topline_printonly schedule-time" align="center" valign="top" width="18%">
+      <span class="fontbold font9">{{ session.timeDisplay }}</span>
+    </td>
+    <td class="whitebg topline_printonly leftline_printonly left" valign="top" width="82%">
+      {% if session.sessionUrl %}
+      <a class="font9" href="{{ session.sessionUrl }}" target="_blank"><b>{{ session.title }}</b></a><br />
+      {% else %}
+      <span class="font9"><b>{{ session.title }}</b></span><br />
+      {% endif %}
+
+      {% if session.location %}
+      <span class="font8">Virtual location: </span>
+      {% if session.locationUrl %}
+      <a class="fontbold font8" target="_blank" href="{{ session.locationUrl }}">{{ session.location }}</a><br />
+      {% else %}
+      <span class="font8"><b>{{ session.location }}</b></span><br />
+      {% endif %}
+      {% endif %}
+
+      {% for chair in session.chairs %}
+      <span class="font8">Chair: </span><span class="font8"><b>{{ chair }}</b></span><br />
+      {% endfor %}
+
+      {% if session.sessionInfo %}
+      <div class="font8 session_info">{{ session.sessionInfo | safe }}</div>
+      {% endif %}
+
+      {% if session.papers and session.papers.length > 0 %}
+      <div style="font-size:8pt; clear:both;">&nbsp;</div>
+      {% for paper in session.papers %}
+      <p class="paper_title">{{ paper.title }}</p>
+      {% if paper.authors %}
+      <p class="paper_author">{{ paper.authors }}</p>
+      {% endif %}
+      {% if not loop.last %}
+      <hr noshade width="100%" class="float_left"><br class="clearing" />
+      {% endif %}
+      {% endfor %}
+      {% elif session.speakers and session.speakers.length > 0 %}
+      <p class="paper_author"><b>Speaker(s):</b> {{ session.speakers | join(', ') }}</p>
+      {% endif %}
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+{% endfor %}
+{% else %}
+<div class="alert alert-info mt-4" role="alert">
+  <p>Schedule data is being loaded from ConfTool. Please check back soon.</p>
+</div>
+{% endif %}
 
 <style>
-  .schedule-container {
-    margin: 2rem 0;
+  .schedule-table {
+    margin-top: 1.5rem;
   }
-  
-  .sessions-grid {
-    display: grid;
-    gap: 1.5rem;
+
+  .schedule-time {
+    min-width: 12rem;
   }
-  
-  .session-card {
-    transition: all 0.3s ease;
+
+  .paper_title {
+    margin-bottom: 0.2rem;
   }
-  
-  .session-card:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  .session-card .card-header {
-    background-color: #f8f9fa;
-    border-bottom: 2px solid #dee2e6;
+
+  .paper_author {
+    margin-top: 0;
   }
 </style>
