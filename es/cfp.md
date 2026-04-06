@@ -122,7 +122,7 @@ Nuestros criterios de revisión reflejan el compromiso con la comprensión ampli
 
 El período de revisión comenzará el 9 de marzo y terminará el 4 de abril de 2026\. 
 
-Las notificaciones sobre la aceptación o el rechazo se realizarán el 14 de abril de 2026\. Las revisiones también estarán disponibles al momento de recibir la notificación.
+Las notificaciones sobre la aceptación o el rechazo se realizarán el 15 de abril de 2026\. Las revisiones también estarán disponibles al momento de recibir la notificación.
 
 ## Derechos de autor y privacidad
 
