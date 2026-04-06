@@ -113,7 +113,7 @@ The proposal is organized effectively and offers a clear articulation of present
 
 The review period will begin on March 9th and end by April 6, 2026.
 
-Notifications about acceptance or rejection are anticipated to go out by April 14, 2026. Reviews will also be made available upon notification.
+Notifications about acceptance or rejection are anticipated to go out by April 15, 2026. Reviews will also be made available upon notification.
 
 ## Code of Conduct
 
