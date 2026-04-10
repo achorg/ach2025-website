@@ -3,7 +3,7 @@ title: Pre-Conference Workshops
 layout: page
 ---
 
-In advance of ACH 2026, we'll be piloting a pre-conference virtual workshop series offering low-cost opportunities for teaching and learning on digital humanities topics that matter to the community.
+In advance of ACH 2026, we'll be piloting a pre-conference virtual workshop series offering low-cost opportunities for teaching and learning on digital humanities topics that matter to the community. Note: workshops will be taught in English. 
 
 ## Schedule at a Glance
 
