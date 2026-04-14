@@ -1,6 +1,8 @@
 items:
   - text: Inicio
     url: '/es'
+  - text: Inscribirse
+    url: 'https://members.ach.org/civicrm/event/info/?id=37&reset=1'
   - text: CFP
     url: '/es/cfp'
   - text: Ponentes Magistrales
@@ -17,6 +19,8 @@ items:
     dropdown:
       - text: Código de conducta
         url: '/es/politicas/codigo-de-conducta'
+      - text: Formulario de solicitud de beca
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLSc-RwVmowxPLuL68QJsbYrbnSry9gJnI852YpkfA1xBYi3vQw/viewform'
       - text: Accesibilidad
         url: '/es/politicas/accesibilidad'
       - text: Privacidad

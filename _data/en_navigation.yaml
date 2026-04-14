@@ -1,12 +1,16 @@
 items:
   - text: Home
     url: '/'
+  - text: Register
+    url: 'https://members.ach.org/civicrm/event/info/?id=37&reset=1'
   - text: Program
     dropdown:
     - text: Keynote Speakers
       url: '/en/keynote'
     - text: Regional Hubs
       url: '/en/hubs'
+    - text: Bursary Form
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLSc-RwVmowxPLuL68QJsbYrbnSry9gJnI852YpkfA1xBYi3vQw/viewform'
     - text: Pre-Conference Workshops
       url: '/en/workshops'
     - text: CFP
