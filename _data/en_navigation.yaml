@@ -7,16 +7,14 @@ items:
     dropdown:
     - text: Keynote Speakers
       url: '/en/keynote'
+    - text: Pre-Conference Workshops
+      url: '/en/workshops'
     - text: Regional Hubs
       url: '/en/hubs'
     - text: Bursary Form
       url: 'https://docs.google.com/forms/d/e/1FAIpQLSc-RwVmowxPLuL68QJsbYrbnSry9gJnI852YpkfA1xBYi3vQw/viewform'
-    - text: Pre-Conference Workshops
-      url: '/en/workshops'
     - text: CFP
       url: '/en/cfp'
-  # - text: Registration
-  #   url: '/en/registration' 
   - text: People
     url: '/en/people'
   - text: Policies

@@ -3,18 +3,20 @@ items:
     url: '/es'
   - text: Inscribirse
     url: 'https://members.ach.org/civicrm/event/info/?id=37&reset=1'
-  - text: CFP
-    url: '/es/cfp'
-  - text: Ponentes Magistrales
-    url: '/es/ponentes-magistrales'
+  - text: Programación
+    dropdown: 
+    - text: Ponentes Magistrales
+      url: '/es/ponentes-magistrales'
+    # - text: Talleres Pre-conferencia  
+    #   url: '/es/talleres'
+    - text: Grupos Regionales
+      url: '/es/groupos'
+    - text: Formulario para Becas
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLSc-RwVmowxPLuL68QJsbYrbnSry9gJnI852YpkfA1xBYi3vQw/viewform'
+    - text: CFP
+      url: '/es/cfp'
   - text: Gente
     url: '/es/gente'
-#  - text: Información
-#    dropdown:
-  #    - text: Guía de Work Adventure
-  #      url: '/es/work-adventure'
-  - text: Grupos Regionales
-    url: '/es/groupos'
   - text: Políticas
     dropdown:
       - text: Código de conducta
@@ -27,6 +29,7 @@ items:
         url: '/es/politicas/privacidad'
       - text: Guía para revisores
         url: '/es/politicas/guia-para-revisores'
+
   # - text: Programa
   #   url: "/es/#schedule"
   # - text: Conferencias
@@ -35,3 +38,7 @@ items:
   #   url: "/es/#partners"
   # - text: Preguntas frecuentes
   #   url: "/es/#faq"
+  #  - text: Información
+#    dropdown:
+  #    - text: Guía de Work Adventure
+  #      url: '/es/work-adventure'
