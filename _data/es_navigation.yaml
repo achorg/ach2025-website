@@ -2,17 +2,21 @@ items:
   - text: Inicio
     url: '/es'
   - text: Inscribirse
-    url: 'https://members.ach.org/civicrm/event/info/?id=37&reset=1'
+    dropdown: 
+    - text: Enlace de inscripción
+      url: 'https://members.ach.org/civicrm/event/info/?id=37&reset=1'
+    - text: Formulario para Becas
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLSc-RwVmowxPLuL68QJsbYrbnSry9gJnI852YpkfA1xBYi3vQw/viewform'
+
+  # - text: Talleres Pre-conferencia  
+  #   url: '/es/talleres'
+
   - text: Programación
     dropdown: 
     - text: Ponentes Magistrales
       url: '/es/ponentes-magistrales'
-    # - text: Talleres Pre-conferencia  
-    #   url: '/es/talleres'
     - text: Grupos Regionales
       url: '/es/groupos'
-    - text: Formulario para Becas
-      url: 'https://docs.google.com/forms/d/e/1FAIpQLSc-RwVmowxPLuL68QJsbYrbnSry9gJnI852YpkfA1xBYi3vQw/viewform'
     - text: CFP
       url: '/es/cfp'
   - text: Gente
