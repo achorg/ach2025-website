@@ -72,9 +72,8 @@ Bring an assignment idea or draft\! You will leave with a plan for revision, inc
 **Tuesday, June 23, 2026**  
 10am-5pm Eastern / 7am-2pm Pacific  
 6 contact hours with a break from 1-2pm Eastern  
-**Instructors**: Danica Savonick and Chelcie Rowell  
-**Enrollment Max:** 20
 **Instructors:** [Anna E. Kijas](#anna-e-kijas) and [Allison Fischbach](#allison-fischbach)
+**Enrollment Max:** 20
 
 **Description**  
 In this workshop, participants will be introduced to concepts and best practices in web archiving and digital preservation. Aimed at participants who are brand new to or recently started working in web archiving and digital preservation, attendees will develop an understanding of the digital scholarship lifecycle, popular web archiving tools and approaches, and digital preservation practices. Brief instruction will be combined with hands-on activities and discussion to build an understanding of archiving and preservation concepts, provide time to practice approaches, and reflect on the application of various tools in their current roles.
