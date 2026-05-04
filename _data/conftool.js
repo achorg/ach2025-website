@@ -74,7 +74,7 @@ function normalizePapers(record) {
   return papers;
 }
 
-function parseSessionStart(record) {
+function parseSessionStart(record, locale = 'en-US') {
   const raw = firstValue(record, ['session_start', 'start_date', 'date', 'session_date', 'form_date', 'day']);
   if (!raw) return { date: '', time: '' };
   const str = String(raw).trim();
@@ -82,14 +82,14 @@ function parseSessionStart(record) {
   const match = str.match(/^(\d{4}-\d{2}-\d{2})(?:\s+(\d{2}:\d{2}))?/);
   if (match) {
     const dateObj = new Date(match[1]);
-    const dateDisplay = dateObj.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+    const dateDisplay = dateObj.toLocaleDateString(locale, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
     return { date: dateDisplay, time: match[2] || '' };
   }
   return { date: str, time: '' };
 }
 
 function normalizeSession(record) {
-  const { date: parsedDate, time: parsedTime } = parseSessionStart(record);
+  const { date: parsedDate, time: parsedTime } = parseSessionStart(record, 'en-US');
   const date = parsedDate || firstValue(record, ['date', 'session_date', 'form_date', 'start_date', 'day']);
   const time = parsedTime || firstValue(record, ['time', 'session_time', 'time_range', 'slot', 'start_time']);
   const endTimeRaw = firstValue(record, ['session_end', 'end_time', 'session_end_time']);
@@ -165,12 +165,19 @@ module.exports = async function() {
     const sessionsExport = data.sessionsExport;
     const sessions = Array.isArray(sessionsExport?.records) ? sessionsExport.records : [];
     const normalizedSessions = sessions.map(normalizeSession).sort(sortSessions);
+    const normalizedSessionsEs = sessions.map((r) => {
+      const session = normalizeSession(r);
+      const { date } = parseSessionStart(r, 'es-ES');
+      session.dateDisplay = date || session.dateDisplay;
+      return session;
+    }).sort(sortSessions);
 
     console.log(`✅ ConfTool data ready: ${sessions.length} sessions`);
 
     return {
       sessions,
       normalizedSessions,
+      normalizedSessionsEs,
       rawSessions: sessionsExport?.xml || null,
       fetchedAt: new Date().toISOString(),
       source: 'ConfTool REST API',

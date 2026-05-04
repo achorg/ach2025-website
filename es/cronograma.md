@@ -13,10 +13,10 @@ El programa completo está disponible en ConfTool. Debes registrarte para accede
 <div class="alert alert-warning mt-4" role="alert">
   <strong>No se puede cargar el cronograma:</strong> {{ conftool.error }}
 </div>
-{% elif conftool.normalizedSessions and conftool.normalizedSessions.length > 0 %}
-<p class="text-muted mt-3">Última actualización: {{ conftool.fetchedAt | dateFilter }}</p>
+{% elif conftool.normalizedSessionsEs and conftool.normalizedSessionsEs.length > 0 %}
+<p class="text-muted mt-3">Última actualización: {{ conftool.fetchedAt | dateFilterEs }}</p>
 
-{% for day in conftool.normalizedSessions | groupby('dateDisplay') %}
+{% for day in conftool.normalizedSessionsEs | groupbyProp('dateDisplay') %}
 <table width="100%" align="center" cellspacing="1" border="0" cellpadding="2" class="mediumbg table table-hover schedule-table">
   <tr>
     <td colspan="2" valign="top" class="listheader left">
