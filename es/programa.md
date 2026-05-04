@@ -1,5 +1,5 @@
 ---
-title: Cronograma
+title: Programa
 layout: page
 templateEngineOverride: njk,md
 ---
