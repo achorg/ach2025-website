@@ -74,10 +74,26 @@ function normalizePapers(record) {
   return papers;
 }
 
+function parseSessionStart(record) {
+  const raw = firstValue(record, ['session_start', 'start_date', 'date', 'session_date', 'form_date', 'day']);
+  if (!raw) return { date: '', time: '' };
+  const str = String(raw).trim();
+  // Format: "YYYY-MM-DD HH:MM" or "YYYY-MM-DD"
+  const match = str.match(/^(\d{4}-\d{2}-\d{2})(?:\s+(\d{2}:\d{2}))?/);
+  if (match) {
+    const dateObj = new Date(match[1]);
+    const dateDisplay = dateObj.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+    return { date: dateDisplay, time: match[2] || '' };
+  }
+  return { date: str, time: '' };
+}
+
 function normalizeSession(record) {
-  const date = firstValue(record, ['date', 'session_date', 'form_date', 'start_date', 'day']);
-  const time = firstValue(record, ['time', 'session_time', 'time_range', 'slot', 'start_time']);
-  const endTime = firstValue(record, ['end_time', 'session_end_time']);
+  const { date: parsedDate, time: parsedTime } = parseSessionStart(record);
+  const date = parsedDate || firstValue(record, ['date', 'session_date', 'form_date', 'start_date', 'day']);
+  const time = parsedTime || firstValue(record, ['time', 'session_time', 'time_range', 'slot', 'start_time']);
+  const endTimeRaw = firstValue(record, ['session_end', 'end_time', 'session_end_time']);
+  const endTime = endTimeRaw ? String(endTimeRaw).replace(/^\d{4}-\d{2}-\d{2}\s+/, '') : '';
   const title = firstValue(record, ['title', 'session_title', 'name', 'session', 'event_title']);
   const subtitle = firstValue(record, ['subtitle', 'sub_title']);
   const location = firstValue(record, ['virtual_location', 'location', 'room', 'session_room']);
