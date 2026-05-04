@@ -15,6 +15,18 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("admin");
     eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
     
+    // Group an array by a property, returning [{grouper, list}] like Jinja2
+    eleventyConfig.addFilter("groupbyProp", (arr, prop) => {
+      if (!Array.isArray(arr)) return [];
+      const map = new Map();
+      for (const item of arr) {
+        const key = item[prop] ?? '';
+        if (!map.has(key)) map.set(key, []);
+        map.get(key).push(item);
+      }
+      return Array.from(map.entries()).map(([grouper, list]) => ({ grouper, list }));
+    });
+
     // Add date filter for formatting ISO dates
     eleventyConfig.addFilter("dateFilter", (dateString) => {
       if (!dateString) return "";

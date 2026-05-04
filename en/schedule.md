@@ -16,7 +16,7 @@ The full program is available in ConfTool. You must be registered to access priv
 {% elif conftool.normalizedSessions and conftool.normalizedSessions.length > 0 %}
 <p class="text-muted mt-3">Last updated: {{ conftool.fetchedAt | dateFilter }}</p>
 
-{% for day in conftool.normalizedSessions | groupby('dateDisplay') %}
+{% for day in conftool.normalizedSessions | groupbyProp('dateDisplay') %}
 <table width="100%" align="center" cellspacing="1" border="0" cellpadding="2" class="mediumbg table table-hover schedule-table">
   <tr>
     <td colspan="2" valign="top" class="listheader left">
