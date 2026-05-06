@@ -1,0 +1,36 @@
+{% extends 'base.njk' %}
+{% block content %}
+<div style="width:100%; height:80px; background: #5D5D60;"></div>
+
+<main id="main">
+  <section id="faq">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-header">
+        <h2>{{ title }}</h2>
+      </div>
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-9">
+
+          {{ content | safe }}
+
+          <div class="all-keynotes">
+            {% for keynote in allKeynotes %}
+            <div class="keynote">
+              <div class="bio">{{ keynote.presenterBio }}</div>
+              <div class="presentation-info">
+                <h4>{{ keynote.presentationTitle }}</h4>
+                <div class="description">{{ keynote.presentationDesc }}</div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+{% endblock %}
