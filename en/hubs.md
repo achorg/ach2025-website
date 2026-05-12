@@ -3,31 +3,135 @@ title: Regional Hubs
 layout: page
 ---
 
-# ACH 2026 Regional Hubs
+<p>ACH 2026 explores how we create and collaborate through moments of exigency in the conference theme of <em>Emergence/ia</em>. Regional hubs support smaller, localized events connected to the larger conference, facilitating knowledge exchange, community building, and expanded access across the Digital Humanities community.</p>
 
+<p>For questions, contact ACH at <strong>conference [at] ach [dot] org</strong>. All hubs adhere to the <a href="/en/policies/code-of-conduct/">ACH Code of Conduct</a>.</p>
 
-## Description:
-ACH 2026 explores how we create and collaborate through moments of exigency in the conference theme of Emergence/ia. With the success of regional hubs during previous conferences, ACH looks to once again support smaller, more localized events related to the larger conference but centered in specific regions, whether geographical, national, or theoretical. Organizers can be creative in imagining their topographies for a regional ACH with the hubs being hosted by partners in physical or digital spaces. Through these hubs, ACH aims to facilitate knowledge exchange, community building, and ease-of-access while enhancing and expanding the mission of the Association. These regional hubs provide exciting opportunities for participation beyond the major conference and look to support new intersections for Digital Humanities research, teaching, and engagement.
+<div id="hubs-map"></div>
 
-Each regional hub will be hosted by local institutions independently but in conversation with the major conference, and we encourage hosts to be creative about how these regional hubs connect with the ACH 2026 Conference. To that end, we encourage organizers to plan for events (whether in-person or remote) that do not overlap with the main conference but take place in proximity. Regional hubs are meant to expand the network of DH work beyond the main conference. We encourage hosts to imagine new possibilities for collaboration with regional institutions outside higher education (e.g., cultural organizations, museums, historical societies, and libraries), and engage audiences through multilingual programming. In the past, hosts have organized local workshops, watch parties, mini symposia, field trips, and social gatherings.
+<script>
+(function () {
+  // Dynamically load Leaflet CSS
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+  link.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
+  link.crossOrigin = '';
+  document.head.appendChild(link);
 
-<!-- ## Application
-Interested parties can apply for limited funding to defray some costs associated with hosting. Successful applicants will receive up to $500 toward hosting a regional hub. Proposed expenses are subject to approval. To apply for these funds, regional hub hosts must submit a letter of approval from their institution.
+  // Dynamically load Leaflet JS, then initialize map in onload callback
+  var script = document.createElement('script');
+  script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+  script.integrity = 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
+  script.crossOrigin = '';
+  script.onload = function () {
+    var map = L.map('hubs-map', { scrollWheelZoom: false }).setView([37.5, -96], 4);
 
-Hosts should submit an abstract outlining the following:
-- How will the regional hub interact with the main conference (i.e. watch parties, supplemental panels, outside events?) Will it be offered online or in-person?  
-- What is the particular regional character of the hub? How will you recruit participants?  
-- Who are the potential partners or collaborators in organizing the regional hub?  
-- What is the time zone of your proposed regional hub, and have you anticipated how to leverage time differences for your audience?  
-- How do you plan to use funds from ACH to support your regional hub? (Note: Proposed expenses are subject to ACH approval.)  
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
 
-Please complete the [Host Interest Form](https://docs.google.com/forms/d/e/1FAIpQLScOuEUS6sHO757LuWoZFLf5Y7BM7bZx9HDa6zrGrj1h7CUSOg/viewform) with your contact information and a 500-word abstract addressing the above via our Google Form.  -->
+    var goldIcon = L.divIcon({
+      className: 'hub-marker',
+      html: '<div class="hub-marker-pin"></div>',
+      iconSize: [24, 24],
+      iconAnchor: [12, 12],
+      popupAnchor: [0, -14]
+    });
 
-For questions and concerns about the regional hubs, please contact the ACH at conference [at] ach [dot] org. Each hub will be expected to adhere to the [ACH Code of Conduct](https://ach2026.ach.org/en/policies/code-of-conduct/).
+    var hubs = [
+      {
+        id: 'hub-midwest',
+        name: 'Midwest – Macalester College',
+        location: 'St. Paul, Minnesota',
+        lat: 44.9393,
+        lng: -93.1028,
+        contact: '<a href="mailto:aquigley@macalester.edu">aquigley@macalester.edu</a>'
+      },
+      {
+        id: 'hub-midatlantic',
+        name: 'Mid-Atlantic – University of Pennsylvania',
+        location: 'Philadelphia, Pennsylvania',
+        lat: 39.9522,
+        lng: -75.1932,
+        contact: '<a href="mailto:heider@upenn.edu">heider@upenn.edu</a>'
+      },
+      {
+        id: 'hub-texas',
+        name: 'Texas – Arte Público Press / USLDH',
+        location: 'Houston, Texas',
+        lat: 29.7631,
+        lng: -95.3698,
+        contact: '<a href="mailto:lgauthereau@uh.edu">lgauthereau@uh.edu</a>'
+      },
+      {
+        id: 'hub-socal',
+        name: 'SoCal – UC Irvine',
+        location: 'Irvine, California',
+        lat: 33.6405,
+        lng: -117.8443,
+        contact: '<a href="https://forms.gle/j7uWaqBJjPnyyFs9A">Interest form</a>'
+      },
+      {
+        id: 'hub-florida',
+        name: 'Florida / Southeast – University of Florida',
+        location: 'Gainesville, Florida',
+        lat: 29.6436,
+        lng: -82.3549,
+        contact: '<a href="mailto:clcarrdi@ufl.edu">clcarrdi@ufl.edu</a>'
+      }
+    ];
 
+    hubs.forEach(function (hub) {
+      var marker = L.marker([hub.lat, hub.lng], { icon: goldIcon }).addTo(map);
+      marker.bindPopup(
+        '<strong>' + hub.name + '</strong><br>' +
+        hub.location + '<br>' +
+        hub.contact + '<br>' +
+        '<a href="#' + hub.id + '" class="hub-popup-link">Read more &darr;</a>'
+      );
+    });
+  };
+  document.head.appendChild(script);
+})();
+</script>
 
-<!-- ## Timeline:
-- Conference dates: 24-26 June 2026
-- Final Applications for Regional Hubs Due: March 1  
-- Announcement Sent Out: Approximately March 15   -->
+<hr>
+
+<div id="hub-midwest" class="hub-blurb">
+  <h3>Midwest – Macalester College</h3>
+  <p class="hub-location"><i class="bi bi-geo-alt-fill"></i> St. Paul, Minnesota</p>
+  <p>Having withstood the terrors of Operation Metro Surge, the Twin Cities is uniquely positioned to host this year's conference, which focuses on <em>emergence/ia</em>. Macalester College is located in St. Paul, Minnesota, and began the Spring semester in a state of emergency, with faculty, staff, students, and community neighbors covertly engaging in activism of various kinds, including patrolling, striking, and establishing mutual aid channels. The semester demanded particular and continued attention to care. Digital services proved critical to this work but also limited communication in other ways, posing dilemmas related to privacy and security. As a regional hub, we aim to offer a safe community space for viewing this year's ACH conference. We also will have an opportunity to hear from students who created digital stories for this year's Project Pericles National Civic Story Lab. Three students partnered with local organizations (the Hallie Q. Brown Community Center, Lake Street Council, and Rondo Center of Diverse Expressions) to ethically document the histories of communities impacted by oppressive immigration enforcement.</p>
+  <p class="hub-contact">Contact: Dr. Aisling Quigley, DLA Librarian and Program Manager — <a href="mailto:aquigley@macalester.edu">aquigley@macalester.edu</a></p>
+</div>
+
+<div id="hub-midatlantic" class="hub-blurb">
+  <h3>Mid-Atlantic – University of Pennsylvania</h3>
+  <p class="hub-location"><i class="bi bi-geo-alt-fill"></i> Philadelphia, Pennsylvania</p>
+  <p>We invite students, faculty, and all other interested digital scholarship practitioners to join us at the University of Pennsylvania's Van Pelt Library for the mid-Atlantic "Philadelphia-region" ACH 2026 regional hub. Hosted in partnership between Penn Libraries' Research Data and Digital Scholarship Department, the Price Lab for Digital Humanities, the Princeton University Center for Digital Humanities, and Temple University's Loretta C. Duckworth Scholars Studio, this hub will be a space to jointly watch and respond to the ACH 2026 conference in a local, collegial setting. We warmly welcome attendees from the numerous colleges and universities in the greater Philadelphia region and especially invite practitioners from non-university settings — museums, galleries, libraries, and other cultural institutions — to join us for robust discussion.</p>
+  <p>Please be aware that while the joint watch-party is free and open to all, individual attendees may wish to register for the main ACH 2026 conference separately to take full advantage of all conference events.</p>
+  <p class="hub-contact">Register: <a href="https://www.library.upenn.edu/events/ach-2026-regional-hub">library.upenn.edu/events/ach-2026-regional-hub</a> &mdash; Questions: Cynthia Heider — <a href="mailto:heider@upenn.edu">heider@upenn.edu</a></p>
+</div>
+
+<div id="hub-texas" class="hub-blurb">
+  <h3>Texas – Arte Público Press / US Latino Digital Humanities Center</h3>
+  <p class="hub-location"><i class="bi bi-geo-alt-fill"></i> Houston, Texas</p>
+  <p>Located in Houston, Texas, this regional hub hosted by the US Latino Digital Humanities Center (USLDH) at Arte Público Press will bring together faculty, students, archivists, and community members for an in-person keynote watch party, tour, and discussion. The event will include a keynote watch party from the main ACH conference, followed by a guided tour of Arte Público Press showcasing USLDH digital projects and demonstrating how the center trains students to work with cultural data using ethical, community-centered methodologies. The program will extend the conference theme of <em>Emergence/ia</em> into a localized space, connecting digital humanities to US Latino archival recovery and community preservation. Situated in one of the largest and most diverse Latino metropolitan areas in the United States, the hub will highlight bilingual data, community archival materials, and partnerships with local educators and cultural organizations.</p>
+  <p class="hub-contact">Spots are limited. Contact: Dr. Lorena Gauthereau — <a href="mailto:lgauthereau@uh.edu">lgauthereau@uh.edu</a></p>
+</div>
+
+<div id="hub-socal" class="hub-blurb">
+  <h3>SoCal Gathering – UC Irvine</h3>
+  <p class="hub-location"><i class="bi bi-geo-alt-fill"></i> Irvine, California</p>
+  <p>Join us virtually or on campus at the University of California, Irvine, on Monday, June 29th, for a post-conference discussion of what we are inspired by and have learned from the ACH 2026 sessions, keynote, and creative presentations. This facilitated discussion will be followed by a community-building sharing of what's happening on our respective campuses now and what we imagine for the future, with time for connecting with potential collaborators and exchanging information. Organized by UCI's <a href="https://www.humanities.uci.edu/dhx">Digital Humanities Exchange</a>.</p>
+  <p class="hub-contact">Register via the <a href="https://forms.gle/j7uWaqBJjPnyyFs9A">interest form</a>.</p>
+</div>
+
+<div id="hub-florida" class="hub-blurb">
+  <h3>Florida / Southeast – University of Florida</h3>
+  <p class="hub-location"><i class="bi bi-geo-alt-fill"></i> Gainesville, Florida</p>
+  <p>Hosted in Gainesville, Florida, the University of Florida's Center for the Humanities and the Public Sphere will convene an in-person regional hub for digital humanists across Florida and the Southeast. Taking place in UF's newly opened Digital Humanities Lab, this hub will feature watch parties for ACH 2026 keynotes and panels, alongside facilitated discussions and informal networking. Programming will highlight emerging work in public and environmental humanities, multilingual scholarship, and community-engaged digital practice, with particular attention to students and early-career scholars. This regional hub offers a welcoming space to link regional DH communities with the broader ACH virtual conference.</p>
+  <p class="hub-contact">Contact: Dr. Clarissa Carr, CHPS Digital Scholarship Specialist — <a href="mailto:clcarrdi@ufl.edu">clcarrdi@ufl.edu</a></p>
+</div>
 

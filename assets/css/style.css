@@ -721,6 +721,75 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Regional Hubs Map
+--------------------------------------------------------------*/
+#hubs-map {
+  width: 100%;
+  height: 460px;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+  margin: 24px 0 32px 0;
+  z-index: 1;
+}
+
+.hub-marker-pin {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #F6C500;
+  border: 3px solid #1C1832;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+}
+
+.hub-popup-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-weight: 600;
+  color: #1C1832 !important;
+}
+
+.hub-blurb {
+  margin-bottom: 48px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.hub-blurb:last-child {
+  border-bottom: none;
+}
+
+.hub-blurb h3 {
+  color: #1C1832;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+  padding-top: 8px;
+  border-left: 4px solid #F6C500;
+  padding-left: 12px;
+}
+
+.hub-location {
+  color: #5D5D60;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.hub-location .bi {
+  color: #F6C500;
+  margin-right: 4px;
+}
+
+.hub-contact {
+  background: #f8f8f8;
+  border-left: 3px solid #F6C500;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  border-radius: 0 4px 4px 0;
+  margin-top: 12px;
+}
+
+/*--------------------------------------------------------------
 # Keynote Page Speaker Images
 --------------------------------------------------------------*/
 #faq .col-lg-9 > p > img {
