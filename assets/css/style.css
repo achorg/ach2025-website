@@ -721,6 +721,35 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Keynote Page Speaker Images
+--------------------------------------------------------------*/
+#faq .col-lg-9 > p > img {
+  float: left;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  border: 4px solid #F6C500;
+  margin: 0 30px 20px 0;
+  shape-outside: circle();
+}
+
+#faq hr {
+  clear: both;
+  margin: 40px 0;
+  border-color: #e0e0e0;
+}
+
+@media (max-width: 576px) {
+  #faq .col-lg-9 > p > img {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+}
+
+/*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
 #speakers {

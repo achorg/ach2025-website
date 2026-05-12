@@ -5,6 +5,8 @@ layout: page
 
 Nos complace anunciar que las doctoras Laura Gonzales (she/ella) y Maria José Afanador-Llach (ella) dictarán las charlas magistrales para ACH 2026. A continuación, más información sobre su trabajo y trayectoria.
 
+![Laura Gonzales](/assets/img/laura-gonzales.jpeg)  
+
 ## Charla magistral junio 24, 1pm ET
 ##### Biografía
 La **Dra. Laura Gonzales** (she/ella) es una investigadora, traductora y educadora comprometida con el quehacer comunitario. Es autora de Sites of *Translation: What Multilinguals Can Teach Us About Digital Writing and Rhetoric* (University of Michigan Press, 2018) y *Designing Multilingual Experiences in Technical Communication* (Utah State University Press, 2022). La Dra. Gonzales recibió el Premio al Mejor Libro 2023 de la Conferencia sobre Escritura Comunitaria (Conference on Community Writing), el premio CCCC Advancement of Knowledge Award (Avance del Conocimiento) y el premio Technology Innovator (Innovador Tecnológico), ambos en 2020. Es editora en jefe de *Reflections: A Journal of Community Engaged Writing and Rhetoric* (Reflexiones: Una Revista de Escritura y Retórica Comprometida con la Comunidad) y presidente de la Asociación de Profesores de Redacción Técnica (Association of Teachers for Technical Writing).
@@ -14,6 +16,8 @@ La **Dra. Laura Gonzales** (she/ella) es una investigadora, traductora y educado
 En la era de creciente vigilancia y extracción tecnológica, ¿qué están haciendo las comunidades para apoyarse y sostenerse entre sí? Esta presentación ofrecerá ejemplos sobre colaboraciones entre profesionales, académicos y miembros comunitarios para desarrollar tecnologías, enfoques y políticas que sostengan valores humanísticos en su diseño tecnológico. Basándose en la experiencia del usuario y los métodos de diseño participativo, Gonzales arguye que apoyar el conocimiento, los esfuerzos y los deseos comunitarios deben seguir siendo el foco central de las humanidades digitales. La presentación será principalmente en inglés y spanglish.
 
 <hr>
+
+![Maria José Afanador-Llach](/assets/img/Maria_Jose_Afanador_Octubre_JudyPulido2.jpg)
 
 ## Charla magistral junio 25, 1pm ET
 ##### Biografía

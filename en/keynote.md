@@ -5,6 +5,9 @@ layout: page
 
 We are proud to announce that our keynote speakers for ACH 2026 are Drs. Laura Gonzales (she/ella) and Maria José Afanador-Llach (she/her). 
 
+
+![Laura Gonzales](/assets/img/laura-gonzales.jpeg)  
+
 ## Keynote Presentation on June 24, 1pm ET
 ##### Speaker Bio
 **Dr. Laura Gonzales** (she/ella) is a researcher, translator, educator, and community engaged practitioner. She is the author of *Sites of Translation: What Multilinguals Can Teach Us About Digital Writing and Rhetoric* (University of Michigan Press, 2018) and *Designing Multilingual Experiences in Technical Communication* (Utah State University Press, 2022). Dr. Gonzales is the recipient of the 2023 Best Book Award by the Conference on Community Writing, the 2020 CCC Advancement of Knowledge Award, and the 2020 Technology Innovator Award. She is the editor-in-chief of *Reflections: A Journal of Community Engaged Writing and Rhetoric* and the President of the Association of Teachers of Technical Writing. 
@@ -14,6 +17,8 @@ We are proud to announce that our keynote speakers for ACH 2026 are Drs. Laura G
 In the age of growing technological surveillance and extraction, what are communities doing to sustain each other? This presentation will offer examples of how practitioners, scholars, and community members are collaborating to develop technologies, orientations, and policies to maintain humanistic values in technology design. Drawing on user experience and participatory design methods, Gonzales suggests supporting community knowledge, efforts, and desires should remain the central focus of digital humanities. The presentation will be primarily in English and Spanglish.
 
 <hr>  
+
+![Maria José Afanador-Llach](/assets/img/Maria_Jose_Afanador_Octubre_JudyPulido2.jpg)
 
 ## Keynote Presentation on June 25, 1pm ET
 ##### Speaker Bio
