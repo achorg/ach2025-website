@@ -881,6 +881,37 @@ h6 {
   padding: 20px 0;
 }
 
+.viz-show-more {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #5D5D60;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.viz-show-more-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  border: 2px solid #1C1832;
+  background: transparent;
+  color: #1C1832;
+  cursor: pointer;
+  transition: 0.3s;
+  line-height: 1;
+}
+
+.viz-show-more-btn:hover {
+  background: #F6C500;
+  border-color: #F6C500;
+  color: #1C1832;
+}
+
 /*--------------------------------------------------------------
 # Regional Hubs Map
 --------------------------------------------------------------*/
