@@ -1974,3 +1974,252 @@ h6 {
   height: 13px;
   width: 13px;
 }
+
+/*--------------------------------------------------------------
+# Workshops Page
+--------------------------------------------------------------*/
+.ws-section {
+  margin-bottom: 52px;
+}
+
+.ws-section-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1C1832;
+  border-left: 4px solid #F6C500;
+  padding-left: 14px;
+  margin-bottom: 24px;
+}
+
+/* --- Schedule at a Glance --- */
+.ws-day-block {
+  margin-bottom: 16px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #dde0eb;
+}
+
+.ws-day-header {
+  background: #1C1832;
+  color: #F6C500;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  padding: 9px 16px;
+}
+
+.ws-entry {
+  padding: 14px 16px;
+  background: #fff;
+  border-top: 1px solid #eef0f7;
+}
+
+.ws-entry + .ws-entry {
+  border-top: 1px solid #dde0eb;
+}
+
+.ws-entry-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 0.97rem;
+  margin-bottom: 6px;
+}
+
+.ws-entry-title a {
+  color: #1C1832;
+}
+
+.ws-entry-title a:hover {
+  color: #F6C500;
+  text-decoration: none;
+}
+
+.ws-entry-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  font-size: 0.83rem;
+  color: #5D5D60;
+}
+
+.ws-entry-meta i {
+  margin-right: 3px;
+}
+
+/* --- Registration Fee Cards --- */
+.ws-fee-card {
+  border: 1px solid #dde0eb;
+  border-top: 4px solid #1C1832;
+  border-radius: 6px;
+  padding: 20px;
+  height: 100%;
+}
+
+.ws-fee-label {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #1C1832;
+  font-size: 1rem;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eef0f7;
+}
+
+.ws-fee-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+  border-bottom: 1px solid #f3f4f8;
+  font-size: 0.9rem;
+}
+
+.ws-fee-row:last-child {
+  border-bottom: none;
+}
+
+.ws-fee-amount {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+  background: #1C1832;
+  padding: 2px 12px;
+  border-radius: 20px;
+}
+
+/* --- Registration Steps --- */
+.ws-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 20px 0 24px;
+}
+
+.ws-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.ws-step-num {
+  flex: 0 0 34px;
+  height: 34px;
+  background: #1C1832;
+  color: #F6C500;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.ws-step-body {
+  padding-top: 5px;
+  font-size: 0.95rem;
+}
+
+/* --- Notice Box --- */
+.ws-notice {
+  background: #f6f7fd;
+  border-left: 4px solid #F6C500;
+  padding: 14px 18px;
+  margin: 20px 0;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.93rem;
+}
+
+/* --- Workshop Detail Cards --- */
+.ws-card {
+  border: 1px solid #dde0eb;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.06);
+}
+
+.ws-card-header {
+  background: #1C1832;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 16px 20px;
+  border-left: 5px solid #F6C500;
+}
+
+.ws-card-body {
+  padding: 20px 22px;
+}
+
+.ws-card-meta {
+  background: #f6f7fd;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 0.88rem;
+  color: #1C1832;
+}
+
+.ws-card-meta i {
+  color: #5D5D60;
+  margin-right: 4px;
+}
+
+.ws-card-meta a {
+  color: #1C1832;
+  font-weight: 600;
+}
+
+.ws-card-meta a:hover {
+  color: #5D5D60;
+}
+
+.ws-card-body h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 0.92rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #5D5D60;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+
+.ws-card-body p,
+.ws-card-body li {
+  font-size: 0.93rem;
+}
+
+/* --- Instructor Cards --- */
+.ws-instructor-card {
+  border: 1px solid #dde0eb;
+  border-top: 4px solid #F6C500;
+  border-radius: 6px;
+  padding: 22px;
+  height: 100%;
+}
+
+.ws-instructor-card h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #1C1832;
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eef0f7;
+}
+
+.ws-instructor-card p {
+  font-size: 0.88rem;
+  margin-bottom: 0;
+  line-height: 1.65;
+}

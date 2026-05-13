@@ -3,60 +3,103 @@ title: Pre-Conference Workshops
 layout: page
 ---
 
-In advance of ACH 2026, we'll be piloting a pre-conference virtual workshop series offering low-cost opportunities for teaching and learning on digital humanities topics that matter to the community. Note: workshops will be taught in English. 
+<p class="lead mb-4">In advance of ACH 2026, we'll be piloting a pre-conference virtual workshop series offering low-cost opportunities for teaching and learning on digital humanities topics that matter to the community. Note: workshops will be taught in English.</p>
 
-## Schedule at a Glance
+<section class="ws-section">
+<h2 class="ws-section-title">Schedule at a Glance</h2>
 
-### Monday, June 22, 2026
+<div class="ws-day-block">
+  <div class="ws-day-header">Monday, June 22, 2026</div>
+  <div class="ws-entry">
+    <div class="ws-entry-title"><a href="#dh-pedagogy-studio">DH Pedagogy Studio: Creative and Critical Assignment Design</a></div>
+    <div class="ws-entry-meta">
+      <span><i class="bi bi-clock"></i> 10am–5pm Eastern / 7am–2pm Pacific</span>
+      <span><i class="bi bi-hourglass-split"></i> 6 contact hours &middot; break 1–2pm Eastern</span>
+    </div>
+  </div>
+</div>
 
-* **DH Pedagogy Studio: Creative and Critical Assignment Design**  
-  * 10am-5pm Eastern / 7am-2pm Pacific  
-  * 6 contact hours with a break from 1-2pm Eastern
+<div class="ws-day-block">
+  <div class="ws-day-header">Tuesday, June 23, 2026</div>
+  <div class="ws-entry">
+    <div class="ws-entry-title"><a href="#preserving-web-content">Get Started Preserving your Web Content and Data</a></div>
+    <div class="ws-entry-meta">
+      <span><i class="bi bi-clock"></i> 10am–5pm Eastern / 7am–2pm Pacific</span>
+      <span><i class="bi bi-hourglass-split"></i> 6 contact hours &middot; break 1–2pm Eastern</span>
+    </div>
+  </div>
+  <div class="ws-entry">
+    <div class="ws-entry-title"><a href="#envisioning-dh">Envisioning DH at your Teaching-Focused Institution</a></div>
+    <div class="ws-entry-meta">
+      <span><i class="bi bi-clock"></i> 1–4pm Eastern / 10am–1pm Pacific</span>
+      <span><i class="bi bi-hourglass-split"></i> 3 contact hours</span>
+    </div>
+  </div>
+</div>
+</section>
 
-### Tuesday, June 23, 2026
+<section class="ws-section">
+<h2 class="ws-section-title">Registration Fees</h2>
 
-* **Get Started Preserving your Web Content and Data**  
-  * 10am-5pm Eastern / 7am-2pm Pacific  
-  * 6 contact hours with a break from 1-2pm Eastern  
-* **Envisioning DH at your Teaching-Focused Institution**  
-  * 1-4pm Eastern / 10am-1pm Pacific  
-  * 3 contact hours
+<div class="row g-3 mb-3">
+  <div class="col-md-6">
+    <div class="ws-fee-card">
+      <div class="ws-fee-label">Full Day Workshop</div>
+      <div class="ws-fee-row"><span>ACH Member</span><span class="ws-fee-amount">$15</span></div>
+      <div class="ws-fee-row"><span>Non-member</span><span class="ws-fee-amount">$25</span></div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="ws-fee-card">
+      <div class="ws-fee-label">Half Day Workshop</div>
+      <div class="ws-fee-row"><span>ACH Member</span><span class="ws-fee-amount">$10</span></div>
+      <div class="ws-fee-row"><span>Non-member</span><span class="ws-fee-amount">$20</span></div>
+    </div>
+  </div>
+</div>
 
-## Registration Fees 
+<p class="text-muted" style="font-size:0.88rem;">Workshop registration fees and processes are separate from the overall conference. Registering for a workshop does not come with conference registration, and vice versa. You may register to attend a pre-conference workshop without registering for the full ACH2026 conference. If you plan to attend the full conference, you must also register for that separately.</p>
+</section>
 
-Full day workshop \- ACH member: $15  
-Full day workshop \- Non-member: $25  
-Half day workshop \- ACH member: $10  
-Half-day workshop \- Non-member: $20
+<section class="ws-section">
+<h2 class="ws-section-title">Registration Process</h2>
 
-Workshop registration fees and processes are separate from the overall conference. Registering for a workshop does not come with conference registration, and vice versa. You may register to attend a pre-conference workshop without registering for the full ACH2026 conference. If you plan to attend the full conference, you must also register for that separately.
+<p>Registering for a workshop is a two-step process:</p>
 
-## Registration Process
+<div class="ws-steps">
+  <div class="ws-step">
+    <div class="ws-step-num">1</div>
+    <div class="ws-step-body">Complete <a href="https://bit.ly/ACH26-PCW">the pre-registration form</a> by <strong>May 22</strong></div>
+  </div>
+  <div class="ws-step">
+    <div class="ws-step-num">2</div>
+    <div class="ws-step-body">Register and pay for the workshop via the conference registration website by <strong>June 17</strong></div>
+  </div>
+</div>
 
-Registering for a workshop is a two-step process:
+<div class="ws-notice">
+  <strong>Space is limited!</strong> To reserve your seat, complete <a href="https://bit.ly/ACH26-PCW">our brief pre-registration interest form</a> by May 22. Workshop organizers will contact you closer to the event with additional information about how to complete your registration process. We will maintain a wait list for each workshop.
+</div>
 
-* **Step 1:** Complete [the pre-registration form](https://bit.ly/ACH26-PCW) by **May 22**  
-* **Step 2:** Register and pay for the workshop via the conference registration website by **June 17** 
+<p>Completing the <a href="https://bit.ly/ACH26-PCW">pre-registration form</a> does not commit you to paying for a workshop. You must complete the full registration process (details forthcoming) to attend a workshop, at which time your participation is expected. Those who do not complete the full registration process by June 17 may lose their spot. Individuals on the waitlist will be permitted to register as space allows.</p>
 
-Space is limited\! To reserve your seat, complete [our brief pre-registration interest](https://bit.ly/ACH26-PCW) form by May 22\. Workshop organizers will contact you closer to the event with additional information about how to complete your registration process. We will maintain a wait list for each workshop.
+<p>You may register to attend a pre-conference workshop without registering for the full ACH2026 conference. If you plan to attend the full conference, you must <strong>also</strong> register for that separately.</p>
 
-Completing the [pre-registration form](https://bit.ly/ACH26-PCW) does not commit you to paying for a workshop. You must complete the full registration process (details forthcoming) to attend a workshop, at which time your participation is expected. Those who do not complete the full registration process by June 17 may lose their spot. Individuals on the waitlist will be permitted to register as space allows. 
+<p>Questions? Contact Pam Lach (plach AT sdsu DOT edu) and Brandon Walsh (bmw9t AT virginia DOT edu).</p>
+</section>
 
-You may register to attend a pre-conference workshop without registering for the full ACH2026 conference. If you plan to attend the full conference, you must **also** register for that separately.
+<section class="ws-section">
+<h2 class="ws-section-title">Workshop Details</h2>
 
-Questions? Contact Pam Lach (plach AT sdsu DOT edu) and Brandon Walsh (bmw9t AT virginia DOT edu).
-
-## Workshop Details
-
-### DH Pedagogy Studio: Creative and Critical Assignment Design
-
-**Monday, June 22, 2026**  
-10am-5pm Eastern / 7am-2pm Pacific  
-6 contact hours with a break from 1-2pm Eastern  
-**Instructors**: [Danica Savonick](#danica-savonick) and [Chelcie Juliet Rowell](#chelcie-juliet-rowell)  
-**Enrollment Max**: 25
-
-**Description**  
+<div class="ws-card" id="dh-pedagogy-studio">
+  <div class="ws-card-header">DH Pedagogy Studio: Creative and Critical Assignment Design</div>
+  <div class="ws-card-body">
+    <div class="ws-card-meta">
+      <div><i class="bi bi-calendar3"></i> <strong>Monday, June 22, 2026</strong> &middot; 10am–5pm Eastern / 7am–2pm Pacific &middot; 6 contact hours (break 1–2pm Eastern)</div>
+      <div><i class="bi bi-person-video3"></i> <strong>Instructors:</strong> <a href="#danica-savonick">Danica Savonick</a> and <a href="#chelcie-juliet-rowell">Chelcie Juliet Rowell</a></div>
+      <div><i class="bi bi-people"></i> <strong>Enrollment Max:</strong> 25</div>
+    </div>
+    <h5>Description</h5>
 In this interactive workshop, you will design or revise a digital humanities assignment that fosters creativity, transferable skills, and critical engagement with digital platforms. Aimed at instructors new to or experienced in digital humanities pedagogy, the session combines short “lecture snacks” (40%) with hands-on activities (60%). During our time together you will:
 
 * appreciatively examine sample assignments   
