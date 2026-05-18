@@ -63,7 +63,7 @@ layout: page
         location: 'Houston, Texas',
         lat: 29.7631,
         lng: -95.3698,
-        contact: '<a href="mailto:lgauthereau@uh.edu">lgauthereau@uh.edu</a>'
+        contact: '<a href="https://bit.ly/tx_ach_hub">bit.ly/tx_ach_hub</a>'
       },
       {
         id: 'hub-socal',
@@ -118,7 +118,7 @@ layout: page
   <h3>Texas – Arte Público Press / US Latino Digital Humanities Center</h3>
   <p class="hub-location"><i class="bi bi-geo-alt-fill"></i> Houston, Texas</p>
   <p>Located in Houston, Texas, this regional hub hosted by the US Latino Digital Humanities Center (USLDH) at Arte Público Press will bring together faculty, students, archivists, and community members for an in-person keynote watch party, tour, and discussion. The event will include a keynote watch party from the main ACH conference, followed by a guided tour of Arte Público Press showcasing USLDH digital projects and demonstrating how the center trains students to work with cultural data using ethical, community-centered methodologies. The program will extend the conference theme of <em>Emergence/ia</em> into a localized space, connecting digital humanities to US Latino archival recovery and community preservation. Situated in one of the largest and most diverse Latino metropolitan areas in the United States, the hub will highlight bilingual data, community archival materials, and partnerships with local educators and cultural organizations.</p>
-  <p class="hub-contact">Spots are limited. Contact: Dr. Lorena Gauthereau — <a href="mailto:lgauthereau@uh.edu">lgauthereau@uh.edu</a></p>
+  <p class="hub-contact">Spots are limited. Register: <a href="https://bit.ly/tx_ach_hub">bit.ly/tx_ach_hub</a></p>
 </div>
 
 <div id="hub-socal" class="hub-blurb">

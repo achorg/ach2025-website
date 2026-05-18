@@ -63,7 +63,7 @@ layout: page
         location: 'Houston, Texas',
         lat: 29.7631,
         lng: -95.3698,
-        contact: '<a href="mailto:lgauthereau@uh.edu">lgauthereau@uh.edu</a>'
+        contact: '<a href="https://bit.ly/tx_ach_hub">bit.ly/tx_ach_hub</a>'
       },
       {
         id: 'hub-socal',
@@ -118,7 +118,7 @@ layout: page
   <h3>Texas – Arte Público Press / Centro de Humanidades Digitales Latino de EE.UU.</h3>
   <p class="hub-location"><i class="bi bi-geo-alt-fill"></i> Houston, Texas</p>
   <p>Ubicado en Houston, Texas, este grupo regional organizado por el Centro de Humanidades Digitales Latino de EE.UU. (USLDH) en Arte Público Press reunirá a profesores, estudiantes, archivistas y miembros de la comunidad para una watch party del discurso magistral, una visita guiada y una discusión. El evento incluirá una watch party del discurso magistral de la conferencia ACH, seguida de una visita guiada a Arte Público Press donde se mostrarán proyectos digitales del USLDH y se demostrará cómo el centro forma a estudiantes para trabajar con datos culturales mediante metodologías éticas y centradas en la comunidad. El programa extenderá el tema de la conferencia, <em>Emergence/ia</em>, a un espacio local, conectando las humanidades digitales con la recuperación archivística y la preservación comunitaria latina en EE.UU. Situado en una de las áreas metropolitanas latinas más grandes y diversas del país, el grupo destacará datos bilingües, materiales de archivo comunitario y alianzas con educadores y organizaciones culturales locales.</p>
-  <p class="hub-contact">Los cupos son limitados. Contacto: Dra. Lorena Gauthereau — <a href="mailto:lgauthereau@uh.edu">lgauthereau@uh.edu</a></p>
+  <p class="hub-contact">Los cupos son limitados. Registro: <a href="https://bit.ly/tx_ach_hub">bit.ly/tx_ach_hub</a></p>
 </div>
 
 <div id="hub-socal" class="hub-blurb">
