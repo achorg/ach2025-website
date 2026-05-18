@@ -208,6 +208,32 @@ module.exports = async function() {
     const totalPapers = normalizedSessions.reduce((sum, s) => sum + s.papers.length, 0);
     const uniqueDays = new Set(normalizedSessions.map(s => s.dateDisplay)).size;
 
+    // Panel vs solo session breakdown
+    const panelCount = normalizedSessions.filter(s => s.papers.length >= 2).length;
+    const soloCount  = normalizedSessions.filter(s => s.papers.length === 1).length;
+
+    // Bilingual/Spanish session detection via accented characters common in Spanish
+    const spanishChars = /[áéíóúüñÁÉÍÓÚÜÑ]/;
+    const spanishCount = normalizedSessions.filter(s =>
+      spanishChars.test(s.title) ||
+      s.papers.some(p => spanishChars.test(p.title) || spanishChars.test(p.authors))
+    ).length;
+
+    // Keyword frequency across all papers
+    const kwFreq = {};
+    normalizedSessions.forEach(s =>
+      s.papers.forEach(p =>
+        p.keywords.forEach(k => {
+          const kl = k.toLowerCase().trim();
+          if (kl) kwFreq[kl] = (kwFreq[kl] || 0) + 1;
+        })
+      )
+    );
+    const topKeywords = Object.entries(kwFreq)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 8)
+      .map(([kw, count]) => ({ kw, count }));
+
     console.log(`✅ ConfTool data ready: ${sessions.length} sessions, ${totalPapers} papers`);
 
     return {
@@ -221,7 +247,13 @@ module.exports = async function() {
       isConfigured: true,
       totalPapers,
       totalSessions: normalizedSessions.length,
-      uniqueDays
+      uniqueDays,
+      panelCount,
+      soloCount,
+      spanishCount,
+      topKeywords,
+      maxKwCount: topKeywords.length ? topKeywords[0].count : 1,
+      totalKeywords: Object.keys(kwFreq).length
     };
   } catch (error) {
     console.error('❌ Error setting up ConfTool fetcher:', error.message);

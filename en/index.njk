@@ -23,21 +23,90 @@ aboutEvent: A virtual conference featuring work by members of the ACH community.
   <!-- ======= About Section ======= -->
   <section id="about">
     <div class="container" data-aos="fade-up">
+
       <div class="row">
         <div class="col-lg-6">
-          <h3>About</h3>
-          <p>{{ aboutEvent }}</p>
+          <h3>About ACH 2026</h3>
+          <p>ACH 2026 is the annual conference of the Association for Computers and the Humanities, bringing together scholars, practitioners, and students who work at the intersection of technology and the humanities. This year's theme, <em>Emergence/ia</em>, invites reflection on how digital humanities practice emerges from and responds to moments of crisis, creativity, and community—including this conference's commitment to multilingual and cross-regional participation.</p>
+          <p>The conference is fully virtual, with sessions scheduled to reach participants across more than twelve time zones spanning the Americas, Europe, the Middle East, South Asia, and East Asia.</p>
+          <a href="/en/program" class="btn-about-program">Explore the Program &rarr;</a>
         </div>
         <div class="col-lg-3">
           <h3>Where</h3>
-          <span>Zoom</span> <br>
-          <span>WorkAdventure</span>
+          <p><strong>Zoom</strong> &amp; <strong>WorkAdventure</strong><br><span class="text-muted">Fully virtual</span></p>
+          <h3 class="mt-3">When</h3>
+          <p>Wednesday–Friday<br>June 24–26, 2026</p>
+          <p><small><a href="/en/workshops">Pre-conference workshops</a>: June 22–23</small></p>
         </div>
         <div class="col-lg-3">
-          <h3>When</h3>
-          <p>Wednesday to Friday<br>June 24–26 June 2026</p>
+          <h3>By the Numbers</h3>
+          {% if conftool.isConfigured %}
+          <ul class="about-stats-list">
+            <li><span class="about-stat-num">{{ conftool.totalPapers }}</span> presentations</li>
+            <li><span class="about-stat-num">{{ conftool.totalSessions }}</span> sessions</li>
+            <li><span class="about-stat-num">{{ conftool.spanishCount }}</span> Spanish / bilingual sessions</li>
+            <li><span class="about-stat-num">3</span> pre-conference workshops</li>
+            <li><span class="about-stat-num">5</span> regional hubs</li>
+            <li><span class="about-stat-num">12+</span> time zones</li>
+          </ul>
+          {% else %}
+          <ul class="about-stats-list">
+            <li><span class="about-stat-num">70+</span> presentations</li>
+            <li><span class="about-stat-num">22+</span> sessions</li>
+            <li><span class="about-stat-num">3</span> pre-conference workshops</li>
+            <li><span class="about-stat-num">5</span> regional hubs</li>
+            <li><span class="about-stat-num">12+</span> time zones</li>
+          </ul>
+          {% endif %}
         </div>
       </div>
+
+      {% if conftool.topKeywords and conftool.topKeywords.length > 0 %}
+      <div class="row mt-4">
+        <div class="col-lg-7">
+          <h4 class="about-chart-title">Top Themes</h4>
+          <p class="about-chart-sub">by keyword frequency across submitted papers</p>
+          <ul class="about-kw-chart" aria-label="Top keywords by frequency">
+            {% for item in conftool.topKeywords %}
+            <li>
+              <span class="about-kw-label">{{ item.kw }}</span>
+              <div class="about-kw-bar-track" role="img" aria-label="{{ item.kw }}: {{ item.count }} papers">
+                <div class="about-kw-bar" style="width:{{ ((item.count / conftool.maxKwCount) * 100) | round }}%"></div>
+              </div>
+              <span class="about-kw-count">{{ item.count }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% if conftool.panelCount %}
+        <div class="col-lg-5">
+          <h4 class="about-chart-title">Session Format</h4>
+          <p class="about-chart-sub">how presentations are grouped</p>
+          <div class="about-session-split" role="img" aria-label="{{ conftool.panelCount }} multi-paper panels, {{ conftool.soloCount }} solo presentations">
+            {% if conftool.panelCount %}
+            <div class="about-split-seg about-split-panel" style="width:{{ ((conftool.panelCount / conftool.totalSessions) * 100) | round }}%">
+              <strong>{{ conftool.panelCount }}</strong>&nbsp;panels
+            </div>
+            {% endif %}
+            {% if conftool.soloCount %}
+            <div class="about-split-seg about-split-solo" style="width:{{ ((conftool.soloCount / conftool.totalSessions) * 100) | round }}%">
+              <strong>{{ conftool.soloCount }}</strong>&nbsp;solo
+            </div>
+            {% endif %}
+          </div>
+          <p class="about-split-legend">
+            <span class="about-legend-swatch about-legend-panel"></span> Multi-paper panel &nbsp;
+            <span class="about-legend-swatch about-legend-solo"></span> Solo presentation
+          </p>
+          <div class="about-bilingual-callout" aria-label="{{ conftool.spanishCount }} Spanish or bilingual sessions">
+            <span class="about-bilingual-num">{{ conftool.spanishCount }}</span>
+            <span class="about-bilingual-label">Spanish &amp; bilingual<br>sessions</span>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+
     </div>
   </section><!-- End About Section -->
   {% endif %}
