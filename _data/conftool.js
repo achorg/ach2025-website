@@ -41,7 +41,28 @@ function collectMatchingValues(record, pattern) {
     .filter((value) => value !== undefined && value !== null && value !== '');
 }
 
-function normalizePapers(record) {
+function normalizePapers(record, paperById = {}) {
+  // New-style: p{N}_title fields from sessions export with presentations option
+  const newStyleKeys = Object.keys(record)
+    .filter((key) => /^p\d+_title$/i.test(key))
+    .sort((a, b) => parseInt(a.match(/\d+/)[0]) - parseInt(b.match(/\d+/)[0]));
+
+  if (newStyleKeys.length > 0) {
+    return newStyleKeys
+      .map((titleKey) => {
+        const n = titleKey.match(/\d+/)[0];
+        const title = record[titleKey];
+        if (!title) return null;
+        const id = String(record[`p${n}_paperID`] || '');
+        const authors = String(record[`p${n}_authors`] || '');
+        const paper = paperById[id] || {};
+        const keywords = paper.keywords ? splitPeople(paper.keywords) : [];
+        return { title: String(title), authors, id, keywords };
+      })
+      .filter(Boolean);
+  }
+
+  // Legacy-style: paper_title{N} / presentation_title{N} etc.
   const titleMatches = Object.keys(record)
     .filter((key) => /paper.*title|presentation.*title|contribution.*title|talk.*title/i.test(key))
     .sort();
@@ -50,51 +71,51 @@ function normalizePapers(record) {
   for (const titleKey of titleMatches) {
     const index = titleKey.match(/(\d+)/)?.[1] || '';
     const authorKeyCandidates = [
-      `paper_author${index}`,
-      `paper_authors${index}`,
-      `presentation_author${index}`,
-      `presentation_authors${index}`,
-      `contribution_author${index}`,
-      `contribution_authors${index}`,
-      `talk_author${index}`,
-      `talk_authors${index}`
+      `paper_author${index}`, `paper_authors${index}`,
+      `presentation_author${index}`, `presentation_authors${index}`,
+      `contribution_author${index}`, `contribution_authors${index}`,
+      `talk_author${index}`, `talk_authors${index}`
     ];
-
     const paperTitle = record[titleKey];
     const paperAuthors = firstValue(record, authorKeyCandidates);
-
+    const paperId = firstValue(record, [`paper_id${index}`, `submission_id${index}`, `paper_number${index}`]);
+    const paper = paperById[String(paperId)] || {};
+    const keywords = paper.keywords ? splitPeople(paper.keywords) : [];
     if (paperTitle) {
       papers.push({
         title: String(paperTitle),
-        authors: String(paperAuthors || '')
+        authors: String(paperAuthors || ''),
+        id: String(paperId || ''),
+        keywords
       });
     }
   }
-
   return papers;
 }
 
 function parseSessionStart(record, locale = 'en-US') {
   const raw = firstValue(record, ['session_start', 'start_date', 'date', 'session_date', 'form_date', 'day']);
-  if (!raw) return { date: '', time: '' };
+  if (!raw) return { date: '', time: '', iso: '' };
   const str = String(raw).trim();
   // Format: "YYYY-MM-DD HH:MM" or "YYYY-MM-DD"
   const match = str.match(/^(\d{4}-\d{2}-\d{2})(?:\s+(\d{2}:\d{2}))?/);
   if (match) {
     const dateObj = new Date(match[1]);
     const dateDisplay = dateObj.toLocaleDateString(locale, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
-    return { date: dateDisplay, time: match[2] || '' };
+    return { date: dateDisplay, time: match[2] || '', iso: match[1] };
   }
-  return { date: str, time: '' };
+  return { date: str, time: '', iso: '' };
 }
 
-function normalizeSession(record) {
-  const { date: parsedDate, time: parsedTime } = parseSessionStart(record, 'en-US');
+function normalizeSession(record, paperById = {}) {
+  const { date: parsedDate, time: parsedTime, iso } = parseSessionStart(record, 'en-US');
   const date = parsedDate || firstValue(record, ['date', 'session_date', 'form_date', 'start_date', 'day']);
   const time = parsedTime || firstValue(record, ['time', 'session_time', 'time_range', 'slot', 'start_time']);
   const endTimeRaw = firstValue(record, ['session_end', 'end_time', 'session_end_time']);
   const endTime = endTimeRaw ? String(endTimeRaw).replace(/^\d{4}-\d{2}-\d{2}\s+/, '') : '';
-  const title = firstValue(record, ['title', 'session_title', 'name', 'session', 'event_title']);
+  const rawTitle = firstValue(record, ['title', 'session_title', 'name', 'session', 'event_title']);
+  // Strip leading scheduling code (e.g. "D1-S3-Z1: ") for clean display
+  const title = rawTitle ? rawTitle.replace(/^[A-Z0-9][\w-]*:\s+/, '') : rawTitle;
   const subtitle = firstValue(record, ['subtitle', 'sub_title']);
   const location = firstValue(record, ['virtual_location', 'location', 'room', 'session_room']);
   const locationUrl = firstValue(record, ['virtual_location_url', 'location_url', 'zoom_link', 'zoom_url', 'join_url']);
@@ -105,7 +126,7 @@ function normalizeSession(record) {
   const chairs = chairFields.flatMap(splitPeople);
 
   const speakers = splitPeople(firstValue(record, ['speakers', 'speaker', 'presenters', 'presenter']));
-  const papers = normalizePapers(record);
+  const papers = normalizePapers(record, paperById);
 
   let displayTime = time;
   if (time && endTime && !String(time).includes('-')) {
@@ -115,6 +136,9 @@ function normalizeSession(record) {
   return {
     dateDisplay: date || 'Date TBA',
     timeDisplay: displayTime || 'Time TBA',
+    startISO: iso || '',
+    startTime: time || '',
+    endTime: endTime || '',
     title: title || subtitle || 'Untitled session',
     subtitle,
     location,
@@ -129,7 +153,7 @@ function normalizeSession(record) {
 }
 
 function sortSessions(a, b) {
-  const dateCompare = String(a.dateDisplay).localeCompare(String(b.dateDisplay));
+  const dateCompare = String(a.startISO || '').localeCompare(String(b.startISO || ''));
   if (dateCompare !== 0) {
     return dateCompare;
   }
@@ -157,22 +181,34 @@ module.exports = async function() {
         key: 'sessionsExport',
         exportSelect: 'sessions',
         extraParams: {
-          'form_export_sessions_options[]': ['all']
+          'form_export_sessions_options[]': ['presentations', 'abstracts']
         }
+      },
+      {
+        key: 'papersExport',
+        exportSelect: 'papers',
+        extraParams: {}
       }
     ]);
 
+    // Build a lookup of papers by ID for keyword enrichment
+    const papersArr = Array.isArray(data.papersExport?.records) ? data.papersExport.records : [];
+    const paperById = Object.fromEntries(papersArr.map((p) => [String(p.paperID), p]));
+
     const sessionsExport = data.sessionsExport;
     const sessions = Array.isArray(sessionsExport?.records) ? sessionsExport.records : [];
-    const normalizedSessions = sessions.map(normalizeSession).sort(sortSessions);
+    const normalizedSessions = sessions.map((r) => normalizeSession(r, paperById)).sort(sortSessions);
     const normalizedSessionsEs = sessions.map((r) => {
-      const session = normalizeSession(r);
+      const session = normalizeSession(r, paperById);
       const { date } = parseSessionStart(r, 'es-ES');
       session.dateDisplay = date || session.dateDisplay;
       return session;
     }).sort(sortSessions);
 
-    console.log(`✅ ConfTool data ready: ${sessions.length} sessions`);
+    const totalPapers = normalizedSessions.reduce((sum, s) => sum + s.papers.length, 0);
+    const uniqueDays = new Set(normalizedSessions.map(s => s.dateDisplay)).size;
+
+    console.log(`✅ ConfTool data ready: ${sessions.length} sessions, ${totalPapers} papers`);
 
     return {
       sessions,
@@ -182,7 +218,10 @@ module.exports = async function() {
       fetchedAt: new Date().toISOString(),
       source: 'ConfTool REST API',
       restUrl,
-      isConfigured: true
+      isConfigured: true,
+      totalPapers,
+      totalSessions: normalizedSessions.length,
+      uniqueDays
     };
   } catch (error) {
     console.error('❌ Error setting up ConfTool fetcher:', error.message);

@@ -846,6 +846,12 @@ h6 {
   margin-bottom: 6px;
 }
 
+.viz-card-datetime {
+  font-size: 0.78rem;
+  color: #888;
+  margin-bottom: 6px;
+}
+
 .viz-card-title {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
@@ -873,6 +879,29 @@ h6 {
   font-size: 0.75rem;
   padding: 2px 8px;
   border-radius: 999px;
+}
+
+.viz-live-badge {
+  display: inline-block;
+  background: #e53e3e;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 2px 7px;
+  border-radius: 999px;
+  vertical-align: middle;
+  margin-left: 6px;
+  animation: viz-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes viz-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+
+.viz-card--live {
+  border-left: 3px solid #e53e3e;
 }
 
 .viz-noresults {
