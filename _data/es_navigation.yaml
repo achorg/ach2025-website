@@ -13,6 +13,8 @@ items:
 
   - text: Programación
     dropdown: 
+    - text: Programa
+      url: '/es/programa'
     - text: Ponentes Magistrales
       url: '/es/ponentes-magistrales'
     - text: Grupos Regionales

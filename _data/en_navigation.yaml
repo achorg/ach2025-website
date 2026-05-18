@@ -10,6 +10,8 @@ items:
     
   - text: Program
     dropdown:
+    - text: Program Overview
+      url: '/en/program'
     - text: Keynote Speakers
       url: '/en/keynote'
     - text: Pre-Conference Workshops
