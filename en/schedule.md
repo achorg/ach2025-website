@@ -5,6 +5,8 @@ templateEngineOverride: njk,md
 ---
 
 ## ACH 2026 Conference Program
+Please see below the schedule for ACH 2026. Please note the schedule is set at Central Standard Time (CST).
+
 The full program is available in ConfTool. You must be registered to access private session links.
 
 <button class="btn btn-info"><a target="_blank" href="https://www.conftool.pro/ach2026/" style="color: white;">Open Program in ConfTool</a></button>
