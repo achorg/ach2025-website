@@ -6,6 +6,8 @@ templateEngineOverride: njk,md
 
 <p>ACH 2026 brings together presentations across multiple sessions, with participants joining from timezones spanning the Americas, Europe, the Middle East, South Asia, and East Asia. Use this page to explore themes, sessions, and the full program.</p>
 
+Please note the conference program is in Central Standard Time (CST).
+
 {% if conftool.normalizedSessions and conftool.normalizedSessions.length > 0 %}
 <p class="text-muted">Last updated: {{ conftool.fetchedAt | dateFilter }}</p>
 
