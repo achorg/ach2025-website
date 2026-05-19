@@ -31,7 +31,7 @@ templateEngineOverride: njk,md
 <div class="viz-section">
   <h3>Browse the Program</h3>
   <div class="viz-filters">
-    <input id="vizSearch" type="search" placeholder="Search by title, author, or keywordâ€¦" aria-label="Search papers">    <select id="vizDay" aria-label="Filter by day">
+    <input id="vizSearch" type="search" placeholder="Search by title, author, or keyword" aria-label="Search papers">    <select id="vizDay" aria-label="Filter by day">
       <option value="">All days</option>
     </select>    <select id="vizPanel" aria-label="Filter by session">
       <option value="">All sessions</option>

@@ -229,10 +229,11 @@ module.exports = async function() {
         })
       )
     );
+    const kwAcronyms = { ai: 'AI', ml: 'ML', nlp: 'NLP', dh: 'DH', api: 'API', gis: 'GIS', ocr: 'OCR' };
     const topKeywords = Object.entries(kwFreq)
       .sort((a, b) => b[1] - a[1])
       .slice(0, 8)
-      .map(([kw, count]) => ({ kw, count }));
+      .map(([kw, count]) => ({ kw: kwAcronyms[kw] ?? kw, count }));
 
     console.log(`✅ ConfTool data ready: ${sessions.length} sessions, ${totalPapers} papers`);
 

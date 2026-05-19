@@ -10,7 +10,7 @@ items:
     
   - text: Program
     dropdown:
-    - text: Program Overview
+    - text: Full Program
       url: '/en/program'
     - text: Keynote Speakers
       url: '/en/keynote'
