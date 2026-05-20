@@ -1,0 +1,117 @@
+<div class="tz-toggle" aria-label="Choose displayed timezone">
+  <span class="tz-toggle-label">Show times in:</span>
+  <button type="button" class="tz-btn is-active" data-tz="conference">Conference time (CDT)</button>
+  <button type="button" class="tz-btn" data-tz="ET">ET</button>
+  <button type="button" class="tz-btn" data-tz="PT">PT</button>
+  <button type="button" class="tz-btn" data-tz="BRT">BRT</button>
+  <button type="button" class="tz-btn" data-tz="UTC">UTC</button>
+  <button type="button" class="tz-btn" data-tz="local">My timezone <span id="tz-local-name"></span></button>
+</div>
+
+<style>
+.tz-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  margin: 1.2rem 0;
+  padding: 0.6rem 0.8rem;
+  background: #f6f6f9;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+.tz-toggle-label { color: #555; margin-right: 0.4rem; }
+.tz-btn {
+  background: #fff;
+  border: 1px solid #c8c8d4;
+  border-radius: 4px;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: #333;
+  transition: all 0.15s;
+}
+.tz-btn:hover { border-color: #4C25E1; color: #4C25E1; }
+.tz-btn.is-active { background: #4C25E1; color: #fff; border-color: #4C25E1; }
+.session-time-details {
+  margin-top: 0.3rem;
+  font-size: 0.78rem;
+  color: #555;
+}
+.session-time-details summary {
+  cursor: pointer;
+  color: #4C25E1;
+}
+.session-time-details ul { margin: 0.2rem 0 0; padding-left: 1rem; list-style: none; }
+.session-time-zone-label {
+  display: inline-block;
+  margin-left: 0.2rem;
+  font-size: 0.7rem;
+  color: #777;
+}
+.viz-card-tz-row {
+  font-size: 0.78rem;
+  color: #666;
+  margin: 0.2rem 0 0.4rem;
+}
+.viz-card-tz { white-space: nowrap; }
+</style>
+
+<script>
+(function () {
+  // Detect viewer's IANA timezone
+  let localZone = 'UTC';
+  try { localZone = Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC'; } catch (e) {}
+  const localLabel = document.getElementById('tz-local-name');
+  if (localLabel) {
+    const short = localZone.split('/').pop().replace(/_/g, ' ');
+    localLabel.textContent = '(' + short + ')';
+  }
+
+  function fmtInZone(utcIso, zone) {
+    if (!utcIso) return '';
+    try {
+      const d = new Date(utcIso);
+      return new Intl.DateTimeFormat('en-US', {
+        timeZone: zone,
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      }).format(d);
+    } catch (e) {
+      return '';
+    }
+  }
+
+  function apply(mode) {
+    document.querySelectorAll('time.session-time').forEach(el => {
+      const startUTC = el.getAttribute('datetime');
+      const endUTC = el.getAttribute('data-end');
+      const primary = el.querySelector('.session-time-primary');
+      const zoneLabel = el.querySelector('.session-time-zone-label');
+      if (!primary) return;
+      let display, label;
+      if (mode === 'conference') {
+        display = el.getAttribute('data-zone-CT'); label = 'CDT';
+      } else if (mode === 'ET' || mode === 'PT' || mode === 'BRT' || mode === 'UTC') {
+        display = el.getAttribute('data-zone-' + mode); label = mode;
+      } else if (mode === 'local') {
+        const s = fmtInZone(startUTC, localZone);
+        const e = fmtInZone(endUTC, localZone);
+        display = s && e ? s + '–' + e : (s || e);
+        label = localZone.split('/').pop().replace(/_/g, ' ');
+      }
+      if (display) primary.textContent = display;
+      if (zoneLabel) zoneLabel.textContent = label;
+    });
+  }
+
+  document.querySelectorAll('.tz-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tz-btn').forEach(b => b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+      apply(btn.dataset.tz);
+    });
+  });
+})();
+</script>

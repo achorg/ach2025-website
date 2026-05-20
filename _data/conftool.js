@@ -7,7 +7,26 @@
  */
 
 require('dotenv').config();
+const { DateTime } = require('luxon');
 const ConfToolFetcher = require('../lib/conftool-fetcher');
+
+// Timezone the ConfTool export's `session_start` is actually in.
+// We observed (May 2026) the export ships values 1h ahead of CDT, which is Eastern.
+// Override via env if ConfTool's behavior changes.
+const SOURCE_TZ = process.env.CONFTOOL_SOURCE_TZ || 'America/New_York';
+
+// Canonical conference timezone (what we want as the primary display).
+const CONFERENCE_TZ = process.env.CONFERENCE_TZ || 'America/Chicago';
+
+// Zones to precompute for multi-timezone display.
+// Each entry: [IANA zone, short label]. Primary first.
+const DISPLAY_ZONES = [
+  ['America/Chicago',     'CT'],   // Central, primary
+  ['America/New_York',    'ET'],   // Eastern
+  ['America/Los_Angeles', 'PT'],   // Pacific
+  ['America/Sao_Paulo',   'BRT'],  // Brazil (Latin America audience)
+  ['UTC',                 'UTC']
+];
 
 function firstValue(record, keys) {
   for (const key of keys) {
@@ -93,26 +112,74 @@ function normalizePapers(record, paperById = {}) {
   return papers;
 }
 
-function parseSessionStart(record, locale = 'en-US') {
-  const raw = firstValue(record, ['session_start', 'start_date', 'date', 'session_date', 'form_date', 'day']);
-  if (!raw) return { date: '', time: '', iso: '' };
+// Parse "YYYY-MM-DD[ HH:MM[:SS]]" (and a few looser variants) into a luxon DateTime
+// anchored in SOURCE_TZ. Returns null if we can't parse.
+function parseInSourceZone(raw) {
+  if (!raw) return null;
   const str = String(raw).trim();
-  // Format: "YYYY-MM-DD HH:MM" or "YYYY-MM-DD"
-  const match = str.match(/^(\d{4}-\d{2}-\d{2})(?:\s+(\d{2}:\d{2}))?/);
-  if (match) {
-    const dateObj = new Date(match[1]);
-    const dateDisplay = dateObj.toLocaleDateString(locale, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
-    return { date: dateDisplay, time: match[2] || '', iso: match[1] };
+  const formats = [
+    'yyyy-MM-dd HH:mm:ss',
+    'yyyy-MM-dd HH:mm',
+    'yyyy-MM-dd\'T\'HH:mm:ss',
+    'yyyy-MM-dd\'T\'HH:mm',
+    'yyyy-MM-dd'
+  ];
+  for (const fmt of formats) {
+    const dt = DateTime.fromFormat(str, fmt, { zone: SOURCE_TZ });
+    if (dt.isValid) return dt;
   }
-  return { date: str, time: '', iso: '' };
+  // Last resort: ISO with offset (preserves whatever offset is embedded).
+  const iso = DateTime.fromISO(str, { setZone: true });
+  if (iso.isValid) return iso;
+  return null;
 }
 
-function normalizeSession(record, paperById = {}) {
-  const { date: parsedDate, time: parsedTime, iso } = parseSessionStart(record, 'en-US');
+function parseSessionStart(record, locale = 'en-US') {
+  const raw = firstValue(record, ['session_start', 'start_date', 'date', 'session_date', 'form_date', 'day']);
+  const dt = parseInSourceZone(raw);
+  if (!dt) {
+    return { date: raw ? String(raw) : '', time: '', iso: '', dt: null };
+  }
+  // Format the date label in the conference zone so weekday lines up with primary-zone day.
+  const inConf = dt.setZone(CONFERENCE_TZ);
+  const dateDisplay = inConf.setLocale(locale).toFormat('cccc, LLLL d, yyyy');
+  return {
+    date: dateDisplay,
+    time: inConf.toFormat('HH:mm'),
+    iso: inConf.toFormat('yyyy-MM-dd'),
+    dt
+  };
+}
+
+function parseSessionEnd(record) {
+  const raw = firstValue(record, ['session_end', 'end_time', 'session_end_time']);
+  return parseInSourceZone(raw);
+}
+
+// Build the per-zone time strings for one session.
+function buildZoneTimes(startDt, endDt) {
+  const times = {};
+  for (const [zone, label] of DISPLAY_ZONES) {
+    const s = startDt ? startDt.setZone(zone).toFormat('HH:mm') : '';
+    const e = endDt ? endDt.setZone(zone).toFormat('HH:mm') : '';
+    times[label] = {
+      zone,
+      label,
+      start: s,
+      end: e,
+      range: s && e ? `${s}–${e}` : (s || e)
+    };
+  }
+  return times;
+}
+
+function normalizeSession(record, paperById = {}, locale = 'en-US') {
+  const { date: parsedDate, time: parsedTime, iso, dt: startDt } = parseSessionStart(record, locale);
+  const endDt = parseSessionEnd(record);
   const date = parsedDate || firstValue(record, ['date', 'session_date', 'form_date', 'start_date', 'day']);
   const time = parsedTime || firstValue(record, ['time', 'session_time', 'time_range', 'slot', 'start_time']);
-  const endTimeRaw = firstValue(record, ['session_end', 'end_time', 'session_end_time']);
-  const endTime = endTimeRaw ? String(endTimeRaw).replace(/^\d{4}-\d{2}-\d{2}\s+/, '') : '';
+  const endTime = endDt ? endDt.setZone(CONFERENCE_TZ).toFormat('HH:mm') : '';
+  const zoneTimes = buildZoneTimes(startDt, endDt);
   const rawTitle = firstValue(record, ['title', 'session_title', 'name', 'session', 'event_title']);
   // Strip leading scheduling code (e.g. "D1-S3-Z1: ") for clean display
   const title = rawTitle ? rawTitle.replace(/^[A-Z0-9][\w-]*:\s+/, '') : rawTitle;
@@ -128,17 +195,21 @@ function normalizeSession(record, paperById = {}) {
   const speakers = splitPeople(firstValue(record, ['speakers', 'speaker', 'presenters', 'presenter']));
   const papers = normalizePapers(record, paperById);
 
-  let displayTime = time;
-  if (time && endTime && !String(time).includes('-')) {
-    displayTime = `${time} - ${endTime}`;
-  }
+  // Primary display: conference timezone (CDT in June).
+  const primary = zoneTimes['CT'] || { start: time, end: endTime, range: time };
+  const displayTime = primary.range || (primary.start && primary.end ? `${primary.start}–${primary.end}` : primary.start || 'Time TBA');
 
   return {
     dateDisplay: date || 'Date TBA',
-    timeDisplay: displayTime || 'Time TBA',
+    timeDisplay: displayTime,
     startISO: iso || '',
-    startTime: time || '',
-    endTime: endTime || '',
+    startTime: primary.start || time || '',
+    endTime: primary.end || endTime || '',
+    startUTC: startDt ? startDt.toUTC().toISO() : '',
+    endUTC: endDt ? endDt.toUTC().toISO() : '',
+    sourceTZ: SOURCE_TZ,
+    conferenceTZ: CONFERENCE_TZ,
+    zoneTimes,
     title: title || subtitle || 'Untitled session',
     subtitle,
     location,
@@ -153,11 +224,10 @@ function normalizeSession(record, paperById = {}) {
 }
 
 function sortSessions(a, b) {
-  const dateCompare = String(a.startISO || '').localeCompare(String(b.startISO || ''));
-  if (dateCompare !== 0) {
-    return dateCompare;
-  }
-  return String(a.timeDisplay).localeCompare(String(b.timeDisplay));
+  // Sort by real UTC moment when available — falls back to ISO date + HH:MM otherwise.
+  const aKey = a.startUTC || `${a.startISO || ''}T${a.startTime || ''}`;
+  const bKey = b.startUTC || `${b.startISO || ''}T${b.startTime || ''}`;
+  return String(aKey).localeCompare(String(bKey));
 }
 
 module.exports = async function() {
@@ -166,12 +236,7 @@ module.exports = async function() {
 
   if (!sharedSecret) {
     console.warn('⚠️  CONFTOOL_SHARED_SECRET not set. Skipping ConfTool data fetch.');
-    console.warn('   Set the environment variable to enable ConfTool integration.');
-    return {
-      sessions: [],
-      rawSessions: null,
-      isConfigured: false
-    };
+    return { sessions: [], rawSessions: null, isConfigured: false };
   }
 
   try {
@@ -190,23 +255,16 @@ module.exports = async function() {
         extraParams: {}
       }
     ]);
-
-    // Build a lookup of papers by ID for keyword enrichment
     const papersArr = Array.isArray(data.papersExport?.records) ? data.papersExport.records : [];
+    const sessions = Array.isArray(data.sessionsExport?.records) ? data.sessionsExport.records : [];
+
     const paperById = Object.fromEntries(papersArr.map((p) => [String(p.paperID), p]));
 
-    const sessionsExport = data.sessionsExport;
-    const sessions = Array.isArray(sessionsExport?.records) ? sessionsExport.records : [];
-    const normalizedSessions = sessions.map((r) => normalizeSession(r, paperById)).sort(sortSessions);
-    const normalizedSessionsEs = sessions.map((r) => {
-      const session = normalizeSession(r, paperById);
-      const { date } = parseSessionStart(r, 'es-ES');
-      session.dateDisplay = date || session.dateDisplay;
-      return session;
-    }).sort(sortSessions);
+    const normalizedSessions = sessions.map((r) => normalizeSession(r, paperById, 'en-US')).sort(sortSessions);
+    const normalizedSessionsEs = sessions.map((r) => normalizeSession(r, paperById, 'es-ES')).sort(sortSessions);
 
     const totalPapers = normalizedSessions.reduce((sum, s) => sum + s.papers.length, 0);
-    const uniqueDays = new Set(normalizedSessions.map(s => s.dateDisplay)).size;
+    const uniqueDays = new Set(normalizedSessions.map(s => s.startISO).filter(Boolean)).size;
 
     // Panel vs solo session breakdown
     const panelCount = normalizedSessions.filter(s => s.papers.length >= 2).length;
@@ -235,16 +293,19 @@ module.exports = async function() {
       .slice(0, 8)
       .map(([kw, count]) => ({ kw: kwAcronyms[kw] ?? kw, count }));
 
-    console.log(`✅ ConfTool data ready: ${sessions.length} sessions, ${totalPapers} papers`);
+    console.log(`✅ ConfTool data ready: ${sessions.length} sessions, ${totalPapers} papers — source TZ ${SOURCE_TZ} → conference TZ ${CONFERENCE_TZ}`);
 
     return {
       sessions,
       normalizedSessions,
       normalizedSessionsEs,
-      rawSessions: sessionsExport?.xml || null,
+      rawSessions: null,
       fetchedAt: new Date().toISOString(),
       source: 'ConfTool REST API',
       restUrl,
+      sourceTZ: SOURCE_TZ,
+      conferenceTZ: CONFERENCE_TZ,
+      displayZones: DISPLAY_ZONES.map(([zone, label]) => ({ zone, label })),
       isConfigured: true,
       totalPapers,
       totalSessions: normalizedSessions.length,
