@@ -85,7 +85,7 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
 <!-- ============================================================ -->
 <section class="viz-section variation-block" id="variation-d">
   <h3>Variation D — Faceted + clickable (hybrid)</h3>
-  <p class="text-muted">Combines A's category grouping with C's filter behavior. Every chip is a button. Likely the strongest design for shipping to the live program.</p>
+  <p class="text-muted">Combines A's category grouping with C's filter behavior. Every chip is a button. Categories over 30 topics are truncated with a "show more" button so the initial view stays scannable. Likely the strongest design for shipping to the live program.</p>
 
   <div class="topic-facets topic-facets--clickable">
     {% for cat in conftool.categoryEntries %}
@@ -96,8 +96,13 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
       </summary>
       <div class="topic-facet-chips">
         {% for item in cat.items %}
-        <button type="button" class="topic-tag topic-tag--btn" data-topic="{{ item.fullTopic | lower }}" data-cat="{{ cat.slug }}" title="{{ item.count }} paper{% if item.count != 1 %}s{% endif %}">{{ item.value }} <span class="topic-count-badge">{{ item.count }}</span></button>
+        <button type="button" class="topic-tag topic-tag--btn{% if loop.index > 30 %} is-overflow{% endif %}" data-topic="{{ item.fullTopic | lower }}" data-cat="{{ cat.slug }}" title="{{ item.count }} paper{% if item.count != 1 %}s{% endif %}">{{ item.value }} <span class="topic-count-badge">{{ item.count }}</span></button>
         {% endfor %}
+        {% if cat.items.length > 30 %}
+        <button type="button" class="topic-show-more"
+                data-less-label="Show fewer"
+                data-more-label="Show {{ cat.items.length - 30 }} more">Show {{ cat.items.length - 30 }} more</button>
+        {% endif %}
       </div>
     </details>
     {% endfor %}
@@ -332,6 +337,20 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
     gap: 0.25rem 0.4rem;
     align-items: baseline;
   }
+  .topic-facet-chips .is-overflow { display: none; }
+  .topic-facet-chips.show-all .is-overflow { display: inline-block; }
+  .topic-show-more {
+    background: #fff;
+    border: 1px dashed #c8c8d4;
+    border-radius: 12px;
+    padding: 0.12rem 0.6rem;
+    font-size: 0.78rem;
+    font-family: inherit;
+    color: #4C25E1;
+    cursor: pointer;
+    margin-left: 0.2rem;
+  }
+  .topic-show-more:hover { border-color: #4C25E1; background: #f6f4ff; }
 
   /* ============================================================
      Topic chips (shared base)
@@ -617,6 +636,14 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
   bar.dataset.empty = '1';
 
   document.addEventListener('click', (e) => {
+    const showMore = e.target.closest('.topic-show-more');
+    if (showMore) {
+      e.preventDefault();
+      const chips = showMore.closest('.topic-facet-chips');
+      const expanded = chips.classList.toggle('show-all');
+      showMore.textContent = expanded ? showMore.dataset.lessLabel : showMore.dataset.moreLabel;
+      return;
+    }
     const btn = e.target.closest('.topic-tag--btn');
     if (btn && btn.dataset.topic) {
       e.preventDefault();
