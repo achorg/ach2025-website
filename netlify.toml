@@ -13,6 +13,26 @@
   status = 301
 
 [[redirects]]
+  from = "/en/schedule/*"
+  to = "/en/program/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/en/schedule"
+  to = "/en/program/"
+  status = 301
+
+[[redirects]]
+  from = "/es/cronograma/*"
+  to = "/es/programa/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/es/cronograma"
+  to = "/es/programa/"
+  status = 301
+
+[[redirects]]
   from = "/*"
   to = "/es/:splat"
   status = 302
