@@ -60,6 +60,33 @@ function collectMatchingValues(record, pattern) {
     .filter((value) => value !== undefined && value !== null && value !== '');
 }
 
+// ConfTool installs ship "topics" in one of three shapes depending on version
+// and admin config. Try each defensively; first match wins. Returns [] if none.
+function normalizeTopics(paper) {
+  if (!paper || typeof paper !== 'object') return [];
+
+  if (paper.topics) {
+    return splitPeople(paper.topics);
+  }
+
+  const numbered = Object.keys(paper)
+    .filter((k) => /^topic_\d+$/i.test(k))
+    .sort((a, b) => parseInt(a.match(/\d+/)[0]) - parseInt(b.match(/\d+/)[0]))
+    .map((k) => paper[k])
+    .filter((v) => v !== undefined && v !== null && v !== '');
+  if (numbered.length > 0) {
+    return numbered.map((v) => String(v).trim()).filter(Boolean);
+  }
+
+  for (const altKey of ['topic_areas', 'subject_areas', 'tracks', 'topic']) {
+    if (paper[altKey]) {
+      return splitPeople(paper[altKey]);
+    }
+  }
+
+  return [];
+}
+
 function normalizePapers(record, paperById = {}) {
   // New-style: p{N}_title fields from sessions export with presentations option
   const newStyleKeys = Object.keys(record)
@@ -76,7 +103,8 @@ function normalizePapers(record, paperById = {}) {
         const authors = String(record[`p${n}_authors`] || '');
         const paper = paperById[id] || {};
         const keywords = paper.keywords ? splitPeople(paper.keywords) : [];
-        return { title: String(title), authors, id, keywords };
+        const topics = normalizeTopics(paper);
+        return { title: String(title), authors, id, keywords, topics };
       })
       .filter(Boolean);
   }
@@ -100,12 +128,14 @@ function normalizePapers(record, paperById = {}) {
     const paperId = firstValue(record, [`paper_id${index}`, `submission_id${index}`, `paper_number${index}`]);
     const paper = paperById[String(paperId)] || {};
     const keywords = paper.keywords ? splitPeople(paper.keywords) : [];
+    const topics = normalizeTopics(paper);
     if (paperTitle) {
       papers.push({
         title: String(paperTitle),
         authors: String(paperAuthors || ''),
         id: String(paperId || ''),
-        keywords
+        keywords,
+        topics
       });
     }
   }
@@ -293,7 +323,55 @@ module.exports = async function() {
       .slice(0, 8)
       .map(([kw, count]) => ({ kw: kwAcronyms[kw] ?? kw, count }));
 
+    // Full keyword list sized for tag-cloud display (font-size 0.75rem → 1.4rem
+    // linearly between single-paper and most-popular keyword).
+    const sortedKeywords = Object.entries(kwFreq).sort((a, b) => b[1] - a[1]);
+    const maxKwCount = sortedKeywords.length ? sortedKeywords[0][1] : 1;
+    const allKeywords = sortedKeywords.map(([kw, count]) => ({
+      kw: kwAcronyms[kw] ?? kw,
+      count,
+      sizeRem: maxKwCount > 1
+        ? +(0.75 + ((count - 1) / (maxKwCount - 1)) * 0.65).toFixed(3)
+        : 1
+    }));
+
+    // Topic frequency across all papers (controlled vocabulary from ConfTool)
+    const topicFreq = {};
+    normalizedSessions.forEach(s =>
+      s.papers.forEach(p =>
+        (p.topics || []).forEach(t => {
+          const tl = String(t).trim();
+          if (tl) topicFreq[tl] = (topicFreq[tl] || 0) + 1;
+        })
+      )
+    );
+    const sortedTopics = Object.entries(topicFreq).sort((a, b) => b[1] - a[1]);
+    const maxTopicCount = sortedTopics.length ? sortedTopics[0][1] : 1;
+    const allTopics = sortedTopics.map(([topic, count]) => ({
+      topic,
+      count,
+      sizeRem: maxTopicCount > 1
+        ? +(0.75 + ((count - 1) / (maxTopicCount - 1)) * 0.65).toFixed(3)
+        : 1
+    }));
+    const topTopics = allTopics.slice(0, 12);
+
+    // Keyword tier diagnostic (helps tune the tag-cloud threshold)
+    const tiers = { '5+': 0, '3-4': 0, '2': 0, '1': 0 };
+    for (const c of Object.values(kwFreq)) {
+      if (c >= 5) tiers['5+']++;
+      else if (c >= 3) tiers['3-4']++;
+      else if (c === 2) tiers['2']++;
+      else tiers['1']++;
+    }
+
     console.log(`✅ ConfTool data ready: ${sessions.length} sessions, ${totalPapers} papers — source TZ ${SOURCE_TZ} → conference TZ ${CONFERENCE_TZ}`);
+    console.log(`   📊 Keywords: ${Object.keys(kwFreq).length} unique across ${totalPapers} papers (${tiers['5+']} on 5+ papers, ${tiers['3-4']} on 3-4, ${tiers['2']} on 2, ${tiers['1']} on 1)`);
+    if (papersArr.length > 0) {
+      const topicFields = Object.keys(papersArr[0]).filter(k => /topic|subject|track/i.test(k));
+      console.log(`   🏷  Paper fields matching /topic|subject|track/: ${topicFields.length > 0 ? topicFields.join(', ') : '(none — author free-text keywords only)'}`);
+    }
+    console.log(`   🏷  Topics: ${Object.keys(topicFreq).length} unique across ${totalPapers} papers`);
 
     return {
       sessions,
@@ -314,8 +392,13 @@ module.exports = async function() {
       soloCount,
       spanishCount,
       topKeywords,
-      maxKwCount: topKeywords.length ? topKeywords[0].count : 1,
-      totalKeywords: Object.keys(kwFreq).length
+      allKeywords,
+      maxKwCount,
+      totalKeywords: Object.keys(kwFreq).length,
+      topTopics,
+      allTopics,
+      maxTopicCount,
+      totalTopics: Object.keys(topicFreq).length
     };
   } catch (error) {
     console.error('❌ Error setting up ConfTool fetcher:', error.message);
