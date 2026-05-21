@@ -1,6 +1,7 @@
 ---
 title: Charlas Magistrales
 layout: page
+description: "Ponentes magistrales de ACH 2026 — Laura Gonzales (Universidad de Florida) y Maria José Afanador-Llach (Universidad de los Andes)."
 ---
 
 Nos complace anunciar que las doctoras Laura Gonzales (she/ella) y Maria José Afanador-Llach (ella) dictarán las charlas magistrales para ACH 2026. A continuación, más información sobre su trabajo y trayectoria.

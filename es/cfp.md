@@ -1,14 +1,13 @@
 ---
 title: "Convocatoria: ACH 2026"
 layout: page
+description: "Convocatoria de propuestas para ACH 2026 — conferencia virtual, 24-26 de junio de 2026. Tema: Emergence/ia. Se aceptan propuestas en inglés y español."
 ---
 <div class="text-center" >
 <img height="150" src="/assets/img/idea.svg"/>  <br>
 </div><br>
 
 Fecha límite: 23 de febrero de 2026, 11:59:59 PM hora Centro (GMT-4)
-
-Envíe una propuesta: [https://www.conftool.pro/ach2026](https://www.conftool.pro/ach2026)
 
 La Asociación para la Computación en las Humanidades (ACH) llevará a cabo ACH 2026, una conferencia virtual, del **24 al 26 de junio de 2026\.**
 

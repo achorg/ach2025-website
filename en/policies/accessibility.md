@@ -33,7 +33,7 @@ Virtual Presentation Accessibility Guidelines
 
 Adapted from Syone’s [“Best Practices for Accessibility at Virtual Events”](https://blog.syone.com/best-practices-for-accessibility-for-virtual-events) and Electronic Resources and Libraries’ [“Virtual Presentation Accessibility Guidelines.”](https://www.electroniclibrarian.org/virtual-presentation-accessibility-guidelines/)
 
-Please do not hesitate to contact the conference lead, Pam Lach, at conference \[at] ach \[dot] org with any questions or concerns.
+Please do not hesitate to contact the conference Co-Chairs at conference \[at] ach \[dot] org with any questions or concerns.
 
 ## Licensing
 

@@ -3,11 +3,11 @@ title: Presenter Guide
 layout: page
 ---
 
-ACH 2025 will be held on two platforms: **Zoom** and [**Work Adventure**](https://workadventu.re/). Papers and Panels will take place in Zoom. Creative Sessions and Posters will be hosted in Work Adventure (see the details below). Session links & maps will be posted in the Conference Agenda in ConfTool prior to the start of the conference.
+ACH 2026 will be held on two platforms: **Zoom** and [**Work Adventure**](https://workadventu.re/). Papers and Panels will take place in Zoom. Creative Sessions and Posters will be hosted in Work Adventure (see the details below). Session links & maps will be posted in the Conference Agenda in ConfTool prior to the start of the conference.
 
 Presenters are encouraged to show up 15 minutes before their session start time to test screen and document sharing. Work Adventure presenters especially are encouraged to show up 30 minutes early to find their presentation space and test screen sharing capabilities. Work Adventure will be open/running throughout the entire conference, so you can pop in ahead of time to get a feel for the space and meet up with other conference attendees.
 
-Regardless of the medium, presenters are encouraged to be as inclusive as possible. Please review our [**accessibility guidelines**](https://ach2025.ach.org/en/policies/accessibility/) when preparing your presentation. Whenever possible, enable captioning when sharing media in your presentation. Review our general [**conference accessibility guidelines**](https://ach2025.ach.org/en/policies/accessibility/).
+Regardless of the medium, presenters are encouraged to be as inclusive as possible. Please review our [**accessibility guidelines**](/en/policies/accessibility/) when preparing your presentation. Whenever possible, enable captioning when sharing media in your presentation. Review our general [**conference accessibility guidelines**](/en/policies/accessibility/).
 
 ### Papers (on Zoom)
 
@@ -63,7 +63,7 @@ Our Work Adventure virtual world features dedicated spaces for formal presentati
   * Captions can be enabled in Chrome. For Chrome, go to Settings \> Accessibility, and then turn on “Live Caption.”   
   * If there is a question from an attendee about captions, ensure they are using Chrome.
 
-This year's virtual world will be similar to the one from ACH2023. **The official ACH2025 world will be available [here](https://play.workadventu.re/@/association-for-computers-and-the-humanities-1747415862/ach2025/space-station-amongus).**
+The official ACH 2026 Work Adventure world will be available closer to the conference. Check the Conference Agenda in ConfTool for the link.
 
 For guidance on navigating to different sections of Work Adventure, see the following Key: 
 *Top Left Green Quadrant*: #4B Posters Session I
@@ -73,6 +73,4 @@ For guidance on navigating to different sections of Work Adventure, see the foll
 
 *Jitsi Rooms for Sub group conversations*: In Space! (For example, DH in Libraries SIG is at the "There's Nothing More Ephemeral than a Website" print
 
-If you want to get familiar with the Work Adventure experience before the conference, check out this brief **[video about navigating the ACH2023 Work Adventure virtual world](https://SDSU.zoom.us/rec/share/fcq_NmKF_3m7fCIOkj2AViRoY_yfypej18uSZ494ZDoC1JmE8Dfwbure9f4i4eVD.9HU_rgugMwF1L3cZ?startTime=1687902788000)** to get a sense of what to expect. 
-
-You can also **[practice navigating a demo Work Adventure map](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village)**.
+You can **[practice navigating a demo Work Adventure map](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village)** before the conference to get familiar with the experience.

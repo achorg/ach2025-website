@@ -16,7 +16,7 @@ ACH 2026 busca mantener estos valores a lo largo del proceso de presentación y 
 
 Por favor sepa que le creemos. Todas las violaciones del código de conducta se tratarán con seriedad. Si usted está siendo acosado, nota que alguien más está siendo acosado o tiene alguna otra inquietud relacionada, por favor comuníquese con nosotros de inmediato para presentar un informe. 
 
-Dado que el contenido en las redes sociales cambia rápidamente, solicitamos que se proporcione un informe formal además de cualquier tema discutido en las redes sociales para garantizar que recibamos toda la información pertinente. Para reportar una infracción en cualquier momento, comuníquese con Alex Wermer-Colan, presidente de la conferencia ACH 2026, a través de alex.wermer-colan \[at] temple \[dot] edu o envíe un correo electrónico al comité de la conferencia ACH 2026 en conference \[at] ach \[dot] org.
+Dado que el contenido en las redes sociales cambia rápidamente, solicitamos que se proporcione un informe formal además de cualquier tema discutido en las redes sociales para garantizar que recibamos toda la información pertinente. Para reportar una infracción en cualquier momento, comuníquese con las Co-Organizadoras de la conferencia ACH 2026, Alex Wermer-Colan (alex.wermer-colan \[at] temple \[dot] edu) y Maira E. Álvarez, o envíe un correo electrónico al comité de la conferencia ACH 2026 en conference \[at] ach \[dot] org.
 
 Todos los informes serán confidenciales mientras lo permitan las leyes federales o estatales aplicables. En algunos casos, podía ser necesaria una declaración pública. Si ese fuera el caso, las identidades de todas las víctimas y los reporteros permanecerán confidenciales a menos que las mismas nos indiquen lo contrario.
 

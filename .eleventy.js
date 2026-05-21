@@ -9,7 +9,6 @@ module.exports = function(eleventyConfig) {
       defaultLanguage: "en", // Required, this site uses "en"
       errorMode: "never"
     });
-    markdownTemplateEngine: "njk";
     eleventyConfig.addPlugin(inclusiveLangPlugin);
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("admin");

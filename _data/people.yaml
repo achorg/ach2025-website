@@ -54,7 +54,7 @@ conf_committee2026:
         affiliation: Texas A&M University
         affiliation_es: Universidad de Texas A&M
   - role: Translation Lead
-    role_es: Líder de traducion 
+    role_es: Líder de traducción
     people:
       - name: Winnie E. Pérez Martínez
         affiliation: University of Virginia

@@ -1,6 +1,3 @@
-items:
-  - question: What does it all mean?
-    answer: That's a great question!
-  - question: Where have all the flowers gone?
-    answer: Hippies!!
-  
+# FAQ items shown on the homepage when settings.faq is true.
+# Each item: question (string) and answer (string).
+items: []

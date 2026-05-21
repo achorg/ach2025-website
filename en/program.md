@@ -2,6 +2,7 @@
 title: Program & Schedule
 layout: page
 templateEngineOverride: njk
+description: "Full chronological program for ACH 2026 — sessions, papers, keynotes. Times shown in CDT with toggle for ET, PT, BRT, UTC, or your local timezone."
 ---
 
 <p class="prog-intro">ACH 2026 brings together presentations across multiple sessions, with participants joining from timezones spanning the Americas, Europe, the Middle East, South Asia, and East Asia. Browse the full chronological program below — search by title, author, or keyword, or filter by day or session.</p>
@@ -205,7 +206,7 @@ templateEngineOverride: njk
   }
   .prog-session-time .session-time-zone-label {
     font-size: 0.7rem;
-    color: #777;
+    color: #555;
     margin-left: 0;
   }
   .prog-live-badge {

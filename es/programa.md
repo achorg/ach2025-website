@@ -2,6 +2,7 @@
 title: Programa y Cronograma
 layout: page
 templateEngineOverride: njk
+description: "Programa completo y cronológico de ACH 2026 — sesiones, ponencias, conferencias magistrales. Horarios mostrados en CDT con opción para ET, PT, BRT, UTC o su zona horaria local."
 ---
 
 <p class="prog-intro">ACH 2026 reúne presentaciones en múltiples sesiones, con participantes de zonas horarias que abarcan las Américas, Europa, el Medio Oriente, el sur y el este de Asia. Explora el programa cronológico completo a continuación — busca por título, autor o palabra clave, o filtra por día o sesión.</p>
@@ -205,7 +206,7 @@ templateEngineOverride: njk
   }
   .prog-session-time .session-time-zone-label {
     font-size: 0.7rem;
-    color: #777;
+    color: #555;
     margin-left: 0;
   }
   .prog-live-badge {
