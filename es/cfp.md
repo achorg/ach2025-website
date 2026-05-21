@@ -4,7 +4,7 @@ layout: page
 description: "Convocatoria de propuestas para ACH 2026 — conferencia virtual, 24-26 de junio de 2026. Tema: Emergence/ia. Se aceptan propuestas en inglés y español."
 ---
 <div class="text-center" >
-<img height="150" src="/assets/img/idea.svg"/>  <br>
+<img height="150" src="/assets/img/idea.svg" alt="Logo de la conferencia ACH 2026"/>  <br>
 </div><br>
 
 Fecha límite: 23 de febrero de 2026, 11:59:59 PM hora Centro (GMT-4)

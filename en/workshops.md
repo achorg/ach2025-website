@@ -1,6 +1,7 @@
 ﻿---
 title: Pre-Conference Workshops
 layout: page
+description: "Low-cost virtual pre-conference workshops for ACH 2026, June 22-23, 2026. Topics include DH pedagogy, web archiving, and DH at teaching-focused institutions."
 ---
 
 <p class="lead mb-4">In advance of ACH 2026, we'll be piloting a pre-conference virtual workshop series offering low-cost opportunities for teaching and learning on digital humanities topics that matter to the community. Note: workshops will be taught in English.</p>
