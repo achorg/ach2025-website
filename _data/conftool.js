@@ -288,31 +288,12 @@ module.exports = async function() {
       )
     );
     const kwAcronyms = { ai: 'AI', ml: 'ML', nlp: 'NLP', dh: 'DH', api: 'API', gis: 'GIS', ocr: 'OCR' };
-    const sortedKeywords = Object.entries(kwFreq).sort((a, b) => b[1] - a[1]);
-    const maxKwCount = sortedKeywords.length ? sortedKeywords[0][1] : 1;
-    // Full list of keywords with size hint for tag cloud (font-size scales linearly between min and max count)
-    const allKeywords = sortedKeywords.map(([kw, count]) => ({
-      kw: kwAcronyms[kw] ?? kw,
-      count,
-      // Linear interpolation: count=1 → 0.75rem, count=maxKwCount → 1.4rem
-      sizeRem: maxKwCount > 1
-        ? +(0.75 + ((count - 1) / (maxKwCount - 1)) * 0.65).toFixed(3)
-        : 1
-    }));
-    const topKeywords = allKeywords.slice(0, 8); // legacy field, kept for backward compatibility
-
-    // Diagnostic: keyword distribution shape (visible in build log)
-    const totalUniqueKeywords = Object.keys(kwFreq).length;
-    const tiers = { '5+': 0, '3-4': 0, '2': 0, '1': 0 };
-    for (const c of Object.values(kwFreq)) {
-      if (c >= 5) tiers['5+']++;
-      else if (c >= 3) tiers['3-4']++;
-      else if (c === 2) tiers['2']++;
-      else tiers['1']++;
-    }
+    const topKeywords = Object.entries(kwFreq)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 8)
+      .map(([kw, count]) => ({ kw: kwAcronyms[kw] ?? kw, count }));
 
     console.log(`✅ ConfTool data ready: ${sessions.length} sessions, ${totalPapers} papers — source TZ ${SOURCE_TZ} → conference TZ ${CONFERENCE_TZ}`);
-    console.log(`   📊 Keywords: ${totalUniqueKeywords} unique across ${totalPapers} papers (${tiers['5+']} appear on 5+ papers, ${tiers['3-4']} on 3-4, ${tiers['2']} on 2, ${tiers['1']} on 1)`);
 
     return {
       sessions,
@@ -333,9 +314,8 @@ module.exports = async function() {
       soloCount,
       spanishCount,
       topKeywords,
-      allKeywords,
-      maxKwCount,
-      totalKeywords: totalUniqueKeywords
+      maxKwCount: topKeywords.length ? topKeywords[0].count : 1,
+      totalKeywords: Object.keys(kwFreq).length
     };
   } catch (error) {
     console.error('❌ Error setting up ConfTool fetcher:', error.message);
