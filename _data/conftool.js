@@ -246,7 +246,7 @@ module.exports = async function() {
         key: 'sessionsExport',
         exportSelect: 'sessions',
         extraParams: {
-          'form_export_sessions_options[]': ['presentations', 'abstracts']
+          'form_export_sessions_options[]': ['presentations', 'abstracts', 'all']
         }
       },
       {
