@@ -1,5 +1,5 @@
 ﻿---
-title: Programa y Cronograma
+title: Programa
 layout: page
 templateEngineOverride: njk
 description: "Programa completo y cronológico de ACH 2026 — sesiones, ponencias, conferencias magistrales. Horarios mostrados en CDT con opción para ET, PT, BRT, UTC o su zona horaria local."

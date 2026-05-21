@@ -1,5 +1,5 @@
 ---
-title: Program & Schedule
+title: Program
 layout: page
 templateEngineOverride: njk
 description: "Full chronological program for ACH 2026 — sessions, papers, keynotes. Times shown in CDT with toggle for ET, PT, BRT, UTC, or your local timezone."
