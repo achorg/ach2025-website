@@ -12,7 +12,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(inclusiveLangPlugin);
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("admin");
-    eleventyConfig.addPassthroughCopy("favicon.ico");
     eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
     
     // Group an array by a property, returning [{grouper, list}] like Jinja2
