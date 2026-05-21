@@ -60,8 +60,34 @@ function collectMatchingValues(record, pattern) {
     .filter((value) => value !== undefined && value !== null && value !== '');
 }
 
-// ConfTool installs ship "topics" in one of three shapes depending on version
-// and admin config. Try each defensively; first match wins. Returns [] if none.
+// ConfTool 2026 topic taxonomy. Authors pick from a fixed list of ~141 topics
+// across 6 categories, each named "Category: Value". CATEGORY_ORDER is the
+// admin's display order in ConfTool — we mirror it on the site.
+const TOPIC_CATEGORIES = [
+  { key: 'Language',     label: 'Language of Presentation', short: 'Lang',   slug: 'lang' },
+  { key: 'Geography',    label: 'Geography',                short: 'Geo',    slug: 'geo' },
+  { key: 'Temporal',     label: 'Temporal',                 short: 'Era',    slug: 'time' },
+  { key: 'Topics',       label: 'Topical area',             short: 'Topic',  slug: 'topical' },
+  { key: 'Methods',      label: 'Methods',                  short: 'Method', slug: 'method' },
+  { key: 'Disc./Fields', label: 'Disciplines & Fields',     short: 'Field',  slug: 'field' }
+];
+const CATEGORY_BY_KEY = Object.fromEntries(TOPIC_CATEGORIES.map((c) => [c.key, c]));
+const UNCATEGORIZED = { key: 'Uncategorized', label: 'Other', short: 'Other', slug: 'other' };
+
+// Split "Category: Value" into its parts. ConfTool's 2026 taxonomy uses this
+// exact pattern for every topic; if a string doesn't match we treat it as
+// uncategorized rather than guessing alternate separators.
+function parseTopicCategory(topic) {
+  if (!topic || typeof topic !== 'string') return { category: null, value: String(topic || '') };
+  const m = topic.trim().match(/^([^:]{1,40}?)\s*:\s*(.+)$/);
+  if (m) return { category: m[1].trim(), value: m[2].trim() };
+  return { category: null, value: topic.trim() };
+}
+
+// Try the two field shapes ConfTool can use for topics on the papers export:
+// a single `topics` field (semicolon/comma/pipe separated) or numbered
+// `topic_1`, `topic_2` keys. The build log dumps actual field names so we
+// can confirm which one ConfTool returns for this conference.
 function normalizeTopics(paper) {
   if (!paper || typeof paper !== 'object') return [];
 
@@ -73,18 +99,30 @@ function normalizeTopics(paper) {
     .filter((k) => /^topic_\d+$/i.test(k))
     .sort((a, b) => parseInt(a.match(/\d+/)[0]) - parseInt(b.match(/\d+/)[0]))
     .map((k) => paper[k])
-    .filter((v) => v !== undefined && v !== null && v !== '');
-  if (numbered.length > 0) {
-    return numbered.map((v) => String(v).trim()).filter(Boolean);
-  }
+    .filter((v) => v !== undefined && v !== null && v !== '')
+    .map((v) => String(v).trim())
+    .filter(Boolean);
 
-  for (const altKey of ['topic_areas', 'subject_areas', 'tracks', 'topic']) {
-    if (paper[altKey]) {
-      return splitPeople(paper[altKey]);
-    }
-  }
+  return numbered;
+}
 
-  return [];
+// Group a paper's topics by their category. Returns category groups in admin
+// order, dropping empty categories. Used for compact per-paper display.
+function groupPaperTopics(topics) {
+  if (!topics || topics.length === 0) return [];
+  const byCat = {};
+  for (const t of topics) {
+    const { category, value } = parseTopicCategory(t);
+    const key = category || 'Uncategorized';
+    if (!byCat[key]) byCat[key] = [];
+    byCat[key].push(value);
+  }
+  const groups = [];
+  for (const cat of TOPIC_CATEGORIES) {
+    if (byCat[cat.key]) groups.push({ ...cat, items: byCat[cat.key] });
+  }
+  if (byCat['Uncategorized']) groups.push({ ...UNCATEGORIZED, items: byCat['Uncategorized'] });
+  return groups;
 }
 
 function normalizePapers(record, paperById = {}) {
@@ -104,7 +142,8 @@ function normalizePapers(record, paperById = {}) {
         const paper = paperById[id] || {};
         const keywords = paper.keywords ? splitPeople(paper.keywords) : [];
         const topics = normalizeTopics(paper);
-        return { title: String(title), authors, id, keywords, topics };
+        const topicGroups = groupPaperTopics(topics);
+        return { title: String(title), authors, id, keywords, topics, topicGroups };
       })
       .filter(Boolean);
   }
@@ -129,13 +168,15 @@ function normalizePapers(record, paperById = {}) {
     const paper = paperById[String(paperId)] || {};
     const keywords = paper.keywords ? splitPeople(paper.keywords) : [];
     const topics = normalizeTopics(paper);
+    const topicGroups = groupPaperTopics(topics);
     if (paperTitle) {
       papers.push({
         title: String(paperTitle),
         authors: String(paperAuthors || ''),
         id: String(paperId || ''),
         keywords,
-        topics
+        topics,
+        topicGroups
       });
     }
   }
@@ -276,7 +317,7 @@ module.exports = async function() {
         key: 'sessionsExport',
         exportSelect: 'sessions',
         extraParams: {
-          'form_export_sessions_options[]': ['presentations', 'abstracts', 'all']
+          'form_export_sessions_options[]': ['presentations', 'all']
         }
       },
       {
@@ -354,7 +395,36 @@ module.exports = async function() {
         ? +(0.75 + ((count - 1) / (maxTopicCount - 1)) * 0.65).toFixed(3)
         : 1
     }));
-    const topTopics = allTopics.slice(0, 12);
+
+    // Group topics by category, keeping admin's display order. Each entry
+    // carries the prettified label, short label, and CSS slug for chip styling.
+    const topicsByCategoryMap = {};
+    for (const item of allTopics) {
+      const { category, value } = parseTopicCategory(item.topic);
+      const key = category || 'Uncategorized';
+      if (!topicsByCategoryMap[key]) topicsByCategoryMap[key] = [];
+      topicsByCategoryMap[key].push({ ...item, value, fullTopic: item.topic });
+    }
+    const categoryEntries = [];
+    for (const cat of TOPIC_CATEGORIES) {
+      if (!topicsByCategoryMap[cat.key]) continue;
+      const items = topicsByCategoryMap[cat.key].sort((a, b) => b.count - a.count);
+      categoryEntries.push({
+        ...cat,
+        items,
+        totalCount: items.reduce((sum, i) => sum + i.count, 0),
+        distinctCount: items.length
+      });
+    }
+    if (topicsByCategoryMap['Uncategorized']) {
+      const items = topicsByCategoryMap['Uncategorized'].sort((a, b) => b.count - a.count);
+      categoryEntries.push({
+        ...UNCATEGORIZED,
+        items,
+        totalCount: items.reduce((sum, i) => sum + i.count, 0),
+        distinctCount: items.length
+      });
+    }
 
     // Keyword tier diagnostic (helps tune the tag-cloud threshold)
     const tiers = { '5+': 0, '3-4': 0, '2': 0, '1': 0 };
@@ -395,9 +465,8 @@ module.exports = async function() {
       allKeywords,
       maxKwCount,
       totalKeywords: Object.keys(kwFreq).length,
-      topTopics,
       allTopics,
-      maxTopicCount,
+      categoryEntries,
       totalTopics: Object.keys(topicFreq).length
     };
   } catch (error) {
