@@ -29,8 +29,8 @@ You can talk to any other conference attendee just about anywhere in the virtual
 
 If you don’t want to engage when someone approaches, you can opt to not enable camera and mic.
 
-If you feel uncomfortable or experience anything harmful, you can block that person from communicating with you by clicking on their avatar (you can rescind the block at any time). If you experience a Code of Conduct violation, please let a Work Adventure volunteer guide know and email Pam Lach (plach at sdsu dot edu) or the conference committee (conference@ach.org) per the ACH2024 Code of Conduct.
+If you feel uncomfortable or experience anything harmful, you can block that person from communicating with you by clicking on their avatar (you can rescind the block at any time). If you experience a Code of Conduct violation, please let a Work Adventure volunteer guide know and email the conference committee (conference@ach.org) per the [ACH 2026 Code of Conduct](/en/policies/code-of-conduct/).
 
 Need additional help? Check out the [Work Adventure tutorial](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village).
 
-If you’re presenting in Work Adventure, make sure to check out the [presenter guide](https://ach2024.ach.org/presenter-guide) for more details.
+If you’re presenting in Work Adventure, make sure to check out the [presenter guide](/en/presenter-guide/) for more details.

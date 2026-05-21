@@ -27,8 +27,8 @@ Puedes hablar con cualquier otro asistente a la conferencia prácticamente desde
 
 Si no quieres interactuar cuando alguien se acerca, puedes desactivar la cámara y el micrófono.
 
-Si te sientes incómodo o experimentas alguna situación desagradable, puedes bloquear a esa persona para que no se comunique contigo haciendo clic en su avatar (puedes anular el bloqueo en cualquier momento). Si experimentas una infracción del Código de Conducta, informa a un guía voluntario de Work Adventure y envía un correo electrónico a Pam Lach (plach@sdsu.edu) o al comité de la conferencia (conference@ach.org) según el Código de Conducta de ACH2024.
+Si te sientes incómodo o experimentas alguna situación desagradable, puedes bloquear a esa persona para que no se comunique contigo haciendo clic en su avatar (puedes anular el bloqueo en cualquier momento). Si experimentas una infracción del Código de Conducta, informa a un guía voluntario de Work Adventure y envía un correo electrónico al comité de la conferencia (conference@ach.org) según el [Código de Conducta de ACH 2026](/es/politicas/codigo-de-conducta/).
 
 ¿Necesitas ayuda adicional? Consulta el [tutorial de Work Adventure](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village).
 
-Si vas a presentar en Work Adventure, asegúrate de consultar la [guía del presentador](https://ach2024.ach.org/presenter-guide) para obtener más información.
+Si vas a presentar en Work Adventure, asegúrate de consultar la [guía del presentador](/es/guia-de-presentadores/) para obtener más información.

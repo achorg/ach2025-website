@@ -1,6 +1,7 @@
 ---
 title: Keynote
 layout: page
+description: "ACH 2026 keynote speakers — Laura Gonzales (University of Florida) and Maria José Afanador-Llach (Universidad de los Andes)."
 ---
 
 We are proud to announce that our keynote speakers for ACH 2026 are Drs. Laura Gonzales (she/ella) and Maria José Afanador-Llach (she/her). 

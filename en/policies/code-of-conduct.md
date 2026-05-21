@@ -14,7 +14,7 @@ ACH 2026 seeks to uphold these values throughout the submission and review proce
 
 **Reporting Procedures**
 
-Please know that we believe you. All code of conduct violations will be treated seriously. If you are being harassed, notice that someone else is being harassed, or have any other concerns, we ask that you contact us immediately to file a report. As social media moves rapidly, we ask that a formal report be provided in addition to any issues discussed on social media to ensure that we receive all the pertinent information. To report a violation at any time, please contact Pam Lach, ACH 2026 conference chair at plach \[at] sdsu \[dot] edu or email the ACH 2026 conference committee at conference \[at] ach \[dot] org.
+Please know that we believe you. All code of conduct violations will be treated seriously. If you are being harassed, notice that someone else is being harassed, or have any other concerns, we ask that you contact us immediately to file a report. As social media moves rapidly, we ask that a formal report be provided in addition to any issues discussed on social media to ensure that we receive all the pertinent information. To report a violation at any time, please contact the ACH 2026 Co-Chairs, Alex Wermer-Colan and Maira E. Álvarez, or email the ACH 2026 conference committee at conference \[at] ach \[dot] org.
 
 All reports will be kept confidential to the extent possible governed by applicable federal or state laws. In some cases we may determine that a public statement will need to be made. If that proves to be the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
 

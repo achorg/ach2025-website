@@ -1,18 +1,12 @@
 ---
 title: ACH 2026 CFP
 layout: page
+description: "Call for proposals for ACH 2026 — virtual conference, June 24-26, 2026. Theme: Emergence/ia. Submissions in English and Spanish welcome."
 ---
 <div class="text-center" >
 <img height="150" src="/assets/img/idea.svg"/>  <br>
 </div><br>
 Deadline: February 23, 2026, 11:59:59 PM in Central Time (GMT-4)
-
-<br><br>
- Submit a proposal:
-<button class="btn btn-info">
-    <a target="_blank" href="https://www.conftool.pro/ach2026" style="color: white;">
-    ACH 2026 ConfTool</a>
-</button><br><br>
 
 The Association for Computers and the Humanities (ACH) will hold ACH 2026, a virtual conference, from **June 24-26, 2026.**
 
@@ -166,7 +160,7 @@ If you are interested in translating this call for proposals into another langua
 
 ### 2026 Conference Committee (in progress)
 
-Conference Co-Chairs: Alex Wermer-Colan (Temple University) and Maira E. Alvarez (University of Toronto)\
+Conference Co-Chairs: Alex Wermer-Colan (Temple University) and Maira E. Álvarez (University of Toronto)\
 Program Co-Chairs: Kate Ozment (Case Western Reserve University) and Jajwalya Karajgikar (University of Pennsylvania)\
 Technical Chairs: Andy Janco (Princeton University)\
 Volunteers Lead: Emily Esten (ORCID)\

@@ -241,6 +241,11 @@ module.exports = async function() {
 
   try {
     const fetcher = new ConfToolFetcher(sharedSecret, restUrl);
+    // Three exports in parallel:
+    //   - sessions: paper sessions (with nested presentations + abstracts)
+    //   - events:   non-paper items (keynotes, AGM, social events, opening/closing)
+    //   - papers:   used to enrich each paper with keywords
+    // If `events` doesn't exist on this ConfTool install it'll fail; we tolerate that.
     const data = await fetcher.fetchMultiple([
       {
         key: 'sessionsExport',
@@ -250,13 +255,24 @@ module.exports = async function() {
         }
       },
       {
+        key: 'eventsExport',
+        exportSelect: 'events',
+        extraParams: {}
+      },
+      {
         key: 'papersExport',
         exportSelect: 'papers',
         extraParams: {}
       }
     ]);
     const papersArr = Array.isArray(data.papersExport?.records) ? data.papersExport.records : [];
-    const sessions = Array.isArray(data.sessionsExport?.records) ? data.sessionsExport.records : [];
+    const sessionRecs = Array.isArray(data.sessionsExport?.records) ? data.sessionsExport.records : [];
+    const eventRecs = Array.isArray(data.eventsExport?.records) ? data.eventsExport.records : [];
+    const sessions = [...sessionRecs, ...eventRecs];
+
+    if (eventRecs.length > 0) {
+      console.log(`   …including ${eventRecs.length} non-paper events (keynotes, AGM, etc.)`);
+    }
 
     const paperById = Object.fromEntries(papersArr.map((p) => [String(p.paperID), p]));
 
