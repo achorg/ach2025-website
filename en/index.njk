@@ -62,6 +62,52 @@ aboutEvent: A virtual conference featuring work by members of the ACH community.
         </div>
       </div>
 
+      {% if conftool.topKeywords and conftool.topKeywords.length > 0 %}
+      <div class="row mt-4">
+        <div class="col-lg-7">
+          <h4 class="about-chart-title">Top Themes</h4>
+          <p class="about-chart-sub">by keyword frequency across submitted papers</p>
+          <ul class="about-kw-chart" aria-label="Top keywords by frequency">
+            {% for item in conftool.topKeywords %}
+            <li>
+              <span class="about-kw-label">{{ item.kw }}</span>
+              <div class="about-kw-bar-track" role="img" aria-label="{{ item.kw }}: {{ item.count }} papers">
+                <div class="about-kw-bar" style="width:{{ ((item.count / conftool.maxKwCount) * 100) | round }}%"></div>
+              </div>
+              <span class="about-kw-count">{{ item.count }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% if conftool.panelCount %}
+        <div class="col-lg-5">
+          <h4 class="about-chart-title">Session Format</h4>
+          <p class="about-chart-sub">how presentations are grouped</p>
+          <div class="about-session-split" role="img" aria-label="{{ conftool.panelCount }} multi-paper panels, {{ conftool.soloCount }} solo presentations">
+            {% if conftool.panelCount %}
+            <div class="about-split-seg about-split-panel" style="width:{{ ((conftool.panelCount / conftool.totalSessions) * 100) | round }}%">
+              <strong>{{ conftool.panelCount }}</strong>&nbsp;panels
+            </div>
+            {% endif %}
+            {% if conftool.soloCount %}
+            <div class="about-split-seg about-split-solo" style="width:{{ ((conftool.soloCount / conftool.totalSessions) * 100) | round }}%">
+              <strong>{{ conftool.soloCount }}</strong>&nbsp;solo
+            </div>
+            {% endif %}
+          </div>
+          <p class="about-split-legend">
+            <span class="about-legend-swatch about-legend-panel"></span> Multi-paper panel &nbsp;
+            <span class="about-legend-swatch about-legend-solo"></span> Solo presentation
+          </p>
+          <div class="about-bilingual-callout" aria-label="{{ conftool.spanishCount }} Spanish or bilingual sessions">
+            <span class="about-bilingual-num">{{ conftool.spanishCount }}</span>
+            <span class="about-bilingual-label">Spanish &amp; bilingual<br>sessions</span>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+
     </div>
   </section><!-- End About Section -->
   {% endif %}

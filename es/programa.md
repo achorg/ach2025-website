@@ -26,6 +26,24 @@ description: "Programa completo y cronológico de ACH 2026 — sesiones, ponenci
   <div class="viz-stat"><span class="viz-num">12+</span><span class="viz-label">Zonas horarias</span></div>
 </div>
 
+{% if conftool.topKeywords and conftool.topKeywords.length > 0 %}
+<div class="viz-section">
+  <h3>Temas principales</h3>
+  <p class="text-muted">por frecuencia de palabras clave en las presentaciones enviadas</p>
+  <ul class="about-kw-chart" aria-label="Palabras clave principales por frecuencia">
+    {% for item in conftool.topKeywords %}
+    <li>
+      <span class="about-kw-label">{{ item.kw }}</span>
+      <div class="about-kw-bar-track" role="img" aria-label="{{ item.kw }}: {{ item.count }} presentaciones">
+        <div class="about-kw-bar" style="width:{{ ((item.count / conftool.maxKwCount) * 100) | round }}%"></div>
+      </div>
+      <span class="about-kw-count">{{ item.count }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
 {% include "partials/tz-toggle.html" %}
 
 <div class="prog-filters" role="search" aria-label="Filtrar programa">

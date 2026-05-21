@@ -26,15 +26,21 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
   <div class="viz-stat"><span class="viz-num">12+</span><span class="viz-label">Timezones</span></div>
 </div>
 
-{% if conftool.allKeywords and conftool.allKeywords.length > 0 %}
+{% if conftool.topKeywords and conftool.topKeywords.length > 0 %}
 <div class="viz-section">
-  <h3>Topics across the program</h3>
-  <p class="text-muted">{{ conftool.totalKeywords }} distinct keywords selected by authors across {{ conftool.totalPapers }} papers — sized by how many papers chose each.</p>
-  <div class="topic-cloud" aria-label="All author-selected keywords">
-    {% for item in conftool.allKeywords %}
-    <span class="topic-tag" style="font-size:{{ item.sizeRem }}rem" title="{{ item.count }} paper{% if item.count != 1 %}s{% endif %}">{{ item.kw }}</span>
+  <h3>Top Themes</h3>
+  <p class="text-muted">by keyword frequency across submitted papers</p>
+  <ul class="about-kw-chart" aria-label="Top keywords by frequency">
+    {% for item in conftool.topKeywords %}
+    <li>
+      <span class="about-kw-label">{{ item.kw }}</span>
+      <div class="about-kw-bar-track" role="img" aria-label="{{ item.kw }}: {{ item.count }} papers">
+        <div class="about-kw-bar" style="width:{{ ((item.count / conftool.maxKwCount) * 100) | round }}%"></div>
+      </div>
+      <span class="about-kw-count">{{ item.count }}</span>
+    </li>
     {% endfor %}
-  </div>
+  </ul>
 </div>
 {% endif %}
 
@@ -151,24 +157,6 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
 {% endif %}
 
 <style>
-  .topic-cloud {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.35rem 0.5rem;
-    margin: 0.75rem 0 1.5rem;
-    align-items: baseline;
-    line-height: 1.6;
-  }
-  .topic-tag {
-    padding: 0.15rem 0.55rem;
-    background: #ece8ff;
-    color: #4C25E1;
-    border-radius: 12px;
-    white-space: nowrap;
-    transition: background 0.15s;
-  }
-  .topic-tag:hover { background: #d8d0ff; }
-
   .prog-filters {
     display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;
     margin: 1rem 0 1.5rem;
