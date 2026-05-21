@@ -3,6 +3,16 @@
   command = "npx eleventy"
 
 [[redirects]]
+  from = "/es/groupos/*"
+  to = "/es/grupos/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/es/groupos"
+  to = "/es/grupos/"
+  status = 301
+
+[[redirects]]
   from = "/*"
   to = "/es/:splat"
   status = 302

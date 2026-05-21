@@ -4,7 +4,7 @@ layout: page
 description: "Call for proposals for ACH 2026 — virtual conference, June 24-26, 2026. Theme: Emergence/ia. Submissions in English and Spanish welcome."
 ---
 <div class="text-center" >
-<img height="150" src="/assets/img/idea.svg"/>  <br>
+<img height="150" src="/assets/img/idea.svg" alt="ACH 2026 conference logo"/>  <br>
 </div><br>
 Deadline: February 23, 2026, 11:59:59 PM in Central Time (GMT-4)
 
