@@ -65,27 +65,6 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
   <button type="button" id="topicFilterClear" class="prog-reset" hidden>Clear topic filters</button>
 </div>
 
-<!-- ============================================================ -->
-<!-- DEBUG — raw topic data dump                                    -->
-<!-- ============================================================ -->
-<details class="viz-section topic-debug">
-  <summary><strong>Debug — raw topic data ({{ conftool.totalTopics }} distinct topics across {{ conftool.totalPapers }} papers, {{ conftool.categoryEntries.length }} categories)</strong></summary>
-  <div class="topic-debug-body">
-    <h4>Categories detected</h4>
-    <ul class="topic-debug-cats">
-      {% for cat in conftool.categoryEntries %}
-      <li><strong>{{ cat.label }}</strong> ({{ cat.key }}) — {{ cat.distinctCount }} distinct, {{ cat.totalCount }} paper-uses</li>
-      {% endfor %}
-    </ul>
-    <h4>All topics, frequency-sorted</h4>
-    <ol class="topic-debug-list">
-      {% for item in conftool.allTopics %}
-      <li><code>{{ item.topic }}</code> <span class="topic-count-badge">{{ item.count }}</span></li>
-      {% endfor %}
-    </ol>
-  </div>
-</details>
-
 {% endif %}
 
 {% include "partials/tz-toggle.html" %}
@@ -354,31 +333,6 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
   }
   .topic-filter-status:empty,
   .topic-filter-status[data-empty="1"] { display: none; }
-
-  /* ============================================================
-     Debug
-     ============================================================ */
-  .topic-debug {
-    margin: 1rem 0 1.5rem;
-    padding: 0.5rem 0.85rem;
-    background: #fafafa;
-    border: 1px dashed #c8c8c8;
-    border-radius: 4px;
-    font-size: 0.85rem;
-  }
-  .topic-debug > summary { cursor: pointer; font-size: 0.85rem; color: #555; }
-  .topic-debug-body h4 { margin: 0.8rem 0 0.3rem; font-size: 0.9rem; }
-  .topic-debug-cats { font-size: 0.82rem; margin: 0.2rem 0; padding-left: 1.2rem; }
-  .topic-debug-list {
-    columns: 2;
-    column-gap: 1.5rem;
-    font-size: 0.78rem;
-    margin: 0.2rem 0;
-    padding-left: 1.5rem;
-  }
-  .topic-debug-list li { break-inside: avoid; padding: 0.05rem 0; }
-  .topic-debug-list code { background: #fff; padding: 0 0.25rem; border-radius: 2px; font-size: 0.9em; }
-  @media (max-width: 640px) { .topic-debug-list { columns: 1; } }
 
   /* ============================================================
      Per-paper topic display (grouped by category)
