@@ -190,6 +190,17 @@ for (const [cat, values] of Object.entries(TOPIC_TAXONOMY)) {
   }
 }
 
+// Flat list of every known topic value, sorted longest-first. We do greedy
+// longest-match parsing because ConfTool's papers export joins all of a paper's
+// topics into one comma-separated string AND some topic values contain commas
+// internally (e.g., "Digital media, art, literature, history, music, film, and
+// games" is ONE topic). Naive comma splitting destroys those; only matching
+// against the known taxonomy can disambiguate.
+const KNOWN_TOPICS_INDEX = Object.values(TOPIC_TAXONOMY)
+  .flat()
+  .map((t) => ({ lower: t.toLowerCase(), original: t }))
+  .sort((a, b) => b.lower.length - a.lower.length);
+
 // Map a topic value back to its category. Looks up against the known taxonomy
 // first; falls back to "Category: Value" prefix parsing (in case ConfTool ever
 // changes export format) and finally to uncategorized.
@@ -203,19 +214,47 @@ function parseTopicCategory(topic) {
   return { category: null, value: trimmed };
 }
 
-// Topic-specific splitter. ConfTool's papers export ships `topics` as a single
-// string with `; ` separators between topic values, where each value can
-// itself contain commas (e.g. "Digital media, art, literature, history, music,
-// film, and games" is ONE topic, not seven). Never split on commas.
+// Topic-specific splitter. ConfTool's papers export joins each paper's topics
+// into one comma-separated string AND some topic values contain commas
+// internally (e.g., "Digital media, art, literature, history, music, film, and
+// games" is ONE topic). We use greedy longest-match against the known
+// taxonomy — at each position, try to match the longest known topic value
+// (case-insensitive); if no match, fall back to splitting on the next comma so
+// unknown values don't swallow the rest of the string.
 function splitTopics(value) {
   if (!value) return [];
   if (Array.isArray(value)) {
     return value.map((v) => String(v).trim()).filter(Boolean);
   }
-  return String(value)
-    .split(/\s*[;|]\s*/)
-    .map((v) => v.trim())
-    .filter(Boolean);
+  let str = String(value).trim();
+  const out = [];
+  while (str.length > 0) {
+    const lowerStr = str.toLowerCase();
+    let matched = false;
+    for (const { lower, original } of KNOWN_TOPICS_INDEX) {
+      if (lowerStr.startsWith(lower)) {
+        const after = str[lower.length] || '';
+        if (after === '' || /[,;|]/.test(after) || /\s/.test(after)) {
+          out.push(original);
+          str = str.slice(lower.length).replace(/^[,;|\s]+/, '');
+          matched = true;
+          break;
+        }
+      }
+    }
+    if (!matched) {
+      const next = str.search(/[,;|]/);
+      if (next === -1) {
+        const remaining = str.trim();
+        if (remaining) out.push(remaining);
+        break;
+      }
+      const fragment = str.slice(0, next).trim();
+      if (fragment) out.push(fragment);
+      str = str.slice(next + 1).trim();
+    }
+  }
+  return out;
 }
 
 // Try the two field shapes ConfTool can use for topics on the papers export:
