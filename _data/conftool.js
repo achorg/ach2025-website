@@ -513,6 +513,20 @@ module.exports = async function() {
     const papersArr = Array.isArray(data.papersExport?.records) ? data.papersExport.records : [];
     const sessions = Array.isArray(data.sessionsExport?.records) ? data.sessionsExport.records : [];
 
+    // SAFETY: if ConfTool returned no data (transient API hiccup, rate limit,
+    // wrong secret, etc.) fail the build so Netlify retains the previous
+    // successful deploy. Without this, a flaky API silently produces a
+    // "Schedule data is being loaded" page in production.
+    if (sessions.length === 0 || papersArr.length === 0) {
+      const msg = `ConfTool returned no data (sessions: ${sessions.length}, papers: ${papersArr.length}). Failing build to preserve previous deploy.`;
+      console.error('❌', msg);
+      // Throw outside the try/catch by deferring to a microtask — actually,
+      // simpler: throw a sentinel that the catch rethrows.
+      const err = new Error(msg);
+      err.__conftoolEmpty = true;
+      throw err;
+    }
+
     const paperById = Object.fromEntries(papersArr.map((p) => [String(p.paperID), p]));
 
     const normalizedSessions = sessions.map((r) => normalizeSession(r, paperById, 'en-US')).sort(sortSessions);
@@ -572,13 +586,18 @@ module.exports = async function() {
     );
     const sortedTopics = Object.entries(topicFreq).sort((a, b) => b[1] - a[1]);
     const maxTopicCount = sortedTopics.length ? sortedTopics[0][1] : 1;
-    const allTopics = sortedTopics.map(([topic, count]) => ({
-      topic,
-      count,
-      sizeRem: maxTopicCount > 1
-        ? +(0.75 + ((count - 1) / (maxTopicCount - 1)) * 0.65).toFixed(3)
-        : 1
-    }));
+    const allTopics = sortedTopics.map(([topic, count]) => {
+      const { category } = parseTopicCategory(topic);
+      const catInfo = (category && CATEGORY_BY_KEY[category]) || UNCATEGORIZED;
+      return {
+        topic,
+        count,
+        slug: catInfo.slug,
+        sizeRem: maxTopicCount > 1
+          ? +(0.75 + ((count - 1) / (maxTopicCount - 1)) * 0.65).toFixed(3)
+          : 1
+      };
+    });
 
     // Group topics by category, keeping admin's display order. Each entry
     // carries the prettified label, short label, and CSS slug for chip styling.
@@ -650,6 +669,12 @@ module.exports = async function() {
       totalTopics: Object.keys(topicFreq).length
     };
   } catch (error) {
+    // Re-throw the empty-data sentinel so the build fails and Netlify retains
+    // the previous good deploy. Other errors (parse issues, etc.) are caught
+    // and rendered as a soft warning on the page.
+    if (error && error.__conftoolEmpty) {
+      throw error;
+    }
     console.error('❌ Error setting up ConfTool fetcher:', error.message);
     return {
       sessions: [],
