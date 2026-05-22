@@ -2,12 +2,12 @@
 title: Program
 layout: page
 templateEngineOverride: njk
-description: "Full chronological program for ACH 2026 — sessions, papers, keynotes. Times shown in CDT with toggle for ET, PT, BRT, UTC, or your local timezone."
+description: "Full chronological program for ACH 2026 — sessions, papers, keynotes. Times shown in CDT with toggle for ET, PT, BRT, UTC, or your local timezone. Filter by topic, day, or session."
 ---
 
-<p class="prog-intro">ACH 2026 brings together presentations across multiple sessions, with participants joining from timezones spanning the Americas, Europe, the Middle East, South Asia, and East Asia. Browse the full chronological program below — search by title, author, or keyword, or filter by day or session.</p>
+<p class="prog-intro">ACH 2026 brings together presentations across multiple sessions, with participants joining from timezones spanning the Americas, Europe, the Middle East, South Asia, and East Asia. Browse the full chronological program below — search by title, author, or topic, or filter by day, session, or topic.</p>
 
-<p class="prog-intro">Times are shown in <strong>Central Time (CDT)</strong> by default — the conference's primary timezone. Use the toggle below to switch to Eastern, Pacific, Brazil, UTC, or your local timezone. The full program is also available in <a href="https://www.conftool.pro/ach2026/" target="_blank">ConfTool</a> (registration required for private session links).</p>
+<p class="prog-intro">Times are shown in <strong>Central Time (CDT)</strong> by default. Use the toggle below to switch zones. Full program is also available in <a href="https://www.conftool.pro/ach2026/" target="_blank">ConfTool</a>.</p>
 
 {% if conftool.error %}
 <div class="alert alert-warning mt-3" role="alert">
@@ -23,31 +23,48 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
   <div class="viz-stat"><span class="viz-num">{{ conftool.totalPapers }}</span><span class="viz-label">Papers</span></div>
   <div class="viz-stat"><span class="viz-num">{{ conftool.totalSessions }}</span><span class="viz-label">Sessions</span></div>
   <div class="viz-stat"><span class="viz-num">{{ conftool.uniqueDays }}</span><span class="viz-label">Conference Days</span></div>
-  <div class="viz-stat"><span class="viz-num">12+</span><span class="viz-label">Timezones</span></div>
+  <div class="viz-stat"><span class="viz-num">{{ conftool.totalTopics }}</span><span class="viz-label">Distinct Topics</span></div>
 </div>
 
-{% if conftool.topKeywords and conftool.topKeywords.length > 0 %}
-<div class="viz-section">
-  <h3>Top Themes</h3>
-  <p class="text-muted">by keyword frequency across submitted papers</p>
-  <ul class="about-kw-chart" aria-label="Top keywords by frequency">
-    {% for item in conftool.topKeywords %}
-    <li>
-      <span class="about-kw-label">{{ item.kw }}</span>
-      <div class="about-kw-bar-track" role="img" aria-label="{{ item.kw }}: {{ item.count }} papers">
-        <div class="about-kw-bar" style="width:{{ ((item.count / conftool.maxKwCount) * 100) | round }}%"></div>
+{% if conftool.allTopics and conftool.allTopics.length > 0 %}
+
+<section class="topics-section">
+  <h2>Topics</h2>
+  <p class="text-muted">{{ conftool.totalTopics }} distinct topics chosen by authors across {{ conftool.totalPapers }} papers, grouped into the 6 categories used by ConfTool. <strong>Click any topic to filter the program below.</strong> Click the same topic again to remove the filter.</p>
+
+  <div class="topic-facets topic-facets--clickable">
+    {% for cat in conftool.categoryEntries %}
+    <details class="topic-facet" data-cat="{{ cat.slug }}" {% if loop.index <= 3 %}open{% endif %}>
+      <summary>
+        <span class="topic-facet-name">{{ cat.label }}</span>
+        <span class="topic-facet-meta">{{ cat.distinctCount }} topic{% if cat.distinctCount != 1 %}s{% endif %} · {{ cat.totalCount }} paper-use{% if cat.totalCount != 1 %}s{% endif %}</span>
+      </summary>
+      <div class="topic-facet-chips">
+        {% for item in cat.items %}
+        <button type="button" class="topic-tag topic-tag--btn{% if loop.index > 30 %} is-overflow{% endif %}" data-topic="{{ item.fullTopic | lower }}" data-cat="{{ cat.slug }}" title="{{ item.count }} paper{% if item.count != 1 %}s{% endif %}">{{ item.value }} <span class="topic-count-badge">{{ item.count }}</span></button>
+        {% endfor %}
+        {% if cat.items.length > 30 %}
+        <button type="button" class="topic-show-more"
+                data-less-label="Show fewer"
+                data-more-label="Show {{ cat.items.length - 30 }} more">Show {{ cat.items.length - 30 }} more</button>
+        {% endif %}
       </div>
-      <span class="about-kw-count">{{ item.count }}</span>
-    </li>
+    </details>
     {% endfor %}
-  </ul>
+  </div>
+</section>
+
+<div class="topic-filter-status" id="topicFilterBar" data-empty="1">
+  <span id="topicFilterStatus" class="text-muted small"></span>
+  <button type="button" id="topicFilterClear" class="prog-reset" hidden>Clear topic filters</button>
 </div>
+
 {% endif %}
 
 {% include "partials/tz-toggle.html" %}
 
 <div class="prog-filters" role="search" aria-label="Filter program">
-  <input id="progSearch" type="search" placeholder="Search by title, author, or keyword" aria-label="Search sessions">
+  <input id="progSearch" type="search" placeholder="Search by title, author, or topic" aria-label="Search sessions">
   <select id="progDay" aria-label="Filter by day">
     <option value="">All days</option>
     {% set seenDays = [] %}
@@ -65,6 +82,7 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
     {% endfor %}
   </select>
   <button type="button" id="progReset" class="prog-reset">Reset</button>
+  <span id="progCount" class="prog-count text-muted small" aria-live="polite"></span>
 </div>
 
 <p id="progNoResults" class="prog-noresults" hidden>No sessions match your filters.</p>
@@ -76,12 +94,19 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
     <h3 class="prog-day-header">{{ day.list[0].dateDisplay }}</h3>
 
     {% for session in day.list %}
+    {%- set sessionTopics = [] -%}
+    {%- for p in session.papers -%}
+      {%- for t in p.topics -%}
+        {%- set sessionTopics = (sessionTopics.push(t | lower), sessionTopics) -%}
+      {%- endfor -%}
+    {%- endfor -%}
     <article class="prog-session"
              data-day-iso="{{ day.grouper }}"
              data-panel="{{ session.title }}"
              data-start-utc="{{ session.startUTC }}"
              data-end-utc="{{ session.endUTC }}"
-             data-search="{{ session.title | lower }}{% for chair in session.chairs %} {{ chair | lower }}{% endfor %}{% for p in session.papers %} {{ p.title | lower }} {{ p.authors | lower }}{% for k in p.keywords %} {{ k | lower }}{% endfor %}{% endfor %}">
+             data-topics="{{ sessionTopics | join('|') }}"
+             data-search="{{ session.title | lower }}{% for chair in session.chairs %} {{ chair | lower }}{% endfor %}{% for p in session.papers %} {{ p.title | lower }} {{ p.authors | lower }}{% for k in p.keywords %} {{ k | lower }}{% endfor %}{% for t in p.topics %} {{ t | lower }}{% endfor %}{% endfor %}">
 
       <div class="prog-session-time">
         <time class="session-time"
@@ -131,9 +156,19 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
             <li class="prog-paper">
               <div class="prog-paper-title">{{ paper.title }}</div>
               {% if paper.authors %}<div class="prog-paper-authors">{{ paper.authors }}</div>{% endif %}
-              {% if paper.keywords and paper.keywords.length > 0 %}
-              <div class="prog-paper-kws">
-                {% for kw in paper.keywords %}<span class="prog-kw">{{ kw }}</span>{% endfor %}
+              {% if paper.topicGroups and paper.topicGroups.length > 0 %}
+              <div class="prog-paper-topics-grouped">
+                {% for grp in paper.topicGroups %}
+                <div class="paper-topic-group" data-cat="{{ grp.slug }}">
+                  <span class="paper-topic-cat-label">{{ grp.short }}</span>
+                  {% for item in grp.items %}<span class="prog-kw{% if item.idx > 5 %} is-overflow{% endif %}">{{ item.value }}</span>{% endfor %}
+                </div>
+                {% endfor %}
+                {% if paper.topicCount > 5 %}
+                <button type="button" class="topic-show-more paper-show-more"
+                        data-less-label="Show fewer"
+                        data-more-label="+ {{ paper.topicCount - 5 }} more">+ {{ paper.topicCount - 5 }} more</button>
+                {% endif %}
               </div>
               {% endif %}
             </li>
@@ -157,6 +192,143 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
 {% endif %}
 
 <style>
+  [data-cat="lang"]    .topic-tag, [data-cat="lang"]    .prog-kw,
+  .topic-tag[data-cat="lang"]    { background:#e3f2fd; color:#1565c0; }
+  [data-cat="geo"]     .topic-tag, [data-cat="geo"]     .prog-kw,
+  .topic-tag[data-cat="geo"]     { background:#e8f5e9; color:#2e7d32; }
+  [data-cat="time"]    .topic-tag, [data-cat="time"]    .prog-kw,
+  .topic-tag[data-cat="time"]    { background:#fff3e0; color:#b35900; }
+  [data-cat="topical"] .topic-tag, [data-cat="topical"] .prog-kw,
+  .topic-tag[data-cat="topical"] { background:#f3e5f5; color:#6a1b9a; }
+  [data-cat="method"]  .topic-tag, [data-cat="method"]  .prog-kw,
+  .topic-tag[data-cat="method"]  { background:#fbe9e7; color:#c0392b; }
+  [data-cat="field"]   .topic-tag, [data-cat="field"]   .prog-kw,
+  .topic-tag[data-cat="field"]   { background:#e0f2f1; color:#00695c; }
+  [data-cat="other"]   .topic-tag, [data-cat="other"]   .prog-kw,
+  .topic-tag[data-cat="other"]   { background:#eceff1; color:#455a64; }
+
+  .topic-tag--btn.is-active,
+  .topic-tag--btn.is-active[data-cat] {
+    background: #4C25E1 !important;
+    color: #fff !important;
+    border-color: #4C25E1 !important;
+  }
+  .topic-tag--btn.is-active .topic-count-badge {
+    background: rgba(255,255,255,0.25);
+    color: #fff;
+  }
+
+  .topics-section { margin: 1.5rem 0 1rem; }
+  .topics-section h2 { margin: 0 0 0.25rem; font-size: 1.2rem; }
+  .topics-section > p.text-muted { margin-top: 0.15rem; font-size: 0.9rem; }
+
+  .topic-facets { display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.6rem; }
+  .topic-facet {
+    border: 1px solid #d8d4ec;
+    border-radius: 4px;
+    background: #fff;
+  }
+  .topic-facet > summary {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    list-style: revert;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .topic-facet-name { font-weight: 600; color: #2a2440; }
+  .topic-facet-meta { font-size: 0.78rem; color: #777; }
+  .topic-facet-chips {
+    padding: 0.25rem 0.75rem 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.4rem;
+    align-items: baseline;
+  }
+  .topic-facet-chips .is-overflow { display: none; }
+  .topic-facet-chips.show-all .is-overflow { display: inline-block; }
+  .topic-show-more {
+    background: #fff;
+    border: 1px dashed #c8c8d4;
+    border-radius: 12px;
+    padding: 0.12rem 0.6rem;
+    font-size: 0.78rem;
+    font-family: inherit;
+    color: #4C25E1;
+    cursor: pointer;
+    margin-left: 0.2rem;
+  }
+  .topic-show-more:hover { border-color: #4C25E1; background: #f6f4ff; }
+
+  .topic-tag {
+    padding: 0.12rem 0.5rem;
+    background: #ece8ff;
+    color: #4C25E1;
+    border-radius: 12px;
+    white-space: nowrap;
+    transition: background 0.15s, border-color 0.15s;
+    font-size: 0.8rem;
+    border: 1px solid transparent;
+  }
+  .topic-tag--btn { cursor: pointer; font-family: inherit; }
+  .topic-tag--btn:hover { border-color: rgba(0,0,0,0.25); }
+  .topic-count-badge {
+    display: inline-block;
+    margin-left: 0.25rem;
+    padding: 0 0.3rem;
+    background: rgba(0,0,0,0.08);
+    border-radius: 8px;
+    font-size: 0.72em;
+    font-weight: 500;
+  }
+
+  .topic-filter-status {
+    margin: 0.6rem 0 1rem;
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    background: #f6f4ff;
+    border: 1px solid #e6e2f5;
+    border-radius: 4px;
+    min-height: 2rem;
+  }
+  .topic-filter-status:empty,
+  .topic-filter-status[data-empty="1"] { display: none; }
+
+  .prog-paper-topics-grouped {
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .paper-topic-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.2rem 0.3rem;
+  }
+  .paper-topic-cat-label {
+    font-size: 0.66rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #888;
+    flex-shrink: 0;
+    min-width: 2.5rem;
+  }
+  .prog-paper-topics-grouped .is-overflow { display: none; }
+  .prog-paper.show-all .prog-paper-topics-grouped .is-overflow { display: inline-block; }
+  .paper-show-more {
+    align-self: flex-start;
+    margin-top: 0.1rem;
+    padding: 0 0.45rem;
+    font-size: 0.66rem;
+  }
+
+  .prog-count { margin-left: 0.25rem; }
+
   .prog-filters {
     display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;
     margin: 1rem 0 1.5rem;
@@ -191,33 +363,18 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
   }
   .prog-session.is-live { border-left-color: #d62b2b; background: #fff4f4; }
   .prog-session[hidden] { display: none; }
+  .prog-session.topic-filtered { display: none; }
   @media (max-width: 640px) {
     .prog-session { grid-template-columns: 1fr; gap: 0.3rem; padding: 0.6rem; }
   }
-  .prog-session-time {
-    font-variant-numeric: tabular-nums;
-    line-height: 1.2;
-  }
+  .prog-session-time { font-variant-numeric: tabular-nums; line-height: 1.2; }
   .prog-session-time .session-time-primary {
-    display: block;
-    font-weight: 600;
-    font-size: 0.95rem;
-    color: #222;
+    display: block; font-weight: 600; font-size: 0.95rem; color: #222;
   }
-  .prog-session-time .session-time-zone-label {
-    font-size: 0.7rem;
-    color: #555;
-    margin-left: 0;
-  }
+  .prog-session-time .session-time-zone-label { font-size: 0.7rem; color: #555; }
   .prog-live-badge {
-    display: inline-block;
-    margin-top: 0.25rem;
-    padding: 0.05rem 0.35rem;
-    font-size: 0.65rem;
-    font-weight: 700;
-    background: #d62b2b;
-    color: #fff;
-    border-radius: 3px;
+    display: inline-block; margin-top: 0.25rem; padding: 0.05rem 0.35rem;
+    font-size: 0.65rem; font-weight: 700; background: #d62b2b; color: #fff; border-radius: 3px;
   }
   .prog-session-body > * + * { margin-top: 0.25rem; }
   .prog-session-title { margin: 0; font-size: 1rem; font-weight: 600; }
@@ -225,31 +382,15 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
   .prog-session-meta { font-size: 0.82rem; color: #555; }
   .prog-meta-item { display: inline-block; margin-right: 0.8rem; }
   .prog-papers { margin-top: 0.25rem; }
-  .prog-papers summary {
-    cursor: pointer;
-    font-size: 0.78rem;
-    color: #4C25E1;
-    margin-bottom: 0.25rem;
-    list-style: revert;
-  }
+  .prog-papers summary { cursor: pointer; font-size: 0.78rem; color: #4C25E1; margin-bottom: 0.25rem; list-style: revert; }
   .prog-paper-list { list-style: none; padding-left: 0; margin: 0; }
-  .prog-paper {
-    padding: 0.35rem 0;
-    border-top: 1px solid #e6e6ee;
-  }
+  .prog-paper { padding: 0.35rem 0; border-top: 1px solid #e6e6ee; }
   .prog-paper:first-child { border-top: none; padding-top: 0.15rem; }
   .prog-paper-title { font-weight: 500; font-size: 0.9rem; line-height: 1.3; }
   .prog-paper-authors { font-size: 0.8rem; color: #555; margin-top: 0.1rem; }
-  .prog-paper-kws { margin-top: 0.2rem; }
   .prog-kw {
-    display: inline-block;
-    padding: 0.05rem 0.4rem;
-    margin: 0.05rem 0.15rem 0.05rem 0;
-    font-size: 0.7rem;
-    background: #ece8ff;
-    color: #4C25E1;
-    border-radius: 10px;
-    line-height: 1.4;
+    display: inline-block; padding: 0.05rem 0.4rem; margin: 0;
+    font-size: 0.7rem; background: #ece8ff; color: #4C25E1; border-radius: 10px; line-height: 1.4;
   }
   .prog-noresults { padding: 1rem; text-align: center; color: #777; background: #f6f6f9; border-radius: 4px; }
 </style>
@@ -261,36 +402,39 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
   const panelF = document.getElementById('progPanel');
   const reset  = document.getElementById('progReset');
   const none   = document.getElementById('progNoResults');
+  const count  = document.getElementById('progCount');
   if (!search) return;
 
   const sessions = Array.from(document.querySelectorAll('.prog-session'));
   const days     = Array.from(document.querySelectorAll('.prog-day'));
+  const total    = sessions.length;
 
   function applyFilters() {
     const q  = search.value.trim().toLowerCase();
     const df = dayF.value;
     const pf = panelF.value;
-    let visibleCount = 0;
 
     sessions.forEach(s => {
       const matchDay   = !df || s.dataset.dayIso === df;
       const matchPanel = !pf || s.dataset.panel === pf;
       const matchQ     = !q || s.dataset.search.includes(q);
-      const show = matchDay && matchPanel && matchQ;
-      s.hidden = !show;
-      if (show) visibleCount++;
+      s.hidden = !(matchDay && matchPanel && matchQ);
     });
 
-    // Hide a day section entirely if it has no visible sessions
     days.forEach(d => {
-      const anyVisible = d.querySelectorAll('.prog-session:not([hidden])').length > 0;
-      d.hidden = !anyVisible;
+      const visible = Array.from(d.querySelectorAll('.prog-session'))
+        .some(s => !s.hidden && !s.classList.contains('topic-filtered'));
+      d.hidden = !visible;
     });
 
+    const visibleCount = sessions.filter(s => !s.hidden && !s.classList.contains('topic-filtered')).length;
     none.hidden = visibleCount > 0;
+    if (count) {
+      count.textContent = visibleCount === total ? '' : `Showing ${visibleCount} of ${total} sessions`;
+    }
   }
+  window.progApplyFilters = applyFilters;
 
-  // Live badge — runs every 60s
   function updateLive() {
     const now = Date.now();
     sessions.forEach(s => {
@@ -314,5 +458,76 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
   applyFilters();
   updateLive();
   setInterval(updateLive, 60 * 1000);
+})();
+
+(function () {
+  const status = document.getElementById('topicFilterStatus');
+  const clear  = document.getElementById('topicFilterClear');
+  const bar    = document.getElementById('topicFilterBar');
+  if (!status || !clear || !bar) return;
+
+  const active = new Set();
+  const sessions = document.querySelectorAll('.prog-session');
+
+  function syncPillState() {
+    document.querySelectorAll('.topic-tag--btn').forEach(btn => {
+      btn.classList.toggle('is-active', active.has(btn.dataset.topic));
+    });
+  }
+
+  function applyTopicFilter() {
+    const filterActive = active.size > 0;
+    sessions.forEach(s => {
+      if (!filterActive) {
+        s.classList.remove('topic-filtered');
+        return;
+      }
+      const sessionTopics = (s.dataset.topics || '').split('|').filter(Boolean);
+      const hasMatch = sessionTopics.some(st => active.has(st));
+      s.classList.toggle('topic-filtered', !hasMatch);
+    });
+
+    syncPillState();
+    if (filterActive) {
+      const labels = Array.from(active).map(t => {
+        const m = t.match(/^[^:]+:\s*(.+)$/);
+        return m ? m[1] : t;
+      });
+      status.textContent = `Filtering by ${active.size} topic${active.size === 1 ? '' : 's'}: ${labels.join(', ')}`;
+      bar.dataset.empty = '0';
+    } else {
+      status.textContent = '';
+      bar.dataset.empty = '1';
+    }
+    clear.hidden = !filterActive;
+
+    if (window.progApplyFilters) window.progApplyFilters();
+  }
+  bar.dataset.empty = '1';
+
+  document.addEventListener('click', (e) => {
+    const showMore = e.target.closest('.topic-show-more');
+    if (showMore) {
+      e.preventDefault();
+      const container = showMore.closest('.prog-paper') || showMore.closest('.topic-facet-chips');
+      if (!container) return;
+      const expanded = container.classList.toggle('show-all');
+      showMore.textContent = expanded ? showMore.dataset.lessLabel : showMore.dataset.moreLabel;
+      return;
+    }
+    const btn = e.target.closest('.topic-tag--btn');
+    if (btn && btn.dataset.topic) {
+      e.preventDefault();
+      const t = btn.dataset.topic;
+      if (active.has(t)) active.delete(t);
+      else active.add(t);
+      applyTopicFilter();
+    }
+  });
+
+  clear.addEventListener('click', () => {
+    active.clear();
+    applyTopicFilter();
+  });
 })();
 </script>
