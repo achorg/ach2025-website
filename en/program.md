@@ -30,27 +30,17 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
 
 <section class="topics-section">
   <h2>Topics</h2>
-  <p class="text-muted">{{ conftool.totalTopics }} distinct topics chosen by authors across {{ conftool.totalPapers }} papers, grouped into the 6 categories used by ConfTool. <strong>Click any topic to filter the program below.</strong> Click the same topic again to remove the filter.</p>
+  <p class="text-muted">{{ conftool.totalTopics }} topics chosen by authors across {{ conftool.totalPapers }} papers, sized by how many papers chose each. Color indicates category (language, geography, temporal period, topical area, methods, disciplines &amp; fields). <strong>Click any topic to filter the program below.</strong></p>
 
-  <div class="topic-facets topic-facets--clickable">
-    {% for cat in conftool.categoryEntries %}
-    <details class="topic-facet" data-cat="{{ cat.slug }}" {% if loop.index <= 3 %}open{% endif %}>
-      <summary>
-        <span class="topic-facet-name">{{ cat.label }}</span>
-        <span class="topic-facet-meta">{{ cat.distinctCount }} topic{% if cat.distinctCount != 1 %}s{% endif %} · {{ cat.totalCount }} paper-use{% if cat.totalCount != 1 %}s{% endif %}</span>
-      </summary>
-      <div class="topic-facet-chips">
-        {% for item in cat.items %}
-        <button type="button" class="topic-tag topic-tag--btn{% if loop.index > 30 %} is-overflow{% endif %}" data-topic="{{ item.fullTopic | lower }}" data-label="{{ item.value }}" data-cat="{{ cat.slug }}" title="{{ item.count }} paper{% if item.count != 1 %}s{% endif %}">{{ item.value }} <span class="topic-count-badge">{{ item.count }}</span></button>
-        {% endfor %}
-        {% if cat.items.length > 30 %}
-        <button type="button" class="topic-show-more"
-                data-less-label="Show fewer"
-                data-more-label="Show {{ cat.items.length - 30 }} more">Show {{ cat.items.length - 30 }} more</button>
-        {% endif %}
-      </div>
-    </details>
+  <div class="topic-cloud topic-cloud--flat">
+    {% for item in conftool.allTopics %}
+    <button type="button" class="topic-tag topic-tag--btn{% if loop.index > 30 %} is-overflow{% endif %}" data-topic="{{ item.topic | lower }}" data-label="{{ item.topic }}" data-cat="{{ item.slug }}" style="font-size:{{ item.sizeRem }}rem" title="{{ item.count }} paper{% if item.count != 1 %}s{% endif %}">{{ item.topic }} <span class="topic-count-badge">{{ item.count }}</span></button>
     {% endfor %}
+    {% if conftool.allTopics.length > 30 %}
+    <button type="button" class="topic-show-more"
+            data-less-label="Show fewer"
+            data-more-label="Show {{ conftool.allTopics.length - 30 }} more">Show {{ conftool.allTopics.length - 30 }} more</button>
+    {% endif %}
   </div>
 </section>
 
@@ -246,8 +236,12 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
     gap: 0.25rem 0.4rem;
     align-items: baseline;
   }
-  .topic-facet-chips .is-overflow { display: none; }
-  .topic-facet-chips.show-all .is-overflow { display: inline-block; }
+  .topic-facet-chips .is-overflow,
+  .topic-cloud--flat .is-overflow { display: none; }
+  .topic-facet-chips.show-all .is-overflow,
+  .topic-cloud--flat.show-all .is-overflow { display: inline-block; }
+
+  .topic-cloud--flat { padding: 0.3rem 0; }
   .topic-show-more {
     background: #fff;
     border: 1px dashed #c8c8d4;
@@ -493,7 +487,7 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
     const showMore = e.target.closest('.topic-show-more');
     if (showMore) {
       e.preventDefault();
-      const container = showMore.closest('.prog-paper') || showMore.closest('.topic-facet-chips');
+      const container = showMore.closest('.prog-paper') || showMore.closest('.topic-facet-chips') || showMore.closest('.topic-cloud');
       if (!container) return;
       const expanded = container.classList.toggle('show-all');
       showMore.textContent = expanded ? showMore.dataset.lessLabel : showMore.dataset.moreLabel;
