@@ -41,7 +41,7 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
       </summary>
       <div class="topic-facet-chips">
         {% for item in cat.items %}
-        <button type="button" class="topic-tag topic-tag--btn{% if loop.index > 30 %} is-overflow{% endif %}" data-topic="{{ item.fullTopic | lower }}" data-cat="{{ cat.slug }}" title="{{ item.count }} paper{% if item.count != 1 %}s{% endif %}">{{ item.value }} <span class="topic-count-badge">{{ item.count }}</span></button>
+        <button type="button" class="topic-tag topic-tag--btn{% if loop.index > 30 %} is-overflow{% endif %}" data-topic="{{ item.fullTopic | lower }}" data-label="{{ item.value }}" data-cat="{{ cat.slug }}" title="{{ item.count }} paper{% if item.count != 1 %}s{% endif %}">{{ item.value }} <span class="topic-count-badge">{{ item.count }}</span></button>
         {% endfor %}
         {% if cat.items.length > 30 %}
         <button type="button" class="topic-show-more"
@@ -466,7 +466,7 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
   const bar    = document.getElementById('topicFilterBar');
   if (!status || !clear || !bar) return;
 
-  const active = new Set();
+  const active = new Map();
   const sessions = document.querySelectorAll('.prog-session');
 
   function syncPillState() {
@@ -489,10 +489,7 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
 
     syncPillState();
     if (filterActive) {
-      const labels = Array.from(active).map(t => {
-        const m = t.match(/^[^:]+:\s*(.+)$/);
-        return m ? m[1] : t;
-      });
+      const labels = Array.from(active.values());
       status.textContent = `Filtering by ${active.size} topic${active.size === 1 ? '' : 's'}: ${labels.join(', ')}`;
       bar.dataset.empty = '0';
     } else {
@@ -520,7 +517,7 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
       e.preventDefault();
       const t = btn.dataset.topic;
       if (active.has(t)) active.delete(t);
-      else active.add(t);
+      else active.set(t, btn.dataset.label || t);
       applyTopicFilter();
     }
   });
