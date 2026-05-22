@@ -8,7 +8,7 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
 ---
 
 <div class="alert alert-info" role="alert" style="background:#fff8e1; border-left:4px solid #f4b400; padding:0.75rem 1rem; margin-bottom:1.25rem; border-radius:3px;">
-  <strong>Experimental page.</strong> Sandbox for trying out new program-page visualizations. Live program: <a href="/en/program/">/en/program/</a>. Anything broken here will not affect production.
+  <strong>Preview of upcoming program-page redesign.</strong> Once approved, this layout will replace the live program at <a href="/en/program/">/en/program/</a>. Feedback welcome.
 </div>
 
 <p class="prog-intro">ACH 2026 brings together presentations across multiple sessions, with participants joining from timezones spanning the Americas, Europe, the Middle East, South Asia, and East Asia. Browse the full chronological program below — search by title, author, or topic, or filter by day, session, or topic.</p>
@@ -34,58 +34,9 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
 
 {% if conftool.allTopics and conftool.allTopics.length > 0 %}
 
-<div class="variations-intro">
-  <h2>Topic visualization — design variations</h2>
-  <p class="text-muted">Three ways of presenting the {{ conftool.totalTopics }} distinct topics chosen by authors across {{ conftool.totalPapers }} papers. Pick a favorite or mix-and-match. Variations A &amp; D group by ConfTool's 6 categories; C is a flat clickable cloud. <strong>Click any topic in any variation to filter the program below.</strong></p>
-</div>
-
-<!-- ============================================================ -->
-<!-- VARIATION A — Faceted by category (display-only)               -->
-<!-- ============================================================ -->
-<section class="viz-section variation-block" id="variation-a">
-  <h3>Variation A — Faceted by category (display-only)</h3>
-  <p class="text-muted">Topics grouped by ConfTool's 6 categories. Each category collapses independently. Chips here are display-only — see Variation D for clickable filtering.</p>
-
-  <div class="topic-facets">
-    {% for cat in conftool.categoryEntries %}
-    <details class="topic-facet" data-cat="{{ cat.slug }}" {% if loop.index <= 3 %}open{% endif %}>
-      <summary>
-        <span class="topic-facet-name">{{ cat.label }}</span>
-        <span class="topic-facet-meta">{{ cat.distinctCount }} topic{% if cat.distinctCount != 1 %}s{% endif %} · {{ cat.totalCount }} paper-use{% if cat.totalCount != 1 %}s{% endif %}</span>
-      </summary>
-      <div class="topic-facet-chips">
-        {% for item in cat.items %}
-        <span class="topic-tag" title="{{ item.count }} paper{% if item.count != 1 %}s{% endif %}">{{ item.value }} <span class="topic-count-badge">{{ item.count }}</span></span>
-        {% endfor %}
-      </div>
-    </details>
-    {% endfor %}
-  </div>
-</section>
-
-<!-- ============================================================ -->
-<!-- VARIATION C — Flat clickable cloud (top 30)                    -->
-<!-- ============================================================ -->
-<section class="viz-section variation-block" id="variation-c">
-  <h3>Variation C — Flat clickable cloud (top 30 by frequency)</h3>
-  <p class="text-muted">Most-frequent topics across all categories, sized by count. Click to filter the program below; click again to remove. Useful for spotting cross-category prominence (e.g. whether more papers tag "Method: text mining" than "Geography: Global"). Note that "Language: English" and "Language: Spanish" tend to dominate.</p>
-
-  <div class="topic-cloud topic-cloud--clickable">
-    {% for item in conftool.allTopics %}{% if loop.index <= 30 %}
-    <button type="button" class="topic-tag topic-tag--btn" data-topic="{{ item.topic | lower }}" data-cat="{{ item.slug or 'other' }}" style="font-size:{{ item.sizeRem }}rem" title="{{ item.count }} paper{% if item.count != 1 %}s{% endif %}">{{ item.topic }} <span class="topic-count-badge">{{ item.count }}</span></button>
-    {% endif %}{% endfor %}
-  </div>
-  {% if conftool.totalTopics > 30 %}
-  <p class="text-muted small" style="margin-top:0.5rem">Showing top 30 of {{ conftool.totalTopics }} topics.</p>
-  {% endif %}
-</section>
-
-<!-- ============================================================ -->
-<!-- VARIATION D — Faceted + clickable (hybrid)                     -->
-<!-- ============================================================ -->
-<section class="viz-section variation-block" id="variation-d">
-  <h3>Variation D — Faceted + clickable (hybrid)</h3>
-  <p class="text-muted">Combines A's category grouping with C's filter behavior. Every chip is a button. Categories over 30 topics are truncated with a "show more" button so the initial view stays scannable. Likely the strongest design for shipping to the live program.</p>
+<section class="topics-section">
+  <h2>Topics</h2>
+  <p class="text-muted">{{ conftool.totalTopics }} distinct topics chosen by authors across {{ conftool.totalPapers }} papers, grouped into the 6 categories used by ConfTool. <strong>Click any topic to filter the program below.</strong> Click the same topic again to remove the filter.</p>
 
   <div class="topic-facets topic-facets--clickable">
     {% for cat in conftool.categoryEntries %}
@@ -109,7 +60,7 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
   </div>
 </section>
 
-<div class="topic-filter-status" id="topicFilterBar">
+<div class="topic-filter-status" id="topicFilterBar" data-empty="1">
   <span id="topicFilterStatus" class="text-muted small"></span>
   <button type="button" id="topicFilterClear" class="prog-reset" hidden>Clear topic filters</button>
 </div>
@@ -158,6 +109,7 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
     {% endfor %}
   </select>
   <button type="button" id="progReset" class="prog-reset">Reset</button>
+  <span id="progCount" class="prog-count text-muted small" aria-live="polite"></span>
 </div>
 
 <p id="progNoResults" class="prog-noresults" hidden>No sessions match your filters.</p>
@@ -236,9 +188,14 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
                 {% for grp in paper.topicGroups %}
                 <div class="paper-topic-group" data-cat="{{ grp.slug }}">
                   <span class="paper-topic-cat-label">{{ grp.short }}</span>
-                  {% for t in grp.items %}<span class="prog-kw">{{ t }}</span>{% endfor %}
+                  {% for item in grp.items %}<span class="prog-kw{% if item.idx > 5 %} is-overflow{% endif %}">{{ item.value }}</span>{% endfor %}
                 </div>
                 {% endfor %}
+                {% if paper.topicCount > 5 %}
+                <button type="button" class="topic-show-more paper-show-more"
+                        data-less-label="Show fewer"
+                        data-more-label="+ {{ paper.topicCount - 5 }} more">+ {{ paper.topicCount - 5 }} more</button>
+                {% endif %}
               </div>
               {% endif %}
             </li>
@@ -294,23 +251,14 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
   }
 
   /* ============================================================
-     Variation gallery layout
+     Topics section
      ============================================================ */
-  .variations-intro { margin: 1.5rem 0 0.5rem; padding-top: 0.5rem; border-top: 2px dashed #d8d4ec; }
-  .variations-intro h2 { margin: 0 0 0.25rem; font-size: 1.2rem; }
-
-  .variation-block {
-    margin: 1rem 0 1.5rem;
-    padding: 0.85rem 1rem 1rem;
-    background: #fbfaff;
-    border: 1px solid #e6e2f5;
-    border-radius: 5px;
-  }
-  .variation-block > h3 { margin-top: 0; font-size: 1.05rem; color: #4C25E1; }
-  .variation-block > p.text-muted { margin-top: 0.15rem; font-size: 0.85rem; }
+  .topics-section { margin: 1.5rem 0 1rem; }
+  .topics-section h2 { margin: 0 0 0.25rem; font-size: 1.2rem; }
+  .topics-section > p.text-muted { margin-top: 0.15rem; font-size: 0.9rem; }
 
   /* ============================================================
-     Facets (A & D)
+     Facets
      ============================================================ */
   .topic-facets { display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.6rem; }
   .topic-facet {
@@ -455,6 +403,17 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
     flex-shrink: 0;
     min-width: 2.5rem;
   }
+  .prog-paper-topics-grouped .is-overflow { display: none; }
+  .prog-paper.show-all .prog-paper-topics-grouped .is-overflow { display: inline-block; }
+  .paper-show-more {
+    align-self: flex-start;
+    margin-top: 0.1rem;
+    padding: 0 0.45rem;
+    font-size: 0.66rem;
+  }
+
+  /* Session counter — sits in the filter bar when filters are active */
+  .prog-count { margin-left: 0.25rem; }
 
   /* ============================================================
      Program list (unchanged from live page)
@@ -532,10 +491,12 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
   const panelF = document.getElementById('progPanel');
   const reset  = document.getElementById('progReset');
   const none   = document.getElementById('progNoResults');
+  const count  = document.getElementById('progCount');
   if (!search) return;
 
   const sessions = Array.from(document.querySelectorAll('.prog-session'));
   const days     = Array.from(document.querySelectorAll('.prog-day'));
+  const total    = sessions.length;
 
   function applyFilters() {
     const q  = search.value.trim().toLowerCase();
@@ -549,16 +510,17 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
       s.hidden = !(matchDay && matchPanel && matchQ);
     });
 
-    let anyVisible = 0;
     days.forEach(d => {
       const visible = Array.from(d.querySelectorAll('.prog-session'))
         .some(s => !s.hidden && !s.classList.contains('topic-filtered'));
       d.hidden = !visible;
-      if (visible) anyVisible++;
     });
 
-    none.hidden = sessions.some(s => !s.hidden && !s.classList.contains('topic-filtered'));
-    if (none.hidden === false) none.hidden = anyVisible > 0;
+    const visibleCount = sessions.filter(s => !s.hidden && !s.classList.contains('topic-filtered')).length;
+    none.hidden = visibleCount > 0;
+    if (count) {
+      count.textContent = visibleCount === total ? '' : `Showing ${visibleCount} of ${total} sessions`;
+    }
   }
   window.progApplyFilters = applyFilters;
 
@@ -639,8 +601,10 @@ description: "Experimental version of the ACH 2026 program page. Used to test ne
     const showMore = e.target.closest('.topic-show-more');
     if (showMore) {
       e.preventDefault();
-      const chips = showMore.closest('.topic-facet-chips');
-      const expanded = chips.classList.toggle('show-all');
+      // Per-paper show-more lives inside .prog-paper; facet show-more lives inside .topic-facet-chips
+      const container = showMore.closest('.prog-paper') || showMore.closest('.topic-facet-chips');
+      if (!container) return;
+      const expanded = container.classList.toggle('show-all');
       showMore.textContent = expanded ? showMore.dataset.lessLabel : showMore.dataset.moreLabel;
       return;
     }
