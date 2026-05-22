@@ -159,10 +159,9 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
               {% if paper.topicGroups and paper.topicGroups.length > 0 %}
               <div class="prog-paper-topics-grouped">
                 {% for grp in paper.topicGroups %}
-                <div class="paper-topic-group" data-cat="{{ grp.slug }}">
-                  <span class="paper-topic-cat-label">{{ grp.short }}</span>
+                <span class="paper-topic-group" data-cat="{{ grp.slug }}">
                   {% for item in grp.items %}<span class="prog-kw{% if item.idx > 5 %} is-overflow{% endif %}">{{ item.value }}</span>{% endfor %}
-                </div>
+                </span>
                 {% endfor %}
                 {% if paper.topicCount > 5 %}
                 <button type="button" class="topic-show-more paper-show-more"
@@ -301,23 +300,11 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
   .prog-paper-topics-grouped {
     margin-top: 0.2rem;
     display: flex;
-    flex-direction: column;
-    gap: 0.15rem;
-  }
-  .paper-topic-group {
-    display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    gap: 0.2rem 0.3rem;
+    gap: 0.15rem 0.3rem;
   }
-  .paper-topic-cat-label {
-    font-size: 0.66rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: #888;
-    flex-shrink: 0;
-    min-width: 2.5rem;
-  }
+  .paper-topic-group { display: contents; }
   .prog-paper-topics-grouped .is-overflow { display: none; }
   .prog-paper.show-all .prog-paper-topics-grouped .is-overflow { display: inline-block; }
   .paper-show-more {
