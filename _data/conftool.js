@@ -67,7 +67,7 @@ const TOPIC_CATEGORIES = [
   { key: 'Language',     label: 'Language of Presentation', short: 'Lang',   slug: 'lang' },
   { key: 'Geography',    label: 'Geography',                short: 'Geo',    slug: 'geo' },
   { key: 'Temporal',     label: 'Temporal',                 short: 'Era',    slug: 'time' },
-  { key: 'Topics',       label: 'Topical area',             short: 'Topic',  slug: 'topical' },
+  { key: 'Topics',       label: 'Topical area',             short: 'Theme',  slug: 'topical' },
   { key: 'Methods',      label: 'Methods',                  short: 'Method', slug: 'method' },
   { key: 'Disc./Fields', label: 'Disciplines & Fields',     short: 'Field',  slug: 'field' }
 ];
@@ -107,9 +107,10 @@ function normalizeTopics(paper) {
 }
 
 // Group a paper's topics by their category. Returns category groups in admin
-// order, dropping empty categories. Used for compact per-paper display.
+// order, dropping empty categories. Each item carries a running `idx` (1-based)
+// across the whole paper so templates can truncate the visible chips.
 function groupPaperTopics(topics) {
-  if (!topics || topics.length === 0) return [];
+  if (!topics || topics.length === 0) return { groups: [], count: 0 };
   const byCat = {};
   for (const t of topics) {
     const { category, value } = parseTopicCategory(t);
@@ -118,11 +119,18 @@ function groupPaperTopics(topics) {
     byCat[key].push(value);
   }
   const groups = [];
+  let idx = 0;
   for (const cat of TOPIC_CATEGORIES) {
-    if (byCat[cat.key]) groups.push({ ...cat, items: byCat[cat.key] });
+    if (byCat[cat.key]) {
+      const items = byCat[cat.key].map((value) => ({ value, idx: ++idx }));
+      groups.push({ ...cat, items });
+    }
   }
-  if (byCat['Uncategorized']) groups.push({ ...UNCATEGORIZED, items: byCat['Uncategorized'] });
-  return groups;
+  if (byCat['Uncategorized']) {
+    const items = byCat['Uncategorized'].map((value) => ({ value, idx: ++idx }));
+    groups.push({ ...UNCATEGORIZED, items });
+  }
+  return { groups, count: idx };
 }
 
 function normalizePapers(record, paperById = {}) {
@@ -142,8 +150,11 @@ function normalizePapers(record, paperById = {}) {
         const paper = paperById[id] || {};
         const keywords = paper.keywords ? splitPeople(paper.keywords) : [];
         const topics = normalizeTopics(paper);
-        const topicGroups = groupPaperTopics(topics);
-        return { title: String(title), authors, id, keywords, topics, topicGroups };
+        const grouped = groupPaperTopics(topics);
+        return {
+          title: String(title), authors, id, keywords, topics,
+          topicGroups: grouped.groups, topicCount: grouped.count
+        };
       })
       .filter(Boolean);
   }
@@ -168,7 +179,7 @@ function normalizePapers(record, paperById = {}) {
     const paper = paperById[String(paperId)] || {};
     const keywords = paper.keywords ? splitPeople(paper.keywords) : [];
     const topics = normalizeTopics(paper);
-    const topicGroups = groupPaperTopics(topics);
+    const grouped = groupPaperTopics(topics);
     if (paperTitle) {
       papers.push({
         title: String(paperTitle),
@@ -176,7 +187,8 @@ function normalizePapers(record, paperById = {}) {
         id: String(paperId || ''),
         keywords,
         topics,
-        topicGroups
+        topicGroups: grouped.groups,
+        topicCount: grouped.count
       });
     }
   }
@@ -437,10 +449,6 @@ module.exports = async function() {
 
     console.log(`✅ ConfTool data ready: ${sessions.length} sessions, ${totalPapers} papers — source TZ ${SOURCE_TZ} → conference TZ ${CONFERENCE_TZ}`);
     console.log(`   📊 Keywords: ${Object.keys(kwFreq).length} unique across ${totalPapers} papers (${tiers['5+']} on 5+ papers, ${tiers['3-4']} on 3-4, ${tiers['2']} on 2, ${tiers['1']} on 1)`);
-    if (papersArr.length > 0) {
-      const topicFields = Object.keys(papersArr[0]).filter(k => /topic|subject|track/i.test(k));
-      console.log(`   🏷  Paper fields matching /topic|subject|track/: ${topicFields.length > 0 ? topicFields.join(', ') : '(none — author free-text keywords only)'}`);
-    }
     console.log(`   🏷  Topics: ${Object.keys(topicFreq).length} unique across ${totalPapers} papers`);
 
     return {
