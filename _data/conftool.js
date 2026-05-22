@@ -60,9 +60,10 @@ function collectMatchingValues(record, pattern) {
     .filter((value) => value !== undefined && value !== null && value !== '');
 }
 
-// ConfTool 2026 topic taxonomy. Authors pick from a fixed list of ~141 topics
-// across 6 categories, each named "Category: Value". CATEGORY_ORDER is the
-// admin's display order in ConfTool — we mirror it on the site.
+// ConfTool 2026 topic taxonomy. Authors pick from a fixed list across 6
+// categories. ConfTool's papers export ships each value WITHOUT the
+// "Category:" prefix, so we use a hardcoded value→category lookup to
+// reconstruct the grouping. Source: ConfTool admin Topics page (2026-05-22).
 const TOPIC_CATEGORIES = [
   { key: 'Language',     label: 'Language of Presentation', short: 'Lang',   slug: 'lang' },
   { key: 'Geography',    label: 'Geography',                short: 'Geo',    slug: 'geo' },
@@ -74,25 +75,157 @@ const TOPIC_CATEGORIES = [
 const CATEGORY_BY_KEY = Object.fromEntries(TOPIC_CATEGORIES.map((c) => [c.key, c]));
 const UNCATEGORIZED = { key: 'Uncategorized', label: 'Other', short: 'Other', slug: 'other' };
 
-// Split "Category: Value" into its parts. ConfTool's 2026 taxonomy uses this
-// exact pattern for every topic; if a string doesn't match we treat it as
-// uncategorized rather than guessing alternate separators.
+const TOPIC_TAXONOMY = {
+  'Language': ['English', 'Spanish'],
+  'Geography': [
+    'Africa', 'Asia', 'Australia/Oceania', 'Europe', 'North America',
+    'South America', 'Comparative (2 or more geographical areas)', 'Global'
+  ],
+  'Temporal': [
+    'BCE-4th Century', '5th-14th Century', '15th-17th Century',
+    '18th Century', '19th Century', '20th Century', 'Contemporary'
+  ],
+  'Topics': [
+    'Collaborations for Community',
+    'Computational Creativity',
+    'Critical making',
+    'Digital cultural heritage',
+    'Digital surveillance',
+    'Digital humanities tools and infrastructures',
+    'Digital librarianship',
+    'Digital media, art, literature, history, music, film, and games',
+    'Digital public humanities',
+    'Environmental humanities and climate justice',
+    'Humanistic and ethical approaches to data science and data visualization',
+    'Humanistic research on digital objects and cultures',
+    'Humanities knowledge infrastructures',
+    'Union, labor and organization in digital humanities',
+    'Machine learning, including AI and LLMs and their implications',
+    'Multilingualism in digital humanities',
+    'Multimodal scholarship',
+    'Resource creation, curation, and engagement',
+    'Use of digital technologies to write, publish, and review scholarship'
+  ],
+  'Methods': [
+    '3d printing, critical making',
+    'artificial intelligence and machine learning',
+    'copyright, licensing, and permissions standards, systems, and processes',
+    'crowdsourcing',
+    'cultural analytics',
+    'curricular and pedagogical development and analysis',
+    'database creation, management, and analysis',
+    'digital activism and advocacy',
+    'digital archiving and preservation',
+    'digital art production and analysis',
+    'digital ecologies and digital communities, creation, management, and analysis',
+    'digital humanities and/in libraries',
+    'digital libraries creation, management, and analysis',
+    'digital publishing projects, systems, and methods',
+    'digital research infrastructures development and analysis',
+    'digital storytelling',
+    'digitization (2D and 3D)',
+    'electronic literature, production and analysis',
+    'embodied, wearable & haptic technologies development and analysis',
+    'information retrieval and querying algorithms and methods',
+    'linked (open) data',
+    'media archaeology',
+    'meta-criticism (reflections on digital humanities and humanities computing)',
+    'metadata standards, systems, and methods',
+    'machine learning and natural language processing',
+    'network analysis and graphs theory and application',
+    'open access methods and open educational resources (OER)',
+    'optical character recognition and handwriting recognition',
+    'physical & minimal computing',
+    'postcolonial, decolonial, and anticolonial approaches',
+    'project design, organization, and management',
+    'public humanities collaborations and methods',
+    'scholarly editing and editions development, analysis, and methods',
+    'social media analysis and methods',
+    'software development, systems, analysis, and methods',
+    'spatial and spatio-temporal analysis, modeling, and visualization',
+    'speech processing analysis and methods',
+    'text encoding and markup language creation, deployment, and analysis',
+    'text mining and analysis',
+    'user experience design and analysis',
+    'virtual and augmented reality creation, systems, and analysis'
+  ],
+  'Disc./Fields': [
+    'African American/Black Studies', 'African/Africana Studies', 'Anthropology',
+    'Arab Studies', 'Arab American Studies', 'Archaeology', 'Architecture',
+    'Art history', 'Asian American Studies', 'Book and Print history',
+    'Caribbean Studies', 'Central American Studies', 'Chicano/a/x Studies',
+    'Cognitive Sciences and psychology', 'Communication studies',
+    'Comparative and World Literature', 'Computer science',
+    'Critical Race and Ethnic Studies', 'Cultural studies',
+    'Data science/data studies', 'Design studies', 'Disability studies',
+    'East Asian Studies', 'Education/Pedagogy',
+    'Environmental, ocean, and waterways studies', 'Ethnography',
+    'Ethnic studies', 'Experimental Humanities', 'Feminist studies',
+    'Film and cinema arts studies',
+    'First Nations, Native American, and Indigenous studies',
+    'Folklore studies', 'Galleries and Museum studies', 'Game studies',
+    'Gender and sexuality studies', 'Geography and Geo-Humanities',
+    'Hemispheric studies', 'Hispanic Studies', 'History', 'Informatics',
+    'Labor, Infrastructure, and Critical University Studies',
+    'Latino/a/x/e Studies', 'Latin American studies', 'Law and legal studies',
+    'Library and Information Science', 'Linguistics and Language Acquisition',
+    'Literacy, composition, and creative writing', 'Literary studies',
+    'Mathematics and Statistics', 'Media studies',
+    'Multilingualism and translanguaging', 'Modern Languages',
+    'Musicology and Sound Studies', 'Performance studies: Dance & Theatre',
+    'Philosophy', 'Political science', 'LGBTQIA+ and Queer Studies',
+    'Science, Technology, and Society', 'Sociology', 'South American Studies',
+    'South Asian Studies', 'Theology and religious studies',
+    'Border and Transborder studies', 'Transatlantic studies',
+    'Translation studies'
+  ]
+};
+
+// Reverse index: lowercased topic value → canonical category key. Lowercasing
+// is defensive — ConfTool occasionally renormalizes case between admin and API.
+const TOPIC_VALUE_TO_CATEGORY = {};
+for (const [cat, values] of Object.entries(TOPIC_TAXONOMY)) {
+  for (const v of values) {
+    TOPIC_VALUE_TO_CATEGORY[v.toLowerCase()] = cat;
+  }
+}
+
+// Map a topic value back to its category. Looks up against the known taxonomy
+// first; falls back to "Category: Value" prefix parsing (in case ConfTool ever
+// changes export format) and finally to uncategorized.
 function parseTopicCategory(topic) {
   if (!topic || typeof topic !== 'string') return { category: null, value: String(topic || '') };
-  const m = topic.trim().match(/^([^:]{1,40}?)\s*:\s*(.+)$/);
+  const trimmed = topic.trim();
+  const cat = TOPIC_VALUE_TO_CATEGORY[trimmed.toLowerCase()];
+  if (cat) return { category: cat, value: trimmed };
+  const m = trimmed.match(/^([^:]{1,40}?)\s*:\s*(.+)$/);
   if (m) return { category: m[1].trim(), value: m[2].trim() };
-  return { category: null, value: topic.trim() };
+  return { category: null, value: trimmed };
+}
+
+// Topic-specific splitter. ConfTool's papers export ships `topics` as a single
+// string with `; ` separators between topic values, where each value can
+// itself contain commas (e.g. "Digital media, art, literature, history, music,
+// film, and games" is ONE topic, not seven). Never split on commas.
+function splitTopics(value) {
+  if (!value) return [];
+  if (Array.isArray(value)) {
+    return value.map((v) => String(v).trim()).filter(Boolean);
+  }
+  return String(value)
+    .split(/\s*[;|]\s*/)
+    .map((v) => v.trim())
+    .filter(Boolean);
 }
 
 // Try the two field shapes ConfTool can use for topics on the papers export:
-// a single `topics` field (semicolon/comma/pipe separated) or numbered
-// `topic_1`, `topic_2` keys. The build log dumps actual field names so we
-// can confirm which one ConfTool returns for this conference.
+// a single `topics` field with `;`-separated values, or numbered `topic_1`,
+// `topic_2`, ... keys.
 function normalizeTopics(paper) {
   if (!paper || typeof paper !== 'object') return [];
 
   if (paper.topics) {
-    return splitPeople(paper.topics);
+    return splitTopics(paper.topics);
   }
 
   const numbered = Object.keys(paper)
