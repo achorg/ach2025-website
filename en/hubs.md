@@ -58,6 +58,14 @@ layout: page
         contact: '<a href="mailto:heider@upenn.edu">heider@upenn.edu</a>'
       },
       {
+        id: 'hub-brown',
+        name: 'Northeast–Brown University',
+        location: 'Providence, Rhode Island',
+        lat: 41.82397594464317,
+        lng: -71.40219544298508,
+        contact: '<a href="mailto:cds_info@brown.edu">cds_info@brown.edu</a>'
+      },
+      {
         id: 'hub-texas',
         name: 'Texas – Arte Público Press / USLDH',
         location: 'Houston, Texas',
@@ -112,6 +120,14 @@ layout: page
   <p>We invite students, faculty, and all other interested digital scholarship practitioners to join us at the University of Pennsylvania's Van Pelt Library for the mid-Atlantic "Philadelphia-region" ACH 2026 regional hub. Hosted in partnership between Penn Libraries' Research Data and Digital Scholarship Department, the Price Lab for Digital Humanities, the Princeton University Center for Digital Humanities, and Temple University's Loretta C. Duckworth Scholars Studio, this hub will be a space to jointly watch and respond to the ACH 2026 conference in a local, collegial setting. We warmly welcome attendees from the numerous colleges and universities in the greater Philadelphia region and especially invite practitioners from non-university settings — museums, galleries, libraries, and other cultural institutions — to join us for robust discussion.</p>
   <p>Please be aware that while the joint watch-party is free and open to all, individual attendees may wish to register for the main ACH 2026 conference separately to take full advantage of all conference events.</p>
   <p class="hub-contact">Register: <a href="https://www.library.upenn.edu/events/ach-2026-regional-hub">library.upenn.edu/events/ach-2026-regional-hub</a> &mdash; Questions: Cynthia Heider — <a href="mailto:heider@upenn.edu">heider@upenn.edu</a></p>
+</div>
+
+<div id="hub-brown" class="hub-blurb">
+  <h3>Northeast–Brown University</h3>
+  <p class="hub-location"><i class="bi bi-geo-alt-fill"></i> Providence, Rhode Island</p>
+<p>For digital humanists in New England, Brown University is hosting a regional hub. Organized by the Center for Digital Scholarship, this regional hub will feature three unique events: a pre-conference workshop and project showcase on June 23, and a keynote watch party on June 24. The pre-conference workshop, "Decolonizing Methods in Caribbean and Latin American DH, will be led by Dr. Tarika Sankar, followed by a showcase of Latin American digital humanities projects including the Opening the Archives Dominican Republic project by Dr.  René Cordero and Ivanna Torres. The keynote watch party will be followed by a community open discussion. This regional hub focuses on integrating digital methods across the humanities through a critical lens and a commitment to equity, transparency, and community-engaged work. Interested in this regional hub? 
+<p class="hub-contact">Contact CDS at cds_info at brown dot edu (cds_info@brown.edu) or register at our event page: <a href="https://events.brown.edu/library/event/333221-ach-2026-pre-conference-workshops">(1) Pre-conference Workshops and Project Showcase</a> and <a href="https://events.brown.edu/library/event/333225-ach-2026-keynote-watch-party">(2) Keynote Watch Party.</a>
+</p> 
 </div>
 
 <div id="hub-texas" class="hub-blurb">

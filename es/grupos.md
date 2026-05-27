@@ -58,6 +58,14 @@ layout: page
         contact: '<a href="mailto:heider@upenn.edu">heider@upenn.edu</a>'
       },
       {
+        id: 'hub-brown',
+        name: 'Noreste – Universidad de Brown',
+        location: 'Providence, Rhode Island',
+        lat: 41.82397594464317,
+        lng: -71.40219544298508,
+        contact: '<a href="mailto:cds_info@brown.edu">cds_info@brown.edu</a>'
+      },
+      {
         id: 'hub-texas',
         name: 'Texas – Arte Público Press / USLDH',
         location: 'Houston, Texas',
@@ -112,6 +120,13 @@ layout: page
   <p>Invitamos a estudiantes, profesores y a todas las personas interesadas en la investigación digital a unirse a nosotros en la Biblioteca Van Pelt de la Universidad de Pennsylvania para el grupo regional ACH 2026 del "área de Filadelfia" en el Medio Atlántico. Organizado en colaboración con el Departamento de Investigación de Datos y Beca Digital de las Bibliotecas Penn, el Price Lab for Digital Humanities, el Centro de Humanidades Digitales de la Universidad de Princeton y el Loretta C. Duckworth Scholars Studio de la Universidad de Temple, este grupo será un espacio para ver y reflexionar colectivamente sobre la conferencia ACH 2026 en un entorno local y colegial. Damos una cálida bienvenida a asistentes de las numerosas universidades de la región metropolitana de Filadelfia e invitamos especialmente a profesionales de entornos no universitarios —museos, galerías, bibliotecas y otras instituciones culturales— a unirse para un debate enriquecedor.</p>
   <p>Tenga en cuenta que, si bien la watch party conjunta es gratuita y abierta a todos, cada participante puede registrarse por separado en la conferencia principal ACH 2026 para aprovechar al máximo todos los eventos.</p>
   <p class="hub-contact">Registro: <a href="https://www.library.upenn.edu/events/ach-2026-regional-hub">library.upenn.edu/events/ach-2026-regional-hub</a> &mdash; Preguntas: Cynthia Heider — <a href="mailto:heider@upenn.edu">heider@upenn.edu</a></p>
+</div>
+
+<div id="hub-brown" class="hub-blurb">
+  <h3>Noreste – Universidad de Brown</h3>
+  <p class="hub-location"><i class="bi bi-geo-alt-fill"></i> Providence, Rhode Island</p>
+  <p>Para humanistas digitales en Nueva Inglaterra, la Universidad de Brown alberga un grupo regional. Organizado por el Centro de Beca Digital, este grupo contará con tres eventos: un taller pre-conferencia y una muestra de proyectos el 23 de junio, y una watch party del discurso magistral el 24 de junio. El taller pre-conferencia, "Descolonizando métodos en las HD del Caribe y América Latina", será dirigido por la Dra. Tarika Sankar, seguido de una muestra de proyectos de humanidades digitales latinoamericanas, incluyendo el proyecto <em>Abriendo los Archivos República Dominicana</em> del Dr. René Cordero e Ivanna Torres. La watch party del discurso magistral irá seguida de una discusión comunitaria abierta. Este grupo regional se centra en integrar métodos digitales en las humanidades a través de una perspectiva crítica y un compromiso con la equidad, la transparencia y el trabajo comunitario.</p>
+  <p class="hub-contact">Contacto: CDS en <a href="mailto:cds_info@brown.edu">cds_info@brown.edu</a> — Registro: <a href="https://events.brown.edu/library/event/333221-ach-2026-pre-conference-workshops">(1) Talleres pre-conferencia y muestra de proyectos</a> y <a href="https://events.brown.edu/library/event/333225-ach-2026-keynote-watch-party">(2) Watch party del discurso magistral</a>.</p>
 </div>
 
 <div id="hub-texas" class="hub-blurb">

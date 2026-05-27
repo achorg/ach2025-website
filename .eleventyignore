@@ -1,2 +1,9 @@
 node_modules
 assets
+AGENTS.md
+CLAUDE.md
+CONFTOOL_INTEGRATION.md
+CONFTOOL_SETUP.md
+README.md
+assets
+./.github/copilot-instructions.md
